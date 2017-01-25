@@ -1,0 +1,48 @@
+" Precompiled from zgtest_mt8 on Fri Aug 24 13:23:19 2012
+"
+seqfil = 'zgtest_mt8'
+NTsetup
+n1     = array
+NTccpar('d1','delay','%.6f',1.0,'NORMAL','/* delay d1 */')
+NTccpar('dpwr','real','%.2f',46,'NORMAL','/* X channel power */')
+NTccpar('dpwr2','real','%.2f',46,'NORMAL','/* Y channel power */')
+NTccpar('dtau','delay','%.6f',3.5e-3,'NORMAL','/* dephase delay */')
+NTccpar('fgrad','flag','%s','y','NORMAL','/* grad flag*/')
+NTccpar('fnloopsat','flag','%s','n','NORMAL','/* flag for presat with nloopsat*/')
+NTccpar('grdelay','delay','%.6f',100e-6,'NORMAL','/* grad delay */')
+NTccpar('gshape','string','%s','hsine','NORMAL','/* general gradient shape */')
+NTccpar('gt1','delay','%.6f',0.001,'NORMAL','/* z-gradient pulse 1 */')
+NTccpar('gx1','real','%.2f',0.0,'NORMAL','/* x-gradient level 1 */')
+setlimit('gx1',100,-100,0.001)
+NTccpar('gy1','real','%.2f',0.0,'NORMAL','/* y-gradient level 1 */')
+setlimit('gy1',100,-100,0.001)
+NTccpar('gz1','real','%.2f',0.0,'NORMAL','/* z-gradient level 1 */')
+setlimit('gz1',100,-100,0.001)
+NTccpar('nloopsat','integer','%d',2,'NORMAL','/* number of presat loops  */')
+NTccpar('phcorr','real','%.2f',0.0,'NORMAL','/* phase corr. on water flip-back pulse*/')
+NTccpar('pw','pulse','%.1f',8.0,'NORMAL','/* 90 degree transmitter pulse */')
+NTccpar('pw5','pulse','%.1f',1,'NORMAL','/* 1H pw*/')
+NTccpar('satdly','delay','%.6f',1,'NORMAL','/* sat delay */')
+NTccpar('satflg','flag','%s','y','NORMAL','/* sat flag */')
+NTccpar('satfrq','real','%.2f',-166,'NORMAL','/* sat frequency */')
+NTccpar('satfrq1','real','%.2f',tof,'NORMAL','/* 1st presat freq witn nloopsat  */')
+NTccpar('satfrq2','real','%.2f',tof,'NORMAL','/* 2nd presat freq witn nloopsat  */')
+NTccpar('satpwr','real','%.2f',-10,'NORMAL','/* sat power t-channel*/')
+setlimit('satpwr',20,-17,0.1)
+NTccpar('tof','real','%.2f',-167,'NORMAL','/* Transmitter offset */')
+NTccpar('tpwr','real','%.2f',61.0,'NORMAL','/* Transmitter high power */')
+setlimit('tpwr',63,-17,0.1)
+NTccpar('wgdelay','delay','%.6f',175e-6,'NORMAL','/* WATERGATE  delay */')
+dgPP[1] = '1:PULSES:pw:1,pw5:1;'
+dgPP[2] = '2:DELAYS:d1:6,dtau:6,grdelay:6,gt1:6,satdly:6,wgdelay:6;'
+dgPP[3] = '3:REALS:dpwr:2,dpwr2:2,gx1:2,gy1:2,gz1:2,phcorr:2,satfrq:2,satfrq1:2,satfrq2:2,satpwr:2,tof:2,tpwr:2;'
+dgPP[4] = '3:INTEGERS:nloopsat;'
+dgPP[5] = '4:STRINGS:gshape;'
+dgPP[6] = '4:FLAGS:fgrad,fnloopsat,satflg;'
+NTccpar('NTdir','string','%s','/home/bifchem/vnmrsys/Ntools6.0','FORCE_DEFAULT','Ntools directory')
+NTccpar('NTppsource','string','%s','/master/PP/mtlib/zgtest_mt8','FORCE_DEFAULT','Ntools pp source file')
+NTccpar('NTppdate','string','%s','Fri Aug 24 13:23:19 2012
+','FORCE_DEFAULT','Ntools compile date')
+array = n1
+ctext
+atext('watergate 1D')

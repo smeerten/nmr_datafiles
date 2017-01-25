@@ -1,0 +1,42 @@
+spinsys {
+	channels	127I
+	nuclei		127I
+	quadrupole	1 2 21e6 0 0 0 0
+}
+#Cq/2pi = Wq*(4I(2I-1)/2pi)
+
+par {
+	method			direct
+	proton_frequency	300e6
+	spin_rate		0
+	sw			10000e3
+	variable np		1024
+	crystal_file  zcw4180
+	gamma_angles		1
+	start_operator		I1x
+	detect_operator		I1c
+	verbose			1111
+	num_cores		4
+}
+
+proc pulseq {} {
+	  global par
+	#maxdt 0.1
+	  set tsw [expr 1.0e6/$par(sw)]
+	  
+	acq
+	for {set i 1} {$i < $par(np)} {incr i} {
+		delay $tsw
+		acq
+	}
+}
+
+proc main {} {
+	global par
+	set f [fsimpson]
+	fsave $f $par(name).fid
+	faddlb $f 2000 0
+	fzerofill $f 2048
+	fft $f
+	fsave $f $par(name).spe
+}
