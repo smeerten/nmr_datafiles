@@ -1,0 +1,18 @@
+##TITLE= Parameter file, TOPSPIN		Version 2.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 32	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= raspers
+$$ 2016-03-01 12:04:50.812 +0100  raspers@avance500
+$$ /opt/topspin/data/raspers/nmr/160126_Wouter/15/acqu2s
+$$ process /opt/topspin/prog/mod/go
+##$BF1= 125.757789
+##$FnMODE= 6
+##$NUC1= <13C>
+##$O1= 9379.17492584006
+##$SFO1= 125.767168174926
+##$SW= 165.639250774185
+##$SW_h= 20831.9795084857
+##$TD= 31
+##END=

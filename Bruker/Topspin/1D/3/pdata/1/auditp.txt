@@ -1,0 +1,17 @@
+##TITLE= Audit trail, TOPSPIN		Version 2.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= raspers
+$$ /opt/topspin/data/raspers/nmr/160126_Wouter/15/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2016-03-01 10:14:05.287 +0100>,<raspers>,<avance500>,<go>,<TOPSPIN 2.1>,
+      <acquisition in progress>)
+(   2,<2016-03-01 12:06:44.590 +0100>,<raspers>,<avance500>,<proc2d>,<TOPSPIN 2.1>,
+      <Start of raw data processing
+       xfb F2: SI = 1K WDW = 4 SSB = 2 FT_mod = 6 PKNL = 1 PHC0 = -51.1 PHC1 = 0 F1: SI = 1K ME_mod = 2 NCOEF = 30 WDW = 4 SSB = 2 FT_mod = 6
+       data hash MD5: 1K * 1K
+       89 8E 91 71 74 B4 F2 51 D5 7A EB 3A E8 FF 34 BD>)
+##END=
+
+$$ hash MD5
+$$ 72 23 D7 94 BE 19 3F 9C 8E 4B D5 C0 B7 66 80 B2
