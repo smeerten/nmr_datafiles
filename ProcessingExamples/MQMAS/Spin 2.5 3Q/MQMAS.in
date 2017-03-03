@@ -1,11 +1,9 @@
 spinsys {
-	channels	23Na
-	nuclei		23Na
-	quadrupole 1 2 1.5e6 0.6 0 0 0
-#	quadrupole 1 2 1.0e6 0.0 0 0 0
-	shift 1 0 0 0 0 0 0
-#	quadrupole 2 2 1.5e6 0.6 0 0 0
-#	shift 2 0 0 0 0 0 0
+	channels	27Al
+	nuclei		27Al
+#	quadrupole 1 2 5e6 0.6 0 0 0
+	quadrupole 1 2 3.3e6 0.0 0 0 0
+
 }
 
 par {
@@ -14,7 +12,7 @@ par {
 	spin_rate		10e3
 	sw			5e3
 	variable np		512
-	crystal_file		zcw986
+	crystal_file		zcw232
 	gamma_angles		10
 	start_operator		Inz
 	detect_operator		Inc
@@ -92,3 +90,4 @@ proc main {} {
 	}
 	fsave $f $par(name).fid
 }
+
