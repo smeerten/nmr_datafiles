@@ -14,7 +14,7 @@ par {
 	spin_rate		10e3
 	sw			5e3
 	variable np		512
-	crystal_file		zcw986
+	crystal_file		zcw232
 	gamma_angles		10
 	start_operator		Inz
 	detect_operator		Inc
