@@ -1,8 +1,8 @@
 spinsys {
 	channels	27Al
 	nuclei		27Al
-#	quadrupole 1 2 5e6 0.6 0 0 0
-	quadrupole 1 2 3.3e6 0.0 0 0 0
+	quadrupole 1 2 5e6 0.6 0 0 0
+	#quadrupole 1 2 3.3e6 0.0 0 0 0
 
 }
 
