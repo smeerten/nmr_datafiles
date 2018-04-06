@@ -1,0 +1,41 @@
+"======================================================="
+" NTgamma(nuc): return gamma ratio nucleus rel. to H1	"
+" 	gv 15-11-00					"
+"======================================================="
+
+if ($# = 0) then
+	write('error','%s','Usage: NTgamma( nucleus )')
+	return
+endif
+
+$gamma_ratio = 0
+
+if ($1 = 'H1') then
+	$gamma_ratio = 1.000000000
+endif
+
+if ($1 = 'C13') then
+	$gamma_ratio = 0.251449530
+endif
+
+if ($1 = 'N15') then
+	$gamma_ratio = 0.101329118
+endif
+
+"value from JMR, B 113, 1996, page 177"
+if ($1 = 'P31') then
+	$gamma_ratio = 0.404807356
+endif
+
+"value from JMR, B 113, 1996, page 177"
+if ($1 = 'F19') then
+	$gamma_ratio = 0.940866982
+endif
+
+if ($gamma_ratio = 0) then
+	write('error','%s','Sorry, no gamma ratio for this nucleus')
+	return 0;
+endif
+
+return $gamma_ratio
+

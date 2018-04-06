@@ -1,0 +1,3654 @@
+##TITLE=	1D
+##JCAMPDX=	6.0	$$ NMR Plug-in 1.12 of MestReNova 10.0.2-15465
+##DATATYPE=	NMRSPECTRUM
+##DATACLASS=	NTUPLES
+##NUMDIM=	1
+##ORIGIN=	Varian
+##OWNER=	
+##.OBSERVEFREQUENCY=	300.14805860000001303
+##.OBSERVENUCLEUS=	^1H
+##.SOLVENTNAME=	CDCl3
+##.PULSESEQUENCE=	onepul
+##LONGDATE=	2015/07/15 09:53:45.000
+##.ACQUISITIONMODE=	SIMULTANEOUS
+##$ORIGINALFORMAT=	Varian
+##$PARAMETERFILE=	(datafile, ASCII, C:/Users/Emulator/Desktop/DataFilesDatabase/Varian/VnmrJ3/1D.fid/fid, 0)
+$$ 
+##$PARAMETERFILE=	(header, BASE64, C:/Users/Emulator/Desktop/DataFilesDatabase/Varian/VnmrJ3/1D.fid/fid, 0)
+AAAAAQAAAAEAAB4MAAAABAAAeDAAAHhMAAAAyQAAAAE=
+##$PARAMETERFILE=	(log, ASCII, C:/Users/Emulator/Desktop/DataFilesDatabase/Varian/VnmrJ3/1D.fid/log, 0)
+$$ Wed Jul 15 09:49:45 2015: Experiment started
+$$ Wed Jul 15 09:50:45 2015: BS 1 completed
+$$ Wed Jul 15 09:51:45 2015: BS 2 completed
+$$ Wed Jul 15 09:52:45 2015: BS 3 completed
+$$ Wed Jul 15 09:53:45 2015: Acquisition complete
+$$ 
+##$PARAMETERFILE=	(procpar, ASCII, C:/Users/Emulator/Desktop/DataFilesDatabase/Varian/VnmrJ3/1D.fid/procpar, 0)
+$$ fdfdir 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ cutoff 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 0 64
+$$ 1 200 
+$$ 0 
+$$ arraydelta 7 1 32767 0 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ aXlock 1 1 4095 0 1 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ T1_mode 4 2 4 0 0 2 1 0 1 64
+$$ 1 "s"
+$$ 0 
+$$ Gmapname 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ Echo 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ Archive2 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ Archive1 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ ACQtime 7 1 100000000 0 1 2 1 256 1 64
+$$ 1 240.080041 
+$$ 0 
+$$ Composite180 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ Gmap 2 2 8 0 0 2 1 1 1 64
+$$ 1 "lk"
+$$ 0 
+$$ Echo_dec 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ Hseq 4 2 4 0 0 2 1 0 1 64
+$$ 1 "tppm"
+$$ 0 
+$$ H1reffrq 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 300.144888022 
+$$ 0 
+$$ PFGflg 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ MinSW 2 2 8 0 0 3 1 0 1 64
+$$ 1 "off"
+$$ 4 "off" "auto" "manual" "skip" 
+$$ REQexp 2 2 8 0 0 4 1 256 1 64
+$$ 2 ""
+$$ "ignore"
+$$ 0 
+$$ aX180E 1 1 4095 0 1 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ aHhx 1 1 4095 0 0 2 1 0 1 64
+$$ 1 2000 
+$$ 0 
+$$ aH90 1 1 4095 0 0 2 1 0 1 64
+$$ 1 4095 
+$$ 0 
+$$ T1rho 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ aHtppm 1 1 4095 0 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ aHspinal 1 1 4095 0 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ aHwaltz 1 1 4095 0 0 2 1 16384 1 64
+$$ 1 0 
+$$ 0 
+$$ aXhx 1 1 4095 0 0 2 1 0 1 64
+$$ 1 1000 
+$$ 0 
+$$ aX90 1 1 4095 0 0 2 1 0 1 64
+$$ 1 4095 
+$$ 0 
+$$ alock 2 2 8 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 5 "a" "n" "s" "u" "y" 
+$$ acqstatus 7 1 32767 0 0 2 1 256 1 64
+$$ 2 101 0 
+$$ 0 
+$$ aZ90 1 1 4095 0 0 2 1 0 1 64
+$$ 1 2000 
+$$ 0 
+$$ aY90 1 1 4095 0 0 2 1 0 1 64
+$$ 1 2000 
+$$ 0 
+$$ acqcycles 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ acqdim 7 1 32767 0 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ adir2tmplt 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ ad 6 1 8192 0 0.0125 2 1 0 1 64
+$$ 1 4 
+$$ 0 
+$$ actionid 2 2 8 0 0 4 1 0 1 64
+$$ 1 "null"
+$$ 0 
+$$ aig 2 2 2 0 0 4 1 1 1 64
+$$ 1 "ai"
+$$ 2 "nm" "ai" 
+$$ adirtmplt 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ alfa 6 1 13 13 13 2 1 8194 1 64
+$$ 1 4 
+$$ 0 
+$$ archivedir 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ ap 2 2 1023 0 0 4 1 6 1 64
+$$ 1 "1:SAMPLE:date,temp:1,srate:1,file;1:ACQUISITION:tn,sfrq:6,tof:1,tpwr:0,sw:1,at:6,np:0,d1:6,nt:0,ct:0,ss:0,rd:1,ad:1,aX90:0,pwX90:1;1(ni):2D ACQUISITION:d2:6,sw1:1,ni:0,phase:0;1:DECOUPLE:dn,dfrq:6,dof:1,dpwr:0,aH90:0,pwH90:1;1(dfrq2>0):DECOUPLE2:dn2,dfrq2:6,dof2:1,dpwr2:0,aY90:0,pwY90:1;1(dfrq3>0):DECOUPLE3:dn3,dfrq3:6,dof3:1,dpwr3:0,aZ90:0,pwZ90:1;1(Hseq='tppm'):TPPM:aHtppm:0,pwHtppm:1,phHtppm:2;1(Hseq='spinal'):SPINAL:aHspinal:0,pwHspinal:1,phHspinal:2;2(Hseq='waltz'):WALTZ:aHwaltz:0,pwHwaltz:1;"
+$$ 0 
+$$ ampmode 4 2 4 0 0 2 1 0 1 64
+$$ 1 "dddd"
+$$ 0 
+$$ apptype 2 2 8 0 0 2 1 1 1 64
+$$ 1 "solidsseq1d"
+$$ 0 
+$$ array 2 2 256 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ chHwaltz 4 2 4 0 0 2 1 16384 1 64
+$$ 1 "dec"
+$$ 0 
+$$ avwdir 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ arraystart 7 1 32767 0 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ arraydscale 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ arraydim 7 1 32768 1 1 2 1 1 1 64
+$$ 1 1 
+$$ 0 
+$$ arraydodc 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ arrayflip 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ arrayelemts 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ arraymax 7 1 32767 0 0 2 1 0 1 64
+$$ 1 10 
+$$ 0 
+$$ arraywhitewash 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ arraystop 7 1 32767 0 0 2 1 0 1 64
+$$ 1 10 
+$$ 0 
+$$ at 1 1 14 14 14 2 2 8203 1 64
+$$ 1 0.0199992 
+$$ 0 
+$$ bHX 1 1 1000000 0 1e-06 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ axis 4 2 4 0 0 4 1 0 1 64
+$$ 1 "k"
+$$ 11 "c" "d" "1" "2" "3" "h" "k" "m" "n" "p" "u" 
+$$ awc1 1 1 1 -1 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ awc 1 1 1 -1 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ axisf 4 2 4 0 0 4 1 0 1 64
+$$ 1 "s"
+$$ 4 "m" "n" "s" "u" 
+$$ cf 7 1 32767 0 1 3 1 1 0 64
+$$ 1 1 
+$$ 0 
+$$ celem 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ bs 7 1 32767 0 1 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ chHspinal 4 2 4 0 0 2 1 16384 1 64
+$$ 1 "dec"
+$$ 0 
+$$ chHX 4 2 4 0 0 2 1 0 1 64
+$$ 1 "fr"
+$$ 0 
+$$ chHtppm 4 2 4 0 0 2 1 16384 1 64
+$$ 1 "dec"
+$$ 0 
+$$ cr 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 17302.5643835 
+$$ 0 
+$$ concentration 1 1 9.99e+17 -9.99e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ comment 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ clearparams 2 2 8 0 0 2 1 16384 1 64
+$$ 1 "chHspinal chHtppm chHwaltz"
+$$ 0 
+$$ cp 2 2 1 0 0 2 1 0 1 64
+$$ 1 "y"
+$$ 2 "y" "n" 
+$$ console 2 2 8 0 0 2 1 0 1 64
+$$ 1 "vnmrs"
+$$ 0 
+$$ cppauseflg 4 2 4 0 0 4 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ ct 7 1 1000000000 0 1 2 1 2 1 64
+$$ 1 4 
+$$ 0 
+$$ crf 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ cr1 1 1 1000000000 -1000000000 0 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ customflag 4 2 4 0 0 4 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ dof 5 1 8 8 8 2 1 8202 1 64
+$$ 1 -4300 
+$$ 0 
+$$ dhp 1 1 9 9 9 2 1 8192 0 64
+$$ 1 43 
+$$ 0 
+$$ dfrq2 1 1 1000000000 0 0 2 1 9 1 64
+$$ 1 0 
+$$ 0 
+$$ ddrtc 6 1 8192 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ dataid 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ d2 3 1 14 14 14 2 1 8194 1 64
+$$ 1 0 
+$$ 0 
+$$ d1 3 1 14 14 14 2 1 8194 1 64
+$$ 1 60 
+$$ 0 
+$$ dHX 1 1 4095 -4095 1 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ dcg 2 2 3 0 0 4 1 1 1 64
+$$ 1 "cdc"
+$$ 2 "dc" "cdc" 
+$$ date 2 2 9 0 0 2 1 1 1 64
+$$ 1 "Jul 15 2015"
+$$ 0 
+$$ dcrmv 4 2 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 "n"
+$$ 2 "y" "n" 
+$$ delta 1 1 5000000 0 0 4 1 1 1 64
+$$ 1 29249.9248799 
+$$ 0 
+$$ dec3wave 2 2 8 0 0 2 1 0 1 64
+$$ 1 "g"
+$$ 0 
+$$ dec2wave 2 2 8 0 0 2 1 0 1 64
+$$ 1 "g"
+$$ 0 
+$$ decwave 2 2 8 0 0 2 1 0 1 64
+$$ 1 "g"
+$$ 0 
+$$ deltaf 1 1 100 0 0 4 1 0 1 64
+$$ 1 0.0020616 
+$$ 0 
+$$ delta1 1 1 5000000 0 0 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ dfrq 5 1 1000000000 -1000000000 0 2 1 8 1 64
+$$ 1 75.4743448 
+$$ 0 
+$$ dg2 2 2 8 0 0 4 1 0 1 64
+$$ 1 "1:OBSERVE:tn,sfrq:6,tof:1,tpwr:0,aX90:0,pwX90:1;2:DECOUPLE:dn,dfrq:6,dof:1,dpwr:0,aH90:0,pwH90:1;3:DECOUPLE2:dn2,dfrq2:6,dof2:1,dpwr2:0,aY90:0,pwY90:1;4:DECOUPLE3:dn3,dfrq3:6,dof3:1,dpwr3:0,aZ90:0,pwZ90:1;"
+$$ 0 
+$$ dg 2 2 1023 0 0 4 1 2 1 64
+$$ 1 "1:ACQUISITION:sw:1,at:6,np:0,d1:6,nt:0,ct:0,bs:0,ss:0,rd:1,ad:1,ddrtc:1,rof3(rof3):1,gain:0,temp:0,srate:1;2(Hseq='tppm'):TPPM:aHtppm:0,pwHtppm:1,phHtppm:2;2(Hseq='spinal'):SPINAL:aHspinal:0,pwHspinal:1,phHspinal:2;2(Hseq='waltz'):WALTZ:aHwaltz:0,pwHwaltz:1;"
+$$ 0 
+$$ dfrq3 1 1 1000000000 0 0 2 1 9 1 64
+$$ 1 40.4927135 
+$$ 0 
+$$ dg1 2 2 1023 0 0 4 1 2 1 64
+$$ 1 "1:DISPLAY:sp:1,wp:1,vs:0;1:REFERENCE:rfl:1,rfp:1,cr:1,delta:1;1:PHASE:lp:1,rp:1,rp1(ni):1,lp1(ni):1;2:CHART:sc:0,wc:0,hzmm:2,vp:0,axis,pltmod,,th:0,,ho:2,vo:2,,trace:2;3(ni):2D:sp1:1,wp1:1,sc2:0,wc2:0,rfl1:1,rfp1:1;3:FLAGS:aig*,dcg*,dmg*;3:FID:sf:3,wf:3,vf:0;4:INTEGRAL:intmod,is:2,ins:3,io:0,,lvl:3,tlt:3;"
+$$ 0 
+$$ dgs 2 2 1023 0 0 4 1 2 1 64
+$$ 4 "1:AXIAL SHIMS:z1:0,z1c:0,z2:0,z2c:0,z3:0,z4:0,z5:0;"
+$$ "2:NON AXIAL SHIMS:x1:0,y1:0,xz:0,yz:0,xy:0,x2y2:0,x3:0,y3:0;"
+$$ "4:AUTOMATION:method,wshim,load,,spin:0,gain:0,alock,loc:0;"
+$$ "4:SPECIAL:temp;"
+$$ 0 
+$$ dglp 2 2 8 0 0 4 1 3 1 64
+$$ 1 "1(lpfilt):LP:lpalg,lpopt,lpfilt:0,lpnupts:0,strtlp:0,lpext:0,strtext:0;2(lpfilt1):LP 1:lpalg1,lpopt1,lpfilt1:0,lpnupts1:0,strtlp1:0,lpext1:0,strtext1:0;3(lpfilt2):LP 2:lpalg2,lpopt2,lpfilt2:0,lpnupts2:0,strtlp2:0,lpext2:0,strtext2:0;4:LP OUTPUT:lpprint(lpfilt):0,lptrace(lpfilt):0,lpprint1(lpfilt1):0,lptrace1(lpfilt1):0,lpprint2(lpfilt2):0,lptrace2(lpfilt2):0;"
+$$ 0 
+$$ dmm2 4 2 4 0 0 2 1 0 1 64
+$$ 1 "c"
+$$ 9 "c" "f" "g" "m" "p" "r" "u" "w" "x" 
+$$ dmf3 7 1 2000000 1 0 2 1 2 1 64
+$$ 1 10000 
+$$ 0 
+$$ dm2 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 4 "a" "n" "s" "y" 
+$$ dlp 7 1 10 10 10 2 1 8194 0 64
+$$ 1 10 
+$$ 0 
+$$ displaymode 4 2 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 "r"
+$$ 0 
+$$ dm 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 4 "a" "n" "s" "y" 
+$$ dmf 7 1 11 11 11 2 1 8194 1 64
+$$ 1 9900 
+$$ 0 
+$$ dm3 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 4 "a" "n" "s" "y" 
+$$ dmf2 7 1 2000000 1 0 2 1 2 1 64
+$$ 1 10000 
+$$ 0 
+$$ dmg1 2 2 8 0 0 4 1 0 1 64
+$$ 1 ""
+$$ 4 "" "av1" "ph1" "pwr1" 
+$$ dmg 2 2 2 0 0 4 1 3 1 64
+$$ 1 "ph"
+$$ 0 
+$$ dmm 4 2 4 0 0 2 1 0 1 64
+$$ 1 "c"
+$$ 9 "c" "f" "g" "m" "p" "r" "u" "w" "x" 
+$$ dn2shapes 2 2 8 0 0 2 1 256 1 64
+$$ 3 ""
+$$ ""
+$$ ""
+$$ 0 
+$$ dn2 2 2 8 0 0 2 1 8 1 64
+$$ 1 ""
+$$ 0 
+$$ dn 2 2 4 0 0 2 1 8 1 64
+$$ 1 "C13"
+$$ 0 
+$$ dmm3 4 2 4 0 0 2 1 0 1 64
+$$ 1 "c"
+$$ 9 "c" "f" "g" "m" "p" "r" "u" "w" "x" 
+$$ dn2ref 2 2 8 0 0 4 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ dn4ref 2 2 8 0 0 4 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ dn3ref 2 2 8 0 0 4 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ dn3 2 2 8 0 0 2 1 8 1 64
+$$ 1 ""
+$$ 0 
+$$ dn3shapes 2 2 8 0 0 2 1 256 1 64
+$$ 3 ""
+$$ ""
+$$ ""
+$$ 0 
+$$ dnshapes 2 2 8 0 0 2 1 256 1 64
+$$ 3 ""
+$$ ""
+$$ ""
+$$ 0 
+$$ dnref 2 2 8 0 0 4 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ dod 3 1 14 14 14 2 1 8194 1 64
+$$ 1 0.00999999977648 
+$$ 0 
+$$ dseq3 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ dpwr3 1 1 63 -16 1 2 1 2 1 64
+$$ 1 54 
+$$ 0 
+$$ dotflag 2 2 8 0 0 4 1 0 1 64
+$$ 1 "n"
+$$ 2 "n" "y" 
+$$ dof3 5 1 20 20 20 2 1 8202 1 64
+$$ 1 0 
+$$ 0 
+$$ dof2 5 1 16 16 16 2 1 8202 1 64
+$$ 1 0 
+$$ 0 
+$$ dpwr 1 1 63 -16 1 2 1 2 1 64
+$$ 1 56 
+$$ 0 
+$$ dp 2 2 1 0 0 2 1 0 1 64
+$$ 1 "y"
+$$ 2 "y" "n" 
+$$ dpwr2 1 1 63 -16 1 2 1 2 1 64
+$$ 1 54 
+$$ 0 
+$$ dres3 7 1 360 1 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ dres 7 1 360 1 0 2 1 0 1 64
+$$ 1 90 
+$$ 0 
+$$ dreffrq 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 75.4714921221 
+$$ 0 
+$$ dres2 7 1 360 1 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ dseq 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ dsSelect 7 1 32767 0 0 4 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ dseq2 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ execprocess 2 2 8 0 0 4 1 0 0 64
+$$ 1 ""
+$$ 0 
+$$ emessage 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ emailaddr 2 2 8 0 0 4 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ email_ 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ emailwhen 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ execprep 2 2 8 0 0 4 1 0 0 64
+$$ 1 ""
+$$ 0 
+$$ execplot 2 2 8 0 0 4 1 0 0 64
+$$ 1 ""
+$$ 0 
+$$ execprescan 2 2 8 0 0 4 1 0 0 64
+$$ 1 ""
+$$ 0 
+$$ f1SW 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ explist 2 2 8 0 0 2 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ execsetup 2 2 8 0 0 4 1 0 1 64
+$$ 1 "solidsseq1d('setup')"
+$$ 0 
+$$ exppath 2 2 8 0 0 2 1 0 1 64
+$$ 1 "/home/wouterf/vnmrsys/exp12/acqfil"
+$$ 0 
+$$ faculty 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ f2SW 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ fb 7 1 6 6 6 2 1 8203 1 64
+$$ 1 13800 
+$$ 0 
+$$ pwX90C3 6 1 1024 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ n2 2 2 6 0 0 4 1 3 1 64
+$$ 1 ""
+$$ 0 
+$$ is 1 1 1000000000 1e-06 0 4 1 3 1 64
+$$ 1 500 
+$$ 0 
+$$ hsrotor 4 2 4 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ gain2 1 1 60 0 2 2 1 1 1 64
+$$ 1 30 
+$$ 0 
+$$ fn1 7 1 524288 64 -2 3 1 1 1 64
+$$ 1 1024 
+$$ 0 
+$$ file 2 2 6 0 0 2 1 3 1 64
+$$ 1 "exp"
+$$ 0 
+$$ fidid 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ fdffile 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ fn 7 1 524288 64 -2 3 1 1 0 64
+$$ 1 8192 
+$$ 0 
+$$ filter 7 1 1000000000 0 1 2 1 2 1 64
+$$ 1 44.0999984741 
+$$ 0 
+$$ frHX 4 2 4 0 0 2 1 0 1 64
+$$ 1 "dec"
+$$ 0 
+$$ fpmult1 1 1 1000000000 0 0 3 2 0 0 64
+$$ 1 0.5 
+$$ 0 
+$$ fpmult 1 1 1000000000 0 0 3 1 0 0 64
+$$ 1 1 
+$$ 0 
+$$ fzoom 7 1 32767 0 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ ftproc 1 1 9.99999984307e+17 -9.99999984307e+17 0 3 1 256 1 64
+$$ 2 1 9 
+$$ 0 
+$$ gain 1 1 60 0 2 2 1 0 1 64
+$$ 1 30 
+$$ 0 
+$$ gxppars 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ gfs 1 1 1000 -1000 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ gf1 1 1 100000 0 0 3 1 1 0 64
+$$ 1 1 
+$$ 0 
+$$ gf 1 1 100000 0 0 3 1 1 0 64
+$$ 1 0.10000000149 
+$$ 0 
+$$ go_Options 2 2 8 0 0 2 1 7 1 64
+$$ 2 "au"
+$$ "wait"
+$$ 0 
+$$ gfs1 1 1 1000 -1000 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ go_id 2 2 8 0 0 2 1 3 1 64
+$$ 1 "exp12.wouterf.nmrsolid300_1436946584_355908"
+$$ 0 
+$$ homo 2 2 8 0 0 2 1 8 1 64
+$$ 1 "n"
+$$ 2 "n" "y" 
+$$ hdpwr 7 1 49 -16 1 2 1 2 1 64
+$$ 1 1 
+$$ 0 
+$$ hdof 5 1 7 7 7 2 1 8194 1 64
+$$ 1 0 
+$$ 0 
+$$ ho 1 1 500 -500 0 4 1 1 1 64
+$$ 1 -25.1666666667 
+$$ 0 
+$$ homo3 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 2 "n" "y" 
+$$ homo2 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 2 "n" "y" 
+$$ hs 4 2 4 0 0 2 1 0 1 64
+$$ 1 "nn"
+$$ 2 "n" "y" 
+$$ ins2ref 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ il 2 2 1 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 2 "y" "n" 
+$$ hzmm 1 1 1000000000 -1000000000 0 4 1 11 1 64
+$$ 1 8181.3081782 
+$$ 0 
+$$ hst 3 1 0.02 0 2.5e-08 2 1 2 1 64
+$$ 1 0.00800000037998 
+$$ 0 
+$$ ident 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ ins 3 1 8190 0 1e-07 4 1 3 1 64
+$$ 1 100 
+$$ 0 
+$$ in 4 2 1 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 3 "n" "w" "y" 
+$$ ins2 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ investigator 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ intmod 2 2 8 0 0 4 1 0 1 64
+$$ 1 "off"
+$$ 3 "off" "partial" "full" 
+$$ insref 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 0 64
+$$ 1 1 
+$$ 0 
+$$ intstd 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ io 1 1 500 -500 0.1 4 1 1 1 64
+$$ 1 10 
+$$ 0 
+$$ lpalg1 2 2 8 0 0 3 1 0 1 64
+$$ 1 "lpfft"
+$$ 0 
+$$ lockpower_ 1 1 68 0 1 2 1 65552 1 64
+$$ 1 0 
+$$ 0 
+$$ llamp 1 1 1000000000 0 0 4 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ lb1 1 1 100000 -100000 0 3 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ iswt 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ lb 1 1 100000 -100000 0 3 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ liamp 1 1 1000000000 0 0 4 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ lcpeak_ 7 1 32767 0 0 2 1 32768 1 64
+$$ 1 0 
+$$ 0 
+$$ lifrq 1 1 1000000000 -1000000000 0 4 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ locdir 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ load 2 2 4 0 0 2 1 3 1 64
+$$ 1 "n"
+$$ 2 "y" "n" 
+$$ llfrq 1 1 1000000000 -1000000000 0 4 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ loc_ 7 1 12 12 12 2 1 8201 0 64
+$$ 1 0 
+$$ 0 
+$$ lockgain_ 1 1 48 0 1 2 1 65552 1 64
+$$ 1 0 
+$$ 0 
+$$ lockfreq_ 5 1 160 0 1e-07 2 1 9 1 64
+$$ 1 46.0744 
+$$ 0 
+$$ lockphase_ 1 1 360 0 1 2 1 65552 1 64
+$$ 1 0 
+$$ 0 
+$$ lp1 1 1 10000000 -10000000 0.1 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ lot 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ longlist 2 2 8 0 0 2 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ lp 1 1 10000000 -10000000 0.1 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ lpalg 2 2 8 0 0 3 1 0 1 64
+$$ 1 "lpfft"
+$$ 0 
+$$ lptrace 7 1 32767 0 1 3 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ lpopt 2 2 8 0 0 3 1 0 1 64
+$$ 1 "b"
+$$ 0 
+$$ lpfilt 7 1 32767 1 1 3 1 0 1 64
+$$ 1 32 
+$$ 0 
+$$ lpext1 7 1 1000000 0 1 3 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ lpext 7 1 1000000 0 1 3 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ lpnupts 7 1 1000000 1 1 3 1 0 1 64
+$$ 1 64 
+$$ 0 
+$$ lpfilt1 7 1 32767 1 1 3 1 0 1 64
+$$ 1 32 
+$$ 0 
+$$ lpnupts1 7 1 1000000 1 1 3 1 0 1 64
+$$ 1 64 
+$$ 0 
+$$ lpprint 7 1 63 0 1 3 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ lpopt1 2 2 8 0 0 3 1 0 1 64
+$$ 1 "b"
+$$ 0 
+$$ lpprint1 7 1 63 0 1 3 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ macro 2 2 6 0 0 4 1 3 1 64
+$$ 1 ""
+$$ 0 
+$$ lsfrq1 1 1 9.99999984307e+17 -9.99999984307e+17 0 3 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ lsfid 7 1 64000 -64000 1 3 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ lptrace1 7 1 32767 0 1 3 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ lsfrq 1 1 9.99999984307e+17 -9.99999984307e+17 0 3 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ lvl 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ modules 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ method 2 2 6 0 0 2 1 3 1 64
+$$ 1 "z1z2"
+$$ 0 
+$$ math 2 2 1 0 0 3 1 3 1 64
+$$ 1 "f"
+$$ 3 "d" "f" "i" 
+$$ n1 2 2 6 0 0 4 1 3 1 64
+$$ 1 ""
+$$ 0 
+$$ pp 6 1 8190 0 1e-07 2 1 2 1 64
+$$ 1 46.4000053406 
+$$ 0 
+$$ page 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ nt 7 1 1000000000 1 1 2 1 2 1 64
+$$ 1 4 
+$$ 0 
+$$ nameprefix 2 2 8 0 0 2 1 9 1 64
+$$ 1 ""
+$$ 0 
+$$ n3 2 2 6 0 0 4 1 3 1 64
+$$ 1 ""
+$$ 0 
+$$ name 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ notebook 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ newmodules 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ np 7 1 524288 32 2 2 1 11 1 64
+$$ 1 7692 
+$$ 0 
+$$ p1 6 1 13 13 13 2 1 8194 1 64
+$$ 1 0 
+$$ 0 
+$$ ofHX 5 1 1000000000 -1000000000 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ obsSW 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ operator_ 2 2 128 0 0 2 1 32768 1 64
+$$ 1 "wouterf"
+$$ 0 
+$$ pad 3 1 14 14 14 2 1 8194 1 64
+$$ 1 0 
+$$ 0 
+$$ phfid1 1 1 3600 -3600 0.1 3 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ parversion 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 5.1 
+$$ 0 
+$$ parlabel 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ parstyle_ 2 2 8 0 0 4 1 0 1 64
+$$ 1 "ppa"
+$$ 0 
+$$ phHtppm 1 1 360 -360 0 2 1 0 1 64
+$$ 1 10 
+$$ 0 
+$$ phHspinal 1 1 360 -360 0 2 1 0 1 64
+$$ 1 10 
+$$ 0 
+$$ phfid 1 1 3600 -3600 0.1 3 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ pltopt 4 2 4 0 0 2 1 0 1 64
+$$ 1 "y"
+$$ 0 
+$$ plocklist 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ pkpick_ 2 2 8 0 0 4 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ pltmod 2 2 8 0 0 4 1 0 1 64
+$$ 1 "off"
+$$ 5 "off" "fixed" "full" "variable" "user" 
+$$ position1 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ pmode 2 2 8 0 0 3 1 0 1 64
+$$ 1 "full"
+$$ 0 
+$$ position2 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ processid 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ prescan 2 2 8 0 0 3 1 256 1 64
+$$ 11 "Not done"
+$$ "Not done"
+$$ "off"
+$$ "off"
+$$ "off"
+$$ "off"
+$$ "off"
+$$ "on"
+$$ "on"
+$$ ""
+$$ ""
+$$ 0 
+$$ prcopt 4 2 4 0 0 2 1 0 1 64
+$$ 1 "y"
+$$ 0 
+$$ pplvl 1 1 63 -16 1 2 1 0 1 64
+$$ 1 55 
+$$ 0 
+$$ pplvl_cf 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ preacq 6 1 13 13 13 2 1 8192 0 64
+$$ 1 0 
+$$ 0 
+$$ pre_echo_acq 3 1 10 0 1e-07 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ proc 2 2 10 0 0 3 1 1 1 64
+$$ 1 "ft"
+$$ 0 
+$$ probe_ 2 2 8 0 0 2 1 8 1 64
+$$ 1 "Bruker_4mm_BL_WVT_DR"
+$$ 0 
+$$ priority 7 1 32768 0 1 2 1 0 1 64
+$$ 1 5 
+$$ 0 
+$$ probetype_ 2 2 8 0 0 2 1 0 1 64
+$$ 1 "solids"
+$$ 0 
+$$ proccmd 2 2 8 0 0 3 1 3 1 64
+$$ 1 "wft"
+$$ 0 
+$$ proc1 2 2 10 0 0 3 2 1 1 64
+$$ 1 "ft"
+$$ 0 
+$$ procdim 7 1 32767 0 0 3 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ pwHtppm 6 1 8192 0 0.0125 2 1 0 1 64
+$$ 1 8 
+$$ 0 
+$$ pw 6 1 13 13 13 2 1 8194 1 64
+$$ 1 5.99999904633 
+$$ 0 
+$$ pslabel 2 2 8 0 0 2 1 11 1 64
+$$ 1 "onepul"
+$$ 0 
+$$ protocols 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ pulsenum 1 1 500 0 1 2 1 0 1 64
+$$ 1 20 
+$$ 0 
+$$ pwH90 6 1 8192 0 0 2 1 0 1 64
+$$ 1 2.2 
+$$ 0 
+$$ pw90 6 1 13 13 13 2 1 8194 1 64
+$$ 1 0 
+$$ 0 
+$$ pwHspinal 6 1 8192 0 0.0125 2 1 0 1 64
+$$ 1 8 
+$$ 0 
+$$ pwX180E 6 1 512 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ pwX180 6 1 1024 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ pwHwaltz 6 1 8192 0 0.0125 2 1 16384 1 64
+$$ 1 0 
+$$ 0 
+$$ pwX180C2 6 1 1024 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ pwX90C1 6 1 1024 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ pwX90 6 1 8192 0 0 2 1 0 1 64
+$$ 1 3 
+$$ 0 
+$$ sw 1 1 5 5 5 2 2 8203 1 64
+$$ 1 192307.692308 
+$$ 0 
+$$ sf1 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ rfband 4 2 4 0 0 2 1 0 1 64
+$$ 1 "cc"
+$$ 3 "c" "h" "l" 
+$$ r3 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ pwx2lvl 1 1 63 -16 1 2 1 0 1 64
+$$ 1 55 
+$$ 0 
+$$ pwY90 6 1 8192 0 0 2 1 0 1 64
+$$ 1 4 
+$$ 0 
+$$ pwXsat 6 1 1024 0 0.0125 2 1 0 1 64
+$$ 1 2 
+$$ 0 
+$$ pwXlock 6 1 51200 0 0.0125 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ pwx 6 1 13 13 13 2 1 8192 1 64
+$$ 1 15 
+$$ 0 
+$$ pwZ90 6 1 8192 0 0 2 1 0 1 64
+$$ 1 4 
+$$ 0 
+$$ pwx2 6 1 13 13 13 2 1 8192 1 64
+$$ 1 15 
+$$ 0 
+$$ pwxlvl_cf 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ pwxlvl 1 1 63 -16 1 2 1 0 1 64
+$$ 1 55 
+$$ 0 
+$$ pwx2lvl_cf 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ r1 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ queue 2 2 8 0 0 2 1 0 1 64
+$$ 1 "dayQ"
+$$ 0 
+$$ r2 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ ref1 5 1 1000000000 -1000000000 0 3 5 0 1 64
+$$ 1 0 
+$$ 0 
+$$ r7 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ r5 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ r4 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ r6 1 1 1e+18 -1e+18 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ rd 6 1 8192 0 0.0125 2 1 0 1 64
+$$ 1 4 
+$$ 0 
+$$ rcvrs 4 2 4 0 0 2 1 1 1 64
+$$ 1 "y"
+$$ 2 "n" "y" 
+$$ ref 5 1 1000000000 -1000000000 0 3 4 0 1 64
+$$ 1 0 
+$$ 0 
+$$ refpos 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ reffrq1 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 599.7266774 
+$$ 0 
+$$ reffrq 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 300.144888022 
+$$ 0 
+$$ researchgroup 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ refstd_ 2 2 8 0 0 2 1 65808 1 64
+$$ 1 ""
+$$ 0 
+$$ retentiontime_ 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ satmode 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ rp1 1 1 10000000 -10000000 0.1 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ rfp1 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ rfl1 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ rfl 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 92983.2679484 
+$$ 0 
+$$ rfp 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ rof2 6 1 13 13 13 2 1 8194 1 64
+$$ 1 4 
+$$ 0 
+$$ rof1 6 1 13 13 13 2 1 8194 1 64
+$$ 1 2 
+$$ 0 
+$$ rp 1 1 10000000 -10000000 0.1 4 1 3 1 64
+$$ 1 -40.7649635552 
+$$ 0 
+$$ sampleowner 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ samplename 2 2 8 0 0 2 1 8 1 64
+$$ 1 ""
+$$ 0 
+$$ sample 2 2 8 0 0 2 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ satdly 3 1 14 14 14 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ sampwt 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ satfrq 5 1 1000000000 -1000000000 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ sbs1 1 1 1000 -1000 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ sb 1 1 1000 -1000 0.001 3 1 0 0 64
+$$ 1 0 
+$$ 0 
+$$ saveglobal_ 2 2 8 0 0 3 1 0 1 64
+$$ 20 "probe"
+$$ "lcpeak"
+$$ "loc"
+$$ "lockpower"
+$$ "lockgain"
+$$ "lockphase"
+$$ "lockfreq"
+$$ "z0"
+$$ "lkof"
+$$ "vloc"
+$$ "vrack"
+$$ "vzone"
+$$ "vproto"
+$$ "pkpick"
+$$ "parstyle"
+$$ "operator"
+$$ "studyid"
+$$ "systemname"
+$$ "probetype"
+$$ "refstd"
+$$ 0 
+$$ satpwr 1 1 63 -16 1 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ saveshapes 2 2 8 0 0 2 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ sbs 1 1 1000 -1000 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ sb1 1 1 1000 -1000 0.001 3 1 1 0 64
+$$ 1 0 
+$$ 0 
+$$ scoutinfo 2 2 8 0 0 2 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ sc2 1 1 3 3 3 4 1 8195 1 64
+$$ 1 0 
+$$ 0 
+$$ sc 1 1 1 1 1 4 1 8195 1 64
+$$ 1 0 
+$$ 0 
+$$ scans 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ seqfil 2 2 8 0 0 2 1 11 1 64
+$$ 1 "onepul"
+$$ 0 
+$$ sdirtmplt 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ sf 1 1 8190 0 1e-07 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ srate 5 1 1000000000 -1000000000 0 2 1 1 1 64
+$$ 1 5000 
+$$ 0 
+$$ shownumx 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ showarray 2 2 8 0 0 2 1 0 1 64
+$$ 1 "horiz"
+$$ 0 
+$$ shHX 4 2 4 0 0 2 1 0 1 64
+$$ 1 "l"
+$$ 0 
+$$ sfrq 1 1 1000000000 0 0 2 1 11 1 64
+$$ 1 300.1480586 
+$$ 0 
+$$ shims 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ shownumbers 2 2 8 0 0 2 1 0 1 64
+$$ 1 "v"
+$$ 0 
+$$ showcontent 2 2 8 0 0 2 1 0 1 64
+$$ 1 "s"
+$$ 0 
+$$ shownumstyle 2 2 8 0 0 2 1 0 1 64
+$$ 1 "auto"
+$$ 0 
+$$ sp 1 1 1000000000 -1000000000 0 4 1 3 1 64
+$$ 1 -92936.3178282 
+$$ 0 
+$$ sn 1 1 1e+18 -1e+18 0 3 1 1 1 64
+$$ 1 50 
+$$ 0 
+$$ shownumy 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ solvent 2 2 6 0 0 2 1 11 1 64
+$$ 1 "CDCl3"
+$$ 0 
+$$ spin 1 1 39 0 1 2 1 0 0 64
+$$ 1 16 
+$$ 0 
+$$ sp1 1 1 1000000000 -1000000000 0 4 1 3 1 64
+$$ 1 649.999938965 
+$$ 0 
+$$ strtpar 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ strtext 7 1 1000000 1 1 3 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ ss 7 1 32767 -32768 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ sreffrq 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 300.144888022 
+$$ 0 
+$$ sspul 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ strtlp 7 1 1000000 1 1 3 1 0 1 64
+$$ 1 2 
+$$ 0 
+$$ strtext1 7 1 1000000 1 1 3 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ strtlp1 7 1 1000000 1 1 3 1 0 1 64
+$$ 1 2 
+$$ 0 
+$$ studystatus 2 2 8 0 0 2 1 0 1 64
+$$ 1 "Empty"
+$$ 0 
+$$ studyid_ 2 2 8 0 0 2 1 0 1 64
+$$ 1 "tmpstudy"
+$$ 0 
+$$ study 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ studyowner 2 2 8 0 0 2 1 0 1 64
+$$ 1 "wouterf"
+$$ 0 
+$$ svfopt 4 2 4 0 0 2 1 0 1 64
+$$ 1 "y"
+$$ 0 
+$$ studytime 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ svftmplt 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ vtwait 3 1 14 14 14 2 1 8194 1 64
+$$ 1 1 
+$$ 0 
+$$ vf 1 1 1000000000 0 0 4 1 3 1 64
+$$ 1 151.628 
+$$ 0 
+$$ time_submitted_local 2 2 8 0 0 2 1 0 1 64
+$$ 1 "20150715T094944X09AMWedJul"
+$$ 0 
+$$ th 1 1 1000000000 0 0 4 1 1 1 64
+$$ 1 68.2866668701 
+$$ 0 
+$$ tau_recovery 3 1 100000000 0 1e-06 2 1 0 1 64
+$$ 1 2 
+$$ 0 
+$$ tHX 6 1 50000 0 0.0125 2 1 0 1 64
+$$ 1 1000 
+$$ 0 
+$$ systemname_ 2 2 8 0 0 2 1 0 1 64
+$$ 1 "nmrsolid300-vnmrs300"
+$$ 0 
+$$ tau_echo 3 1 500 0 1e-07 2 1 0 1 64
+$$ 1 0.0002 
+$$ 0 
+$$ temp 1 1 200 -150 0.1 2 1 8 1 64
+$$ 1 28 
+$$ 0 
+$$ tau_sat 3 1 100000000 0 1e-06 2 2 0 1 64
+$$ 1 0.02 
+$$ 0 
+$$ text_string 2 2 8 0 0 4 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ time_processed 2 2 8 0 0 3 1 0 1 64
+$$ 1 "20150715T095345"
+$$ 0 
+$$ time_exp 2 2 8 0 0 2 1 0 1 64
+$$ 1 "12 sec"
+$$ 0 
+$$ time_complete 2 2 8 0 0 4 1 0 1 64
+$$ 1 "20150715T095345"
+$$ 0 
+$$ time_plotted 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ time_saved 2 2 8 0 0 4 1 0 1 64
+$$ 1 "20150715T095359"
+$$ 0 
+$$ time_run 2 2 8 0 0 2 1 0 1 64
+$$ 1 "20150715T094945"
+$$ 0 
+$$ time_submitted 2 2 8 0 0 2 1 0 1 64
+$$ 1 "20150715T094944"
+$$ 0 
+$$ tof 5 1 7 7 7 2 1 8202 1 64
+$$ 1 1669.9 
+$$ 0 
+$$ tn 2 2 4 0 0 2 1 8 1 64
+$$ 1 "H1"
+$$ 0 
+$$ tin 2 2 1 0 0 2 1 2 1 64
+$$ 1 "n"
+$$ 3 "n" "w" "y" 
+$$ time_svfdate 2 2 8 0 0 2 1 0 1 64
+$$ 1 "20150715T094944"
+$$ 0 
+$$ tlt 1 1 1000000000 -1000000000 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ tnshapes 2 2 8 0 0 2 1 256 1 64
+$$ 3 ""
+$$ ""
+$$ ""
+$$ 0 
+$$ tnref 2 2 8 0 0 4 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ toHX 4 2 4 0 0 2 1 0 1 64
+$$ 1 "obs"
+$$ 0 
+$$ trace 2 2 2 0 0 4 1 3 1 64
+$$ 1 "f1"
+$$ 2 "f1" "f2" 
+$$ tpwr_cf 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ tpwr 1 1 63 -16 1 2 1 2 1 64
+$$ 1 56 
+$$ 0 
+$$ user 2 2 9 0 0 2 1 1 1 64
+$$ 1 " 1-14-87"
+$$ 0 
+$$ tunemethod 2 2 8 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 0 
+$$ userplotter 2 2 8 0 0 4 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ vpfi 1 1 500 -500 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ vo 1 1 500 -500 0 4 1 1 1 64
+$$ 1 0 
+$$ 0 
+$$ vjdialogarg 2 2 8 0 0 4 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ vjdialog 2 2 8 0 0 4 1 256 1 64
+$$ 1 ""
+$$ 0 
+$$ vloc_ 2 2 8 0 0 2 1 8 1 64
+$$ 1 "A0"
+$$ 0 
+$$ vp 7 1 500 -500 0.1 4 1 3 1 64
+$$ 1 0 
+$$ 0 
+$$ volume 1 1 9.99999984307e+17 -9.99999984307e+17 0 2 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ vpf 1 1 500 -500 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ vs2d 1 1 1000000000 1e-06 0 4 1 3 1 64
+$$ 1 200 
+$$ 0 
+$$ vrack_ 7 1 5 1 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ vproto_ 2 2 8 0 0 2 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ vs 1 1 1000000000 1e-06 0 4 1 3 1 64
+$$ 1 211.269 
+$$ 0 
+$$ vtc 1 1 250 -100 0.1 2 1 2 1 64
+$$ 1 30 
+$$ 0 
+$$ vsproj 1 1 1000000000 1e-06 0 4 1 3 1 64
+$$ 1 200 
+$$ 0 
+$$ z1c 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ x3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ wrtp 2 2 8 0 0 4 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ wexp 2 2 6 0 0 3 1 3 1 64
+$$ 1 "wft dssh"
+$$ 0 
+$$ wc2 1 1 4 4 4 4 1 8195 1 64
+$$ 1 142 
+$$ 0 
+$$ wbs 2 2 6 0 0 3 1 3 1 64
+$$ 1 "wft dssh"
+$$ 0 
+$$ vzone_ 7 1 15 1 0 2 1 0 1 64
+$$ 1 1 
+$$ 0 
+$$ wc 1 1 2 2 2 4 1 8203 1 64
+$$ 1 250 
+$$ 0 
+$$ wds 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ wdone 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ werr 2 2 6 0 0 3 1 3 1 64
+$$ 1 ""
+$$ 0 
+$$ wnt 2 2 6 0 0 3 1 3 1 64
+$$ 1 "wft dssh"
+$$ 0 
+$$ wf1 1 1 9.99999984307e+17 -9.99999984307e+17 0 4 1 0 1 64
+$$ 1 1.30048000813 
+$$ 0 
+$$ wf 1 1 8190 0 1e-07 4 1 3 1 64
+$$ 1 0.0199992 
+$$ 0 
+$$ wp1 1 1 100000 0 0 4 1 3 1 64
+$$ 1 62.5000114441 
+$$ 0 
+$$ wp 1 1 5000000 0 0 4 1 11 1 64
+$$ 1 192260.742188 
+$$ 0 
+$$ wqinit 2 2 8 0 0 4 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ wtfile1 2 2 15 0 0 3 2 1 1 64
+$$ 1 ""
+$$ 0 
+$$ wstart 2 2 8 0 0 3 1 0 1 64
+$$ 1 ""
+$$ 0 
+$$ wshim 4 2 4 0 0 2 1 1 1 64
+$$ 1 "n"
+$$ 15 "e" "f" "g" "n" "s" "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" 
+$$ wtfile 2 2 15 0 0 3 1 1 1 64
+$$ 1 ""
+$$ 0 
+$$ x1 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ wtune 4 2 4 0 0 2 1 0 1 64
+$$ 1 "n"
+$$ 11 "s" "t" "e" "i" "n" "o" "v" "1" "2" "3" "4" 
+$$ x2y2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ yz 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ xz2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ xy 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ x4 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ xz 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ y3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ y1 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ y4 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z0_ 1 1 19 19 19 2 1 73744 1 64
+$$ 1 0 
+$$ 0 
+$$ yz2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z1 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3y 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z2y3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z2x3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z2c 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z2x2y2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z2xy 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3x 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3c 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3x3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3x2y2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3xy 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z5 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z4x 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z4 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z3y3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z4c 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z4xy 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z4x2y2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z4y 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z7 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z5y 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z5x 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ z6 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ zx2y2 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ zoom 7 1 32767 0 0 4 1 0 1 64
+$$ 1 0 
+$$ 0 
+$$ z8 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ zxy 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ zx3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ zy3 7 1 19 19 19 2 1 8192 1 64
+$$ 1 0 
+$$ 0 
+$$ 
+##$PARAMETERFILE=	(text, ASCII, C:/Users/Emulator/Desktop/DataFilesDatabase/Varian/VnmrJ3/1D.fid/text, 0)
+$$ Varain NMR System NB500
+$$ 3.2mm HXY probe 
+$$ 2-13C15Nglycine 4scans 15N
+$$ 
+##XUNITS=	HZ
+##YUNITS=	ARBITRARY UNITS
+##FIRSTX=	99324.42435960000148
+##LASTX=	-92981.800757143981173
+##XFACTOR=	-1.4671912560119628743
+##YFACTOR=	0.00053656678199768073362
+##NPOINTS=	131072
+##XYDATA=	(X++(Y..Y))
+-67696A026jkklkmlmlmmlmllllklkkjkjjjjjj%%j%%%%J%JJKJKJKLKKLKLKKLKJKJJJ%%%jjj
+-67630I94jkjkjjkj%j%%JJJKKLKLLLLMLKLKKKJ%J%jjkjlkllllmllmlllllllllllllllmllm
+-67563I31llllkkkjj%JJKLMMNNPPPPQQPQPPOOMMLJJjkkmnooqprqqqqqpoonllj%JKLLNOOPP
+-67496I53QPQPPPONNMLKJJjjkkmlmmnmnmmmllljkj%%JJKKKLKLKKKKKJJ%%%jjkklklllllkl
+-67429I61kjk%j%JJKKKLMLMMMLMLLLKKJJj%kkkmmmmnonnonnmmmllkj%%JKKLLMMNNNNMNNMM
+-67362I87LLKKJJ%jjjklklmlmlmlmllklkjkjj%%%%JJ%KJJJJKJJJJ%JJ%%J%%%%%%%%%%%J%J
+-67295I62JJJKJKKKLKLKKLKKKKKJJ%%%jjkklllmmmlmmmlllkkj%JJKKMMMNOOPOPOPOONNNLL
+-67228A046LJJ%jkkllmmnnmnnmnmmlllkkjk%j%%%%%%%%%%j%j%jjjjj%jj%j%j%%%%%%%%%%j
+-67162I62%jjjkjkkkkkjkjk%j%%JKKKLLMMMNMNNMMMMKLKJ%%jjklllmmnmmnmmlllkkjj%%JJ
+-67095I47JKKKKLKLKLKKKKKKKKJKKKJKKKKKKKKKKKJJJ%%%jjkkklllmlmmlmllllkkjkj%j%%
+-67028I58%%%%%%%jj%jkjjkjjjjj%%JJJKKLLMMMMMMLMLKKJ%jjklmnnnoopoooonmlljjJJLL
+-66961I18NNOOPPQPPQOPONMMLLKJJ%%%j%j%j%%%JJJJJKKJJJJ%%jkklmmnoooppppopnommkk
+-66894I33j%JKLLMNNNONNNNMLLKJJ%jkkklllmllllkkj%%%JKKKLKLLLLKLJKJJ%%jjjkjkkkj
+-66827I84kjjjj%%%JJJKJKJKJJJJJ%J%%j%j%j%j%%%%J%JKJJKJKJJJJ%%%jjkklklllmlklkj
+-66760I71j%%KJLLMNNNOONONNNLLLJ%%kklnmonpoopoonnmlljj%%KKKLLMLLMKLKJJ%%kjlll
+-66693I82mlmmmmmlkkkj%%JKKKLLLMLLMKLKJJJ%j%kkkkklklkkkkjj%%JJJJKKKKLKKKJJJJ%
+-66626I81%%jjkjkkkklkkkkkjkjj%j%%%%%%J%%J%J%J%J%%J%J%J%J%JJ%J%J%%%%%%jj%kjjj
+-66559I55kjkjjjjj%jJ%JJKKKKLLKLLLKLKKJJJ%%%jjkkkklklklkjkjj%%%JJKKKLLLLLMLLL
+-66492I90LKLKJKJJ%%%j%jjkjkkkkkkkkkkklkkkjkkjkjjj%j%J%JJKJKLKLLLLMLLLLLKKKJJ
+-66425A008%%jjkklllmnmnnnnnnnmmmlllkjjj%JJKKKLLLMMMLMMMLMLLKLKJK%J%%j%jjkjkk
+-66359I77kjkkjkjjj%j%%J%JJJJJJJJJK%JJ%J%%%%j%j%jj%jj%j%j%%j%%%j%j%j%jjkjjkkj
+-66292I55kkjkjkj%jJ%JJJKLKLMLLMLMLLLLKJK%J%jjjkkjkkkkkjj%%%JJKKLLLLLLLLLKJJ%
+-66225A013%jjlllmmnnnmnmmmlkjjJJKLLNMONOOONNNMLLJJ%kkmmnooppqppppoommlkj%JKK
+-66159I26MMMNNONNOMNMMLKKJ%%%jjkkkjkkjj%%%JKKKLLMMMNMMNMMLLLKJJJjjjkkllmlmmm
+-66092A013mmllllkjk%jJ%JKKKLKLLLLLKKKKJJ%j%kkllmmmononooooonnnmllljj%JJKLLMM
+-66026I38NONOOPOOOONNNMMLLKKJJ%j%jkkkklklkllkkkkkjjjj%%%JJJJKKKKKKKKKKKKKJJJ
+-65959A025%%%jjjklklmlmmnmnnmnnmmmlmlkkkjjj%%JJJJJKJKJKJJJJ%J%j%jjjjkjkkkkkk
+-65893I31kkkjjk%j%%%JJJKKKLLMLMMMNMMNMMMMLLLKKJJ%%jjjklkllllllklkjjj%JJJKKKL
+-65826I77LKLLKKKJJ%%jjlklmlmmmmlllkj%JKKMMOOOQPQQQPPOOMLKJjkmnpprj0j1j1j2j2j2
+-65764I54j1j1j1j0qqommk%JKMMOOPPQPPPONNMKK%%kklmnnnnnnmmlkk%%KKLMNNOPOOPOONN
+-65701I88MMLKKJ%%jjkjkjjjj%%JKJLLLLMLMLLLKK%Jjkklmnnopopppooonmmkkj%%KKLLLMM
+-65634I57MLMLLKJJ%jjjlkmlmlmllllkjj%%JKKKLLLMLLLKLKJJJ%%%jjj%jj%%JJJLLLMNNOO
+-65567A008OOOOONNMLKK%%jllmmnooooonommllk%%JKKLMMMMMMLLLJJ%jkkmmoooppppopnom
+-65501I38mkkjJJKKMMMNNNMMMMKKJJjjkllmmnmnmmllkj%JKLMOOPPRQJ0RRRQQPPNNLKJjklm
+-65435A061nnppqrqqrqqpponmmlkj%%JJLKLLLLMLLLKLKKJKJJJ%JJ%JJJJKJKKLLLLLMLMMML
+-65369A037MLLLKKKJJ%%%jkjlkllllmmlmlmllllkkjkj%%%%JJKJKKJKKKJKJJJ%%%%jjjkkkk
+-65303A006klkkkkkkjjjj%%%%J%JJJ%J%%%%jjkjlklllmlmlmlklkjj%%JKLLMMNNOOOPOOOOO
+-65237A023MNLLLJJ%%jklllmmmmmnmlmllkkjjj%J%JKJKJKJKJJJJ%%%jjjkkkkkklkkkjkjj%
+-65171I70%%JJKKKLLMLMMMMLMMLLLKLJJJ%%%jkkkllllmmmlmmmllllkkjjjj%JJJJKKKKLKLK
+-65104I91LKKLJKKJJJ%%%%jjjjkjkkkkjkkkjkjkjj%j%j%%%%%%%%%%%%%jj%jkjkjkklkkllk
+-65037I49lklklkkkjjjjj%%J%JJKJKKKKKLKLKLLLLLKMLLLLMLMLLMLLLLLKKKJJ%%jjklllmn
+-64970A006nnnonoonnnmmllkkj%%JJJJKKJKJ%Jj%kkllmnnnnoonnmmlk%%KLNNQRRJ1J3J2J4
+-64908I68J4J4J4J4J4J2J2J1RQONLJjlnoqrj0j1j3j2j4j3j3j3j2j2j0j0qpomlk%JKMMNNOP
+-64861I34OPOOONMMLKK%%jjkllllmlmlmklkjk%%%JKJLKLLLLMLLLLKKKJJ%%jjkkllmmmnmnn
+-64794I43mnmmlllkj%%JJLLLNNNNOOOOOONMMMKKJ%%jkllmmmmnmnmlllkkj%%JJKKKKLKKKKJ
+-64727I68%%%jkklllmmlmllkkj%JJLLMNOOPPPPPPONNMLJJjklmnopprqrqrqpponnlkjjJKLL
+-64660I10NMNONOONNNNMMLLLKKKJKJKKKKKKLLLLKLLKKJJ%jjllmnnpppqqqrqpppnnmlj%%KL
+-64593I14NNNPPPQQPPPONNMKKJ%kkllnnnnonnnnmllkjjJJJKLLMMMMNMMMLMLKLJKJ%J%j%jj
+-64526A003jjjkjjj%jj%%%%%%J%JJJ%JJJJ%J%J%%j%jkjklklmmlnmmnmnmmmllkjj%%KKKMMN
+-64460I47NOOOOOONNNMLLJJ%jkllmnnnononnnmllkj%%JKKLLLMLMLLKKK%%%jklllmmmmmmml
+-64393I36lkjj%%JKLLMMMNNMNNMMLLLKKJ%%%jjjjkkkkkkkjkkkjkkkkkkllklmlllmlklkjk%
+-64326I17%JKLLMNOOPPPPQPPPOONMMKKJ%jjkllllmllkkjj%JKKLMMNMNNNMMLKJ%jklmopqqj0
+-64259A007j0j0j1j1j0j1j0rqqonmkk%KKMMNOPPPPPOOONMLLJJ%jkkllmlmmmlllkkk%j%JJJ
+-64200I40KKJKKJKJ%Jj%kjklkmllmlmlllkkjjjJJJKKLMLMMNMNMMMMLLLKKKJ%Jj%jjjkjkkk
+-64133I65kjkkkjkjjkjjjjjjjjjjjjjjjjj%j%%%%JJKJLKLMMMMNNNNNNMNMMLLKJJJj%kkklm
+-64066A004lmlmlmlkkkj%J%KKLLMMMMMLMLKKK%%kklmmoooppqpppooommljj%JJLLMNMNONNM
+-64000I59MMMKKK%%%jjkkkkkkjj%%JKLLLNMNONOONMNLLK%%jllnooqqrrrrj0rqqppommkk%J
+-63934H90KLMMNOOPPPPPOPOONNMMMLLKKKJJ%J%%j%jkjkklkmlmmmmmnmmmmllkk%jJJKLLNMN
+-63867I68ONONONMMLLJ%%klmnnpoqpqqpponnlk%%KLNOPQQRJ0J0J0RRRPPOMLJ%jlmnopqqrq
+-63803I92rqqqoommkk%JKLMMNONONONMMLLKJ%%jjkkkklkkkj%%%KKKLLMMNMNMMMLLKKJ%jjj
+-63736A038klllmlmlmlkkkkj%%%JJ%JJJ%%%jjkkllmmmnnnmnmllkk%%JKLMMNOOOOPOONNMLK
+-63670A021K%%jklmmmnnnmnllljjJJKLMNNOOOOONNMMKJJjklmnopqprqqqpoonmkk%KKMNOOQ
+-63604I68QQRRRRQQPONNMKKJJjjjlklklllklkjkjjjjjjkjkkllmmnnooppppppooomnlkk%%J
+-63537I13KLMMNONOOONNNMMLKKJ%jjjklkllklkkjj%%JJLKMMMNMONNNONMNMLLLKJK%%%jjkk
+-63470A045klllmmmnmnnnonooonononmmmllkjjJJKKLMNNNOOPOOOONMMMKK%%jkllmnnnooon
+-63404I61onmmmkkk%%JKKLMLNMNMNMNMMLLLLJKJJJ%%%%j%jj%j%j%j%j%j%jj%jjjjkjjjjjj
+-63337I83j%j%JJJJKJLKLKLLLKKKKKJ%%%jkkkllmlmmmlmmllkkkjj%jJ%JJJ%JJJ%%%jjjkjk
+-63270I59lkklkkkkj%%%JKLLLNNNNOOOPONONNMMLKKJJJ%j%j%jj%J%JKKLLMMMNNNNNMMLKJ%
+-63203A101%llnoprj0j0j2j2j3j4j3j4j3j3j2j1j0rqonkkJKLNOQQQJ0RJ0RQQQOMMK%jkmoo
+-63152I79qrrj0j0j0j0j0rqpnnlj%KMMPPRJ0J0J1J2J1J1J1J1RRPPNMKJjklmnooppqppponn
+-63098I43mlkj%%KKLLLMMMMMLMKLKJJJ%%%j%j%j%%%JJJJKKLKKLKKJJJ%%jkklmmnnnnoonnn
+-63031I42mmlkk%%JKKMMNNNOOOOOONNMMMLKKKJ%J%j%%j%j%%%%%%%J%%j%jjjkklllmmnnnnm
+-62964I73nnmmmkljjjJJKKLLMLMMMMLLKKJ%%kkkmmnnoooooonommmkk%%JJLMMNNOPPPPPPPP
+-62897I87PONOMNLLLKJJ%%%jjkjkkkkkkkkjkjjj%j%%J%JJ%JJJJJJ%%%%jjjjklkllmmlmmmm
+-62830I70mmmmlllkkkkjj%j%%%%%J%J%JJ%JJJJKKKKLLLMMNNNNOOOOOONNMLLKJ%jklmnooqq
+-62763A003rrrj0rrrqqponmlkj%JKLMMNNNOONNNMMLLKJJ%%jjkkkkkkjkjj%%%JJKKKLKLKLK
+-62698I73KKKJ%Jj%jjkkkkklkkjkj%%JJKKLMMMNONOOOOONOMNLLLK%Jjkklmmnoopoppppooo
+-62631I64mnlljj%JKLLNNOOPPPPPPONNMMKJ%%klmmooopppppponmmlkjJJKLLMNNONONNNMML
+-62564A016KJJ%jkkkllmlllllkjj%%JJKKKKLKLKJJJjjjlmmnnoppppppooonmlkk%%JKLLMMN
+-62498I23MNNNMMMLLKKJJ%%%jjjjkjkjkjkjjkkjkklklmlmmnmnmnmmllkj%JJLMNOPRQJ0J0J1
+-62433I52J1J1J1J1J0J0RQPOMMKJ%jllmmnnnnnmmllkj%%JKKKLLLLKKK%%jkllnnpoqqprpqp
+-62372I39ponnlkjjJKLLNNNOOOPONONNMLMKKKJJJ%%%%%%%%%J%%%%%jjjjklllmnmonoooono
+-62305I32nmmmkkj%%JKKLLLMMLLLLKJJ%%jkkllmlmmlllkkj%JJKKLMMMNNMNMMLKKK%%jkkll
+-62238I54lmmlllljj%%KKMMNOPPQPQQQPPONNMLJJ%jkkmmnnnooooononmnmlmlklkkkjkjjjj
+-62171I29%%%JJKKLLMNNOOPPQQQQQPQOONNLKJ%jklmooopqpqqpponnllkj%JKLLLMMLMLLLJJ
+-62104I97%jjllmmnnnonmnllkj%KKMNOPPRRRRJ0RRRQPONMLJJjkkmmnnoonoonnmmmkkkjj%%
+-62038I96%%J%%%j%jkjkklkklkkkjjj%JJKLLLLMMMLMLKKJ%%kllnnoppqqqqqpppnnllk%%JK
+-61971H98LMMNNNNNNMMMLKKJ%J%j%%%J%KKMMNOPPRRJ0J0J1J0J0J0QQPNML%jlnprj0j1j3j3
+-61914A039j5j5j4j5j5j3j3j1j0qpml%JMNORRJ0J2J1J2J2J1J1RRQOMLK%klmnopqqpqpponn
+-61864I62lkjJJKLMNNNONONMMLLJJ%jkllmmmnnmnmlmkkkj%%%JKJJKKJJJ%%jjkkkllmlmlml
+-61797I39llkjjj%JJKKLKMLLMLMLLKKKKJJJ%%%j%jj%j%j%%%j%%%%%%j%jjjjkjkkjkkjjjj%
+-61730I50%JJJKKLLLMLMLLLLKKJ%%jjkkllllllkkj%JJLLNOPPRRJ0J0J0J0J0RRQOOMKJjkmo
+-61668A098prj0j1j2j3j3j3j4j3j3j2j2j0j0qpnmlj%KKLMNNOOOONNNMMLKKJJ%%jj%jjj%%%
+-61615I70JJJKKLKMLMLMMMMLMLLKLKKKJKJJ%J%%%%%jjjjkjklklmlmmlmmmmllkkjj%%KKLLM
+-61548I93NNOOOOOONNNMLLJJ%%kkllmmmmmnmlmlkkkjjj%%%%j%jkkkmmmnoopppqppoonmmkj
+-61481I00JJLMNOQPRRRRRQQPOMMKJjkmnopqrrrj0j0rqqponlkjJLLNOPPQRRRRRQQPONMLKK%
+-61416A021jkklmmmmnnmmmmllkkjjj%%%JJ%JJJJJ%JJ%%J%%J%J%JJKJKKLLLLLMMMMMMMMMML
+-61350A037MLKLKKJJJ%%%jjkjkkklklkklkkjkj%%%%JJJKKKKKJKJJJj%kkmmnnppqrj0rj0j0
+-61287I48j0j0j0qrponmkj%KLNOPRRJ0J1J1J2J1J1J1J0RRPPNLLJ%klmnnpppqpqpppoonmll
+-61231I37kkjj%%J%J%JJ%%%%%%%j%%%%JJJKKKLLLMMMMMMMLLKKJ%%jkllmmnnnnnnnmmlkk%%
+-61164I24JKLMMNOOPOPPOPONNMMLKJJJjjjkkkklkkkkjjj%%J%JKJKJKJKJJ%%%jjjklllmmmm
+-61097I87nnmnmmmmmlkkkjj%J%KKKLLMLMNMNNMNMNMMLMKLKKJ%Jj%jkkklllllmmlmlmlmlll
+-61030I63llkklkkjkjkjjj%j%%JJJJKKKLLLMMMMMMMMMLLKKKJ%jjkkllmnmnnnnnnmmlkkjj%
+-60963I32JJKLLMMMNMNMNMMLMLKLKJKJJ%JJ%J%J%JJ%JJJ%J%%jjjjlklmlnmnnnnmnmmllkjj
+-60896I42%%KJLKLMLMLLLLKJJJjjjklllmllllkjj%JKLMNOOPQQRQQQQOPNMLJJjkmmooqqrrr
+-60829I99rrqrpponmlljjJ%KKKLKLLKKKJJ%%jjjkklkklkkkjjj%%%JJKJKKJKKJKJJ%J%%%j%
+-60762I46j%%%%%JJJKLLLLMMMNMMMMMMLKKKJJ%j%jkjkkkkjkjk%j%%%J%JJJJJJJ%Jj%%jjkj
+-60695I97kkkkjkjjj%%JJKKKLLMLMMMMMMLLLKKJJJ%j%jkjkkjkkjkjjj%j%j%%%%j%j%jjkjk
+-60628A013kkklklklklkkkjjjjj%j%%j%j%jjkkkkllmlmmmmnlmmlkkkjjJ%KKKLMLMNMNMMMM
+-60562I60MLKKKJJj%jkkkllmlmlmlmllkkkkj%%%JJKKLLMLMNMNMNNMMMMMLKLJJJ%%jkkklkl
+-60495I88llklkjj%%JKLMMNOPOQPQQPPPONMLKJ%jllnoppqqrrqrpqonnlkk%KKLMMNNONNNLM
+-60428A016KJ%jklnnpprqrrrrqqoommk%JKLNOOQQQQRQPPOMMKJjklnopqrj0j0j0j1j0rrrpo
+-60367H69ollj%KLMNOPPQQQRQPQOONNLLKJJ%jjjjkjkj%j%JJKLLLMMNNMNNNNMLMKKK%%%jkl
+-60300A033kmlmmmnmmmmlmlkkkkjj%j%%%j%%%j%jjjkkkkklkllkllkkkjk%j%JJKKLLLNMONO
+-60234I67OPPPPQPPQPOPOONMMMKKJ%jkkmmnopqqqrj0rj0j0j0rrrqqponmlkj%JLLMNOPQPRR
+-60171I63RRRQRQQQPONNMLLJJJjjkklmlmnnmnonnnnnnnmmmmmllklkjkj%j%%J%JJJJJJJJJ%
+-60104I59%%%jjjjkklklkllkkkkjj%%%JKKKLLLMLMLMLKKKJJ%%jkkkllllklkjjjJJKLMNOOP
+-60037I76PPQQPPPNNMLK%jlmnoqqj0j0j0j1j1j0j0j0qponlj%KLOPQJ0J0J2J2J3J3J4J3J2J2
+-59987A046J1J0RQONLK%jlmnnpqqqrrqrqpppnnnllkkjj%%%JJ%J%%J%j%j%jkjjjkjjkj%jj%
+-59923I47%JJJJKKKLLLMMNMNONOOOOOPOONONNMMLLJK%jjkllmnnoooppopooonnmmlkkjj%JJ
+-59856I74JKKKLKLKKKKKJJJJ%%%jjjjjjkjkkkjklkkklklklkklkkjkj%jJ%KKKLMMMNNNNONN
+-59789A005NMMMKKJ%%kklmnnopopppppoonnmllkj%JJJKLLLLMLMLLLLLKJKJJJ%%%j%jjjjkj
+-59723I60kjkkjkkkkjkjjj%%JJKKLMNNOPPPQQQQQQOONMLJ%jmnoqrj0j1j3j2j4j3j3j3j1j1
+-59666I07j0qonkjJMNPRJ1J1J3J3J4J3J3J3J1J1QPNLJkmoqrj2j2j4j4j5j5j4j4j3j1j0qol
+-59621H58kJKNPRJ0J2J2J4J4J3J4J3J2J1RQPML%jlmopqrrrrrqponmkj%KMMOPPPQQQPPNNML
+-59564A021J%jklnnnopoooonmlkj%JKLMNNOOPOPNONMLKJ%jkkmnnnpoopooonmmlkj%%JKKLM
+-59498I52MMMMMMMLLKKJJ%%jkkklmlmlmmlmllllkkkjj%j%%%J%J%%J%%j%jjjjkjkkkkkkjkj
+-59431I11%j%JJKKLLMNMONONOOONONMMLLKK%Jjjjkkklklkkkkjj%J%KKKKLLLLLKKKKJ%%jkk
+-59364A011llmnmnnnmnmmmlkkjj%%JJKKKKKJKJJ%%%jjkkkkklkjkj%%JKLLMNNOPOQPPPOPNN
+-59298A037NLLJJ%jkllmmnnnnnnmmlllkkjjj%%j%jjjkkklmmmnnnoonnnnmmlkkjjJJJKKLKL
+-59232I05LKKKK%J%jkjlkllmlklkkj%JJKLMNNOOOPPPPPOONMMLKK%Jj%kjkjjk%j%JJKLLLMM
+-59165A002NMNMNLLLJJ%jklmnooppqqqqpppnnmllj%JJLLMMNNNNNNNMMLLKKJJ%%jjkjkkkkk
+-59099I77kjkkjkkjkkkkklkllmllmmllllkkjjJ%KKLMNNOOPPPPPQOPOOMNLLKJJ%jkkklllml
+-59032A005lmlklkkkjjj%%%%%%%%j%j%jkjjkkkjkkkjjjj%%%JJJKJKKKKKJKJJJ%j%jkkkllm
+-58966I61mmmmmmmlmlllkjkj%%%JJJJKKKKKKKLKKLKLKLLLLMMMMNNNNONOOOOONNMMMKKJ%jk
+-58899A059lmnoppqqrrj0rrqqqoonllj%JLLNNPPPQRQQQPPONMLKJ%jklmnnoopooonnmmljj%
+-58834I51JKKMMMNNNNMNMLLKK%%jkkmlnnnnnnnnmmllkj%%JKKLLMNMNNNMNNMMLLLKKJJ%%jj
+-58767A016jkklklllmlmlmmmlmllllkkkjjj%%JJKKKLLLMLMLMLLKLJJJ%jjkklmlnmnnmnnmm
+-58701I35mllkkjjJ%KJLKLMLMMMMNMLMMLLLLLKKKKJJJJJ%%%jjjjkklkmlmmmnnmnnnnnmmml
+-58634I16llkkj%jJ%KJKKLLLLLMLMMLMMMMMMMMMLMMLLLKKJJ%%jkklmnnnpooppoonnmljjJK
+-58567I19LNOPQRJ0J1J1J1J1J1J0RQPOMLJjlmoqrj0j0j2j2j2j2j1j1j0qqomkjJKMOPQQJ0R
+-58517I65J0RRQPONMK%jkmnooqqqqqqponmmjj%JKLMMMMMLLLJJ%kklmnnoooonnllk%JKMNPQ
+-58451I26RJ0J0J1J1J0J1RRQONLJ%kmnpqrj0j0j1j0j0j0qpomk%KLOPRJ0J1J2J3J3J3J2J2J1
+-58404A050RQOML%kmoqj0j1j2j4j4j4j5j5j4j3j2j1j0qonlj%LLOOPQRRJ0RRRQQPOOMMLKKJ
+-58352A011%%%%jj%j%%%%%J%JJJ%J%J%j%jjkkkkkllklkkkkjjj%%%JJJJJKJJKJJJJJ%%J%%%
+-58286I96j%%%J%%JJJJJJJKJJJJJ%%j%kkkkmlmmmnmnmnmmlllkjjjJ%KJLKLMLMMMLMMLLLLK
+-58219I93KKJJJ%%jjjjkjklkllkmllllmlllmkllkkkjk%j%JJJKKKLLMLMMMMLMMLMKLKKKJJ%
+-58152I96%j%jkjkkkkjkkkjjjj%%%JJJKKKLKLLLKLLKKJK%%%jjlllmnnnoopoppoooonmmlkj
+-58085H98j%KJLLMNMONONONNNMMMKKKJ%%jjkkkkklkkkjk%j%%JJKKKKKLKLKKKKKJJJ%J%%j%
+-58018I89j%jj%j%j%%%J%JJJJJJJJKJJKJJKJKJKJKJKJKKJJKJ%J%%jjjklllmmnnnonnnnnml
+-57951I51lkj%JJLLMNOOOPPPPOOONMLKJ%kklnnoppqqqqqqpponnllkj%%KKLLMMMMNMMMMMLM
+-57884I75KLKKJKJJ%J%%%%%%j%jjjjjjkjjkjkjjjjj%J%JKKKKLMLMLMLLLKKJ%%kkkmmnoooo
+-57817I71pooonnllk%%KLMMOPPPQQQPPONNLKJ%kkmoooqqqqqqqponmlkj%JKLLMMNMNMLLLJJ
+-57750I64%jklmmnnnonnnmllkjJJKMMNNPOPPOPNOMLLJ%jklmnopppqqppponnlkj%JKMMNOPP
+-57683I20PPQPPPONNMMKKJ%jjklkmllmmlllllkkjjjj%%%%J%%J%%%%%%%%%J%JJJKKLLLNMOO
+-57616I82OOPQPPQPPOONNLLK%%klmnopqqrrj0j0j0rrrqponmkk%JKLMNOOPPPPPPONNMLKJjj
+-57552A016kkmmnnnnnnnmllkj%%JKLLMMMNMMMLLJK%jjllmnnooopopnonmmkkj%JJKLLMMNMN
+-57486I46MMMLMKKKJJJ%j%j%j%j%%%%%JJJJJJJJJ%%%jjjkkkkklkkjjj%JJKLMNNOPPPPQPPP
+-57419A040ONNLKK%kklnnppqqqrrqqpppnnllkjj%JJKJKKKKJJJ%%%jjjjjjjj%%JJKLLMMNNN
+-57353I74ONNNNMLLJJjjlmmoopqqqqqpppnnllj%JLLNOOPQQQQQQPOONMLKJ%jkkmmmnnnnnmn
+-57286I64llkjj%JKLMMNOOOPPQPPPPOONNMLKK%%kklnnoppqrrrj0j0rj0rqqqoonllk%%KLLM
+-57222I17ONPOPPPPPOOONMMLKKJJ%%%%jjjj%jj%%j%j%jjjjklllmnnonpoopoonnmlkj%JKLM
+-57155I20NOOPPQPPPONMLK%%kmmooqprqqqqpommkjJKMNOQQRRRJ0RRRPPNNLJJjkllnmnonmm
+-57089I83mkkj%KKLMNNNONOMMMKJ%jllnoppqrqrqppnnljjKKMOOQRRRRJ0RQQONMKJ%llnppr
+-57023A012rj0j0j0j0rj0qqoommkjjJKKLMLMMMMMLLLLKKJKKJKKKLKLMLMNMNMMMMLKJJ%kkl
+-56962A016mnopqqqqqqqpoommkjJJLMNNPPQQQQQPQOOONMLLKKJJ%J%%%%J%%J%J%%%jjjllln
+-56896A022noppprqqqqqpnnmkj%LLNOQRRJ0J0J1J0J1RQQNNKJ%lnoqrj0j1j2j3j2j2j2j0j0
+-56844I17rpnlk%KLOOQRJ0J1J0J1J0J0RQPNNLJ%jllnnnonnnmkkjJKMNOQRRJ0J1J1J1J0J0J0
+-56789A090QQONMK%jlmnoqqrrrj0rj0qrpponnllkjj%%%JJ%JJJJ%J%%J%J%JJKKKKLMMMMMNN
+-56725A027MNMMLLKJJ%jjllmmnooopppoppoonomnlmllkkkjjj%j%%%%J%JJKJKKLLLLLMMMMM
+-56659I64MMMLMKLKKK%J%%jjjkkkjkkkjjjj%%%J%KJKJKKKKKJKJJJ%%%j%jkjkjkklkkklkkl
+-56592I67klklklklklkklkkkjjjj%JJJKKKMLMMNNNNNNNNNMMMLLKKJJ%%%jjjjkjkjkkjjkjj
+-56525I98%jjj%j%j%jj%jjjj%jj%%%%%%JJJKJKKKLKKKKKJJJJ%%jjjkkkllllllllklklkkjk
+-56458I64jjjjjjjkjjkkkklklkllkkkkkj%%%JKJLLLLMMMNMMMMMLLKKKJJ%%%%jjjjjj%jj%%
+-56391I77%%%%J%J%%J%j%j%jkjkkklkkkkkkjjjj%JJJJKKKKKLKKKKJJJ%%%jjjjkjkkkjkjj%
+-56324I59%%%JJJKKKKKLKKKKJKJ%J%%jjjjkjkkkjkkkkjkjjjkjjj%jjj%j%%%%%JJJKLKMLNM
+-56257I77ONOOPOPOOONNMMLJJ%jklmnnoppqpqpqpoonnmlkjj%JJKJKKKKJJ%%jjlllnmonooo
+-56190I09nomnllk%%JKLNNNPPPQQPQPPPONMMLKJJ%%jkjkkkkjkjj%%%%JJJJ%J%%%jkkllmnn
+-56123I64noopoooonmmkkj%JKLMNNOPPPPPOPONMMLKJ%%kjllllllllkkjj%JJKKLLMLLLLKKJ
+-56056I97%%kklmmonpoppopnommkkjJJLLNNOOOPPOPONNMLLKJ%%jjjkjjj%%JKLMNNPPPRQQR
+-55989A066QQOONLKJjlmpprj0j2j2j3j3j3j4j2j3j1j0rpomkjKLMOQQRJ0J0J1J0J0RQQONML
+-55939A046J%jllnnnoooonnmlkkjJJKLLMMMNMMLLLJJ%%kklmmnnnnnnnmmmlkkjj%%%JJJJJJ
+-55873I60%J%jjjjkjkkkkjjj%%JKKLLMMNNMNNMMLLJJ%jklmnoopqqqpqpponnlkj%JLLMNOPP
+-55806I29PPPPPOOMNLLJJJjjkklkllllkljkj%%%JJJKKJKJJJJ%%jjklkmlmnmnmnnmnmllllk
+-55739I01jj%%JKJLLLLMNMNNNONNONONNMNLMLKKJ%%kjllmnnoopoppppoonnmlkk%%KKLMMNO
+-55672I27OOPOOOONNMLLKJ%%jkkllmlnmmnmmlmllkkjk%%%%JJKKKLLLLMLMNMMNNNMNNNMMML
+-55605A022LLKJJ%%kkkmmmnonooooonnmmlkkj%%KJLLLMMMNMMLMLKKJJ%%jjkkkllkllllklk
+-55539I60kjjk%jj%j%j%%jjjjjjjjjjj%j%%%J%KJKKKLKLKLKKJJJJj%jkklllllmllllkkj%%
+-55472I27JKLLLNNNNOOOONONMMMLKKJJ%jjjklklllllllkllkkkkkkjkjkjjjjj%j%%%JJJKKK
+-55405I66LLLMMMNMNNMNMMMLLLKKKJ%J%j%j%jj%jj%%%%%%J%J%%%%jjjkkllmmmnnnononnnn
+-55338I63nmllljk%%%JJKKKLLLLLLLLKLKLKJKJKJJ%J%%%%jjjjkklllllmmmmmlmlkkk%%JKL
+-55271I42MNOPPRRRRJ0J0RRRPPNNLJ%jlnopqrj0j1j1j2j1j1j1j0rqqommkjJKKMMNNONNNNM
+-55214I67LKJJjjlllmmnmmmlkk%JKMMOQQRJ1J1J1J2J2J2J2J1J0J0QPOMLKjklnoprrj0j0j1
+-55160A042j1j1j1j1j0j0rqqoonnllkjj%%J%KJKJKKKKKLKLLLLLLLMLMLMLLLKLJJJ%jjkkll
+-55100I87mmmnnmnmlmlkjj%JKKLMNNNOOOOOONNMMLKJJ%jjklkmlllllljk%%%KKKMLNMNMNNM
+-55033A037MLLJJJjkkmmnnopoppooonmllj%JKLNNOOQPQQQPPOONLLJJjklmnopppqpppponml
+-54967I70kjJJKLMNONPOOOONNMLKJ%jjllnnnooooonomnllkkj%%JJKJKKJKJJJ%%%j%kjjjjj
+-54900I68%%JJKLMMNNOPPPPPPOONMLKJ%klmnopqqrj0rrrrqppnnlkk%JJLKMLMMLLLKJJ%jkk
+-54834I61lmmmnmnmmlkkj%JKLMNNOPPPPOPONMMLKJ%jkllmmnmmnlmkkj%%KKLLMNNMNMNLLKJ
+-54767A012%%klmmooopqpppponnllkjJJKKMLNMNMMMMLKKJJ%jkjklkkkkjj%%JKLMMNNOOPOO
+-54701A001OONMMKKJjjklmnnonooonnmmlkj%JKKLLMNMNMMMLLKK%%jkllmnnnnononnmmmllk
+-54635I28jk%j%%%%%%j%%jj%jjj%%%%JKKLLMNOPPPQQQQQQPONNLKJ%klnopqqj0j0j0j1j0j0
+-54574I42rrqoomlj%KLMNPPQRRRRRQPPONLLJ%jkmmmooooooonmmlkk%%JJKLKLLLLKKKJ%jjk
+-54507I64llmmmnnnmmmlkj%%KLMNNPPRQRRRRRQQOONMLKJjjllmnnnooonnmmlljj%JKLLMMNN
+-54440A007NNNNMMMLKJJ%%kkkllmmmnmmmmlmlklkjkjjjjjjkjkjklklllllmllklkkj%jJJJK
+-54374I31LLMLMNMMMMMLLLKJJ%%jjkkkllllllkkkkj%jJJJJKLKLLLMLLLLKKLJKJJJJ%%%%%j
+-54307I99%jj%jjjjjkjkkkkklklllllllklkkjj%J%KKLLMNMONOOOOOONNNMMLKKJJ%jjjkklk
+-54240A033lllllllklklkkkkkkklkklkllklklkkkkjj%%JJJKKLLLLLLMLKLKJJ%%jjklllmmm
+-54174I66mnmlmlkkkj%JJJKLLLMLMLLLLKJJJ%jjjkkklkkljkjj%JJJLKMLMMNMMMMLLKKJ%%k
+-54107A007kkmlmnmnnmnmllkkj%%JKKKLLMLMLLLKKKJ%%jjkjklkklkjkj%%%KJKLKMLLLMKLK
+-54041A000K%Jjjkklmmnnnonnnmmlkkj%JKKLLMMMNMMMLLJK%jjllmnnnoopnonnllkj%JKMMM
+-53975I22OOPOPPOONNLLJJjjlmmooopopoonmlkj%JLMNPPQQRJ0RRRRPPOMLKJjklnooqqqrrq
+-53909I68qqpoomlkj%KKMMOOOPPQPQPPOOONMMLKKKJ%%%jjjkjkkklkllllmmmmmnnnnnnmnmm
+-53842I49mmklkjj%%%JJKKJKJKJJ%%jjkkllllmmllllkj%%KKLMNOOPQQPQQPPONMMKJ%jllmn
+-53775I99oooppopnnnllkj%JJLKMLMLMLKLJJ%jkkllmmnmmmlljj%JLLMOOPQRQRQRPPONMLJ%
+-53708A035jkmnoopqpqppoommkk%JKLMNNNNONMMLKJ%jllmooopqppoonmlkjJKLMOOPPQPQPO
+-53642I85ONMKK%jllnoopppqpooomlkj%JKLMMNNONMMMLKJ%jklmmmnonmnllk%%KLMNOPQRRQ
+-53575I79RRPPONMK%%lmnopqrrj0rrrqoonlljJJLLNMONNNNMMKK%%kklmnnnnmnmlkj%JKMMO
+-53509I30OPQQQPQPONNLJJjklmnooopoonmlk%JLMOPQRJ0J0J1J0J1RRQPMMJjknoqj0j1j2j3
+-53451A008j3j4j4j4j3j2j1j0rpnmkjJLLNNOOPOONNLLKJjjklmmmnmmmlljjJKKMNNOPPQPQP
+-53393I71OONMLKJ%jkllmnnnnmnllljj%JKKLMLMMMLLKKJ%jklmmonopoponnllk%JKMNPQRJ0
+-53327I54J1J2J2J3J3J2J3J2J2J1J0RQOOMLJ%jklmoooqqqqrrrrrrqqqpqooonmmlkkj%JJKL
+-53271I37LMMNNONOONONNMMLLJK%%jjkkllllmlllkkkkj%j%%%J%%J%%j%jkjlkklllllkkkjj
+-53204I45%%JJKLKLMLLLLLKJ%%jkkmmmnononnmmkk%JLMNPQRJ1J1J2J3J3J3J2J2J1J0RPOMJ
+-53147A100%kmnqrj0j1j2j3j2j3j2j2j1rronlkJKMNPQRJ0J0J0J0RRQPNMLJjlmopqj0j0j0j1
+-53097I84j1j1j0j0qqpnlkjJKMNNPQQRRRRQQPPNNMKKJ%%kkllllmlmlklkkjjj%%%%J%J%%%j
+-53034I92jjjkklklmllmlllllkkkj%jJ%JJKKKKKLKLKKKKJJJJJ%%j%jjjjjjjjjjjj%%%%%%J
+-52967I62%JJ%JJ%J%%%%j%jjjkjkjjkjj%jJ%JKKKLMMNNNOOOONOONNMLLKK%%jkkmmnnooopp
+-52900I95oppooonnmmllkkjjj%J%JKJKLKLMLMNNNOOOPPQQQQQPQQPOONMMKJ%jklmoopqrrj0
+-52834A032rj0j0rrrqqooomllkj%%JJJKKKKKKJKKJKJKJKKKKLLMMNNNNOOOONONMMMKK%%jkk
+-52770A049mmmnnnonmmmlkj%%KKLMNNNNNNMMLLJ%jkmmoopqrqrrqqponmlk%JLMNOOQQQQQQP
+-52704A013OOMLLJ%kklnnnooopnommlkk%JJLLMMNMNNNNMMLKKJJ%%jjjjkjjjj%%%JJJKJKJJ
+-52638A025JJjjjllnnoppqqrrqqqponmlj%KLMOPRRJ0J0J1J1J1J0J0RRPONMKK%kkllnmnnnm
+-52579A023mlkkjjJJKLKMLLLKKJJjjllnnppqqrqrqqponmkj%JLNNPPRRRJ0RRRQPONLLJ%kkm
+-52514A040nnoppppopnnmlkj%%KKMLMNMMMLLKK%jjlmmoopqqrqqqqppnmmkj%JKMMOOPQQQQQ
+-52448I56QPPPNNMLK%%jkllnnnoooooonnmmlkj%%JKLLMNNOOOOPONONNMLLKJJjjjkllmmmmn
+-52381I83mmlllkkj%%JJKLLMLMMMMMLLKJJ%jjklmnnoooppppoooomnllkjj%JJJKLKLLLLLKL
+-52314I28KKKJKJJJJJJJJKJKLLLLLMMMMMMLLLKKJ%%jkllmmnnononnnmllkj%JKKMMNNPOOPO
+-52247I86PNNNLLK%%kllnoppqqqrqqqppnnmkk%JKLMMOOPPQQPQPPPONNMMKKKJ%jjjkjlkkkl
+-52180I99kkkkkjkjkjjkjkjkjkjkkjkjjjjj%%JJJKKLLLLMLMLLMKLKJJJ%jjklkmlmmmmnlml
+-52113I60llkjj%%JJKKKKLLKLKJKJ%%jjjllllmmmnmmmlmkljk%%%JKKKLLLLMLLLKLKJJJ%%%
+-52046I60jkjkkkkkkkjkj%jJ%JKKLLMMMNNNOOOOOPONONNNMLLLJJ%%kkllnnnoppopppponnm
+-51979I61llj%JKLNNOPQQQRRQQQPONMKJ%kmnoqqj0j1j1j2j3j2j3j1j2j0j0rponlj%JLMNOP
+-51923I11PQRQQQQOPNMLLJ%jkklmmmnmnmmlkkjjJJJLLLMMMNMMMLMKLJJJ%%jjjkjkjjjj%J%
+-51856I90KJKLLLLMLMLLKLJJ%jjkllnnnopopppoponnnllkkj%JJKKLLMMMLMMMMLLLLKKKKKJ
+-51789I87JJKJ%JJJJJ%J%%%%%jjjjkkklllllllklkkj%%JJKLMMNNOPOPPPPOONNMLLJ%%jllm
+-51722A051monopoooonnmllkjjJJJKLKLLLLKKK%JjjklmmnnnooononmmlkjjJJKLMMNNNONNN
+-51656I76NMMLKJJ%jjklkmlllllkjjj%JKKKLLMMLMLKLJJ%jkkmmnoopppopoonmlk%%JLMNOP
+-51589I37PQRRQRQQPPNNLKK%jkllnmnononmmmlkjjJJKKMLNMNNMNMMLLKJJ%%jklkmlmmlmmm
+-51522I91llkljkj%%%JJJKKJLKKKKLKKKKJKJJJJ%J%jjjjkkklllmmmmmmmlmllkkjj%%JKKKL
+-51455I58LMLMLLLKJJ%%kklmmnonooonnmmkj%KLMOPQRJ1J1J2J2J3J2J2J2J1RRPOML%jknop
+-51397A077rrj1j1j1j1j1j1j0j0qpomlk%JKMMOOOPPPOPNNNLLK%Jjjkkklklkkkk%j%%JJJKJ
+-51339A011JJJ%%jkkmmmoooppqpppoonnlkk%JJLLMNNONONNMMLKK%%jlkmmmnnmnmllkj%JKL
+-51273I27MMOOPQQPQPPPONMLK%%jklmmnnonnnmmljj%JLLNOOPRQRRRRRQPPNMMJJjkmnopqrj0
+-51206A046j1j1j1j2j1j1j1j0rrppnmlk%JKLMNOPPQPQQPPPONNLLJJjjkmlnnnnonnnmlljjJ
+-51148I60JLMMOOPQQRQQQPPONLLJ%klmopqqj0j0j1j0j1j1j0rrqpommkjJJLMMNOOOONONMML
+-51088I80KJ%jkkmlnnnnonnnmllljj%%KKKLMMMMMMMLMLKLJKJJ%%%%%%%%%JJKJLKMLMMNNMN
+-51021A016NNNMMMLLKJ%%%kklmnmoooppppqppooonmmlkjj%KKKMMNNOOOOOOONMMMKJJ%kklm
+-50955A002nooppppppooommkkj%KKLMNNNOONONMMLJJ%jllnnoppqqqqpponmlk%JKLNOPQRRJ0
+-50889I36J1J0J1J0RJ0QQPOMMLJJ%kkllmnmnnmnmmmllkkjj%jJ%%JJJJJ%JJ%J%%%%%j%%j%j
+-50827I78%jj%jjjjkjkkkklklllmlllllllkkkjjj%%JJJKKLKLLLLLLMLLLLLLLLLLKLLKKLKK
+-50760I96KJKJJ%%%%jkkklllmmlmmmmlllkjj%%JKLLMMMNONNONNMMLLKJJ%jkklmmnnnnnnnn
+-50693I67nmlllkkjj%JJJKKKLLLLMMLMMNMMNNMNNNMNNMMMMLKKKJ%jjkkmmmnnooonoonmmll
+-50626I83kj%%JKKLMLMLMLKKJJ%kkmmnppqqrrrrj0qqqoonllj%JKLMNNOPOPPOOONMLLKK%%j
+-50560I63jkkklklkljkj%%%JKKLKMLLMLMLLLKKKJJ%%jjjjkkkkkkkkkkkkjjkjj%jj%j%%j%%
+-50493I49J%%J%JJJKJJKJKKJJJJJ%%%jjjjkkklkkkkjjjJJJLMMNOPPQRRRRRRQQPOMMKJ%kln
+-50426A077nqqrj0j1j1j2j1j1j1j1j0rqoonlk%%KKMMNONOOOONNMMLKKJJ%j%jjjjjj%%%JKK
+-50369I87KLLLLLMLKLJK%%jklmmonpppppppponmmkk%JKLLNOOPQPQQQPPOONMLKJ%%kkmlnnn
+-50302A002nnonnnmmmlkkjjj%J%JJJJJ%J%%jjjjkkllkmlllllllkljkjjj%%%JJJJKJKKKKKL
+-50236I24KLLLLLLMMMMMMMNMMMMMLLKKK%%%kkkmmmnoooooooonnmlljjjJJKLLLMMNMMLLLJK
+-50169I61%jjklmnnnoooonnmmkk%JKLNOPQRJ0J0J0J1J0J0J0RQPOMLK%klmnpprqrj0rqqpon
+-50110I33mkjJKMNOPQRRJ0J0RRQQONMKJ%kmnopqqrj0rj0rqppnmlk%JLLNOPPQQQQQQPONNLL
+-50047A035JJjjklmmmmnnmmlmkkk%jJJJKKLKLLKLKKKKJJJ%J%%J%%%J%JJJJJKJKJJJJ%%%jj
+-49981A031kklllmmmmmmlllkj%%JKLLNMONOPOOONNMLLK%%jllnnoopqpqqqpppoonmmllkjjj
+-49915I32%j%%%%j%jjjkjkjkjjjj%%JJLKMLNNNOOOOOONNNMLKKJ%%kkkmlmmmmmmlkkkj%JJK
+-49848I64KLLMMMMMLMKLJJJjjkllmnnnoooooonnmmllkj%%%KJLKLMLMMMMMLMMLMLLLLLLLLK
+-49781I97LKLLKLKLKKKKJKJ%J%jjjkkkllmmmnmnnmnnmmmllkjk%%JKKLMMNNOOOPOPOOONNMM
+-49714A048KKJ%jklmmnopopqpppponnmlkk%JJLLLNNNNNNNNMMKLJJjjjlllmnmnmmmlllkjj%
+-49648I56%JKJKKJKJ%%jjkmmnnpppqqrpqponmlj%KLNPPRJ1J1J2J2J3J2J3J2J1J0RQONKJjk
+-49591A037moqqj0j0j1j1j2j1j1j0rqpomkkJKLMNOPQPQPQOONLLJJjllnnopqqqqpqpoommlj
+-49533H70j%KKLMNNNOOOOOONNNMLLLKKJJ%%%%%j%j%j%%%%J%JJKJKLKLLLMMMNMNONOONOOOO
+-49466A062NNNNMLLKJJ%jjklmmmnonooononnnmmllkkkjjj%j%j%jjjkkkklllmllmllkkkj%%
+-49400I45JKKLLMMNNNONNMNMLKKJ%%kkllnnnnooononmmlkkjJJKKMMNNOOPPOPOPNONMLLLJJ
+-49333A043Jjjjkklllmlmllmklkkkkj%j%%%%J%JJ%J%%%%%jjjjjkkjkkkkkkjkjjjj%j%J%%J
+-49267I68JJ%JJJ%J%%%j%jjkjkkkkklkkkkkkkjkjj%j%%%%%%J%J%J%JJ%JJJJJJJKKKKKKLLL
+-49200I68LLLMLLLLLLKKKJJJ%%%jjjjkjkjkjjk%jj%%%J%J%JJJ%%Jj%jjjkjlklkllllkkkkj
+-49133I58j%%%JKKLKLMLMMLMLLLKKJJJj%jkklklmlmmmlmlmlklkkkjjjj%%%J%JJKJKKKKKKL
+-49066I64LKLLMLLLLLMKLLKKKKJJ%%%%jjkkkkkllkllllklklkkkkjkjjj%%%%JJJKKKLLMMNN
+-48999I93NNOOOOOONNNMLKK%%jkmmnpoqqrrrrrqqppnnlkj%KKMMOOPPQQPQPOONNLKJJjkklm
+-48932A022mnnmnmnllljj%JJKLLMMNMMMLLLKJ%jjkmmmonpopppoponnmmkljj%JJKKKLLLLLL
+-48866I47LLKKKKKKJJKJJJKJKKKKKKLKLKLKKKKKJJ%%%jjjkkkkkkklkkjkjjj%%%J%JJJKJJJ
+-48799I91JJJJ%J%%%%j%j%j%j%j%j%j%%j%jjjjjkjkklkllllkllkkjjj%JKKLMMOOOPQPQQQQ
+-48732A032QPOONMLK%%kkmnnppqqrrqrqpponmlkjJKLMNNPPPPPQOOOMMKJ%jlmnoqqrj0j0j0
+-48669I65j0j0j0qqponlk%JLMOPQQJ0J0J1J0J1J0J0RRPONLL%%kmmooqqqrrqrqqponmmkk%%
+-48612I20JKLLMMMMMNMLMLLKKKJJJ%%%%%%%%%%J%%J%J%%%%%jjkkklllmlmnmmmlmllkkj%%J
+-48545I21JKLLLMMNNNNNNONNMNMMMMLLLKLKJKJJ%%%%kjkklmmmnnonopoopnonnmmlkj%%KKK
+-48478I29MMMNNONNNNNMLLKKJ%%%jkkkkkjkkj%j%JJJKKKLKLKKKJJJ%jjjklllllmlllkkkjj
+-48411I64%%JJJKJKJJJ%%jkkllmnnonoonmnlkj%JLMOPQRJ1J1J2J2J3J2J2J2J1J0RQPNLKJj
+-48354A095llnooppppppnnmllj%%JKKKKLJJJjjllnoqqj0j0j0j2j1j1j1j0j0rponkj%KMOPQ
+-48297H91J0J0J1J1J1J1J1J0RQPONLKJ%kkmlmnmmllkk%JJKMMMONONONMMLKJ%kklnnnpoopo
+-48238I88nnllk%JKMMOOPQQQQQOOOLLJ%klmopprrrrj0qqponmk%%LLNOOQPQQQPOOMLK%jkmm
+-48172A029opqprqqppoomkk%JLLNNPOPPPPNNMLK%jlmnopqrrrrrqponlkjKKNOPRJ0J0J1J2J1
+-48110I93J1J1J0RPONL%jlmpqrj1j2j3j3j3j3j3j2j1j0ronljKLOQRJ2J3J4J5J6J7J7J6J7J5
+-48065A058J5J3J1J0QOLKjmnqrj2j3j4j6j6j7j8j7j7j6j6j4j3j2j0qomk%KLOPRRJ1J2J2J3
+-48022I42J2J3J2J2J1RRQPNMKK%jklmmmnnnnnmmllkjj%%JJJJKJJJJ%%jjkkklkllllkkj%%J
+-47960I68KLMMOOOQPQQQQPPONMLLJjjklnnooppoppoonmlkkj%JKKKLLLLLKKJJjjkllnnoooo
+-47893I74pooonmmlkj%JKKLLMMMMMLLLJJ%%kllmmnoonoonmmmkk%%KKLNNNOPPPPPPOOONMLL
+-47826A004LJJJ%%jjjjjjjj%j%%j%%%%j%jkjkklllllmllllkjj%JJKLMNNOOPPOPOONMLLJ%j
+-47760A043kmmoopqqqrqpqoonllj%JLMMOOPPQPQPPONNMLKJ%jjkkklllkkkj%%JJKKLLMLLLL
+-47694A039KKJ%%kklmmonopoonommlkj%JLLLNNNONNNMLLJ%kknnoqrrj0j0j0rj0qppmlkJKN
+-47632I07OQRJ1J3J3J4J4J5J4J4J3J2J1RQOMK%klopqrj0j1j1j2j1j1j0j0qqoomlkj%%KJKK
+-47584I51KKJJJj%kkllmlnmmmlllkj%%JKKLLMLMMLLLKK%Jjjkklkllkkj%JJLNNPQRJ0J1J2J2
+-47520A013J2J2J2J2J0J0QPNLJ%knoprj0j2j1j3j2j2j2j1j0qqomkjJLLOOPPQPQOONLK%kln
+-47469A012pqrj1j2j2j3j3j3j3j1j1j0qonljJKNOPRJ0J1J1J2J2J1J2J0J1RQPONLKK%jjkll
+-47422A008llmlllllkkkkkkkklllmmmnnoonooonnmmkkj%JKMMMOOPPPPPPPNOMLLKJ%jjklkm
+-47356I65lllllkkj%%JJKKLLKLLLKKJJ%%kjlllmmmmmnlmlkkj%%JKKLMMMMNMNMMMMLLKKKJJ
+-47289I90J%%J%j%%%%%%%%%%%%%jjjjjkkkkkkjkkj%jJJJKKMLMNMNNMNLMLKJJjjllmnnopop
+-47222I79poonnmkkj%JLLMMNNONNNMLKJJjllnnppqqrrqrpqonmlkj%KKLMMNNMNMLLKJ%%kkl
+-47155I20mnmnmnmlkk%%KMMOPQRRJ0J1J0J0J1RRQPOMLKJjjlmmnnnnnnmmlkj%%JKLKLLLLKK
+-47093I99J%%kklmnoooppppponnmlkkj%JJJKKKKJJJ%%jkkkllllkkjjJKLNOPRJ0J1J1J3J3J3
+-47031I96J3J2J2J1J0QONK%kmoqj0j2j3j4j4j5j5j5j3j3j2rqpmj%KMOPRRJ0J0J1RRQPNLK%
+-46983I91kmnpqrj0j0j0rrqpnljJKNPRJ0J2J3J3J4J4J4J3J2J0RPML%kmprj0j2j3j3j5j4j4
+-46936I43j3j2j1rpoljJMNPQJ0J1J1J2J1J1J1RQOMLJjlnoqrrj1j0j1j0rrppmljJKMNPQQJ0
+-46884I36RJ0RRQPOMMK%jkmnnopppponnllj%JKMNNOPPPPPOONMLKJjjklmmnnonnnmllljj%J
+-46818I55KKKLLLKLKKKJ%%jjkkllklllkkjj%%JKKKLLLLLLKKJJ%jjkklmmlmmllkj%%KLMMOP
+-46751I73PQQQQQPPOMMK%jkmopqrrj1j0j1j1rj0qpnnkjJLMOPRRJ0J0J0J1RJ0QPOMKJ%kmnp
+-46694A023qqrrrrrppomkjJKNNPRRJ0J1J1J1J1J0RQPOMKJjlmoprrj0j0j1j0j1rrqpomlk%%
+-46639I35KLMMNNNNMMLJJ%kkmnopqqqqrpqonmlj%KLOOQJ0J0J2J2J2J3J3J2J2J1J1RQONLK%
+-46583A066jlmoopqqqrqqponnlk%%KLMNNOPPPPPPONNLLK%%kklnnnpoppqppoponnmmkljjj%
+-46517I37%JKJKKLKLLLLLLLLLLLMLLLLLKLKKKJ%Jj%kkkllmnmnnnnnmmmlkjj%KKLMMOOPQPQ
+-46450A002QQQPPONMMKJ%jllnnppqqrrrrj0rqqqpoomnllkjj%%%JJJJJKJKJJKJJKJKJKKKKL
+-46385I31LLLLMLMMMMMMLMLLLKKKJJJ%%j%jjjkjkjkjkjjjj%j%J%JKJLKLLMMNMONNOONONNN
+-46318A066MMLKJ%%kllnoppqrj0j0j0j0j1j0rrqqoomlkjJJLLMNNONOONMMLLJJjjkllmmmmm
+-46258I49mlljj%KKMNOOQQQRRQRPPONMKJ%kmmopqrrrj0j0rrqpoomkkjJKKMMNMONMNMLLKK%
+-46193I77%%kjklklkkkjj%JJKKLMMLMMMLKKJ%jjllnnooopoponmllj%KLMNOQQQRRRQQPONMK
+-46126A029J%kmmooqpqqqpoomlj%KLNOPRRJ0J1J0J1RJ0QPOMKJjlmopqj0j0j1j1j1j0j0rqp
+-46072I46nmkj%LLNOOQPQPPOOMLKJjlmnpprrrj0j0j0rrppnnkkJJLMOOPQQQRQRPQOOMMLKJ%
+-46008A005jjkllllmlllllkjk%j%%J%JJKJJJKJJJJJJKJJJKJKJKKJKKJKJJ%Jj%jkkkllmmmm
+-45942I76mnmmmlllkjj%%JJKLKLLMLLLLLKKJK%Jj%jjjjkkjkjkjjjjj%jj%jjjjkkjlklklll
+-45875I34lkkkkj%%JKLLMNNOOOPPOPOONMMKKJ%kkllnnnooonomnllkk%JJKLLMMNMNMMLKKJ%
+-45808I95jkkmnnoopppppoonnllk%%JKLMMNONONONMMLLK%%jkkmmmnonoonnmmmkkj%%KKLLM
+-45741I09NNNNNNMNLMKKJJ%jkklmmmnmnnmnlmlkkjj%%JKKKKLKLKLKJKJ%%jjjkkkklkkkkj%
+-45674I02%JKLMMNOPPQQQRQQQPPONMLJJjklmnnpppqpqpponnlljjJKLMNOOPPPQPQOPONNMLK
+-45607A039K%%%jkkkllllllklklkkjkkjjkjkjkjkjkjkjjj%%%%JJKKKLLLLLKLKKJJ%%jkklm
+-45541I97mmnnmnnmllkj%%KKMMNNOPOPOOONLLKJjklmnopqqqrqqqoonmkj%JLMNNPPPQQPPPO
+-45474A005NMLLJJ%jkkkklkkjj%JKKMMMOOOOOOONMMKJ%jllnooqpqqqpponmlj%JLLNOOPOPP
+-45408A034ONMKJ%kmoprj1j2j3j4j5j5j5j4j4j3j2j0rpnkjKLOPJ0J0J2J2J3J4J3J3J3J2J0
+-45365I92J0QPNLKJjkmmnnoooonnmmkkj%JJKLKLLLLLKJK%Jj%jjkjjk%j%JKKKMMNOOOOPOOO
+-45299A049NNLLK%%klmmoppqrqrrqqqpponmmlkjj%%JJJKJKKJKJKKJKKKKLLLMMMNONOOOOOO
+-45233A027ONMMLKJJjjkmlnnoooononnmlkkjJJKKMMMNNMNMMMKKJ%%kllnnooppppqpooommm
+-45167I26kjjJJKLMMNNOOOOOOONNNMLLKJJjjjllmnooppqqrrrj0rrrrqqqoonmlkjJJKMMNOP
+-45101H64PQRQRRRRRQQQPOOOMNLLLKJJJJ%%%j%jjjjjjkjkkkklkllllllllllklkjkj%j%%J%
+-45034I50JJJJJJJJJ%J%%%J%%%J%JJKKKLLLMMNMNNMMNLLLKJJ%jkkllmmnmnmmmlkjj%JKLLM
+-44967I93NNONONOMNLLJJjjllmnooppopoonmlljjJKKMMMNONNNNMLKKJjjkllmnnnmnmmlkjj
+-44900I70JKLLMONOOPONOMMKKJjklmnoopqpppponmlj%JKMNOPQRRJ0J0RRRRPPNNLLJ%jkkmm
+-44835A079mnnononnnnnmnmnmnmnnonooopopooonmmljj%KKMNOPQRRJ0J0J0RJ0RQQOOMMKJ%
+-44773A046jklmmmnnnmmmllkkj%%JJJJJJ%Jj%kkllmmnnonnnnmmlkj%JKKMMMNONONMNLKK%j
+-44707I87jlnnooqpqqqppommlj%KKNNOPQRRRRRRPQONMLJJ%kklmnmnnnmmllljj%JJKKLLKLL
+-44640I80KKKJJ%jjkkklllllkkk%jJKKLLNNNOOPOOOONNMLLKJ%%kjkllllllklkjk%%%JJKKK
+-44573A025KLKLKLKJKJJ%%%jjjkjkjkkjkkjjjjjjj%jj%jjjjjkjjkjkjkjkjjjjk%jjjjjjjj
+-44507I86kkjkklklklklkkjjj%%JJKLLLMMMNNMMMMLKKJ%jjklmmmnnmnmmmkkj%JLLMOOPQQR
+-44440A011RRRRQPPONMLJJ%kklmmnnonnnnmlmkkjjj%%%J%%%jjjkllmmnonooononmmkkj%JK
+-44374I42LMMOOPPPPPPPOOMNLKKJjjjlllmmmmmmmlmklkjkjj%%j%%%%jjjjkjklklklllklkk
+-44307I46kkkj%j%%%%%JJJ%JJJ%JJ%JJ%J%JJ%JJJJJJKJJKJJKJJJKJJJKJKJKLKLLMMMNNONO
+-44240A033NOONNMMLKJ%%klmnopprqrrj0qrqponllj%KLMOPPRQJ0RRRRPPOMLKJjllnopqqqr
+-44176A009qqqppnmlkj%KKMMNNOOONNNMLKK%jjllmnonooooonmmlljj%%JKKLLLLLLLKKKK%J
+-44110I78%%jjjjjjjjjj%%J%KJKJKKKLJKKJJJ%Jj%jjjjjjjjj%%%%JJJKJKKKJKJJ%%%jjlkl
+-44043I90lmmmnmmmmlkljj%JJJLLLLMMLMLKKKJ%%kkllmmnnnnnnmllkk%%KKLMNNOOPOPOOON
+-43976I98MMKLJ%%jjklllmlllllkjjj%%JKKKKKLLKKLKKJJJJJ%%%J%%JJJKKLKMLMMNMNMNML
+-43909A066LLKJJjjjllmmnnonoonnnmmllkjj%J%KJKKKKKJK%J%jjkkkllmmmlmmmllkkkjjj%
+-43843I55JJJJKKKKKJKKKKJKJKJKJJKKJKKKKLKLKKKKKKJJ%%%jkjkllllllklkkj%%JJKLMMN
+-43776A010NONOONNNMLKJ%jklnooqrrj0j1j1j1j1j1j1j0rrqoonmljjJJKKLMMMMLMMLLKKKJ
+-43718I25J%%%%j%j%%%%JJJKKLKMLLMLMLLKKKJJ%jkkkmlnmonnononnmmmlkjj%JKKLMNNOOP
+-43651I27PQPQQQQQPPPOONMMLKJ%%jklmmmonopoopooonnmmlkkj%JJJKLKMLLLLLKKKJ%%%jk
+-43584I69kkllllklkkjjJJKLMMOPPQRJ0RJ0J1J0J0RRRPPONLLJjjlmmopqqrrj0rj0rrrrpqo
+-43524I67onmllkj%%%JKJKKKLKKKJKJKJ%JJ%%%%%%j%%%j%%%%j%%j%jjjjkjkklklllllklll
+-43457I25kkkjj%jJJJJKLLLLMLMMMLMLMKLLKJKJJJJ%J%%J%J%JKJJKKKKKLKKKJJJJ%jjjkll
+-43390A004lnmnnnnnnnnmlllkj%%JJKLLMMMMMMMLLLKJJ%%kkklmmmnnnnnomnmmmllkjjj%%J
+-43324I04KKKLLLLMNMNNNNOONOONOONNMNLLLKJ%%jklmmonppppqpppponnmlkk%JJKLLMNMNM
+-43257I48NMMMLKKJ%%jkjlklklkkkj%%JJLLMMNNNONNOMMMKKJ%jkkmmnoopoppooonmmlljj%
+-43190I23JJJLKLLLKLLKLKKJKJJJJKJJKKLKMLMMMNMNMMMMLKKJ%jjllmnnoopoppooonnmlkk
+-43123I34j%%JJKKKLKLKKLJKJK%JJ%J%JJJJJKJKKLKKKKJJJ%jkklmnnppppqqqpoonmlj%JLN
+-43056H94OPQJ0J0J1J1J1J2J1J1RRQONMJJklmopprqj0rqrppnnljjKKMNOPPQRQRQPPONMLKJ
+-42998A044%jkllmmmmmmlllkjj%J%KJKKJKJJ%%jkkklmmnmnmnmlllkj%JKKLMNNNOOOONNNMM
+-42932A028LKKJJ%%jjjjjjj%%%JJJKKLKLKLKKJJ%%kjllnmnooooooonnmllkj%%JKKLLMLMLL
+-42866I96LLKKJ%%%jjkkkkkkkjjjj%%JJJJKJKJJJ%%%jkklllnmnmnnmmmlkkjjJJJKLLMMMML
+-42799I66MLLKJJ%jjkllmmnmnmmmlljjjJJLLMMNOOPPOPPOONNNLMKKJ%%%jkkklklllllllll
+-42732I94lkllkklkkkkjkjjj%%%JJJKKLKLLMLLLLLKKJJJ%jjkklllmlmmmlllkkjj%JKKKLMM
+-42665I75MNMNNMMMMLLKKKJ%%%%jjjjj%jj%j%%%J%JJJJJ%JJ%J%%%%j%%j%%%%%%JJJKJKKKK
+-42598A040KKJKJ%Jj%jklkmmmmnnnnnmnlmkljj%JJKLLMMNMNMNMMLLKK%%%kkllmnnnnononm
+-42532I75mmlkk%%KKLNNOPQQRJ0J0J0J0J0J0RRRQPNNMKJjklnoqrj0j1j2j2j4j3j4j4j4j4j3
+-42481I59j2j1j1rqonmjjJLLNOPQQRRRQQQOONMLJ%jkmmoopqqqqrpqponmlkj%JLMMOPPQRJ0
+-42418I53RJ0J0J0RJ0QRPPOOMLKJ%jllnnppqrrrj0j0j0rrrqponmlj%JLMNPPRRRJ0J0J0J0R
+-42362A010QQONMLJjklnoprrrj0j0rrrqonml%%LMNPPRJ0J0J0J0J0RRQONMKJjlmooqrj0rj0
+-42305I84j0j0rqppnlkj%KLNNOOQPPPPONMMLJJjjkllmmlmmlljjjJJLLLNNNNONOMNLLKK%jj
+-42240A036kllmmnnmmmmlkkj%%JKKLKMLLLLKKKJJ%%jjjjjjj%%JJKLLMNOOOOPOOONMKKJjll
+-42174A088ooqrj0j1j1j2j2j2j2j1j0j0qpnml%%KLNNPPPPPPPNNMLJ%%kmmmooopoonnmllj%
+-42118I31JKKMMMNNNMMMKKJ%jklmnnoooponnnlkj%JLLNNPPQPQQPPPNMMK%%jlmmonpoopnnn
+-42051I42llj%JKLMNOPPQPQPPPONMMLJJ%jjkkllklkljjj%%JJKKLKKLKKJJ%jjkklmmmnnnmn
+-41984I90lmlkj%%JJLLLMLMMLLKJ%%kkmmoopqpqqqppnnlkjJKMNPQRJ0J0J1J1J2J1J0J0RPP
+-41925A056NLKJkkmoopqrrqrqqpnnmkj%KLMNNPPPQPPPPONNLLKJJjjjkklkllkkkkjjjj%%j%
+-41859A028%%jjjjkkkllmlmmlmllkljjj%%JJJKKJKJK%%%jjlkmmmnmnnnmllkj%JKMMNPPQRR
+-41793I89QRRQPONMKJjkmnpqrj0j1j1j1j1j0j0rqpnlkjKLMOPQQJ0RJ0RRQPONMK%%llnnopq
+-41735I83ppppnnmkk%JKLMNNONONNNLKJ%jkmnnpppqpppnnljjKLOPQJ0J2J2J3J4J5J4J4J4J2
+-41677A069J2J0RONLJjlnoqj0j0j1j2j2j2j2j1j0j0qpomlj%JKLMNMNNNNLMKKJ%%kkklllml
+-41623I82kkkj%JJKLLMMNNNMNLMKK%%jllmnoopoppponnmlkj%JKLMMNONOONNNMMKKJJjjjlk
+-41556A003lllllkjjj%JKLLMMNNNONNNNMLLKK%%jkkllmmnmmnlmllkkjj%%JJKJKLKKKKKJJ%
+-41490A021Jj%kjlklmlnmnnnnnnnnnnmmmlkkk%%JKLLNNOPPQRRRRJ0RRQQPONNLJJjklmoopq
+-41425A041qrqrqrpppommlkk%%%JJKJJJJ%jjkllmnnnonnnnllkj%KKNNOQQRJ0J0J0J1J0RRP
+-41364A013PNMLJjklmoppqqqqqpoomlkjJKLMNOOPOPPONMMLJJjjllmmnnnmmmkkjJJKMMOOOP
+-41298A001PPOONMLKJjkmnpprj0j0j0j1j1j0j0rqpnnljjKKLNNNOOONNMMKJ%jllmooopopoo
+-41239H96nllk%KKMOOQQRJ0J0J0J0RRQPOMMKJjjlmmnononnnmkkj%JKLMNNOOONNNMMKJ%jkm
+-41176A016mnppqqqrqqqpponmlkjj%KKKLLMMMMMLMMMLMLMMLMMNNNNNOOOOOONNMLLJJjklnn
+-41110A043pqqj0j0j0j1j0j1j0rqppmmk%JLMNPPQRJ0RRRRQPOMMLJ%jlllnnmnnmmlkj%JKMM
+-41052I93NOOPPPOPNNLL%%klnpprj0j0j1j2j1j2j1j0rqpomkjJLMOPPRJ0RJ0J0RRQPONLKJj
+-40996A028klnnoopppoonmljjJLLNOQQQJ0J0J0J0RJ0QQPONLKJ%jkmmnnoopooonnmmlkkj%%
+-40935A011%J%JJJJ%%%jjjkklllmllllllkjjj%%JJKKKKKLKKKKKJ%%%%jkjkkkkkkkkjjj%jJ
+-40869I76%JJJJKJJKJJJ%%%%%j%jjjjjj%%%JJJKKLKMLLMLLLLLKJK%%%jjkkklkllkkkkj%%%
+-40802A000JJKKLKLKLKKJJ%%jkllmmnonononnnllkk%JJKMMMNNOONNNMLLJJjjlmmooppqpqp
+-40736I46ppnnmlkj%JKKMMMMNNMMLLKK%jjklmnmonnnnmmkkjJKKNNOQQRJ0J1J0J1J1J0J0J0
+-40677A031RQPONMLKJjjkllnmnnnonmnmnllllkkjkjj%jj%j%jj%j%%j%%%%J%JKJJKKLKKLKL
+-40611A010KLKLKKKKJJKJ%JJ%%%%%%%jj%jkjkjlkllllmmmmmmmmmllllkjjj%JJKKKLLLLLML
+-40545I86LLKLKJJJJ%jj%kjkjkkkkkkjkkkjkkkkklklklllmlllklkjjj%%JKKLLMLMMMMMLLK
+-40478I69JJjjkllnnnooponnnmkk%KKMOPQRJ0J1J2J2J2J2J1J1J0RPPMLJ%lmopqj0j0j1j1j1
+-40424I87j1j1rrqpnlkjJLLNOOQPPQPONNMKJ%jllnnooopoonnllk%JJLMMNNOONNMLKJ%jlnn
+-40359I74pqrrj0j0j0j0rqqnnkjJMNPRJ0J2J3J4J5J5J4J5J4J3J2J0QPMK%kmpqj0j1j3j3j4
+-40313I85j4j5j3j4j2j1rqomk%JMNPQJ0J0J1J2J1J1J1J1RQQOMLJ%jkmnooppppponnllk%JJ
+-40260I47LMMNOOPPOPOONNLMKK%%%kkklllllllkkjj%JJKKLLMMMNNMNMMMMLLKKJJ%%jkjklk
+-40193A062lmllmmlmmmlmmlmlmllmlkllkkkkjjj%%%JJKKKLKLMLLMLLLLLKJK%%%jjkllmlnm
+-40127I93nnnnnnmnmmlmklkkkjj%j%%j%%%%%%%%%%%%J%%JJJKJKKKLKLLKLLLKLKKJJJJ%%%j
+-40060I71jjjjjjjjj%%%%JJJKKKKKKKKJKJ%Jj%jkkklmlmlmmmmllllkkkj%j%%%%J%J%%%%%%
+-39993I27jj%j%j%J%JKLLLNNOPPQQRRRQRQQPOOMLKJ%kllnooppqpqpooomllj%JJLMMNNNONO
+-39926A018NMMLKKJ%jkklmlmmmmmlkkj%%JKKLLMMMLMLLKJJ%kkkmnnooopoooonmlkk%JKKMM
+-39860I64OOOPOPPOOONMMKKJ%%kkkllmmlmmlmklkkkjj%j%%%%J%%JJ%JJJJKKKLLMMNNONPOO
+-39793A060POONNMMKJ%jkmnopqrj0j1j0j1j1j0j0j0qqonlk%JKMNOPQQRRQQQOOMMK%jkmmop
+-39735A024qqrrrrqqpommlj%JKLMNONOOOONNMLKK%%jklllmmlmlkkj%JKKMMOOOQPQPPPPONM
+-39669A064LKJ%kkmnnppqqqqrqqppoonmlkkjj%JJKJKKKLKKKJKJJJJJ%J%J%JJ%JJJJJJJJJJ
+-39603I79J%J%%%%jjjjkjkjkjjk%jj%%%JJJJKKKKKKLKKKKKKJKJKJJKJJKJKKKKKLLLLMLLML
+-39536A048MLLKLKJJJ%%jjkklllmmmmmmnmmmmmmllllklkkkkkkkjkkkkkkkkkkkkkkkkkkjkj
+-39470I28jjjj%j%%%jJ%%%%J%%J%%%J%%%J%%%%%J%%JJ%JJKJKKKLLLLMMMMMNMMNMLMLKKK%J
+-39403A012jjklllnnnnoononnnmlljj%JJLLMNNNOOONOMNMLKJJjjkkmmmmnnmnlmkkj%JKLMM
+-39337I66NONPOONOMMLKJ%kkmnoopqqqqpppnmlkjJLLNPPQRJ0RJ0J0RRQOOMLJjklooqrrj1j0
+-39274I89j1j1j1j0j0rppnmlj%JKMMONPOPOPNONMLKKJ%%jkkklkkkkkj%%%JJKKLLLKLLKLJK
+-39212I93J%%%jjkjkkkkjkj%%%%KJKKKLKLKLKJJJ%%jjkkkllklkkkj%%KKKMMNNOOOONNNLLK
+-39145A049%jlmnpqrj1j1j3j2j3j3j3j2j2j1rqpnlk%KMOPQRJ0J1J1J2J1J1J0J0QPOMLJ%kl
+-39097A003nooqqqqqqppnnlk%JKMNPPRRJ0J1J0J1J1J1J0J0RQQOONMLLJJJ%%%j%j%%%%J%JJ
+-39039A093JJJJJ%%%jkkllmnooppqqqqqqqpppnnnlljj%JKKLMMMNNNNOMNMMLLKKJ%%jjkkll
+-38973A014mlmmmmmllllkkj%jJJJLKLMMMMNNMNNMNMLLLKK%%%jklllnmonooooooonnnmllkk
+-38907I43%%JJLLLMNNNOONOOONOMNMLLKJJJjjjklllmmmnnmnmnmmlmlkljkjj%%J%KJKJKLKK
+-38840I77LLKLLKLLKLKLKKLKJKKJJJJ%Jj%jjkjlkllmlmmmnmmmmmlllkkk%jJ%KJLKLMMMMMM
+-38773I87NMMMLLLLKJK%Jj%jjkkjlkkkkkkjjjj%%JJKKLLLMMMNNNNNNNMNMMLLKK%Jjkklmno
+-38706A062opqqqrj0rj0rrrrpqonnmkj%JKLMNOPQQRRRJ0RRRRQQPOONMLKKJ%%kjlkmlmmnmn
+-38643A045nnnnnonnononnonnnnmmmllkjj%JJLLLNNOPOQPQQQQPPPONNMLKJ%%kklmnnnoooo
+-38577A013oonnnmmlkjj%%KKKLMMMNNNNNNNNNMNLMLKKKJ%%%jjkkllllmmmmlmmllllkkkjj%
+-38511I98%%JJJKJKKLKKKKKKJKJ%J%%%jjjjjkkkkkklklllllllmlmmlmmlmllllkkjj%%JJLL
+-38444I42LMMNNOONONONMMLKKJ%jkllmmnnoononmmmkkj%JKLMMOOOPPQPPPOONNLLKJJjjkll
+-38377A043lmmnmmmmmllkkk%j%%J%JKJJKJJJJJ%J%%j%j%jjjjjjjjjjjjjkjkjkkkklklklkk
+-38311I62lkkjkjj%%J%KJKKKLKLLKLKKKKJJJJ%%%%%%%%%%%JJKJKKKKLKKKJK%Jj%kklmmnno
+-38244I82ooopooonmmlkjjJKKMMNOOPPPPQPPPOOONMMMLLKLKKJKJKKJKKJKJJJJ%%jjklmmnn
+-38177A051opppqqqqppponmmkkjJJKLMMNMNOMNNLMLKJJ%%jjkkkkkjk%j%JJKKLLMLMMLMKKK
+-38111A034%%jklmnooopppooommlj%JKMNOQQQRJ0RRRQPNNLJ%lloprrj1j2j3j2j3j3j2j2j1
+-38055I21rrpnmk%KKNNPPRQRRQRPPONLLK%%jkllllllkjj%JKLMMOOPQPQQPOONNLJJjkmnnpq
+-37988A039rrrj0j0rj0rqppnnmkkj%%KKKKLLKLKKKJJJJ%J%%J%JJKKLLMMNMONNNNNMLLJJ%k
+-37925A024llnooqqqrrrrqppnnlj%JLMOPQRJ0J1J1J1J2J1J0J0J0QPNNLJJkkmnopprqrrqrq
+-37868I76ppponmllljjj%jJ%%J%%%%%%%%%%J%JJKKLLMNMOOOPPPPPPPPONOMMLLKJJ%jjkkll
+-37801A052lllmlmlmlmlllmlmlmlmmmmnmmmmmmlllkjjj%JJKKLLLLMLMLLKKJJ%%jkklmmmmn
+-37735I41mmmmlljjjJJKLMMNNOONONNNLLKK%jkkmmnooopoooonmlkk%JKKMNOOOQPQPPPPONN
+-37668A005MLKJ%%kkklmlmmmmllllkjjj%%%JJJJJJJ%J%%%jj%jkjjjjjj%%J%KJKKLLLLLLLL
+-37602I95KKKK%J%jjkklllmllmlllkjk%%%JKKLLLMMMMLMMLKLKJJ%%jjjkkllkllllklkkkjj
+-37535I74jjj%%%%%%%J%%%%%%%%%%%J%%JJ%JJJKJJJJJJJ%%%%jjkkkklllmlllmklkkjjj%JJ
+-37468I41KKKLLLLMLMLLLLKKKJ%Jj%jjjkjkkjkjjj%jJ%J%KJKJKKKJKJKJJ%%%%%jjjjjjjj%
+-37401I86jj%%J%JJJKKKKKKKKKKKJJJJ%J%%%j%j%%%%%%JJJKJKLKLLLLLKKKKJJ%jjlkmmonp
+-37334A018ppqqqrqrqpqooommljk%JJLKMMMMNNMNMLMKLJJ%%jjklkllklkkj%%JKKMNOOPQRR
+-37268I93RJ0RJ0RQQPPNLLJ%jlmooqqrj0j0j0j0j0j0rqpoomljjJKKMMNNNONNMMLKJ%jklnn
+-37209I74opqqqqrqqpoonlljjJKLMNNOPPPPPPOPNNMMLKKJJ%%%j%j%%%%JKKKKMLMLMMMMLMK
+-37142A026LKJJ%%jkjkllkllllkkkjjj%J%JJJKJKJJJ%%%jjjklkllmllmllkkkjj%J%JKKKKL
+-37076I79KKKKJJJ%jjkklllmmmmmlllkkj%JJLLLNNNNOOONOMMMKKJ%jkmmmooppppqpooomml
+-37009I19kjJJKLMNOOOPPPOPONMMLLJ%%kklmmnmnonmnmlljjjJKKLMNNOPOPPOPOONMMLLJJ%
+-36942A049jkkllmmnmnnmmmmllkkj%%%JJKKKLLLLLLLLLLLLLKLKKKKKJJK%J%%jjkkllmmonp
+-36876A013opqqqqqpppoommkk%JKLNNOPQQRQQRPPONLLJ%klnnpqrrrj0rj0qqpnmlj%KMNOQR
+-36812I38J0J0J1J0J1J0RQPOMKJjlnpqrj0j1j2j2j2j2j2j0rronlj%LMOQRJ0J1J1J2J2J2J1
+-36766I89J1RRPNMKJjlmnoqqqrrrqpponmkk%JKLLMNNNMNMLLKK%%kkklmlmmmlklj%%KKLNNO
+-36700I63OQPQQQPPPOONMLKKJ%jjjkklkkkjkj%j%%J%%%%%jjkllmnooppqqqqqpponnlk%%KL
+-36633I23MOOPQQRQQQQOOMLK%jkmnoqqrrj0rj0rqqoomlj%KLNOPRRJ0J1J1J2J1J1J1J1J0RQ
+-36577A054QOOMLLJ%%jkllmmmnnnnnnonnnnnnmnmnmmlmklkkj%%JKKKMMMNNONOONOMNMLKJJ
+-36511A038%kklmmonpoppppoonnmlkj%JKLLNNNOOPOPOOONMMLKKJ%jkkkmlmmnmnmmlmklkjj
+-36445I74%J%KKKKLLLMLLLLLKKKJJJ%%jkjkklllllmllmllklkkkjjjj%%J%JJJKJKKJKKKKJK
+-36378I85KJKJJKJJJKJJJJJJJJJ%JJJJ%JJ%%J%%%%%%%j%%j%%j%%j%%%%%%%%%%J%J%JJJJJJ
+-36311A019JKJKKJKKKJKKJKJJJ%J%jjjjklklmlmmlmmmlllljkj%%JKKKLLMMMNMMMMLLLKKJJ
+-36245A047%%jjkkkklkkkkjjjj%J%JKJKJKJJJJ%%jkjllmmmmnnnnmmmlkk%%%KKMLNNNONOON
+-36179A025NMMLKJJ%jkllmmmnnmnmmlkkjj%JKKLLMMMLMLLKKJ%%kklmmnnooooonnnllljj%K
+-36113I50KKMMNNONOONONNMLLLJK%%%jkkkkkklkkkkjkj%j%j%%%%%%%%jjjjjkkkkkklkkkkj
+-36046I73jj%%%JKKKLLMMNNNNONNONNNMMMLKKJ%%kkllnnoppprqrqrrqqqpoonmkkjJJLLNNO
+-35979I37PPQQQQQQPPONNLLK%%jllmnnoooppopoonnmmlkkjj%%JJJKJKKJKKJJJJJJJ%J%J%J
+-35912I57JJJJKKKKKLKLKLLKLKKKKJKJ%JJ%%J%%JJ%KJKKKLLLLMMMMMMMMLLKKJJ%jjklmmmo
+-35845A049nopopppoooonnmllkk%jJJJKKLKLLMLLKLKKKKJ%J%j%jkjkkkkklkkllkllllkmll
+-35779I44llmllmlllkkkjj%%JKLLMNOOPQPQRQQQPPOOMLKJjjlnooqrrj0j1j0j1j0j0rqpnml
+-35718H90j%LMOPRJ0J1J3J3J3J4J4J4J3J3J1J1RQONLJjklooqqj0j0j1j0j1j0j0j0qqponmk
+-35671I44k%JJLLMMNNNONNOMNMNLMLKLKKKJKJJ%J%%%%jjjjkllllmmmmnmmnlmllkjj%JKKLM
+-35604I83MMNONONNNMMLLKJ%jjlllmnnnnnnmmmkkk%%JLKMMNONOPOOOONNNMLLKJ%%%kkkllm
+-35537A061mmnnnnnnnnnnnnmmmmlllkjj%%JKKLMMNNNOPOOOONNMMLKJjjklmnoppqqqqqqppo
+-35471I52nnlkk%%KKLMMNNNONNNMMMLKKKJ%%%j%j%%%%JJJKLKMLMMMLMMLLKJJJjjjlllmmnm
+-35404A028nnmmmllkjj%%JKKLKLMLLLLKLKJJJ%%jjjkjkjjkjj%%%%JJJKJKKKKKJKJ%J%%%jj
+-35338A040jkjkkkjkkjjkjj%jjj%jjjkkkklmlmmnnnnmnnmmmlkkjjJJKKLMNNNOOOPOOOOONN
+-35272A025NMMMLKLKKJJJJJ%%%%%jjjjkkkkllllllmllllkkjk%%%JJKKLLKLLLKKJJ%jkklmn
+-35206A018oopqqqqqpqponnmkk%JKKMNNOOPPPPPOONNMMKLJJ%%jjjjjkjjj%j%%%J%%J%j%jj
+-35140A004kklmmmnnooononnmmlkj%JKKMMNOOOPPPOOONNLLKK%%jkkklllmlklkjjj%%JKJLK
+-35074I93KLKKKKJ%J%jjkkkklllklkkjk%%%JJKKKKLLKLKKJJJ%%jjjkkkkkkkkjj%%JKJLKLM
+-35007A000LMMLLLLJK%%%kkllmmnnnmnnmllkk%%JJLLMNNNONOOONNNMMLLKJJJ%%jjkjkkkkl
+-34941A039klkllllmlmmmnmnmnnmmmmllkjj%JKKLMMNNONOONNNMLLKJ%%jklllmmlmlkkj%%K
+-34875I91LMNNPQQQRRRRRQPONNLK%jjlmnoopqpqpqpopnnnlmlkkkkkkkkllmlnnnnnnnnnllk
+-34808I22j%KKMOPQRJ0J1J1J3J2J2J2J2J1J0RQONLKjjmnoqrrj0j0j0j0j0rqqonlkjJKLMON
+-34756I92PPPOPONNLLK%jklmnnopopooommlkjJJLMMOOPQQPQPPPNNMLK%%jllmnoooopopnon
+-34689I99mllkk%%%KJLKLLMLLLMKLLKKJKJJ%J%J%%%%%%%%%j%%jjjjjkjkkklkkkljkjjj%JJ
+-34622A004KLLMMONOPOPPPPOOONNLLKJJjjlllnmonononomnmllkjj%%JKJKKKKKJKJ%%jjjlk
+-34556A044lmmmmmmmmmllkkjj%J%KJKKLKKKKJJJJj%jjkkkklkjkj%%JKKMMNOPPQQRRQRQPPO
+-34490A113NNLK%%klmmooppqpqoponmllj%%JLKMLMMLLLJJ%kkmooqrj1j1j2j2j3j4j3j3j2j2
+-34433I03j1j0qpnmkjJLNOPRJ0J0J2J1J2J2J2J1J1J0J0QQPNMMKK%%jjkkkkkkkjj%%JJJJKK
+-34379A037LKKKKJJ%%jjklmmmnooopopoooonnmlljk%JJJLLMMMNNNNNNMNMLLLKJJ%jjkkllm
+-34313A002lmmmmlllkkj%%JKLLMNNOOOPOPOONNMMKKJ%jklmmnooopoopnnnmlkk%%JKKLMLNM
+-34247A000MMMMLKKKJ%jjkkllllmllkljk%%%JKKKLLLLLLKKJ%%%kklmmmnnonnmnllkj%JJLM
+-34181I66NNOPPQPQPOOOMMLJJjjllmnnononnnllkk%JKLMNNOOPPOPONNMKKJjjllnnpopqpqp
+-34114A009poommlkk%JJLLLMMNMNMMLLLKJ%%%jkkklklklkjkj%%%JJJKJKKJJJJ%jjkklmmmn
+-34048I90nnnonmnmllkjj%JKLKMMMMNMMMLLLKJ%%jjkllmmmmmmlmllkkj%%%JJKKKKLKLKKLK
+-33981I69KKKJKKKKLLLMMMONOOPPPPPPOONMLKJ%klmopqrj0j1j1j2j1j2j1j0rqpomk%JLNPP
+-33922I57J0J0J1J2J2J3J2J1J1J0RQOMLJjlmopqj0j0j0j1j0j1rrroonkk%JLLNOOOOPONNML
+-33871A027K%%klnnoqpqqrpqpnnmkj%JLMNPOQQQQQQPOOMMKK%jkkmmmnnnmmmlkk%%JKLLLMM
+-33805A003NMLMKLJ%%kkmmnnoppoponnnlkk%JKKMMONOOONONMLKK%%kllmnnoononnmlkj%JK
+-33739I49LMNNPOPPPPPNNMLKJ%jllnnoopppppoonmllj%JJLLMNNOOOOOOONNMMLLKKJJ%%%j%
+-33672A035jjjjjjj%jj%%j%%%%%%%J%JJKKKKLLLMMNMNNNNMNLMKKK%jjllnnppqqrrrrrrqpp
+-33606I80nnllj%JKLMNOOOPPOPONNNLLKJJjjjkklkllkkkjjjJ%KJKLKLLLLKLKJK%J%jjjjkk
+-33539A053jkkjjj%%%JKKKLLLMMLMLMLKKKJJ%jjjkklklllllkkkkkjj%j%%%%%%%%j%jjkjlk
+-33473A043klllllmllllmlllklllllllllmlllklkjk%%JJLLMNOPQQRRJ0J0J0RJ0QQPOMMJJk
+-33411A095knoprj0j0j2j2j2j2j2j2j0j0rqomljJKMOPQJ0J0J1J2J1J2J1J1J0J0QPOMLK%jk
+-33365A086mmoopppqpppoonnllkkj%%JJKJKJKJJJ%J%%j%jjjj%j%%%%JJKKKKLLKLLLLKKKKJ
+-33299A030J%%%jjkkklllllllmllllklkkkjjjj%%J%JKJKKLKLLMLLMLLLKLKJJ%%jkkllmmnn
+-33233I94nnnnnnmllkk%%KKLLNNNOOOOOONMMLKJ%jjllmnnnnonnnmmkkj%JKLMMNONOOONOMM
+-33166A031LLJJ%jkllmmmmmmmlkkj%JJLLMMONNONOMMLLJ%jkmmooqqrrj0rrrrppnnlj%JLMO
+-33101I41PQRJ0J1J1J1J2J1J1J0J0RQOOMLJ%jkmnnppqrqrrqqqopnmmljjJJLLMMNOONOOOOM
+-33043A036NMLKKJj%kllmmnnononnnmmlkjjJJLLMNNOPPPPQPPOOOMNLKKJJjjjkllklmlkllk
+-32977A060kjkjjjjjjjjkkklmlnmononoonommmkkj%JJLMMNNNONONMMLK%%klmnopqqrrj0qr
+-32912I35qponmkjJKMNOPRRRJ0J0J0RRQPPNMKK%%kllmmmnmmlkk%%JKLMMNONONNMMKK%jlmn
+-32848A042oqrj0j0j1j1j1j1j1rrqomlk%LLOPQRJ0J1J2J2J1J2J1J1RRPPMMKJ%jkmlnnnnnn
+-32797A032mnllkkj%%%JJJJJJ%%%jkkllmnmononoonnmmmllkjj%%%JKJKKJKKKKKKKKKKKKKK
+-32731I65LKLLMLMLMLMLLLKKJK%%%jkjklklkkkkjj%%KJLLMMNONOOONNNMMLKJJjjklmmmnno
+-32664A039nnnnmmlkkjjJJJKKLMLMLMMMLMLLLLKLKKKKKJKJKJ%J%%%jkkkmmmnoopppqppppo
+-32598I81onmkkj%JLLMNOOPPOPOONMMKK%jjllmnnnnmnllkjJKLMOOQRRJ0J0J0RJ0QPONLJjk
+-32535A119norrj2j3j3j5j5j5j5j5j4j3j2j1qpnljJKNPQRJ1J1J2J2J3J2J2J1J1RQPOMLJJj
+-32490A078klmnnnnonnnmmlkkjj%JJKJKKLKKKKKJJJJ%%%%%%j%jj%jjjjkjkkkklllmmmmmnm
+-32424I81nmmmllkkk%%JJKLLMMNNNONNNNMMLLLKJ%%%jkjlkllllllllllklkkkkkjjkjj%j%%
+-32357I70%%JJJKKKLKLLMLLMLKLKKJ%%jjlkmmmnnnonnnmmlkk%%JLLMNOOOPQPPPOONNMLKJ%
+-32290A049jjkllmmmmmlmkljk%%%JKKKKKKJK%JjjkklmnmonooonnmmlkjJJKLMNOPOQPQPQOO
+-32224A031ONLLKJ%jkkllmmmlmkkk%%JLLMOOOQPQQRQPPPNNMKK%%klmmoopppqppqooonnlll
+-32158A018jj%%JKJLKLLLKLLLLKLKKLKJKKKJJKJJJ%J%%jjjjlklmmnnnopopppoppooonnmll
+-32092I44kkj%%JJKKLKLLLLLLKKKKJJ%J%jj%kjjjkjjjj%j%J%JJJKKKKKLKKLKKKJKJJJ%J%%
+-32025A002j%%j%j%%J%JJJKKLLLMMMMMNMNMMMLLKKJJjjkkmmmoooppppqppooonmlkk%JJLLM
+-31959I66NOOPPQPQPPOONMMKJJjjlmmnoppppppoonnmkk%%KLLNOOPPPPPPONNLKJ%klmopqrj0
+-31892A007j1j1j1j1j1j0j0qqonmk%JLNOPQRJ0J1J0J1J1J0RRPPNMKJjklmnpopqppponmlkj
+-31839I60%KKMMOOOPOPONNMKKJjklmnoppqqpqopnmlkjJKLMOPQQRRRJ0RRQQOONMLKJJjjkkl
+-31773A070lkllkljkjj%%%%%%j%kjlllnnnppppqqppponmlk%%KLNOOQQRJ0RJ0RRRPPONLKJ%
+-31709A070kllnopppqpqpqoonnmkkk%%KJLLLMMNMNNNNONNNONNNNNMNMMMLLKJJ%jkkmmnnpp
+-31643A055pqpqqpponnllj%JKMNNPPPQRQPQPNNMLJJjllnnopoqpopnnmlj%JLLNOPPRQRQRPQ
+-31577A092ONMLJ%jkmnoppqrqqrpqoonmlkj%%JKKKKLKKKKJ%%jjkkklkllkkkjj%JJKKLLMML
+-31511A012MMLLKKJJjjklmmmnnnnnnmlkkj%KKLMNOOOPPPPOOOMMLJJ%%klllmmnmmlllkjjJJ
+-31445A021JLKMLMLMLKKJJjklmnoqqrj0j0j1j1j1j1j1j0rrppnmkj%KLMNPPQRRRJ0J0J0J0R
+-31391I91RQQQPONNMMLLKJK%J%J%j%%j%jjjjjjkjkjkkjkkkkjkjk%jj%%JJJKJKLKLLLLLLLL
+-31324A070LKLKJKJJ%%jjjkkklllmmmmmnmnmnnmnmmmmlmklkkkj%j%JJJKKKLLLMLMMMLMMML
+-31258A029LLLLKKJJJ%%%jjjkklkllmlmmmmmmmmmmmmlmlllkkkkjj%%J%KKKLLMMNNOOPOPQP
+-31192A027PQPQPOPONNMMLJK%jjllmmnopopppppponnnmlkjj%JKKLMMMMNMNMNLMLKKKJ%%jj
+-31126A055jjkkkkkjkjjj%%%JJJJKJJKJJ%%%%jkkkllllmlmmllllkjk%j%JJJJKKKJKJJJ%%j
+-31060A012jkklkmlmlmllllkjjjJJJKLLMLMMMMMLKKJJ%jkllmnnnooooonnmlljj%KKMMNOOP
+-30994I70QPQQPPPOONNLLKJJ%%jkjkkkjjjj%JJKLLLMNMNNNOMNMMLLKJ%%jkllmmnonoopooo
+-30927A043ononnmmmmllllklkkkkkjkjkj%j%%%JKJKLLLLMMMNMMMMMLLKKK%Jjjjkkklllllk
+-30861A007kkjj%JJKLLMMMNNNNNMMMLLJK%%jkkklmllmlkkkj%%JLKMMNNONOONNNLLKJ%kkmn
+-30795A093ooqqqrrrqqqpommljjJKLMNNOOPOOONMMLK%%jklmmnooononnnllkj%JJLLMMNNNN
+-30729A019NNNNLMLKKJJ%%j%jkjjjj%j%%%J%JJJ%J%%jjkkllmmnnoooopnonnmmkkjjJJKLMM
+-30663I70MNNNONNNNMMMLLKKKJJ%J%%J%%%%J%%J%%%%j%jkjlkllllmlmllllkjj%JJKLLMNNO
+-30596A026NOOONNNMLLJJ%%kkllmmnmmnlmlkkjj%JKKKLKLLLLKKJJ%jjkkllmmmmmllkkj%%K
+-30530A013KLMMNONOOONNMLKK%jklmnoppqqqqqppnnmlj%JKMNOOQQQRRQQQPONMLKJjklmmop
+-30464A065ppqqqqqpponnmlljj%%JKKLLMLMMMMMMLMLLLLLKKKKKJKJ%J%J%j%jkjkkkklllll
+-30398A021lllklkkjjj%JJKKKMLNMNNNONONNNMMLKKJ%%kkllnnoooppppoooommlkk%JJLMMN
+-30332A000OOOPPQOPOONMMLKJ%jkkllmmmmmmmlkkj%%JJKLLLLLLLKKJ%%kkmmnnpopppppnnm
+-30266I83kk%JLMNPPRRJ0J0J0J0RRPPNMJ%jmnprj0j1j2j3j3j3j3j3j2j0j0qonljJLNOQRJ0
+-30215I69J1J1J1J1J1J0RQPOLL%jkmnoppqrqpppnnlk%%KLMNOOPPPPOONMMKK%jjklmmmmmml
+-30154A026lkkj%JKLLMMNNMNNMLLJJJjkkmmnnnonnnnmlkjjJJLLMNNONOONNMMLKK%%kkklmm
+-30088A060mmmlllkk%%%KKKLLLLLLKJJ%jklnnopprqrj0rqqqpnnlkjJKLNNPPQQRRQRQPPONM
+-30023A053LKK%%jkkklllklkkjj%%%JJJJKJJ%Jjjjkllmnnnonooonnmmlkj%%KKLMMNONOOON
+-29957A013OMNLLLJJ%%jkkllllllllkkkj%jJ%KJKKLKLLLKLLKKKJKJ%J%%%jjjjjkkklkllll
+-29891A015mmlmmmmlmlllkkj%%%JKKLMMNMNONNNNMMMKKK%%kkllmnnnoononnmllkk%%JKLLM
+-29825I78NMNONNMNMLLKKJ%jjkkllmmmmmlmmllkkkjjj%%%%J%JJ%JJ%%J%%%%%J%%JJJJJJKK
+-29758I91KKKKKKKJJJJ%%%%jjjkjjkj%j%%JKKKLMMMNNNONNMNLMKK%%%kklmnmnnonmnlmkjj
+-29691A010JJKLMNNOOOONOMMLKJjjlnnppqj0rj0j0rj0qqpomljJKMNPQJ0J1J1J3J2J3J3J2J2
+-29637A082J2J0J0QPOMKK%kkmmonpooponnnmlkkj%%JJKJKKJJJ%%jjkklmlmmnmmmmllkkjj%
+-29574A016J%KJKLKKLKKKJK%J%%%j%jj%j%%%JJKKKLLLMMLLMKLJJJjjklmnnoppqpqppppnnn
+-29508I74lkkj%JJKLKLLMKLKKJJ%%jkkkllllkkkj%%KKLMMOOOPPPPPONNLLJ%jkmmopqqqrrr
+-29441I86qqpommkj%KLNNOQPRQRQQPPONLLJJjkkmmmnmnnmllkjjJJKLMMMMMMMLKJ%jklnopr
+-29374A015rj0j0j1j1j0j0j0rppmmj%LMOPRJ1J2J2J4J4J4J4J3J3J2J1J0QPNLK%klnopprqr
+-29327A050rqqppnmlkj%KKLMNNNNMNMLKKJ%jlkmmnnonnnnmlkj%JKMNNPQQRRJ0RRRQPPNMLJ
+-29262A118%klmopqrrj1j0j1j1j1j0j0rqponmkk%JKLMNNOOPOPONOMNLLKJ%%jjklllllllkl
+-29203A010kjjjJ%JKLKLMLMMMMMMLMKLKJK%J%j%jkjkjkjkkjjjjj%j%j%%j%jjjjkklklmmln
+-29137A011mmnnmmmmllkkjj%JJKKLMMMNNNNONNNNNMMMLLKKKKJJ%%%%%jjjjjkkklkmlmmnno
+-29071A018ooopopopoonnmlljjJKKMNOPQQRJ0J0J0J0J0J0RQQPPNMLK%%jklmnmonnonnmmmk
+-29011A033kkj%J%KJKKKJKJJ%j%kklmmmnnnoonnnmmmkkk%%JKKLMMMNNNNNNNNMMMMLLLKLKK
+-28945A057JKKJKJJJJJJ%%%jjkkklmmmnnnononnmmmkkjjJKKMMNNOPOPPPONOMLLKJjjklmmo
+-28879A060noononnnllljj%JKKKLMLMLLLKKJ%%jkklllmmmmmllkjj%JJLLMMNONONONNMLLKJ
+-28813A069Jjjkklmlmmmmlllkj%%JJKLLLLMMLLLKKJJ%jjkkllmlmlllkkk%%%JKKKLKLLLKJK
+-28747A053%%jkllmnnoopoonommkk%%KLMOOPQQRQRRQQOONMLK%jjllnmnnnnmmllj%%KLLNNO
+-28681A069OPPPOOONMLKJ%kklmnnooooonnmlkk%JKLLNNNOOOONNMMKK%jjllnnoppppqppooo
+-28615A035mmmkkj%%%JJKJKJJJ%%%jjkkllllmmmlmlmlklkkjk%j%%%JJJKKKLLLMMNNOOPPQR
+-28549A047QRRJ0RJ0RRQQPOOMLKJjklmnoqprrrj0rrrqqpnnmlkj%JJLLLMMMMNLMLLKKJJJ%%
+-28486A074%j%%j%J%JJKKLKLMLLLLLKKK%%jkklmnnoppppqppppoonmmlkjj%%JJKKLKLLLLLL
+-28420A017LLLLKLKKKKKKKKJKJKJ%J%%%%jjjjkjkjkjjj%%%JKKLLMMMNNNNNNNMLLKK%%jkkm
+-28354A106mmnnonnnnmllkj%%JKLLMMMNMMMLKKJ%jjlmmnoopppqpoponmmmkkjj%%JJ%JJJ%%
+-28288I92%jjjkkkkkkkjjjJJJLLMNNNOPOOONNMLLJ%kkmmoopqpqpponnlj%KLNOQRJ0J1J2J2
+-28225A042J2J2J1J0J0QONLJjlnpqj0j1j2j2j3j3j3j2j1j1qqnmj%KMOPRRJ1J1J1J1J1J0RQ
+-28180A071POLL%jlmnpqqrqrrqponmlj%KLMNNPOPPPOONMKK%jkmnnppqrqqrpqonnlkjJKLMN
+-28114I68OPQRQJ0RRRRRQQQOPNNNMLLKKKJ%J%jjjjklkmlmmnnnonooononnnmllljjj%JJKKK
+-28048A027LKLKLKKJJJ%%%jjkjkkjkj%jJ%KKLLMNMONOOOONOMNLLKKJ%jjkklllmlllkljkj%
+-27982A086%JJJJKJKJJ%%%kjlmmnnppppqqqqpponnmlkj%JKKLMMNNMNMMMLKJJjjkllmnnnnn
+-27916I88nmllk%%KLMNPQJ0J0J1J2J3J3J3J2J3J2J2J0J0QOOLK%kmnpqrj1j2j3j3j4j3j4j4
+-27870A037j3j2j1j1rqpomlk%JKLLNNNONOOONNNMMLLLLKKKKLKKLKLLLLLLLLKKJJjjklmnop
+-27808A060qrrrj0j0j0j0rqponmk%JLNOPRJ0J1J1J2J2J2J2J0J1QQONLJjlmopqj0j0j1j1j1
+-27760A025j0j0rqpomkjJLMOPPRRJ0J0J0RRQQONMLJ%jkllnmnnnmmlljj%%JKLLLLLKKKJjjk
+-27699A069lnnppqrrrrqrpoomkjJKMNPRRJ1J1J2J3J2J2J1J1J0RPOMLJ%klnooqqrqrrqppon
+-27642A019nlljj%JJJKJKJJJ%jjjkllmmmmmmllkkj%%KKLMNNNOOOOONNMLLKJ%jkklmnmnnnn
+-27576A009nmlmkjj%JKLLNNNPOPPPPPPOONNMMLJJJjjklmmnonpppppppppooomnllkj%%JKKL
+-27510I82MLNMMNMMMLLKKJ%%jkkklmlmmlmllkkk%j%JJKKKKKKKKJJ%jjkkllmmmnmmmllkj%J
+-27443I56KLNNOPQRRRJ0J0RRQPPNNLK%%klmnnpopqppooommmkkj%J%KJKKKKJJ%%%jkklllmm
+-27378I90lmmllkkkj%J%KKKLLLMLLLLKLJKJJ%J%%%%%JJJKKLLMMNNNNOONNNNMMLKKJ%%jkkk
+-27311A091lklllllkkkkjjj%j%%jjjjkkkllmmnmnnnmnmllkjj%JJKLMLMNMMMLLKKJ%jkkmmm
+-27245A017onooonnnmlljjJJKLLNMNONNNNNMLLKJJ%%jjjjjj%%%JKKLMNNOOOPPPOOOMNLKK%
+-27179A119%kklmmnnnonnnmmllkjjj%JJJJJJJ%%%jjkklllmlmmmlllkkkjj%%%J%J%%%jjjkl
+-27113I99llmmmnmmllljjJJLMOOPRRJ0J1J0J1J1J0J0RQPNNLJ%kkmnoppqppqoonmlkj%JKLL
+-27053A033MMMMMLLJJ%jkllnnoooooommlk%%KMMOOQQQRRQQPOOMLK%jklmnoooonnmmkjJKLM
+-26987A051OPQRRRJ0RRQPONLJ%jmnoprrrj0j0j0rqponlj%KLNOPQRRRRQQOOMKJjknoprj0j1
+-26927A089j2j2j2j3j2j2j1j0qqonlk%JKMMOOPPQPQPPPOONNNLMLLLKLKKLKKLKKLKKJKJ%%%
+-26869A121jjklkmlmlmmlmklkj%%%KKKLMLMMLMLLKKJJ%jjkllllmlmlkkkjjJJJKLLMLMMMLL
+-26803A116KKJJjjkkmlnnnnonnnmmllkjj%%JJKJKJKJJJ%jjjjklklklkjk%%JKLLNNOOPPQPP
+-26737A106PPNNMLK%jkmnnpqqrj0rrrrqpoomljjJJLMMONOPOOONNMMLKJJj%kkklllmllkljk
+-26672A054jj%J%KJKKKKLKKLKKKJKJJJ%J%%J%%%%j%%%%j%%jj%jjj%jjjjjj%j%%%%%%J%J%%
+-26606A076J%%j%jkkklllmlmnmmmlllkjj%JKLLMNNNOOOONNMMLKJ%jklmnnopoopnnnlljJJL
+-26540A026NOPRRJ1J1J2J2J2J2J2J1J0J0QOOLKJklmoprrj0j1j2j1j2j1j1j0j0rqqonmlkj%
+-26493A017%KKKLLLMLMLLLLLKLKKJKJJKJJ%JJ%J%%%jjjjkkkllmlmmmmmnmlmlllkkjjj%%JJ
+-26427A006KJKKLKKLLKLKLKKLKKKKKLKKKKKKKKKKJKJJJ%J%%j%jjjjjjjjjjj%j%%%J%J%JJ%
+-26361A074%J%j%jkjklllmmmmnmnmnmmmlllkkkj%j%%%J%J%JJ%J%%%J%%%J%JJKJKLLLMNMNN
+-26295A037ONONNNNMMLKJJ%%kkmlnnnonooonnmmlkj%%KLMMNPOQQQQQRQQPOOOMLLJ%jjlmnn
+-26229A123opppqqpqppoonmlkk%%KKLLNNNONOOONNMMLLJJJjjklllmmnmmmmlllkjjj%%JKJK
+-26163A054JKJKJJ%%jjjkklkllllkkk%jJKKLMNNPPPPQQPPPONMLKJjjlmnopqqqrqqqppommk
+-26097A025j%JKMMOOOPQPPPPONNMLLJJ%jkkkllllllkkkjj%%JJJKJKJKJ%J%jjkkkmlmmnmnm
+-26031A063nmlllkkj%%JKKLLMMMNMNNMNMMMMLLLKLJKJJJ%%%%jjkkkkllmmmmnnnnnnnnnmml
+-25965A039lkkjj%JJKLLLLMMMLMLLLKKJJ%%jjjkkkklkkkjkjj%j%J%J%J%%Jj%jjkkkllllml
+-25899A030mllkkkj%JJKLLMNNNOOOOONNMMLKJ%jjklmmnnnonnnmmllk%jJKKMLNNNOONONOMM
+-25833A097MLKKJ%jjkllmmmmmnmmmlllkjjj%JJKLKLMMMMMMMMMMLLLKJJJ%jjklllmmnnonon
+-25767A061onnnnmlllkjj%JJJKLKLLLLLLKKKJ%%%jkkllmlmmmmmllljk%%JKLLMNOOPQPQRQQ
+-25701A088QQPPPONNLLKJJjjklmmnooopppppqpopoonnmllkjj%JKKLMMNNNNOONONNNMLLKKJ
+-25635A103%%jjlklmlmmmlmllkkk%jJJJKLLLMMMMMLMLLLKJJ%%jjklllmmmmmmnmlmllkljjj
+-25569A041j%J%JKJKKKKKKKKKKKJKJKJJJ%JJJJ%JJJKJKKKKKLLLLLMLLMLLLKKKJJJj%jklll
+-25503A130mnmnonononnnmmllkk%j%JJKKKLLKLKKKKJ%%%jjkkllllllklkkjj%JJKKLMMMMNN
+-25437A078NNMMMLLKJJ%%jkklllmlmlllkkjj%JJKKLLMLMNMMLMLLKKJJ%%jjkkkklkkkkjjj%
+-25371A101%JJJKKKLKLKKKJJ%%jkllmnnopppqqqqppppnnmlkj%JKLMNNPPQQQRRQRQQPPNOML
+-25305A137LK%%jklmmnnoopopooooomnmllkkj%%JJJKKKKLKLKLKKKKJKJJJJ%%J%%%%%%%%J%
+-25239A073%%J%J%JJJJJJJJKJKKKKLKKLLKLLKLKKKJJ%%%jklllmnnoopopppoponnnllkjjJJ
+-25173A014KKMLNMNNNNMMMLLKK%%%jkllllmmmmlllkkjj%JKKKMLMMNMNMNMLLLKJJ%jkkkmmm
+-25107A073nnonoononomnmllkkj%%JKKLLMMNNOOOOOPOOPONONNMMMLLKKJJ%J%j%j%jjj%%j%
+-25041A125J%JJJJJKJJJJJJ%%jjkkllmmnnoooooopononnmlllkj%jJJJKKKLLLKLLLKLKKKJJ
+-24975A064JJJ%J%%%%%%%%%%%%%%%%%J%%%%J%%%j%%j%jjjjjjkjkkjkkkkjkkjjjj%%%JJJKK
+-24909A044LLLLMLMMLMLLLKJK%%%jkkllmmmmmmnlmlllkkj%j%J%JJ%J%%jjjkllmnmnonnnnm
+-24843I75llj%JKMNOQRJ1J2J2J3J4J4J4J4J4J3J2J1RQPNLJjkmnpqj0rj1j1j0j1j0rqponlk
+-24794A051%JLMNOPQQQRQQPPONMLJJjjllmnonopoooonnnnmlmllllllllmlmmmmmmlmlkkjj%
+-24728I93JKLMMNOOOPPOPONNMLKJ%jllmooppqpqqpoonmlkj%KLLNNPPPPQQQPPPONNMLLKKJ%
+-24661A103%%%jj%j%%%%%J%JJJJJ%J%%%jjjkkkkkllkklkjkjj%%%J%JKJJJJJ%%%jjkkkllll
+-24595A063mlmllkkk%jJJKKLMMNNNONONOMNMMLLKKJJ%%j%jjjj%jj%%jJ%%%J%%%%%jjjkkll
+-24529A109mlmnmnnmnmmmlllkjjj%%JJKJKKJKKJJJJ%Jj%jjjjjkjjkj%j%%%JJJKKKLKLLLKL
+-24463A077LKKKKJJJ%%%%jkjkkkkkklkklkjkjjjjJ%JJKKLLMLNMNMNNNMNMLLLKJ%%jkklmmn
+-24397A113noononnnmlkkjJJKLMNNOOPOPOOONMLK%%jlmnopqrrrj0rj0rqqponmljjJKKMNNO
+-24333A026OOPOOOONMMLKKJ%jjjklkllkllkkjjj%%JJJKKKLLKLLLLKLLKKKKKJKJJ%J%%%j%j
+-24267A110jkjklkllllllmllllklkjjj%jJ%JJKJKJJJJ%%jjjklllmmnmnmmmmlljk%JJKLMMN
+-24201A025OOOOPOONNNLLLJ%%jjlkmllmlllkjj%JJLLMMONOOOPNONNLLLJ%%kkkmmmnnmnmnl
+-24135A093lkkj%%JKLKMLMLMLLLKJJ%jkkmlnnooooopoonnnmmkljk%%%JJJKKKKKKKKKKKKKK
+-24069A053KLLLLMLNMNMNNNNNNMMLLKJJ%jkllmmnoooononnmmlkj%%KKLMMMNNNMMMLKJ%jkl
+-24003A105mooqqrrrj0rrrqpnnlj%KMNPQJ0J1J2J3J4J3J4J4J3J3J2J0J0PPMKJjlnppj0j0j1
+-23953A132j2j2j3j2j2j1j0rqpnmk%JLMOOPQRRRRQQPONMLJJjklmnnnooonnnllkj%KKLMMNO
+-23894A088NOONMMLKJ%jkmnnppqqqqqqponlkjJKMOPQJ0J1J2J2J3J3J3J3J3J2J0J0QPOLK%j
+-23840A216mmpprj0j1j1j2j2j2j1j1j1j0rppomlk%JKKMNNOOPPOPOPNNNMLKKJJ%jkkklllmm
+-23784A111lmlmllkkkjjjJ%JKJLKLLLLLLLLLKKJJ%%jjkklllmmnmmmmmlkkkjJ%KKMLNNOOPP
+-23718A115PPPPOPNNNLLKJJ%kjllmmmnnnnnmnmlmkljjj%%JJJKKKKKKKKKKJKJJ%%%%jjjjjk
+-23652A128kkkkkkkkkkkjkjj%j%%JJJJKKKLLLLMLMLLMLLKKKJJJ%jjkkkllmmmmnmmnmlmlll
+-23586A090kkkjjj%j%J%%%%%%%%jjjkkkkllklmllllklkkjjj%%%JKKKLMLMNNMNONNONNNNNM
+-23520A122MMMLKLJKJ%J%jjjjjkkkkkkkjkkjkjjjjj%j%j%%%%J%%J%J%JJJJJJJKJJKJKJJJJ
+-23454A136J%%j%kjkllmmmnnnnononmnmmkljj%%KJLLMMNNNNNNNMNLMKLJJJ%%jjkjkkkkkkj
+-23388A105kjjjj%j%j%jjjjjkkkklllllmlklkkjj%%JJKLLLMMMMMMMLLKKK%Jj%kjkkkkkjjj
+-23322A088%%JKLLLNMNONNONMMLKJJjklmmooppppppoonllj%JKMNNPQQQQRQQPPOMLKJ%kkmn
+-23256A162ooppppoponmlljj%JKLKMLMLLLKK%%%kklmmnnnnmnmlkk%%KLLNOOPPQQQPPPNNML
+-23190A164JJjklnnoopqpqpqooonmlkjj%JJJKLKKKKJK%J%jjjjkkjkjj%%JJKLMMNOOOPPOPO
+-23124A137ONMLLJJjkkmnnpoqpqqppponnmlkj%JJKLMLMNMMMMLLLKKJ%%%jjjjkjjkj%j%%JJ
+-23058A093JKJKKKLKKJKJJ%%%jjkjkklkkkkjk%j%JJJKLLLLMMMMMLMLLKKJJ%%%jkkkkkklkk
+-22992A127jkj%jJJJJKLKLLLLKLKJJJ%jjkllmmnnonoonomnmlkjjJJKLMNNPOPPQPPPOOOMML
+-22926A179JJ%jklmmnoooppopoonnnllkkj%%JKKKKLKLLLKKKKKJJJJJJ%JJJJKJKLKLMLMMMM
+-22860A158MMLLLLJK%%jkkmmnnpoqprqqrqrqqppponnnlmkkk%j%JJKKKLLLMMNNNNOOOPOPPP
+-22794A104POPOOONMMMKKJ%jjklmnnoooppppopnonmllkjjJJKKLMMMNMNMNMMLLLKKJ%%jjjk
+-22728A115kkllkllkkkkkjjj%%%%J%JJ%J%J%j%jkjklllllmmmmmmllllkjj%%JKLLMNNOOOPP
+-22662A082QPPPPOONNMLKJJjjklmnnoooppoppnonmmkkj%JKLMMNOOPPPQPPPPONNMMLKJJ%jj
+-22596A166kkklllllllkkjj%%%JKJLKLLLMLLLKLKJJJ%jjjklllmlnmmnmmmmmlllkkjk%j%%J
+-22530A099J%JJJKJJ%J%J%j%jjkkkkklllllmllmllllkkkkjj%%%%JKJKLKLLLMLMLMLLLKLKJ
+-22464A100K%J%j%jkkkkklklkkkkjj%%JJKLLMMNOOOPPPPQPPPPOOONMMLLJJJjjkklmmmnnon
+-22398A176ononnnnmmmlkkkjj%%%%JJJJJJ%%%%jkklllnmnooooononnlllj%JKMNOPQRJ0J1J1
+-22334A107J2J2J3J2J1J2J0J0RPPNLK%jkmnopqrrrrrrpqonmlkjJKLMMONOPOONNMLKK%jllm
+-22276A169oooqpqqqpponmmkj%JKLLNNNOONONNMLLKJ%jkklmmmmmmmlkkj%%KLLNNOPPQQPQQ
+-22210A179POONMMKJ%jjlmmonpopppoponnmmlkjj%JJKKKLLMLLLKLJKJ%%jkkkmlmnnnnnnnn
+-22144A090mmmlkkj%JJLLLNNNOOOOPONONMLLK%%jjlmmnnooopoonnmmkkj%%KKLMMMMNMMMLL
+-22078A124KJ%jkllmnooopooonnmlkj%JLLNNPPQQQRQRQPPPNNLLKJ%%jklklllllkkkjj%%JJ
+-22012A146JKKLKLLKLLKLKKKKKKKKKKKKLKKKJKJJ%%jklmnnpqrj0j0j2j1j3j2j2j3j1j1j1r
+-21957A034qonmj%KMOPRJ0J1J2J3J2J3J3J1J2RRPNMJ%lmoqrj1j2j2j3j3j3j3j1j1rqonk%K
+-21909A013MOQJ0J1J2J4J5J5J5J5J5J4J3J3J0J0POLK%lmoprj1j1j2j3j3j4j3j3j2j2j1j0q
+-21869A049qomlk%JKMMOOPPQQQPQPOONNLLJJ%jkklmmmnnmnmmllkk%%JJKLLMNMNMNMMLLKK%
+-21803A137%jkllmmnonnnnmlljj%KLMNNPQQRRRRRQQOOMMK%%kmmnpoqqpqpponnlkj%JLLMMN
+-21737A127NNNNLMKJ%jkmmoppqrqqrppommjjKKNOPQJ0J0J0J1J1J0J0RQONMJ%jmnpqj0j0j1
+-21681A133j2j2j1j1j0j0qoolj%KMOPRJ0J1J1J3J2J3J2J2J1J0RQPNMKJ%klmmoooooponomm
+-21631A147mkljjj%%%J%J%J%%%j%jjjkjjkjjj%j%j%%J%%%%j%jjkklllmnmnnonnnnnmllkkj
+-21565A039%JKKLMMNOOOPPPQPQPQPPPPOPNONMMMLKKJJj%kklmmmonopopoooomnlljj%JKLMM
+-21499A131NONOOONNMLKJ%jlmnopqrrj0j0rj0rqqonmlj%KLMNOPQQQQQQPPNNMKK%%kkkmlmm
+-21436A136llljjjJKKMMNOOPOPONNNLKK%kkmnnppqqqqqqoonmlj%JKLNNOOPPPOPNNMKKJjkl
+-21370A172mnnppppqppponmllk%%JKLMLNMNNMNMMMLLKKKJJJJ%J%%J%JJ%JJJ%J%%%jjkkkmm
+-21304A139mmonnoonnnmllkj%JKLMNNOPQPQQQPPPNOMLLKJ%jjklkllklkkj%%JKKLMMNNNNNN
+-21238A213NMLLJJ%jkmmoopprqrrrqqppommkj%KKMNPPQQRJ0J0RJ0RRQQOOMMKJ%kllnoppqq
+-21175A201rrrqrqppoommljj%JKLMLNNNNNNMNMLLKJJ%jjkkllmmmmmlmlkkjj%%JKKLLMLMMM
+-21109A158MLLLKKJ%%jjkllmlnmmnmmmlllkjjj%JJJKKKLKLKKLKJKJJ%J%%j%jjj%jj%j%J%J
+-21043A142JJKKKKKLKLLLLLKLLKLKKLKJKJKJJJ%%%%jjjjklklmlmnmnmnnnmmmmmlkkkj%%%J
+-20977A118KJKKLKKKKKKJJ%%%jjkkkklkklkkjjj%%JKJLLLLMMMMMMMMLLLKJK%J%j%jjkjkjk
+-20911A167jjkjjj%j%%j%%%j%%j%j%j%j%%%%%JJJKKKKLLLLLKKKKJ%jkklmoooqqrrrrj0qqq
+-20846A072oomlj%JMMPQRJ0J1J2J3J3J4J3J3J3J1J1J0RPOMLJ%kkmnoopppppoonmmkkj%JJK
+-20792A173KKLLKLKJJJ%jkkllmmmnmnmmmmllkkjjj%%%%%%j%jkkklmlmnmnmmmllkj%JKMMNP
+-20726A093PQRJ0J0J0J0J0J0RRPPOMMK%jjmmnooqpqpqpponnmlljjjJJJJJKJJJJj%jkkllml
+-20666A109mmmlllkj%JJLMMOPPRQJ0RJ0J0J0RRQPONMLJ%jlmnpprrj0j0j1j1j1j1j0j0rrpp
+-20612A075ommkj%JLLMONPPQPQQPQPOONMLKJJjkllnnoopppppponnmlkj%JKMMOOPQQQRRQRP
+-20546A172QOOMMLJJjjlmmnoopppopoonnmmlkjjjJJJJKKKKKKJKKJJJJKJJJKKKKLMLMNNNNO
+-20480A181NOONNNMMLKKJ%jjlkmmmnmnnnnmmllljjjJ%KKKLLLMMLMLMLLLKLJKKJJJJJJ%J%J
+-20414A226J%J%%J%%j%jjjkklkllmlmmmlmllllkkkjjj%%J%JJJJJJJJJ%%J%%%%j%%%%%J%JJ
+-20348A176JJKJKKJKKJJJJ%%%jjjkkklkllklkkkjjjj%J%JJJJKJJJJ%%%%jjkkkkkklkkjk%j
+-20282A145%JJKKKLMMLMMMMLLKKJJj%kkllmmnnmnnmnlmlkjk%%JJJKLKLLLLLLKLKLKKKKKKK
+-20216A180KLLLLLMMMMMNMMLMKLJJ%%jklmmnnoooooonnnmlkkj%JKKKLMMLMMMLLKKJJJj%kj
+-20150A199kkkkkjkjj%%%JJKKKKKKJKJ%%jjklmmmnonoonnnmlkk%%KLMNOPPQRQRRRQQPOONL
+-20084A258LKJ%jkklmmmmnmmmmlmlklkkkkkkklllllmnmnnnmnnmmmlkkjj%JKKKMLMMMMMMML
+-20018A157MKLKKJKJJ%JJJKJKLKMLMNMNNNNMMMLLJJ%kklmnooppqqpqopnmmkjJKLNOPQRRJ1
+-19953A207J0J1J1J0J0RQPONLK%kknopqrj0j0j1j2j1j1j1j0j0rqponlljJJKLMNOOOPPOPOO
+-19901A195ONMLLKJJ%jkllmmmnonnonnnmmllkk%%JJKMLNNOOPOQPPPPPOOOMMLLJJ%jklmmon
+-19835A237pppqpqqqqpppoonnmllkjj%%JJKKKLLLLMLLLLLKKKKJJJ%%j%kjkkkklkllklklkk
+-19769A125jjjj%%%JJKKKKLLLLLLLMLLLMLKLLLKLKKLKKKLKKKLKKKLKKKKJKJJJJJ%%%jjjjj
+-19703A233jkkjkkjkjkjjj%j%%%%J%J%JJ%J%J%%%%%j%jjjjjjjjjjj%j%%%J%JKJKKKKKLKLK
+-19637A231KLKJJJJ%%jjkkllmmmnmonnnnnmmmllkk%jJJKLLLNMNNONONONMNMMLLKJJJ%%jjk
+-19571A244kklkllllmlllllmllllllklklkjkjj%%JKKKMMNNOPPPQRQQQQQPPNNMLKJ%kkmnnp
+-19505A283pqrqrrrrrpqoonmlkj%JJKLLMMNMNMNMMLLLKKJJ%%%%jjkjjkjkjjjjjjj%j%j%%j
+-19439A207%%%%J%%JJ%KJJKJKKLKKLKLKKKKJKJ%%%%jkkkklklmllllllkkkkjjj%%%%JJJKJK
+-19373A206JKJJKJJJJJJJ%J%%%J%j%%%%j%%j%%j%%%%%%%J%JJJJKJJKKJKJJJJJ%%jjjkkkll
+-19307A224lmlmllllkkj%%JKKLMMNNNOONNNNLLLJ%%kkmmnoopopppoonmmkk%JJLMMNOOOPOO
+-19241A229PNNNLLLJJ%%kjkklkkkjjj%%JKKLLLLMLMLKKKJ%%kkkmmmnnnnnmmmlljjjJJKLLL
+-19175A230MMMLMLLKJJ%jjkkmlmmmnlmmklkj%%JJKKLLKLKLKJJ%jjjllllmmlmlkkj%%KLMNO
+-19109A218PPQRQRQQQOOMLKJjlmnpqrj0j0j1j1j1j0j0j0qqonmkj%KLLNOOPPPPOOONMLKK%%
+-19051A245jjklklllkkkj%%JJKLLLMMMMMMMLKKK%%%jkllllmmmmmmlllkkjjj%%%JJJJJJJJJ
+-18985A224JJ%JJ%J%JJJJJJKKKKKLKKKLKJKJJ%%jjjkkkklllllklkkjj%%%JJKJLKKLKLKKKK
+-18919A255JJJ%%%jjjjjjkjjjjj%j%j%%%%j%jjjjkjlklklmllklkkkj%%JJKKLMMMMNMNMMLL
+-18853A253KJ%%jkklmnnnononnnmllkj%%KKKMLNMMMMMLKKJ%%kllmnnoopooonnmlkj%JKMNN
+-18787A168PPQRRRJ0RRRQPPONMLLJ%%kkkmlmmnmmmmmlmklkkkjjjj%j%%%%JJ%KJKLKMMMNNO
+-18722A269PPPQPQQQQPPPNNMLKJ%jklnnooqpqqrqqppponnlmkkjj%%%J%%J%%j%jkjkkkkkkj
+-18656A228j%%JJKMMMOOPQQQRQRQPPPNNLLJJjkllnnnoooonnnmlkj%JJLLLNMNONNMMMLKJ%%
+-18590A345jllmmnnooononnmmlkkj%JJJKLKLLKLKKJJ%%jjkklmmmmmnmnmmmlllkkjk%%%%JJ
+-18524A223JJKJKKKKKLKKLKLKLKLKKLKKKJJK%J%%jjjjkjkkkkkjkjj%%JJJKKKLMLMLMMLMLM
+-18458A307LKLKKJKJJJKJJJJJKJKJKJKJ%%%jkllnooqrrj1j1j2j3j3j3j3j3j3j1j1j0rpomk
+-18404A120jJLMOPRRJ1J1J2J2J2J2J1J1J0RQPNMLKJjjklmmmmnmmllkkkj%%%%%J%%%%jkjlk
+-18347A242lmlmlmllkjjJJKMMNPPPRQRRQQQOONLKJ%klmnoopppponnlkjJLMOPQJ0J0J1J1J2
+-18286A338J2J1J0J0QPOLK%kmoprj0j2j2j4j3j4j4j3j3j1j1j0qpnll%%KLMNNNOONOMNLLKK
+-18236A272J%%jjjkjj%jJJJLLLNNNOPOPOPOOONMMLKKJJ%%jjjjj%jj%%J%JJJJJJJ%%%jkkll
+-18170A361nmoooppoppopnnmmlkjj%%JKJKJKJJ%%jjllmmnooooponommljj%KLMNOPQQRRRRR
+-18104A279QPPOMMKJ%jkmmnooppoooommljjJKLMNOPQQQRRRQQPPNNMLKJjjklmmnnoonoonmm
+-18038A301mlkkj%%JJKKKKKLKKJJJ%%kjkllmmnmnnmnmmlllkj%%JKKLLMMMMNMMMMLKKKJ%%j
+-17972A301kkkkllllkkkjj%JJLLLMNOOOOPOOPNNNMLLJJ%jjlllmnmnnnnnmmmlkkkjjj%%%J%
+-17906A298J%%Jj%jjjjkkkkkkkjkj%j%JJJKLLLMMMMMNMMMMMLMKLKKKJJJJJ%J%J%%J%%%%%%
+-17840A361j%jkjklklmmmmnnnnnnnnmmllkkk%%%KJLKMMMMNNNNNNONNNNMNMMMMLLLKKKJJ%%
+-17774A392%kjlllmnnoopopqpppppoonmmlkjj%KJLLMMNNNNNONNNMMMMLLLKKKKKKJKKJKKKJ
+-17708A372KJKJJJ%%%jjjklkllmllmlklkjjjJ%KJLKLLLKLJK%%klmnoqqj0j1j2j2j3j3j3j3
+-17650A230j2j2j0j0qonljJKNPQRJ1J2J3J4J3J4J3J2J2J0RQOMK%jlnnqqqj0rrrqpomlk%KM
+-17599A249NOQRRJ1J0J0J1RRPONLJjlmpqj0j1j2j3j3j3j4j2j3j1rqpmkjKMOQJ0J0J3J3J3J4
+-17552A285J4J4J2J2J1RQOLK%kmoprj0j1j1j2j2j2j1j0rponljJLNOQRJ1J1J2J3J2J3J2J2J1
+-17507A367RRPOMLJ%klmnopqpqqppoommkk%JJLMMNOOPOPOOONNMLLKJ%%jjkllllmmmlmlmll
+-17441A353lkkljkjkjj%jj%%%%%%%%JJ%JJJJKJJJJJJJJJ%%%%%%jj%jj%j%%%JJJJKKLLLLLM
+-17375A372MLLMKLKJJJjjjlkmmmnnnnnnnnmlllkjj%JJKKKLLLLLLKLKKKJJ%J%%J%%%JJJKKL
+-17309A370LMMMNMONNMNMMLKJJ%jlllnnoppppppooonmlkjjJJKLLMMMMLMLLJJJjkkmmnnopo
+-17243A332pppoonnmkkj%JKLLMNOOOOONONNMMLKKJ%%%jjkjkkkjkjj%j%J%%JJ%J%%%%%jjkk
+-17177A346kkklklkkkjjj%JJJKLLLMMMNMMMLMKLKJJ%%%jjjkjjj%jJ%KKKLMLNMNMNMMLKKJ%
+-17111A429jklmnnppqqqqqpponmlj%JLMNPPQRJ0J0RJ0RQPPNLKJkknnpqrj0j1j0j1j0j0rqp
+-17054A323nmk%JLNOQRJ1J1J1J3J2J2J1J1J0RQONLJ%klnopprqrrqqponmkj%JLLNOOOPPPPO
+-16997A436NNLLK%%kllmnonoonnmmlkj%JLLLNNNOOONNNLLK%%klmnooqpqrqqpppnmll%%KKM
+-16931A354NOOPPQQQPPPOONMMKKJJj%jkkkkkkkkjkjjjj%j%%jjjjjjkkkklklkkkkjj%%JJKL
+-16865A410LLMMNMNMMMLLKJ%%jklmnnooopppooonmmlkj%JJLKMMMNMNNMMMLLLJK%%%%jjjkj
+-16799A419jj%jJ%JKKKLMLMNMMNMNMMLMLKLJKJJJ%J%%%j%%%j%%%%j%%j%jjjjjkjkkklklkl
+-16733A464lklklkkkkkkjkjkkjkjkkjkkjkkjkjjjj%%%%%JJJJKJJJJJJ%%jjjkkkkllklkkkj
+-16667A389j%JJKLMMNOOOPPPPOOOMMLK%%jllmnoopopoonnllj%JKMNNPQRRRJ0RRRRPPOMMKJ
+-16602A544%jklmnnnnonnmmllkj%%JJKKLKKKKJJ%jjlkmmnnooooonnmmlkk%JJKLMMNNONONN
+-16536A472NMMLKKJ%%jjkklllllllllklklkkkkkkklklkllklkljkj%%JKKLMNNOPPPQQPPPOO
+-16470A504NLLJJjklmnoppqqqqppoommkk%JKLMMNOOOONOMMMKK%%kklmnnnooononmmllkjjJ
+-16404A405%JKKKKKKJJJJ%j%kkkklkllkkjjj%JKKLMMNNOOPOOPOONNNMMLLKKJJJJ%J%J%JJK
+-16338A514JKJKKKKKKJJJ%%jjklkmlmmnmmmmmlkkk%%JJLLLMNNOOOOOONONMNLMLKKJJ%%%jj
+-16272A575jkjkkkkkkkkkkjkkjjjj%%%JJKKLLMMNNNOOOOOONNMMKKJ%jkmmoopqrrrj0rrrqq
+-16207A518oomlkj%KKMMNOOOOOONMLLJ%jlmmopqqrj0rrrqqpommkjJJMMOOPRQRRJ0RQRPPPN
+-16143A564NLLKJJjjjkkkkkkkjjj%%%JJKKKKKLKKKKKKKJJKJ%JJJJKJKJKLKLKLLLLLLKKKKJ
+-16077A642J%%%kjkklllllmllmklkljkjj%j%%%%J%%%%%j%jjkjkjkkklkkkkkkkkkjkjkjkkj
+-16011A544kkkkkklklklklkkkjjj%%JJJKLLMMMNNNNONONNNNMMLLKKJ%%jkkllmnnooppppqq
+-15945A523pqpppoonnmklj%JJLLMNOOOPPPPPOONNLLK%%kllnooqprqrqrqppoomlkj%KKLNNN
+-15879A450POPPPPPOONMLLKJ%jjllmmnnoooooooooonnnmnmlmlkkkkjj%%%JKJLKLLMMMMMMM
+-15813A437MLLLKKJJj%kjllllmmmlmllkjjj%JKKLLLMMLMLKKK%%jllmnopppqqqqpoonllj%K
+-15747A344LMOOQQRJ0RJ0RRQQONLKJjkmnpprrj0rj0j0rrppnmlj%JLNNPPQQRQRQPPONMKJ%j
+-15686A449kmmnopppqppooommllj%%JKKKLMLLLLLLKJJJ%%%jjjjjj%j%JJKKKMLNNNOOOOOPO
+-15620A455ONONMMMLKKJJJ%%jj%jjjjjj%%%%JJJJKJKKKJKKJJJ%%jjjkklmlmnmnnnnmnmllk
+-15554A441kj%JKKMMNOOPQQQQQQPPPOMNLJJ%jllnnopppqqqppoonmlkk%JKLLNNNOOPOOOOON
+-15488A532NMLLLKKJJJJJ%JJJJJKKJKLKKJKJJ%%kjllmnnpopqpqpppoonmlk%%JKMMNNOOOON
+-15422A520OMMKK%jklnopqrj0j0j1j0j1j0j0rqpomlj%KMNPQRJ1J1J2J2J3J3J2J3J2J1J0J0
+-15375A562QPONLKJjkkmnoopppqqqqqpqppooonnnnmlmllllkkkjkjj%%%%JJJKKKKLLLLLMLM
+-15309A443LLMLLLKLKKKJKJ%J%%jjjjkkkkllmmmmmnnnonnnonnmmmmkljk%%JKKLLMNMONONO
+-15243A416NOMNMMLKJJ%%jkllmmnnnnonnnnmmmllkkjj%%%JJJJJKJJJJ%%%%jjjjkjkkjkkjk
+-15177A356jj%j%%%JJJJJJJJJJJJ%%%j%jjkjkkjkkjjjj%jJ%JKKKKLKLLLLLKKKKJJ%%%jjkj
+-15111A380kklkkjkjj%%JKJLLLMMMNNMNMMLLKJ%%jklmnooppqqqqpqpoommlk%%KLMMOOPPQQ
+-15045A360QPQPOONLLKJjjllnnopppppqopnnmlkj%JKLMMOOOPOPOONNMLKK%jklmmooooppoo
+-14979A337nnmkkjJKKMOOOQQRQRQQPPOMMK%%kmmopqrrrj0j0rj0qppnmlj%KMNOPRJ0J0J1J2
+-14920A377J1J2J2J1J0J0RQPOMLK%jklmnoopqpqqpqpooonmmllkk%j%%JJKJKLKKLLLLMLMMM
+-14860A398MMMMNMNMMMMMLLLLKJKJ%%jjjkkklllmlmmmlmmmmmlmllllllkkkjjjj%%JJJKKKL
+-14794A383LLMMLMMLMLLKKKJ%%jkkklmmnnnnonnnnmmllkj%JJKLMNNOPPPQRQQRQQQPPOONMM
+-14728A500KKJ%jkkmmnnoopppppppponnmmkkjjJJKLLMMNNNONNONMNMMLLKKJKJ%J%J%J%%JJ
+-14662A480JJJJJJ%J%%jjjlkmmnooopppqppooommkj%JKMMOPQRRJ0J0J0J1J0J0RRRPPNNMKK
+-14602A546J%%kjklllllmllmlmlmmmnnooppqqrrrj0j0rrrqponmljJKLNPQRJ0J1J2J2J2J3J2
+-14544A448J2J1J0J0QPONMKJ%jkkllllkljjjJJKLLMMNMMMMKKJ%jkmmoopqrqrqqpoomlj%KL
+-14482A441MOOQRQJ0RRQQPNNLK%jkmnooppqpooomlk%JKMMOOPPQPPONNLJ%jlmoqqj0j0j1j1
+-14421A475j1j1j0j0qqommj%JLLNOPOPPPONNLKJ%kkmmnoooonnmlkjJKLMOPQQRRRJ0QQPPNL
+-14360A529LJ%klmnoopopponnlljjJJLLMMNMNMMKKJ%jllmoopppppoonlk%JKNOPRJ0J1J2J3
+-14298A495J2J3J3J2J1J0QQNMK%klnpqqj0j0j1j0j1rrqponlj%JLLNOOPOPPONNMMKJ%%kkll
+-14243A528mmlmlkk%%JKMMNPPQQRQRRQPPNNMKJjjlmnpppqrqqqqoonmlk%JLLNOPQQRRJ0RRR
+-14178A612QQPNNLKJjkmnopqj0j0j0j1j1j2j1j1j1j0rqqonmkk%KKLMNOOPPPOPONNMLKJJjj
+-14122A554klmmmnmnmmmlkkjjJJJLKLMLMLLKLJJ%%kjllmmmmmmmlkkj%KKLMNOPPQQQPPPOMM
+-14056A587LJ%klmnpqqrrrj0rqqoomlj%KLNOPQQJ0RJ0J0RQQPOMLKJjkmmnoppppppnomlkk%
+-13994A512JKKMMMNNNNNMMLLJJ%jjlkmlmmmmmllkjj%JKKLMMMNNNNNNMMLLKKJ%jjkkkmlmmm
+-13928A568mmmmlmllklkjjj%%%JJKKKLLMMMMNNNNNNONMNMMLLKJJ%%jkllmmmnnnnnnnnmmll
+-13862A552kkjj%%JJJKKKKLKLLKMLLLMMMNMNONOOOPOOOONNMMKK%%klmnopqrrj0j0j1j0j0r
+-13801A578rppomljjKKMNOPQRRRRRQQQOONLLK%%jjlklllllkkk%%%JKLKLMLMLLLLJJJjjkll
+-13735A667nnnooppoppoooonnmmmmlmlllllmllmllllkkj%JJLMMOPQJ0J0J1J1J3J2J3J3J2J2
+-13678A654J1J1RQPNMK%jlmopqrj0j0j1j0j0j0rrponmkjJJLMNNOPPPOPNOMMLKJJjjklllmm
+-13620A633llllkjj%JJKLLMMNMNMNMLLLKJJ%jjkkkllmlllllkkjjj%%JJJKJKKJKJJJJ%%%jj
+-13554A650jkjkjkjjjjj%JJJJKLKLLMLLMLLLKLJKJJ%%%jjjjjkjkjjkjjj%jj%jjjjkkllmmn
+-13488A640nopppqqqqqpqoonmljjJLLOOQRRJ1J2J2J2J2J3J2J2J1J0RQPNMKJ%kkmnopopqop
+-13432A665onnllj%%KLMNNOOOOONNLLKJjklmooprqrj0rrrqpoomljjJKLMONPPPPOPONNMKKJ
+-13367A669%jkkllmmmmllkkj%JKLLMNONOOOONNMLKK%jjkmmmnnonnnmmljj%JLLNNOPQPQQPP
+-13301A720OOMMKJ%klmopprrj0rj1rj0rrppnnljjJLLNOPQQRRRRRRRPPPNMMKK%jjklmmnnoo
+-13238A705noonnnmmmlkkjj%%JJJJKKKKKKKKJKJJJ%%Jj%%%%%%%JJJJKKLLLLMMMLMMLLLKJJ
+-13172A734%kjlmmoooqpqrqqpppnnmkjJJMMOQQJ0J0J2J2J2J2J3J2J1J1J0J0PPNMK%jkmnoq
+-13118A782qrrj0rj0rrqqoommkj%JJLMMMNNNNNNMLLKKJ%jjklllmmlmmlllkkjj%JJJLKLMLM
+-13054A707MMMLMLLLKKKJJJ%%j%jkjjjkjjkjjj%jj%%j%%%%%%%j%%%j%%%%%%%%JJJJKKKKKL
+-12988A740LLLKLLLKKKKJ%%%jkkklmmmmnnnmnmnlmlkkk%jJ%KJKLKLKLKKKKJJ%%%jkkklkll
+-12922A704lllkljk%jJJJKLKMMMMMNMMMMMLLLKJKJ%%%%%%j%%%%%J%JKKJKLKKLKKKKJJJ%Jj
+-12856A785%jjkjkkjkjjj%%%JJKLLLMMNMNMNMMMLKKJ%%jlllnnpopqqqqqqqpopnnmlkj%JJL
+-12790A703LMNNOOPOPOPOONMMMKKJJjjkklllmmmlllkkj%%JLLMNNOPPQPQQPPPNOMLKJ%jllm
+-12724A862ooppqqqqqqpponmmljj%JKLLMMMNMNNMMMMLLLKKJJJJJJ%J%JJJJJJJKJJJ%J%%jj
+-12658A837jkkllmlmmnmmmmlmklkjj%%JJJKKKLKLKKLKJKJJJJJ%%J%%J%JJJJKJKJKJKJJJ%%
+-12592A828%jkjlklmmmmmmmmlllkjj%%JKKLLMLMMMMMLLKKK%Jj%kjkkklkkkjk%j%JJKKKLLM
+-12526A817LLMLLLKKKJJ%%jjjkjklkkkkkkjjk%jj%%j%%%%%j%%j%%%%%JJJKKKMLMNNNOOOOO
+-12460A877OONNMMLKJJ%jkllmmmnnnmnmmllkkj%%%JJJKJJJJJ%%jjjklklllllkkkkjj%JJJJ
+-12394A829KLKKKKJK%%jjkkmlmnnnmnmmlkk%%KLMNOOQQQRRQRPPOOMLK%jjlmmonoooonnmlk
+-12328A842j%JLKMNNNNONNNLLKJ%jklmnoooopoonmmlj%JKLMNOPPPPQPOONMLLJjjklmnnooo
+-12262A879nonmmlkk%JJKLLLMMMMLLKJJ%jklmmnnnoononmmkkj%JKKMMONOPOPOOONMMLKKJj
+-12196A905%kkkllmlmlmllkkkj%j%JJJJKJKKKKKLKKJKKKKKKJKKKKJKJKJJ%%%%jjjkklklll
+-12130A894llllkjj%%JKLLNNNPOQPQQPQPPONNMLK%%jklmmooooppppooonnmmlkjk%%%%JJJJ
+-12064A894KJJJ%J%%%j%jj%jjj%j%%%JJJKKLKLLMMMMMMMMMMMLMLLLKKKKJJ%J%%%j%jjkjkj
+-11998A973kkkkkkkkkkkkkjkjjj%j%J%JKJKLLLLMMMMMNMMMMMLLKKK%%%kjllmmnnnnoonnnn
+-11932A947mllkjjJJKKMMNNNONONNNMLLKJ%kklmnnpoqqqqqpqponnlljjJJLMNNOPQPRQQQQP
+-11866A982POONMLLJJ%jjkllmlmnmmlmlkkj%JJKMMMOOPQPRQRQQQQOONMLJ%jlmnpqrj0j1j2
+-11803B032j2j3j2j3j2j2j1j0rppmmj%JMMOPQJ0RJ0J1J0J0J0RQQONMKJ%jllnnnooonnnmlk
+-11751A984j%KKLMNOOPOPPONNNLKJJjllmmoopppopoonmmkjjJJLLMNNNOPOOOONNMMLKKK%%%
+-11685B067jjkkkkklkllkklkkkjkjjj%j%%JJJKKKLLLMLMMMMMLLLKJJ%jkllnnnpppqqpqppo
+-11619A986onllk%%KLLMONPOPOPOONNLLLJJ%jjkkklkkkjj%JJKLMMONPOPPOPOOOMMMKKJ%%j
+-11553B137kkklllmlllllklkklklllllnmnnoooooooonmmlkj%JKMMNOOQPQPPPPNNLLJ%jkln
+-11487B073noopppoonnlkj%KLMNOPPQQRPQPOMMLJ%klloooqpqqqpoonlljjJKLMNNNOONNNML
+-11421B068LK%Jjjklkllkkjj%JKLMOOOQQQRQQPPONLKJjkmnpqqj0j0j0j1j0j0rqqonlkjJLL
+-11361B030NOOQQQQQPPPNNMKKJ%jjklkllklkjj%JJKLLLMMMNLMLLKKJJj%kkkkkklkjjj%JKK
+-11295B136KMLMNMMMMLKKJjjllnooqqqrj0rrqqponmlk%JLLMOOOPPPPOOOMMLKJ%jkklllmlm
+-11230B113lkljj%JKKLMMNNNNONMNMLLLJJJ%%jjjkjjjj%%%JKKKLLLMMLMLLLKKJJ%%jkjlkl
+-11164B200llklllkkkkjjjjj%jjjjjjkkkllkllllkkjj%JJKLMMNOOPPPPPPONNMKKJ%kklmnn
+-11098B210noonnnmljj%KLMNPPQQRJ0RRQQOONLKJjkmnooqqqrqpponmljJKMNOQRRJ0J1J1J1
+-11037B278J0J0RQPOMLJjkmooqrj0j0j1j1j1j0j1j0rqpoomlljj%JJJKJKJJ%%%kjkllllmlm
+-10981B150llkkj%%JKKMLNNNONOOONNNMMMLKKJJJJ%%%J%JJJKKKKLLLMLLLLKKJJ%%jklllmn
+-10915B255mnnnmmmlkjjJJLLMOOPPRQRRRRRQQPPONMLLJJ%jjkkllmlmlmmlllllllkllkllkl
+-10849B294mllmlmlllllkkjj%%KKLMMNOOPQPRQQQQQPPONNMLKJ%%kkllnmnnnnomnmmlkkj%%
+-10783B325JKKLLMLMMMMLLKKK%%jkllmnnopoppopoonmllj%%KLMMOPPQQRRRQRQPPONMLKJjj
+-10717B408klmmnooooooonnmllkjj%JJKLLLLMLMLMLLKKKJJJ%%%%jjj%jjjj%j%%%%%%J%J%J
+-10651B368%JJ%J%%J%J%J%JJ%J%JJ%J%%%%%%jjjjkjkkjkkjjjj%%JJKKLLMMMNMNNNMMMLKKK
+-10585B429%Jjjkkkllklkkjj%JJLLMNOOOPPPPOONNLKJ%klmnopqrrrrrqpponlkjJKLNNPOQP
+-10519B421QPPONNLJJjkmmopprqqrqppnnlk%JLMNPPQRJ0RRJ0QQPNNLJ%jlmnppqrrrrqrppn
+-10455B374nlkjJJLMNOPPQRQRQQQQPPPONNMMLLKLJKJ%J%%jjjjkklklmlmmmnmlmmklkjj%JJ
+-10389B462LLLMNNNOONONNNMLLKJJ%jjkkklkllkkkkj%%%JJJKKJKKJJJ%%jjkkklmlmlmlllk
+-10323B489kk%%%KJLKLMLMLMLLKKKJ%%%jjjkjkjk%j%JJKKLMMMNONNONNNMMMKLJJJ%jjjjjk
+-10257B591jjjjj%j%J%JJ%J%J%j%jkkkklllllkkjj%%KLLNNOPPRQRQRQPPONNKKJjkkmnnooo
+-10191B646poonnmmkkj%%JJKKJKJJ%%kkkmmnoonoonnmkk%JLMOPRRJ1J1J1J2J2J1J1RROOLK
+-10132B702%lmnqqj0j0j1j1j0j0rqonk%KMORJ0J2J4J4J5J6J6J5J4J4J1J0QOLJjmoqj0j2j3
+-10087B728j3j4j4j4j3j2j0rpnl%KLOQRJ1J1J2J3J2J2J1J0QPOLK%kmnpprqrrqqpnmljJKMN
+-10036B676OPQRQRPQONMKJjlmopqrj0j0j0j0rrponlkJKLOPQRRJ1J0J1J0RRQONMK%jkmmoop
+-9978B737oppnnmlkjJLMMOQPRRRRRRPQONMLKJ%jkklmlmmlmkljjj%JJJKKKKKJJJj%jklllmn
+-9911B776mnnmmmmkljj%%KKKLMLMNMMMNMLMLMLLLLLLMMMMNNNOOOOONONNMLKKJjjklmnnnoo
+-9844B873nnnmlkk%KKMNOOQQRRRRQPPOMMK%jklnnpoqpqpoommkjJJMMOPQRQJ0RQRPONMK%jl
+-9778B984moprrj0j1j1j2j1j0rrponkjJKMOPRJ0J0J2J2J2J2J2J2J1J0RRPPNMMKJJ%jjjjkj
+-9727C029jj%%%JJKKKLLLKLLKLKJKJ%J%j%%j%j%%%%JJJJKKKKKLKKKKJK%J%jjjjklklkllkl
+-9660C063kkjjj%JJJKLKMLNMMNNNNNNNNMMMMLLKLJJJ%%%jkkkklklllllkljkjj%JJKLLMNNN
+-9593C146OPOPPPPOPNONMMLKKJ%%jjjkjkkkjjj%JJKKLMNNOOPPPQQQPQPOPNOMMLKKJ%jjlkl
+-9526C355mmnmnnnnmnlmlkjj%JKKMNNPPPRRJ0J0J0J0J0J0J0RQQPONMLJJjklmmonpoppoonn
+-9466C401llk%JKLMOOQQRJ0J0J0J1J0J0J0J0RRPPPNNMLKKJJ%%%%%j%%J%JJKJKLKLLLLMLMM
+-9407C622MMMMMNMNNNONOOOOPOOPONONNNMLLLKJJJJ%J%%JJJKLLMMOOPPRRRJ0J0J1J0J1J0J0
+-9346C923RRRPPPNNMLLLKKJKJKKLLLMNNNOPPPQPPQPPOONNNLLLKKKKJKKKKMLNNOOQQQRJ0J0
+-9281D240J0J0RJ0RQQOONLLJJjkkmmmnmnnmmllkjjJJKLLMNMNNNNNNMLLLKKJJJ%%%%%%J%JJ
+-9217D351KJKLKLKLKKKJ%%%kkllnnnopopppooonmmkkjjJJJLKLLKLKKJ%%kkmmoopqrj0j0j0
+-9153D220j1j1j0j1j0rrrqponnmlkkkjj%jjjjkkklmmnnnopppppppppoonnnmmlllkkkklkll
+-9091C926lmmnoppqqj0j0j1j1j2j2j3j3j3j3j4j3j3j3j2j2j2j1j0j0j0rqqppooooooooopp
+-9045C519qqqrrj0j0j0j1j1j0j1j1j0j0rrqpponmlkk%jJ%JJJJJ%jjkkmmoopqqrrrj0rrrqp
+-8989C188onmlk%JKMMNOPPPPOOOMMKJjkmnprj0j2j3j3j5j6j6j7j7j6j7j6j5j5j4j3j2j1rr
+-8940B943ponmlkjjJJJKLLLMLNMNNNONPOPPPPPQPPPOOONMLKJJjklmnopqqqrrrqrqpoommkk
+-8873B946%JKLMNNOOPPPPPPOONNMMLLLKJKJJ%JJJJJJJJKJJKJ%J%%%jkkkllmmmmmmmllkj%J
+-8806C033KLNOPQJ0J0J2J3J3J5J4J5J5J5J5J5J3J3J2J1RQPNMLJ%jllmnnononnnllkj%JLLM
+-8755C261NOPPQQRQRQRPQPOONNMMLLKKKKKKLKLMMMNNONPOPPPOPOOONNNLMLKLKKKKKKLLMMN
+-8688C582NPPPRQJ0J0J0J0J0J0RJ0QQQOOMMKKJj%kjkkkkj%%JKLNNPPRJ0J0J1J2J2J2J2J2J2
+-8636C882J1J0J0RPPNNLLKJ%%%j%%JJKLMNNPQQJ0RJ1J0J0J1RJ0QPONMK%klmopqj0j0j0j1j1
+-8582D028j1j0j0rqpnmlj%JLLNOPPPPQPPOONMLLJJ%kjlllmmmmmlmlllkljkjkjjkjkjklklm
+-8518C976lmnmnonopoppqqqrrj0j0j0j2j2j2j3j3j4j4j5j5j4j5j4j4j4j3j2j1j0rqonmkk%
+-8472C566JKKKLLLKJ%jkmoqrj1j3j5j6j7j9k0k1k0k1k1k1j9j9j7j6j4j3j1qpnmjjJJKLKKJ
+-8424C217Jjklnpqj0j2j4j4j6j7j8j8j8j8j7j6j6j4j3j1rpnmkJJLMNOOONNMLKJklmpqrj2j2
+-8374B918j4j4j6j5j6j6j6j5j4j3j2j1j0qpnmlk%%JJKKKJK%Jjjkllnnnpopqpppppooommml
+-8320B598kkkj%jJ%%JJ%JJJJJJ%JJJJKJJKJKJKJJKJJ%J%j%kjkkllllmmlmmlmllklkjjj%jJ
+-8253B560%J%JJJJJ%%J%j%jjkjkkkkkkklkkkkjkkjkjjkjjkjkkklklllmlmmmmnmmmmmlmlkk
+-8186B437kjj%JJKKLMMMNOOOPPPPPOPOONNMLLKJJ%jklllmmnnmnmmmlkkjjJJJLLMMNNNONNN
+-8119B554MNLLKKJ%%kjllmmmmnnnmnmmmmllklkkkjkjjkjkjkkjkjkkjjj%%%%JKKKLLLMMMMN
+-8052B503MMMMMLLLLKKJJKJJ%JJKJKJLKLLLMMMMMNMMLMLLKKJK%%%%jjjkjkjkjjjjj%j%%%%
+-7985B603%j%%jjkjkkllllmlmlmlllkkjjj%JJJKLKLLMMLMMLMLMLLLKLKLKKKKJKKJJKJJ%J%
+-7918B635J%j%j%jjjjj%j%JJJLKMMNNOOPPPOPOONNLK%%kmmpprj0j0j2j1j2j2j1j1j0rpoml
+-7860B566%JMNPRJ0J2J2J4J3J4J4J3J3J1J0QPNLJjlnoqrj0j0j1j1j1j0j0qpnmk%JLNPPRJ0
+-7812B663J0J1J1J1J0RRPONLKJkkmnnopppopnnmljjJJLLMNNNNMNLLJJ%klmnopqqqrqrppon
+-7750B628mlj%JKMMOOPPPPPOONMLKK%jklmmmnnnmmlljjJJLMNOPQQRRRRRQQPONMLKJ%kklnm
+-7683B773oooooponnmmlljj%JJKLLMMMMNNMNMMMMLLLKKKJJJ%%%jjjjjkjkkjkkkkkjkkjkjk
+-7616B749jjkjjkjjkkjkklklklllllmlllkkkkjj%%%KKKLMMNNNOOPPOPPPPOPOONNNMMLKKJJ
+-7549B831%%jkkklmmmnmnnnnnmmllljj%JKKMMOOPPQQRRQRQQQOONMLKJ%kklmmnonoonnmmlk
+-7482B831j%%KLLMNONOOOONMMLK%%jkmmnpoqpqqqqpooomlljjJJKKLMMMMMMLLLKJJ%%jjkkk
+-7415B825kkkkjj%JJKLLMNNNOPOPOONNNLLKJ%jklmmoooqppqpqpoonnmlkk%%JKKLMMMNNNON
+-7348B835NNNMNLMLLLKKKJKJJ%JJJ%JJJJJJJJKJJJKJJ%J%%j%jkjkklklllllllkkkkjj%%JJ
+-7281B864JKKKLKLLLLLLKKKKKJJJJ%J%JJ%JKJKKKLLMLMLMMMLLLKKJJ%jjklkmmlnmmlmlljk
+-7214B919%%JKLLMNNNNOONNNMMLKJJ%jklllmmnmmmmlllkj%%JJJLKLKLLLKLJKJJ%%%j%jkjj
+-7147B967jj%%jJ%JJJKJJKJJJ%%jjkkklllmllllkkj%%KKLMMONPOOPONNMLK%%klnnpqrrrj0
+-7081B949j0j0rqqonmkjJKMNOPQRRJ0RRRQPONLLJJjkllmnmmmmkkk%JKLMNOOPPPPOONMKK%j
+-7017C047kmnopqrrrrrrppomlkjJLMNOPPRQRQRPQOONLLKJJjjjjkkjjj%%JKKLMMMNMMNLMKK
+-6950C087J%%kllmnnoononnmlkj%JKLNNOPQPQQPPPOMMLK%%kkmmmnonnnmmklj%%KKKMLMMMM
+-6883C096LKK%%jlmnopprrj0j0j0rrrqpommkjJKLMNNPOQPPOOONMLLJ%%jklllmmmlmklkj%%
+-6819C013JJKLLLMMMMMMLMLKKKJKJ%JJ%JJJKKLLMMNNNOPOPPOOPNNNMLKK%%jkllmnooooppp
+-6752C123opooonnmmllkjjj%JJJKKLLLLLLMMLMLMLLLLLLKKKKKKJKJJJJJJJJ%J%J%%%jjjjj
+-6685C148lkllmmmnnnoonononmnllkkjJJJLMMNNOPPPPPPPOOONMLLKJJ%jjkkklkllkkkkjj%
+-6618C138J%KJLKLLLLMLLLLKKKJJJ%%%jjjjjkjjjj%%%JJJKKKLLLMLMMLMLLKKKJ%%jkkllmn
+-6551C206nnnoooonommmlkj%JJLLMONPPPQPQQPPOONMMKKJ%jjkkllllklkjj%%JKLMLNNNNMN
+-6484C272MMLKJJjklnnopqqrrrrqqponmkj%KLMNOPQQRRQRQPOONLLJJjjlkmlmmmllkkj%JKL
+-6417C252LMNONOOOOONNMLLKJ%%jkkklklklkjk%j%JJJJKKJKJJ%%jjjlkmlmmmmmmllkk%%JK
+-6350C269LMMNNOOOOOONMMLKJ%%kllmmnnononmnlllkj%%%KJKKKKKKJJJ%%%jjkkkjkkkjjj%
+-6283C276%JJKKKLLLLLLLLKKJJJ%%%jjjjjj%%%JJKKLLLMMMMLMLLKJJ%jkkmlnnnnonnnmmkk
+-6216C292j%%KKLMMMNMNMLLLJJjjklmmnnnnnmmlk%%KLMNPPRRRJ0RJ0QRPOMMJJklmoprrrj0
+-6152C351j0j0j0rqpomlk%JKMNNOPPPPPOOMMLJJ%jjkllklkkj%JKLMNNPPQPQQPONMLJ%klnp
+-6088C419qj0j1j1j2j2j2j2j2j0rpomk%KMOQJ0J2J2J3J4J5J4J4J3J2J1RQOMJ%kmnprrj0j1
+-6043C412j1j0j1rrqonlkjJLMNNPPQPPPPOMMLK%%kklmnnnnmnlmkjjJJLLMNOOOPOOOONMMKK
+-5979C456J%jjlllmmnmnmlmlkk%jJJJLKLMLMMMMLMLKKKJJ%%jjjkkkkklkkkkkjjj%%%JJKJK
+-5912C435KLKLKLKLKKKJJJ%%jjkkkllmmmmmnmmmlllkkj%%JJJKKLLLKLLKKJJJj%jkkllllml
+-5845C405llkkkj%JKKLMMNOOOOPOOONMMMKKJ%%jkkllkllkkjj%JJKLMMNONOOOONNMMKKJ%jk
+-5778C534kmmnnnonnnnmmlkj%%JKLLMMMMNMMLMKKJJ%%kjlklmllmlklkjj%JJJKLLMLMMMMMM
+-5711C525LLLKKKJ%%%%j%jjjj%j%%%JJJKKKKLLKLLLKLKKKJJJ%%%kjkklmlmmnmnnnnnmnmml
+-5644C498lkkj%%JKLLMNNOPPPPQPQPPPONNMLLKJ%jjlkmlnmnnmnnmmmmlllkkjjjjjj%j%%j%
+-5577C536j%j%%%%%JJJJKKLLLMMNMNNNMNNMMMLLKKKJJ%%%jjjjjjjjjjjj%j%%j%%j%jjjjjk
+-5510C601jkjkjjk%j%J%KKKLMMMNNNONONNMNLLLKJ%%%jkklklllllkkkkkjjj%j%j%jjjkkkl
+-5443C623lllmlmllljk%%KKMMOOQQRRJ0J0J0RRQQONMK%jknnprrj0j1j1j1j2j0j0rroolk%J
+-5386C583LNOQRJ0J0J2J1J1J2J0J0RQPNLKJjllooqqrrj0j0j0rrrpponnlkk%%JKKLLLMMMMM
+-5330C622MMMMNMMMMMMMMMMMMMLLLLKKJJJ%%jjkkjlkkkkjkj%jJ%JKKKLLLLLLLKLKJJJJ%j%
+-5263C730jkjkkjkjkjjj%%%%%JJ%JJ%%%%%j%jjkjjjjjj%J%KKKLLMMMMNMMLLKKJjjllmoopp
+-5196C721qrqqqppnmlk%KLMPPJ0J0J1J2J2J3J3J3J2J1J1RQPNLK%klmopqqrrrrrqpoomllj%
+-5140C716%JKLLLLLLKLJK%%%jjkkkjkkj%%%KKKMMMNOONOONNNMLLJJJjjkkklklkjjjJJKLMN
+-5073C806OPPQQQQPQOONMLJJkkmnppqrj0rj0j0rrqqoomlk%%KLMMOOOPPPOPONNNLMKKJJ%%%
+-5009C860%jjj%j%%%%JJKKKKLKLLLLLLKLKKKKJJ%Jj%jkjlklmmmmnnonoononnmmlljj%KKLM
+-4942C817OOPQRRJ0RJ0J0J0J0RQQOONLLJ%jkllnmonooonomnmllkjk%j%%%%%%%jjjjkklkll
+-4880C868lkkkkj%%JKKLMMMNNNNNNMMLLKJ%jjklllmmmmlmkkjjJJKLMMNOOOOONNNMLKK%jjk
+-4813C953lmmnnnnmmlljjJJLMNOPQQRRJ0RRRQQPOMMLJJjkklnmnnononnmmlllkjjjj%%%%%j
+-4747C968%j%kjjkjkjkj%j%JJKKLMMMNONOONNNNMLKKJ%jkllmnonoooooonmmmkkk%jJJJKJK
+-4680C953KKJKJJ%%jjjkkkklklkkjjjJ%KKKMMMONOPOPPPPPOOOONMMMLLKJJJ%%%jjjjkjkkj
+-4613D060kkkjkjkjjj%j%%%%JJJJJKJKKJKJKJJJ%%%%jkjkkkklkkkkkjj%JJKKLMMONOPOPPP
+-4546D106PPONNNLLJJjjkmmnooppqpqqppoonmlljjJJLLMNOOPPQPQQQQPPPOONNMMLLKJJJ%j
+-4479D183%jjjkjkjkjkjjjj%%%%J%JJKKJKLKKLKLKLKKLKJKJJJJ%%%%jjjjjjkjjkjj%j%%J%
+-4412D197KJKLKMLMMMNMNNMNNMMLMKLKJJ%jjjklllmmmmmmmmmllkkjj%JJKKLMMMNNNNNNNNM
+-4345D286MMLLKKJJJ%j%jkjkjkkjkjjjj%j%%%%J%%%%%j%jjjkjkkkkkkjkjj%%%JKKLMLNNNO
+-4278D300OOOOOOONMNLLKK%%%kkklmlmmmmmllkkjj%KKKMMNNOPOPPQPOPOONMMLKK%%jjlkmm
+-4211D420mmnmnmmmmlkkjj%%JKKKLLLMLLMKLKKJJ%%jkkkmlmnmnnmnnmmllljk%%JJKLLMMNM
+-4144D370ONONOONONNNNMMMLMLLKLKLKLKLKLKLLLLLLMLLLLLLKLKJKJ%J%j%jkjkklklklllk
+-4077D509lkkkkjjjj%%%JJJJJJKJKJKJJKJJJJJJ%JJJJKJKKKLLMLNMNNOOOOOOOONOMNLLLJJ
+-4010D642%jjklmmmnnononnnmmmkkk%%JKKLLMMMNNNMNMMLLLKJJJ%jjjkkklklklkkkkkjjjj
+-3943D596%j%%J%%JJJJJKJKKLKLLMMMNNONOOPOPOOOONNNMLLKJJj%kklllmmmmnmlmllkkj%j
+-3876D679JJJKKLLLLLMLLLLLLKKKKJJKJJJJJJKJKKKKKLKLLMLLMLLMLLLLLLKLKKJKJJ%J%%%
+-3809D822jjjjjkjkkkkkjkjjj%%JJKLLMNNOPPQQRRRRJ0RQRPQOONLLKJ%jkllnmnononnnmml
+-3743D905ljj%JJLLMMNONOOOOONOMNMLLKKKJJ%%%%%%%J%%JJKJKKKLKLKLLKLKKKJJJJ%%%j%
+-3676E042jjkjjjj%%%%JJKKLMMNNOOPQQQRQRRRRQQQPPONMLLJJjkkmmooopqpqqpppnnmlkj%
+-3609E108KLMOOQRRJ0J1J1J2J1J1J2J0J0RRPONMKK%kklnnopppqpqpopnnmkkj%JKLMNNOPPQ
+-3551E239QQQQQQQPPONOMMMKLJJJ%%%jjjjj%jj%%JJJKKLLLMNNNNONONONOMNMMLKKKJ%%%jj
+-3484E443jkjkjjj%%%KJLLMNOOPPRQRRRRRRRQQPOONLLKK%jjklmmmmnnnmnlmlkjj%JKKMMNN
+-3417E570OOPQPQPPQPOOONMMLKKJ%%jjjkkjkkjj%%JJKLMMNNOPPPQPQQPPPONNNLLKKJ%%jjj
+-3350E799kjkkjj%jJ%KJLKLMMLNMMMLMLLLKKJKJ%JJ%JJKKKLLMNNNPOPQPQPQPOOONMLLKJJ%
+-3283E990%%jj%%JJKLLNOPQRJ1J0J2J2J2J2J3J1J1J1RQPNMKJjlmoopqrqqqoomljJKNPRJ0J2
+-3227F142J4J5J6J7J8J7J7J7J6J5J4J2J0QPML%jkmooopopnmlk%LMORJ0J2J5J5J7J9J9J9K0
+-3182F471K0J9J8J7J6J4J3J0ROMK%lmnqqj0j0j0j1j1j0j0rqoomlk%JLMNOPQQRJ0J0J0J1J0
+-3135F583J1J1J0J1J0J1J0J1J0J0J1J0J1J0J1J0J1J0J1J0J0J0J0J0RQQQPPOONNNMMMNMMNO
+-3092F943OPPRRJ0J2J2J3J4J4J6J6J6J7J7J7J7J7J7J6J5J5J4J3J2J1J1RQPPNNNLMLLLLLMM
+-3048G389NOOPQRRJ1J2J2J3J5J5J5J7J7J8J8J9J9J9K0K0K1K0K1K0K1K0K1K0K0K1K0J9K0J9
+-3011G982J9J9J8J8J8J8J6J7J6J6J5J5J4J4J3J3J3J2J1J2J1J0J1J0J0J0J0RJ0J0J0J0J1J0
+-2977H431J1J2J2J2J2J3J4J4J5J5J5J6J6J7J7J7J7J8J8J8J8J8J8J8J8J8J7J8J7J8J7J7J7J7
+-2943H976J7J7J7J7J8J7J8J7J8J8J9J8J9J9J9J9K0J9J9J9J9J9J8J8J8J7J6J6J6J4J5J3J3J3
+-2909I565J2J2J2J1J1J2J1J2J3J2J4J4J4J6J7J7J8J9K0K1K2K2K2K3K4K3K4K3K3K3K3K2K1K0
+-2875A0168K0J9J9J7J7J6J5J5J5J4J4J4J4J5J4J5J5J6J7J7J8J9J9K0K1K0K2K2K2K2K2K2K1
+-2842A0756K2K1K1K0J9J9J9J8J7J8J6J7J6J6J7J6J7J7J8J8J9K0K0K1K2K3K4K4K5K6K6K7K6
+-2809A1421K7K8K7K7K7K6K6K6K5K5K4K4K3K3K2K3K1K2K1K2K1K2K2K1K3K2K3K4K4K4K5K6K5
+-2776A2212K7K6K7K7K8K8K8K9K9K9K9K9L0L0L1L0L2L1L2L3L3L3L4L5L5L6L6L6L7L7L8L8L8
+-2743A3263L8L8L8L8L7L8L7L7L7L6L6L6L6L5L6L6L5L6L6L6L7L7L8L8L9M0M0M1M2M2M4M3M4
+-2710A4520M5M5M5M5M5M5M6M4M5M5M4M3M4M3M3M2M2M3M2M2M2M3M3M3M4M5M5M6M7M7M9M9N0
+-2677A5991N1N2N3N3N3N5N5N5N5N6N6N7N6N7N7N7N7N7N8N8N9N9O0O0O1O2O3O3O5O6O6O8O9
+-2644A7920O9P1P1P2P3P4P4P4P5P5P6P5P6P6P5P6P5P6P6P5P6P6P7P7P7P8P9Q0Q0Q2Q3Q4Q5
+-2611B0438Q7Q8Q9R0R2R3R5R5R7R8R9R9J01J01J02J03J03J04J04J04J05J06J06J06J07J07
+-2585B3019J08J08J09J10J10J10J11J12J13J13J14J14J15J16J17J17J18J19J19J20J21J22
+-2563B5535J22J24J24J26J26J28J29J31J32J34J36J37J40J41J44J45J48J49J52J54J56J58
+-2541B8571J59J62J63J64J66J68J68J70J70J72J72J73J74J74J75J76J77J77J78J79J81J81
+-2519C2350J83J84J86J87J89J92J93J95J97K00K01K04K06K08K10K12K14K15K17K18K20K21
+-2497C6802K22K23K24K25K26K27K28K28K30K31K32K34K35K37K38K41K42K45K47K50K52K55
+-2475D1974K57K59K63K64K67K70K71K73K75K76K78K78K79K80K80K81K80K80K80K79K80K78
+-2453D8002K79K78K77K78K77K78K78K78K79K80K81K82K84K85K86K88K90K91K94K94K97K97
+-2431E4253K99L01L01L02L02L03L02L03L02L02L01L00K99K98K97K96K93K93K91K89K88K87
+-2409F0802K85K84K82K82K79K79K77K76K75K73K72K70K69K67K65K63K62K59K56K55K52K49
+-2387F6733K46K44K40K38K35K32K28K26K23K20K17K14K11K09K06K03K01J99J95J93J91J88
+-2365G1492J85J83J79J76J73J70J66J62J58J53J50J44J40J34J30J24J19J13J08J02R6R1Q5
+-2342G4733Q0P4O9O3N9N4M9M4M0L5L1K7K2J9J4J1OKjoj0j5j8k4k8l2l8m2m8n2n8o3o9p3q0
+-2307G4775q4r0r5j01j06j10j16j21j25j30j35j39j43j48j51j56j59j63j67j70j74j77j81
+-2284G1634j84j88j91j95j98k01k05k09k12k16k19k23k26k30k33k37k40k44k47k50k53k57
+-2262F6776k59k63k65k67k71k72k75k77k78k81k82k84k85k86k88k88k89k91k91k92k92k94
+-2240F0606k94k94k96k96k97k97k99k99l00l01l02l03l05l05l06l07l09l09l10l12l11l13
+-2218E3941l13l13l14l13l13l13l13l12l10l10l08l07l06l03l02l00k98k96k93k92k90k88
+-2196D7234k86k85k83k81k80k79k78k77k77k76k75k75k75k75k74k74k74k74k73k72k72k70
+-2174D1149k70k68k67k65k62k61k57k55k52k48k45k41k38k34k29k27k22k18k15k12k07k05
+-2152C5851k02j99j97j94j93j90j90j88j86j86j86j84j84j84j83j83j83j82j81j80j80j78
+-2130C1738j77j75j74j72j70j67j64j62j59j56j53j50j46j43j40j37j33j31j27j25j22j20
+-2108B8435j18j16j14j12j11j10j09j08j07j07j06j06j05j05j05j04j04j03j03j02j01j00
+-2086B6079j00r8r6r6r4r2r0q8q7q4q3q0p9p6p4p2p0o8o6o5o2o1n9n7n6n4n3n1n0m9m8m6m5
+-2053B3730m4m2m2m0l9l8l7l6l5l4l3l3l1l1l0l0k8k9k7k8k7k6k6k6k5k4k4k4k3k2k1k0j9
+-2020B2736j7j7j4j4j1rqnmjJLOPJ0J2J3J5J7J8K0K0K1K3K2K4K3K4K4K3K4K4K4K3K4K4K5K4
+-1982B3154K6K6K7K8K9L1L2L4L6L8M0M2M4M6M9N0N3N4N6N8N9O0O2O2O3O4O5O5O5O5O6O6O6
+-1949B4781O7O7O8O8O9P0P1P3P4P6P8Q0Q3Q4Q7R0R2R5R7J00J02J04J07J08J10J12J14J15J15
+-1920B7357J17J18J18J19J20J20J21J21J22J22J24J24J25J27J28J30J32J33J36J39J41J44
+-1898C0138J46J50J52J55J58J62J64J66J69J72J74J76J78J80J82J82J85J85J87J87J89J90
+-1876C3927J91J91J93J95J95J97J99K01K02K05K07K10K13K15K19K22K24K28K32K34K38K41
+-1854C8579K45K47K50K53K56K58K61K62K65K67K69K70K72K74K75K76K78K79K81K82K84K85
+-1832D4468K87K88K90K92K93K96K97L00L01L03L05L08L09L12L13L16L17L20L21L24L25L28
+-1810E1213L29L31L33L34L37L38L41L42L43L46L47L48L50L52L53L54L55L56L56L57L57L58
+-1788E8830L57L56L56L55L53L53L50L49L46L45L42L40L37L34L33L29L28L25L22L21L19L17
+-1766F6297L15L14L13L11L11L09L09L07L07L06L06L04L03L01L00K98K97K93K91K89K84K81
+-1744G2946K78K72K69K63K59K53K48K42K36K31K24K19K13K08K01J96J90J85J79J74J69J64
+-1722G7819J58J53J48J43J38J32J27J22J15J10J04R8R1Q5P8P1O4N7M9M2L4K7J9J1Mlj1j8k5
+-1693G9942l2l9m6n2n8o4p1p6q2q7r3r8j04j09j14j20j25j31j36j42j48j54j60j66j72j78
+-1667G7185j84j91j98k03k10k17k22k29k35k41k47k52k58k63k69k73k78k83k87k91k95k99
+-1645G1760l02l07l09l13l16l18l22l25l27l30l33l35l37l40l42l45l46l49l51l52l55l57
+-1623F4449l58l60l61l63l65l66l67l68l69l71l71l72l74l74l74l75l76l77l76l77l78l77
+-1601E6300l77l78l77l77l77l76l76l75l74l73l72l70l70l68l66l65l63l61l59l57l56l53
+-1579D8180l51l49l47l45l44l41l39l37l36l33l32l30l29l27l25l24l22l21l19l18l16l15
+-1557D0880l13l11l10l08l06l05l02l01k98k96k94k92k89k87k85k82k80k76k75k71k69k67
+-1535C4463k63k61k58k56k52k50k47k45k42k39k36k34k32k29k26k24k22k19k17k15k13k10
+-1513B9273k09k06k05k03k01j99j98j96j94j93j91j90j88j87j85j84j82j81j79j77j77j74
+-1491B5074j73j71j70j68j67j64j63j62j59j59j56j55j53j52j50j49j47j46j45j43j43j41
+-1469B1638j40j38j38j37j36j34j34j32j32j30j29j28j27j26j24j24j21j21j18j18j16j14
+-1447A8821j13j11j09j08j07j04j04j01j01r8r8r6r5r3r3r1r0q9q9q7q7q6q5q5q4q3q4q2q2
+-1418A6086q2q2q1q1q0q1q0p9q0p9p9p8p9p8p7p7p7p6p5p5p4p4p3p2p1p0p0o8o8o6o6o4o3
+-1385A3611o3o1o0n9n9n7n7n5n5n4n3n3n2n1n1n0n0m9m9m9m8m7m8m7m7m7m6m6m6m5m6m5m5
+-1352A1921m5m4m5m5m4m5m4m5m5m4m5m5m5m5m5m5m5m5m4m4m4m4m3m2m2m0m0l9l8l7l6l5l4
+-1319A0513l2l2l1k9l0k8k8k7k7k7k7k7k8k7k8k9l0l0l1l1l2l3l4l4l4l5l5l5l5l4l5l3l3
+-1286I492l2l2l0l0k8k8k7k5k5k5k3k4k3k3k3k3k4k4k4k6k6k8k8k9k9l1l1l2l2l2l2l2l2l1
+-1252H548l0k9k8k6k5k4k2k0j8j7j5j4j3j1j0j0j0rrrj0j1j1j3j4j5j7j8j9k1k2k4k4k5k6
+-1217G929k6k6k7k6k6k4k4k3k2k1j9j7j7j4j4j2j1rrrpqpqpqrrj1j1j2j3j4j4j6j7j7j8j9
+-1178G328j9j9j9k0j9j9j8j8j8j7j6j6j5j4j4j3j2j2j2j1j1j0j1j0j0j0j0j0j1j0j1j0j1j1
+-1144F861j1j1j1j2j1j1j2j2j1j2j2j1j2j2j1j2j1j2j1j1j1j1j0j0rrrpppnnmlkk%%%JJKJ
+-1101F526JJJ%%kkmnopqrj1j2j2j4j3j5j4j5j4j3j3j2j2rrpomljJJKMMNNMNMMKK%jlmnpqj0
+-1047F282j0j2j2j3j2j3j3j1j1j0rpomljJLMNOQPRQRQPOOMLJjkmnprrj1j1j2j3j3j2j2j2j1
+-998F086j0qqonlk%JKMMNOOPOPOONNLLKJ%%kllnmonopopoopononnnmmmllllkkkkjjj%%%%J
+-931E984JJJKJJJJJ%jjkllnnpqqj0j1j1j3j3j3j4j4j4j4j4j3j2j2j0j0qpnmljjJKLMMMNMM
+-879E755MLKJ%jlmoorrj0j2j2j3j3j4j4j4j3j3j3j1j1j0rqpnnmlkkjj%jjjjkllmnnoppqrq
+-825E436rrrqrpppnnmlkjjJJKLLLMMLLLLKJJ%jjllmnooppqqrqrrrqrrqqqppppopnonnnmmm
+-757E155mlllkkjk%j%%%JJJJJ%J%Jj%kkklmnoopqqrj0j0j0j0j1j1j0j1j0j0rqrpponnlmkk
+-699D908kjj%%j%%j%jkjkkkllllmllllllkkjj%%%JJJKKLKLKLKKKKJK%J%%jjkjlklllmlnmm
+-631D845nnnnnonoooooooononnmnlllkjjj%JJKJKLKKKKJJ%%%kkllmnnooppoppoonnnllljj
+-563D629%%JJKJKJJJJ%jkklmmnopoppqpopnnnlkk%JKKMMNONOOONNMLKJJjklmnooppqqpppo
+-495D520onmlkj%JJKLLLLMLKKK%%jkllnooppqqpqppoommkk%JJLMMNOOOOPNONMMLJJ%jklmn
+-427D482oooqpqpqpqoponnmllkk%%%KKKLLLMNMMNNMNMMLLLKK%Jjjklmmnopppqqqqpqppnom
+-359D318lljjJJLLMNNNOOONNNMMKKJ%%kkllmnmmnmmllkk%%JJLKMMMNMNMMMLKKK%%jjklklm
+-291D371lllllkjk%j%J%JJJJ%%jjkllnnooqpqqqqqponmlj%JLMOPPRRJ0J0J0J0RQQONLK%kl
+-227D364mppqrj0j0j0j0rrppmmj%KLNPQRRJ1J0J1J0RRPONLJjlnoqj0j0j2j2j3j3j2j2j1j0
+-177D235rpomj%KMNQQJ0J1J2J2J2J2J1J1J1RQOOMKJ%kkmmnoononnnmllkkj%%%%%%%jjjklm
+-118D291mmnooooonnnllkj%JLLNNOOPQPPPONNLLJ%klmnopqrrrrrrqqpnnmkjjJKLLMNNNNNN
+-50D225MMMKLJJ%%jkjkklkkkkjjjjj%%j%jjjjlkmmnnopppqqqqppoomll%%KLNNPRRRJ1J0J1
+15D178J1J1J1J0RQQONMLJJjkkmmmnnnnmnlmkkkj%J%KJKKJKKJJ%%jjkkklmlmmmmlmklkjj%%
+81D171%KJKKKLKKKKJJ%%jjkklllmmmlmlllkkj%%JKKLLLMLMMMLLKKJJjjjllmnnnopooponom
+151D109mmkkj%%KKLLMNNNNNNMMMLLKJ%%jkllnmnoonooonnmllkjjJKKMMNOPPPQQQRQQPPPON
+220D205NMKLJ%%jkkllmnmnnnonnnmnmmmllllkkkjjjjjj%%j%%%J%%%%J%%%%%%j%j%jjjjkjj
+289D106kjjkjj%j%%%JJJKJKKKKJKJJJ%%jkklmmnnooopopoonnlmkjJJKLNNPPQQRRRRRQQPON
+358D147MKKJjkkmmonpoppoooonmmmkkkj%%%%%%J%%%j%jjkjjjjjj%J%KKLLNMNOOOOOOONNML
+427D131KJJjjklmmmnnmmmlkj%JLLNOPQQRRJ0RRRPPNMKJjlnoqrj1j2j3j3j3j4j4j3j2j1j1q
+484D033qnmk%JLNOPQRRJ0J0J0RRQPONMLK%%jkllllmlmlkkjj%%%JJKJJJJ%%jkllmmonpopop
+550D057onnmlkjJJLMMOPPQQQQQPPONMKK%kkmnooqqqqqqqponmlk%JKLNNOPQQQRQQQPPONNMK
+619D151KJ%%kklllmmnnmnnmnnmnmnmnmmnmnmmmnmlmllkkkj%%JJKLKMMMMNMNMMMMLLKKJ%%%
+688D071kjkkllllklkkkjj%%JJKKLKMLLLLLLKKJJJ%jjjkklklllkljkj%%JKKKMMMMNNNMNMLL
+757D106KJJjkkmnnopqqqqqqpppnmlkjJKLMOOPQRQRRQQPONMLK%kkmnoqprqrrrpqonmlj%JLM
+826D005NPPQRQRRRQPPNMLKJjkmmnpopqppppnnmlk%%KKMMNOOOPOOONNMMKKJ%%kjllllmlmll
+895D073llkkkjjjj%jjjkjlklmmmnnnoonoonmnmlkkj%JJKKLMLNMMMNMLMLLKJKJ%%%%jjjjjj
+964D016jjj%%j%J%%J%J%JJ%J%%J%%%J%%%%%%%%%%%j%jjjjkjklkllllllklkjjjJJJLLMMNOO
+1033D011OPOPOONNMLLJJ%jkllmmmnmnmlmkkjj%JJKKKKKKK%%jjlmnopqqrrrj0qrppnll%JKM
+1100C920OPRRJ0J1J0J1J0RQPOLK%kmoqrj1j1j2j3j2j3j1j0rpnl%JNORJ1J2J4J5J5J6J6J5J4
+1147D041J3J1RPMJjmprj1j3j4j6j6j6j6j5j4j3j0qnk%MORJ2J4J6J7J9J9J9J8J8J6J4J2J0O
+1189D125L%lorj2j5j6j8k0k0k0k0j9j8j6j4j2rok%LORJ1J3J5J5J7J7J7J6J5J3J2RQMLjlnp
+1233D060rj1j3j3j4j4j3j4j2j2j0qpnlj%KLMONOOONNLLJ%jlmmoopppponmmjjJLMNPPQRJ0R
+1290C946RRQOOMLJjkmnpqrj0j0j0j1j0rrponlj%KMNOPQRJ0J0RRRQQONMLJJjkkllmmlmlkkj
+1351C955%%JKLKMLMLLKKJ%jllnnpprqj0rj0rrqqoollj%KLNOPPRRRJ0RRRQPPNMLKJ%%kkllm
+1416C972llmklkjjjJ%KJKKKLKJKJJj%jklllmnmnnmnmmllkk%jJJKKLLLLMLLMKLKKJJ%%%jjj
+1484C948kkkkjkkkjjkj%jj%jj%jjjjjjkkkklkllklklkkkkjj%j%%JJJJKJKKLKKLLKLLLLLLM
+1552C926LLLLLLKKKKJ%%%kkkmmnnoppqqqqqqqqpoomnlkj%%KKLMNNNONONONMMMKKK%%%kkkl
+1620C879lllmllllkkjjjJJJKKKLLLMLLLLLKKJJJ%jjkkklllmmmlmmlmlkkkkj%%JJJKKLLLLL
+1688C854MLLMLLKLKJKJJ%%%%j%j%%j%J%JJKKKLLLLMMLMLLLKJJ%%kkmmnnpppqqrqrqqpponm
+1756C802mkk%%KKLMMNNONNONNMMLLKJJ%%jkkklkllmllllkllkklkklklllllmmlmmmmmmlklj
+1824C752k%%KKKMMNOOPPQPQQPPPPNNNLLKJ%%jkkllmmmmmlmmllkkkkjj%j%%%j%%%%jj%jkjj
+1892C811jkjjjjj%%%%%JJKJKKKKKKKKKJKJJ%J%%%j%jj%j%%%%J%KJKKKKLKLKLKKJJJ%%jkkl
+1960C852mnnnoppppqppppoonmmkkj%JKLMNNOPPQQQRQQQQQOPNNMMLJJ%%kklmmnnooopppppp
+2028C797opoonomnmlllkjk%j%%%JJJJJ%JJJ%%%jjjjkklkllmllmlllkkkjj%JJKLLMNNOOPPQ
+2096C749PQQQPQPOOONMMLKKJ%jjjlllmmnmnonnononnomnnmmlllkkkj%%%JKKKLLMMMNNNNNN
+2164C775MNMMMLKKKJJ%%jjkkkklklklkkkkjkj%jj%j%j%jjjkkkklklmllmllllkkkjjj%JJJJ
+2232C718KKKKKKJKJ%Jj%jkkkkllklklkjjj%JKKKLMMNMNNNNNMLLLKJ%%jkkkmlmmmmlmllkkj
+2300C724jj%JJJJKJJJJJ%j%kkklmmmmnmnmmllljjjJJKLMMMNONOOONNNMMMLKKJJ%%jj%kjj%
+2368C756jj%%%J%JKJJJKJJ%J%jjjlklmmnnnonoooonomnmllljjj%JJKKLLLMMNMNMNMNMMLLL
+2436C733KKJJ%jjkllmnnnooooopnonnmlkkjJJKKMMNNOOPOOONNNLLKK%%jkklllmlmlkkk%%J
+2504C693JLLMNNNOONOMNLLJ%%klnnppqrj0rj0rrrqponlkjJKLMOOPQQQQQQOOOMLJJjklmnoo
+2570C701qppqpppnomlkj%JJLMMNNOOONONNNLLLJJ%jjlllmnnnoooooooononnmmmllkkkj%jJ
+2638C583%JKKKKLLLLLLLKLKKKJJ%%%jjkjklkkkkjjj%%JJLKMMMNNONONNNMMLKJJjjkmmmooo
+2706C647oppoonnmlkj%JKLMNOOPPQPPPOOMMLKJjjlmmooopqpppoonmljj%KKMMOOPPQPQPPON
+2774C684NLLJJjkmmnoppqqqrqqpponnmlkkj%%JJKJKJJJJ%j%kkkllmmlmmllljk%%JKLMMNOO
+2842C568PPPPPOOONMLLJJjjkllmnnnonnnnmmllkk%j%JJJKJKKKJKJJ%J%%j%j%jjj%j%%%%%J
+2910C577%JJ%%%%jjkklllmnnnnnnmnllljjJJKMMNOPPQPQPPOONLLJJjllnnopppppoonlkj%K
+2978C530MNOPQRJ0J0J0RJ0QQOMLKjkmoqj0j0j2j3j3j4j4j3j3j2j1rronljJKMNPPQQRQQQON
+3031C546MLJ%klnopqqrrrqqppnmlj%JLLNNOPPOPONNMLKJ%kklmmnnnnnmmlkjjJJKLMMMNMNM
+3099C503MLKJJ%kklmnnnooonnmlkk%JKLNNOPQQQQQQPPOMMLKJjjklmmmnnmmmmlkjj%JKKKLL
+3167C521LMLLKKK%%%jkllmmmnmnmmllkkj%%KKKMLMNMNMNMLMKLKJ%%%kjklkllmlllmlkllkk
+3235C497kkkjkjjjjjj%j%%%%JJJKJKKKLKKLKKKJJJ%%jjklllmmmnnmnmmmllkjk%%JJJKKLKK
+3303C459LKKKJJ%%%jjjkkkkkkjkj%j%JJJKKKLKLKLKKKJJ%%%jjjkjkjkjjj%%JJJKKKLLKLKK
+3371C490JJ%%jkklmnnnooononmmlljjJJKLMMNNNNNNMLLJJ%jklmnnonooonnmlkjjJLLLNNOO
+3439C434POONNLLKJ%kllnooppppponmmk%%KMMOPQQRRRQQQONMKJjkmopqrj0j0j1j1j0j1rrp
+3501C374pnlkjJKLNNOPPPPOONMLK%%klmnnoopooonmkkjJKMMOPPQRRQRPPONMK%jlmoqrj0j1
+3567C415j2j3j3j3j3j3j2j2j0j0qpnmkjJKMMNOPPQPQPOOOMMLKJ%jjlllmmnmnmmmmklkj%%%
+3625C308KJLKMLMMMNMMNMMMLMLKLKKJJJJ%%j%jjjjjjkjjj%j%%%JJKKKLLMMMNMNNONNNNMMM
+3693C458LLKJJ%jjllmmnooppppqppqpooonmmlljk%%JJJKKLKKLKKJK%J%jjkklllmmmnmmmlm
+3761C304lkkk%jJJJKLLLMLMNMMMMLMLKLJKJJ%%%%jj%jjkjjjjjjkjjkjkkklkllmlmmmmmmml
+3829C286mlkkkj%%JJKLLLMMNMNMNMNLMLLKKJJJ%%%%j%%%%%%JJJKKJKKLKJKJJ%%jjkklmmnn
+3897C339nononnmmmlkj%%JKLLMMNNNNMNMLKKJjjkllnnopppppopnnmmkj%JKMMNOPPQQQRQPP
+3965C343PONMLKJJjkllnmonooooonnmmlkk%%%KKLLMNMNNONNNNNMMMLLKJK%%jjjklllmmmnn
+4033C339nnonnonnnnmnlmlkljkj%%J%JKJKKKKKJKJJJ%%j%kjkklklklkkjk%%%JKLLMMNOOOO
+4101C298POONNMMKK%%klmoopqrrrj0j0rqqponlk%KLNORRJ1J3J3J3J5J5J4J5J4J3J2J2J0QP
+4154C427OLKJjlmnppqqrqrqpponnlkj%%KKKLLMLLKKKJ%jkkllnmnnnnnmmklj%JJLMNNPPPQQ
+4222C352RQQPQOONNLLKJ%jjjklkllklkkkjj%%%JKJKKLLKLLLMLLMLMMMMNMONOOOOPOPPOPON
+4290C547OMMMKKK%%jkklllmlmlllkjjjJJKLMMMONOOPOOOOONOMNMMMMMMMMNNNPOPQQRJ0RJ0
+4356C752J1J0J1J0J1J0RJ0QQPPNNNLLLKKKKKKKLMMMOOOQPRRRRRRRRQQPONNMLLKJK%JJJJKL
+4417D085LMOOPRRJ1J1J3J3J3J4J4J4J4J3J3J2J1RRPONLKJjjllmnmnmmmlkj%JLLMOOQQQJ0R
+4471D359J0J0RJ0RRQPPONNMMKLKKKJKKKLLMMNNOPPQQQRJ0RJ0J0J0RJ0RRRQQPPOONNNLMLKK
+4531D723KJ%J%jjjjkklkllkllllkkkkjjj%%%JJJKKJKJKJ%Jjjjlllnnooppqqqrqqqpppnomm
+4599D553kljj%%JJJKJKJJJ%%%kjlllmmmnnmnnnnmmmllllkkklkkllmmnnopprqrj0j0j0j1j1
+4662D340j0j0j0rrqponmkkjJJKLLMNMMNMLLJJ%jkmmopqrj0j0j1j2j2j1j2j2j2j1j1j0rqqp
+4715D094pnnmmlklkkkkklklmlmnmnnnmnnmmmmlkkjjj%%J%J%J%%%jkkllmnnoooppppppoonm
+4783C865mlkk%jJJJKJKKJK%%%kklmmooppqqqrqpqponmmkj%JKKMNNOOOOOONNNLLKJ%jjllmn
+4851C802nnoooooonnnmmlllkkjjjjjjjkjjkkkkllklllklkkkjjj%J%JKKKLLLMLMMMLMMMLML
+4919C731LLLKLKKKKJKJJJ%J%J%%%%%%j%J%%JJKKLLMMNOOPQQRRJ0J0J0J1J0J0J1J0RRRQPPO
+4979C976NMLLKJJ%%%jjjjjj%jJ%KJKLLMMMNNNNONOONOONONONOOOOOOPPPQPRQRRRJ0J0RJ0J0
+5044D264J0RJ0RRRQQPPPOONNNMNLMMMLMMMNMNNOOOPQQQRRJ0J0J0J1J1J2J2J2J2J2J3J3J2J3
+5097D672J3J2J3J2J2J1J2J0J1J0RRRQPPOONNMMLLKLKJKJKJJKJJKKKKKKLLLLMMMMNNNNONOO
+5155D975OOOPOONONNNMMLLKKJ%%%jkkklkllllklkkjjj%J%JJKJKJJJJ%%jkklmnnooqpqqrqr
+5223D942qqpqooomnllkkkjkjjjkkkllmmnnopopqpppppooonmmmllllkllmmnnopqrj0j0j1j2
+5287D621j2j3j3j3j3j2j3j1j1j0rqoomlkj%JJKKKJK%%jllnoqqj0j1j2j3j3j3j4j4j3j3j2j1
+5334D289j0qqommjjJJLLMLMMLKJJjkmmpprj0j0j2j2j2j3j3j2j2j1j0rqpomlj%%KLMMMNMNM
+5390D113LLLJJ%jkkmmmnnononnnnmmmllklkkkklklllmmmmnnnnmnmmllkkj%%JKKKLLLLLLKJ
+5458C979J%%kllnopprrj0j0j1j1j1j1j1j1j1j0rrqppnnmllkj%%%JJKKKKKLKKLKKKKJKJJJJ
+5516C796%%%jkjklllmnmonoooopoooonnnmmmklkjjj%%%J%JJJJJJJ%JJJ%JJ%JJJJJKJJKJKJ
+5584C693J%%%%kjllmnnpoqqrrrrj0j0rrrqqpoonllkjj%JKKLLLLLLMKLKKKJJJ%j%jjkjkkkj
+5650C537kkkkkkkkklkkkklkkklkkkjkjj%j%JJJJKKKLKLKLLKKKKJJJJ%%j%jjjjkjjj%jj%%%
+5718C510%%%%%%%jjjkkkllmmmmmnmmlllkk%%%KKLLNMNNONNNMMLKK%jklmnopqrrj0j0j0j0j0
+5782C410j0rrqpoomlkj%%KLMMNOOPPPQQPQQQPPPPOONNMMLKJJ%kklmoopqqj0j0j1j1j1j2j1
+5842C386j1j1j0j0qqpnmlk%KKMNOPPRQRRQQQPONMLKJ%kkmmnnopopooonnmmlkkj%%J%JKJJK
+5906C343JJ%J%%%j%j%j%%%%JKKKLLMNMNNNNMNLLLJJ%kkmmooqqrrj0j0j0j0rrqppnmlkjJKL
+5970C262NNOOPQPQPPOONMLJJ%kllnnpopppqopnnmlkj%JKMMNNOOPOOONMLLJ%kkmnppqrj0j0
+6036C271j0j0j0rrqpnmlj%KMNOQQJ0J0J1J1J0J1J0RQPNNKJ%kmnopqrj0rj0rrqponlkjJKMM
+6092C229OPPQQQQPPNNLL%%kmnopqqrj0rj0rqqpnnlljJJKLMNMNNNNLMKJJ%kkmmnnopoooomn
+6158C167lkk%%KLLMNOOOOPNONMMLKJJjjkklmlmmmlllkjk%%JJJKKLKLKKKJK%J%jjjjjkjjjj
+6226C211%%JJKLLLLMMMMLLLJJ%jllnopqrj0j0j1j2j1j1j1j0rrpomljJKMNPRRJ1J1J2J2J2J2
+6281C194J2J1J0QQOMKJjlmpqrj1j1j3j3j4j4j4j4j3j3j1j1rqpnmkjJLMNOPRRRJ0J0J0J1RJ0
+6330C149RQQPNNNLKJJjjjlkmlmlmmlmlllkkkkjkjjkjkkklllmmmnnnnnonnmmllkj%%KKMMNO
+6398C079OPPPQPPOONNLKJ%jkmmnpppqqrqqqpoonllkj%JKKLMLMMMMLLKKJ%%kjllmmmmnmmml
+6466C034lkjjJJJLLLNMNNONNNNNMLLLJK%%%jjkklkllllllklklkkkjkjjjjj%%%%%JJJJJJKJ
+6534C061KKJKJJJ%%%jkjllmmmnonoooononmmmkkk%%JJKKLLLLLKLKKJJ%jjjlklllllllkkjj
+6602B972%JJKLLMLNMMMMLLKK%%%kllmmnonoonnnmlljj%JKKMMMNONONONMMMLKKJJ%%jjjjkj
+6670C018j%j%%JJJJKJKKJJJJjjjklmmnoooppppoponmmlkj%%KKLMMNNONOONNNMMMLKLKJJJ%
+6738C014J%%%%%j%jj%kjkkklmmmnoooopppppooonmmlkk%%JJKKLLLLLKKKJ%%jjkklmllmllk
+6806B883kj%JJLLMONPPPPQPPOOMMLK%%kllnnoooooonmlljjJKLMNNOOPOOONMLJJjjmmopqqr
+6874B930j0rj0rrqponlkjJLLNOPQRQRRRQQOONMLJ%%kllnnnononomnmlkkkj%%JJJJJ%JJ%j%
+6940B901jkjlkklllklkjkj%J%KKLLLMMNMNMMMMMLKLJJJ%%jjkkkkllllllllmllllllllkllk
+7008B865lkkkjkj%j%%JJJJKKKKKLKKKKKKJJ%J%%j%j%jj%j%%%J%JKJKKKKKKJJJJ%jjkllmnn
+7076B875nooopooonmnlkkj%JKKMLNMNNNNNMLLKJ%jjllnnoopqqpqqqppponnmllkkj%jJ%JJJ
+7144B731KJKJKJJKJKJKKJKKKKKLKKKKKKKJJ%J%jjjkkkkklkkkjj%%JKKLMNNOPPQPQQQQPOOO
+7212B872MMKKJjjklmmnonoooonnnlmkkkj%JJJJKKKLKKJKJ%J%%jjjjkjkkjkjjjjj%j%j%jjj
+7280B799jjklllmmmnnnonnnnmmlkk%%JLLMNNPOQPQPQPOONMLKJ%jklnmoopoppooommmkj%JK
+7348B740KMMNNNOONNNMLKKJjjllmnnopppppooonmmlkj%JJKLLMMMMNMMMLMLKKKJJJJ%%%%%%
+7416B767%J%%JJ%JJ%J%%%jjjklllmmnnnmnnmmmlkjj%JKLLNNNOOOOPNNNMLK%%kkmnopqqrrj0
+7484B712rrrqppnmkj%KMNOQRJ0J1J1J3J2J3J3J2J2J1J1J0QPPMMJJjkmmoppqqrrrqrqqponn
+7540B726mlkkjJ%KJLKLLLLLLKKKKJ%%%jjjjkkkkkkkkkjjj%%%%J%J%J%Jj%jjklllmnonpopp
+7608B668pppooonmmljj%JKLMNNOOPOPPOONNMMKKJj%klllnmnmnnmmllkkj%%JKKKLLMLLLLKK
+7676B679JJ%%%kkkklllllllkkjj%%JJJKLKLLKLKKJJJjjjklmmnnnnoonnnnmllkjjJJKKMLNN
+7744B615NNOONONNNNMLLLKKJJ%%%jjjkjkkkjkkkkjkjjkjj%j%j%%J%J%JKJJKJKJKJKJJJJJ%
+7812B678J%%j%jj%jjjjj%j%%J%JJJKKKKKKKLKKJKJJJ%%%jjjkkkklklllkllklkklkkkkklkk
+7880B639lkklkkkkkjjj%%JJKKLMMMMNNNMMMMKKJjjlmnoqrj0j1j1j3j2j3j4j3j2j2j2j0rqo
+7936B474nlj%KMNPQRJ0J0J1J1J2J1J0J0RQPOMKKjklnopqqj0j0j0j0j0rj0qqqonnlkk%JJKL
+7990B474LMNNNNONOONOONONNONNNNMNMMMLLLKKJ%%%jklkmmmmnnnmnmmllkkjJ%KLLMMNNOOO
+8058B601ONONMMLKJ%%kklmnnooopoponommlkk%JJKMMMONOPOPOOONNMLKJJjjlmmnpoqqqqrr
+8126B557rqqqqooommlkj%JJKLLMMNNNNNNNNMNLMLKLJKJ%J%%%j%%%jJ%%J%JJJKJJKJJJ%%%j
+8194B582jkklmmnnoopppqqpqpqpooommmkkj%%KKLLNMOOOOPPPPPPPPOPNONNMMMLKKJJJ%jjj
+8262B587klllmmnmnonoonoononnmmmllljkj%%JJJKKKLLKLLKKLJKJ%Jj%jkkklllmmmmmlmlm
+8330B452klkkj%%%JKKKLMLMNMNMNMNMMMLKLJK%%%jkkllmmmmnnmnnnmmmmlklkjjj%%JJJJKK
+8398B441JKKKKJKJJJJ%%J%%%%j%%%%J%JJJJJJKJKKJKJJJ%J%jjjkkklllmlmllmlklkjjj%J%
+8466B427KKKKLKLLLLKKKKJ%%%jkkkllmlmmmmlmllkljkjj%%%JJ%JJKJJJJ%JJ%J%J%J%JJJJJ
+8534B422JKJKJKKJJK%J%%%kjkkllmlmmmmmmllkkj%%JJKLLLMMMMMMLLKKJ%%jkllmmmnnmnmm
+8602B383llkj%%KKLMMNNONONONMMKLJJjjkllmnnnnonnnnmmllkkkjjj%jj%jjkjkkklkllkkk
+8670B334kj%%JKKLMNOOOPPPPPONNMMKJ%kklnnoopqpppoommlk%JKLMOOPPQQRQQPPNNMLKJ%k
+8738B447klmnnoooooonnnmllljk%j%%%J%%J%%%j%jjjkjjjkjjj%j%j%%%%%j%jjjkjlklklll
+8806B320lkkkjjJJKKMNNOPPQQQQQPPOOMLKJ%jlmmoopppqpopnmmkj%KKMMNPOPPPOOOMMKJ%j
+8874B415lmnopqqrrrqqqoommkjJJLMNNOPOPOPNNMMKJ%jkllnnopopoooommlljj%KJLLMMNNN
+8942B326NNMNMMLLKKKJJ%%%jjjjkjkjkjkkjkkjkkkkkjkkkjkjjjj%%%%J%KJJKKJKKJJJJJ%%
+9010B339jjjkkklkllmllkllkkkjj%jJ%JJJKJKKKKKKKKKKKJKJKJKJJJJ%J%%%jjjjklklmmmn
+9078B304nonooopooooonnnmmmlllkjkj%%%JJKKKLMMMNOOOPQQQQRRQRQQPONMMJJjkmnpqrj0
+9145B309j2j2j2j3j2j3j2j2j0j0qpnmk%KLNPQQJ0J0J1J1J1J0J0RQPNMLJjjlnnooppopnnml
+9196B237k%JKMMOPPQQRQQPPNNLL%%jlmmooopoooommlk%%JKKLMLMLLLJJ%klmnoqrrj0j0j1j0
+9261B206j0rrppmlkJKMOPRJ0J1J2J2J3J2J3J1J1J0QPOLKJklmopqrrrrrrqoonlkjJJLMNOOP
+9318B244OPOOONMLKJjjkmmnoopqqqqqqqpqppooonnnmmmmlllkkjj%%JKKLMNNPPPQRRRJ0RJ0
+9384B212RRRQPPPNNMLKKJJ%%j%jj%j%%%%%JJJ%JJ%%jjkklmmnoopqpqqqqppponnlljj%%KKL
+9452B166LMMLMMMLLKLJJJ%%%j%jjj%%%%%JKJKKKKJKJJ%%jkkmmoooqprqrqqqpoomlk%JKMNO
+9520B113QQJ0J0J0J1J1J1J0J0J0QQPNMMJJ%kllmnonoooonnnmllkjjj%J%JJJJ%J%%j%kjkkl
+9579B173lkllllkljkjj%%JJKJLKLLLLLLLKLKKJKJ%%%%j%jjkjkjkjkjkkjkkjkkklkkllllmm
+9647B132lmnmmmnmmnmmlmlmklkkkjjjj%%J%JJJKJKKKKLKLKLKLLLLLLLLLLLLLLLLLLKLLKLK
+9715B152KKKJJJJ%%jjjkkkllmlmmnmmnmmmmlmklkkjjj%J%JJJJJKJJJ%J%%jjjjkkkkkklkkk
+9783B066jjjj%%JJKJLKKLLLKLKKKKJJJ%%%%%%%%%JJJKLLMMONPOQPQPQPOOOMMKJ%jlmnoqqr
+9851B172j0j1j0j1j0j1j0rqponmlj%JLLMNNONONNMLKJ%jllnnppqpqqpponmkj%KMNPPRJ0J1
+9910B075J1J1J2J1J0J0QPOLL%klopqj0j2j2j2j3j3j3j2j1j1qqnmj%LMOQRJ1J2J3J3J3J3J3
+9955B114J3J1J1RQOMLJjkmnoprqj0rrj0qrppoommkljjj%j%%jjjkkllmmmmnmmllkk%%KLMNO
+10018B008PQRRJ0J1J0J1J0J0J0QRPONMLJJ%kklmmmnnnnnmmmmllkkkkkkjkkklklmlmmmmmmm
+10078B029mlkkkj%JKKLMMNNNOOOONOMNLLKKJ%jkkllmmnnnononnnnmnlmllkjk%jJJJKLLMNN
+10145B027OPPPQQRQRQQQPOOMLL%%klnoprrj0j1j2j1j2j1j1j1rrpomlkJJMMOPQQRRRQQOOML
+10204B080K%kmnoqrj1j1j1j2j2j1j2j0rqpnlk%LLOPRRJ1J2J2J2J3J2J2J2J1RRQONMKJ%jkl
+10254B106lmnnmnnmmmlllkkkjjjjkjjkkllllmmmmnmmmmmllkkjjj%%J%JJJJJ%J%%jj%jkjjj
+10321A969jj%%%JKKLMMNONPOPOPOONNMLLJJ%jklmmnnnonnnnmlljjjJKKLLMMNMNMMLLKKJjj
+10388B048kkmnnoopppqpppoonmmlkjjJJKKLMMMNMNNMNMMLLLKKKJJ%%%%j%jjj%j%j%%J%JJJ
+10455B008JKJKJKJJJJJ%%jjjklllmmmnnnnnnmnmlllkjjJ%KKLMLNMNNNNMNLMKKK%%jkllnmo
+10522A982npoopoponnnmmkkkj%JJJLKLLMLMMMMMMMMLMLLLLLLKLKKJKJ%J%j%kjlklmmmnnno
+10589A949nonnnnmmllkkj%%JKKKLLLMLMLLMLKLKJKJJJ%%%%%%%j%%%%j%%jjjjkklllmnnnno
+10656A903ooononmmllj%%KKMMNPOQPQQQPQOPNMMKKJjjkklmlmmllkkjjJJLLMMONOOONNMMKJ
+10723A999%jlmopqrj0j1j1j2j2j1j2j1rrqomlkJKMNPQRJ0J1J1J1J1J1J0RQPOLL%jkmopqrj0
+10775A930j0j1j1j0j1rrqoomkj%KLNNPQQRRRJ0RRQQPONMLLJ%jkllmmnnnononnnnmmmllllk
+10836A875kkkkkkkkkkkkkkkjkjjj%%%JJKKKLKMLLMLMLLLKKKJJ%j%kkkklmllmlmlllkkjjj%
+10903A841%J%KJJKJKJJ%%%jjklllmmmmnmnmlllkj%%JLLLNNOOPOPPOOONMLKJ%jklmnnopppp
+10970A832pppnnmmkjjJKKMMMNNONNNMLLK%%jklmnoppppqpppoonmlkj%JKLLMNNNOOONONNNM
+11037A820LMLKKKJKJJJJJKJKJKKKKKJKJJJ%jjjlklmmmnnnmnmmllkj%JJKLMMNONOOONOMMMK
+11104A876K%%jklmnnnopoooonnnllljjj%JJJJKJJJJ%%%jkkkklkllkkjj%JJLLMNNOPPQQQPQ
+11171A854OPNNLLJJjklmmooopppooommlkk%JKLMMNONOOOONNNMLKKJJ%j%jkjj%j%JJKKLMMN
+11238A896ONOOOOONNMMKKJ%jjllmmnnnnnmmmlkkj%JKKKMLMMMMMMLKLJJ%jjkkllmmmmlmllk
+11305A904kjj%%JJKKKKKKLJKJJJ%jjjjkkklkjkjj%%JKLLMMNOOOPPPOPOONMMLLJJJjjkkkll
+11372A997lllllkjjj%JJJLKLLMLMLMLKLKJJ%jjkllmmnonopoopooonnnlmkkjj%JKKLMMMNOO
+11439A946NPOONONNNLMKKK%%jjlklmlmmmmmlkljj%JJLLMMNOOOOPOONNNLLKJ%jklmnnopppp
+11506A996qppoonnllljj%%JJJJKJJJ%%jjlllnnnoopooponnmmlk%%JJLMMMONOONONNMMLKJJ
+11573A933%jjkklllmlmllkkkjj%%%JJJKJJK%J%jjjlllmnnoooppopooonnmllkjj%%KJKLLLM
+11640A808LMMMMLMMLLLLLKLKKKKKJKJJJ%%%%jjkjllllmnmnnonnonnmnlllkjj%JJLLLMNNOO
+11707A817OOOPOOONNNMLLKKJJ%jjjlkllmmmmnmnnnmnnmmmmlllkkjj%%JKKLLMNNNOPOPQPPP
+11774A877PPOOONMLLKJJjjjllmmmnnnnnnmmmlllkjj%%%JJKJKJKJJJJ%%%jjjkkkkkkkljkkj
+11841A840j%jJ%JJJKJKKKKKKJKJJJ%J%J%%J%J%JJKKKKLLLLLLLLLKKJJ%%kkklmnnnnonnnmm
+11908A848lkk%JKLMNOPPQQQQQPPNNLLJjjmmooqqqrqqqoomkjJMNPRJ1J3J4J5J7J7J7J8J7J6
+11965B030J5J4J2J1QOL%knpj0j1j4j6j7j7j9j9j8j8j8j5j5j2j0qokjLNPRJ2J3J4J6J6J7J7
+12006A968J6J6J5J4J2J0RPNKJjlmopqrrj0rrqppnmljjKKLNNNPOOOONMLLJ%jllnooqqqrqrq
+12066A951ppoomlk%%KKMNNOOPPPPOONNMKKJ%%kllnmonooononnmllkjj%%JKKKKLLKLKKJJJ%
+12133A951%jjjkjkkkkkjjj%JJJKLLLLMMMLLLKK%%jkmmnppqrrj0j0j0j0rrqppnlkjJKLNPPQ
+12196A860RJ0J0J0J0J0RRPPOMLKJjkllnnonoonmmmkk%%JLKLMMMLLLK%%klmoprrj1j2j2j2j3
+12254A836j3j2j2j0j0qonljJLNPQJ0J1J2J2J3J3J3J1J1J0QPNLJjlnpqj0j1j2j2j3j2j3j2j0
+12298A791j0roolk%KMNOQRRJ0J0J0RRQPONLK%kkmoopqrrrrrqqponnlkk%JJKLMMMMNNNMNMM
+12361A806MMLLLLKLKJKKJJJ%%%%jjkkllmmnmnonnonnmmmlljk%%%JKKKKKKKKJJ%%jkklllmm
+12428A751lmlkkj%JKLMOOQQRJ0J0J0RJ0RQPONLJ%kmopqj0j1j2j2j2j2j3j1j1rronmj%KMOP
+12482A725QJ0J0J1J1J1J0J1RQQNNKKjklnnppqqrpqpnnmkj%JLMNNPOQPPOOOMMKJ%jkmmoopp
+12542A797pqppoonmlkj%JKLMMNOOOOOOOOMNMLLKKKJ%J%%%%%%%JJJJJKKKKKKJKKJJJ%%%j%j
+12609A858kjkkklkkllklklllllllmlmmmmmnmmmmmlllkkj%%%JKKLKMLMMMLMLLKKJJ%jkkklm
+12676A776mnnnonnonnnmnlmklkjkj%j%%%J%J%%J%%J%%%%%J%%%J%JJJJJJKKKKKLKLLMLMLNM
+12743A748MMNNMNNMNMMMLLKKJJ%%jklllmnnnnnonnmmmlkjj%JKKLMMNNONONNNNMLLJK%%jkk
+12810A808llmmmmmnmmmlllkkkjj%j%%j%%j%jjjjkjkkkkkkkkjjj%jJ%JJJKJKKKKJKJJJ%Jj%
+12877A739%jjjjjjjjj%j%%JJJJJKJKJKKJJJJ%J%%j%j%j%j%%%JJJKKKLLLLLMLKLKJJ%jjllm
+12944A773mooppqqqqqpqooonlllj%JJKLMMMNNNNNNNMNLMKLKKJJJ%J%j%%jjjjjjkjkkklkll
+13011A711lklllkkkjj%JJKLLMNOOOPPPPPPONMMKJJkkmnopqrj0j0j0j1j0j0rrqqommkkJJKM
+13072A643MNNOPOOONNMLLK%%%kkllmlmlmlkkj%JJKLMMNONOOOONOMMMKKJJ%jjkklllllllll
+13139A725kkkkjjkjjjjkjkklklllmlllllkkkjj%JJJKKKKKLKJJ%%jklmnnppprqrqqqppnmlk
+13206A562%KKNNPQRJ0J0J1J0J1J0J0RPPNMLJjklmopppqqqponnlk%KKNNPQRJ0J0J1J0J1J0R
+13260A728QQONLKJjlmnppqrrrj0rrqqponmmkjjJJJKLKLLKLKKKJJJJ%JJ%JJJKKKKLLMLMLML
+13326A696LKJJ%%kklmnonpopopnnmlkj%KMNNQQRJ0J0J0J0J0J0QQONLJjlmpqj0j1j2j4j4j5
+13381A656j5j5j4j3j3j1j0qoml%KLNPQJ0J0J1J1J1J0J1RRPPMLK%klmnopqqqpqoonmkk%KLL
+13434A601OOOQQQRQPQOONLKJ%jlmnooqqqrrqrqpppnnmlkjjJJJKLLMLMLMMLLLKKKJJJ%%jjj
+13501A612kkkkklkkkkkkjj%%JJJLKMLMNNNNONNNNMLLKK%jjlmmnppprqrrrrqqppnnmlkj%JJ
+13568A524LLLMMLMMLKLJJ%%kjllllmllllkj%%KKLMNOPPQQQQQPPPONMLK%%jkllmnnnnnnmml
+13635A591kkj%JKKLMMMMNMNLMKLJ%%jklmmnnopopoponomnllkjj%JJKLLLLMMMMMMLMLLLKKK
+13702A600JJJ%Jj%jjjjjkkjkkkjkkjjjj%%%JJJKKKLLLMLMLMLMLKLKJJJ%%jjkkkllllllllk
+13769A600lkkkjjjj%j%j%%jjjjjkkkllllmlmmmlmllllkkkkj%j%J%JJKKKKKLLMMMMNNNOOOO
+13836A588PPOPOOONNMLKK%jklnnpprrj0j1j1j1j1j1j0j0rrponmk%%KMMOOQQQRRRQQQPONML
+13895A601K%%jjllmmnmmnmmllkjjjJ%KJKLKLLLKLKKJJJJ%%j%jjjjkjjj%jj%%%%%%%%%%%%%
+13962A571%j%%j%j%%%%%J%JJJKJJKJJJJ%%jjkkllmnnnonooonnnmmkljj%JJJLKLKLLKKJJ%j
+14029A516kklmnnnoononnmlkj%KLMOORRJ0J1J1J2J2J2J2J1J0J0QPOML%%lmnprrj1j1j1j3j2
+14082A530j2j2j2j1j0j0qqonnljj%JLLLNNNOOOOPOPOOPOOOPONOOONONNNNNMMMMLLLKKJJJJ
+14143A637%j%jkjkkllllmmmnnnnooooopooooonmmmkkj%JKKMMNOPPPPQPPPPNNNLKJ%jkllno
+14210A584opppqqpppoonnmlkkjj%%%JJJJJJ%J%J%%%%%J%%JKJKKLLMMMMMNMMMMLKKK%%%kkl
+14277A551llmmmlmllkjj%JJLLMMNNNNNMMLLJ%%klnnopqrqrrqqqonmlj%KMNOQQJ0J0J0J1J1
+14339A543J0RRPPMLK%lmnprrj1j1j2j1j2j1j0j0qonljKLNPRJ1J2J3J4J5J6J5J5J5J4J3J1J0
+14385A646QOMK%lmoqrj1j2j3j3j3j4j3j3j2j1j0qpnmk%KLNOPRRJ0J1J0J1J0J0J0QQPOMMKJ
+14434A628jjlmmooopqppqpopnommllkkj%%JJJKKKKKKKKLKKKKKKKKKKLKKLKLKKLKKJKJ%%%k
+14501A580jllmmnooppqqpqqppponmlkj%JKLNNOPQQRRRRQQQPONMLJ%%kmmnoppqqrqqpppnnm
+14568A473kkj%KKLMMNOONOONNMMLKKJ%jkklmmmnnnmnmmllkkjjJ%KKKLLLMLMLMLLLKKKJJJ%
+14635A531%%%j%jjjj%jj%%j%j%%jj%jkjkklllmmmmnmnmnmlmlkjj%%KKMMNOOQQQRRRRJ0RQQ
+14701A570QOONMKK%jklmoopqrj0rj0j0j0j0j0qrppommkj%JKLMNOOPPPQPPPONNLLKJ%jklmn
+14762A527nooopooonnmlkjjJJLLNNNOOPOOOONMMKK%%jllmnopopqpppoonmllkj%JKKLLMMMM
+14829A467LMKLJJJjjkllmmmnmmmmkkk%JJLMNNOQPQRQQQQOPNMLKJjkkmnoopqppqpoonmlkj%
+14896A453%KLLMNMNNNMMLKK%%jllmnoopppppooonmlkjjJJLKMMMNNMNMMLLLJJJ%jjkkkklkl
+14963A447kkjjjj%JJJJKKKKLKKKKJKJJKJJJJJKJLKLLMMMNMONNNMNLMKK%%jllnnopqqrrrrr
+15030A459rqpoommkjjJKLLMMNNNNNNMMLLKKJJJ%%%%J%JKJLLMMNNOONOONNMMKJ%jkmnpprrj0
+15097A504j1j1j1j1j1j0j0rppnmlj%KLMNNPPPPPPOONMLLJJjjklllmlmlllkjj%%JKKKLKLKK
+15157A465KJ%%jkllmnnooooonnmmkkj%KKLLNNNNNNMMMKJ%jklmooppqpqppommkjJKMOPQJ0J0
+15223A405J2J2J3J2J3J2J1J0RQPMLK%kmmopqqrrrqqoonmkj%KKMMNOOONONMLKJ%jklnnpoqp
+15282A444qqpooomllj%JKLMMNNNNNNMLLKJ%%kkllmlmmlkkk%JKKMNOPPQRQRQRPPONMKJ%jll
+15349A525nooppqpqopnnmlkj%JKKLLLLLLKJ%jjlmnoqprrrrrrqponlk%JLNOPRJ0J0J2J1J2J1
+15411A441J1J0RQONLJjkmoprj0j0j2j1j2j1j1j0rponkjJKNOQRJ1J1J1J2J2J2J1J1RQPMMJj
+15460A502kmoqrj0j1j1j2j3j2j2j1j0rppmljJKMOPRRJ1J1J1J2J2J1J1J0J0QPNNKK%klmoop
+15509A478qqrqrrqpppnnllk%%JJLLLMMNMNMNMMMLLLKKKJJJ%%%%%j%j%jjjjjjkjkjkjkkkjk
+15576A426kjjjj%%%JKJLKLLMMMNMMNMLMLLKJJ%jjjlllmmmmnmmmllkkj%%%KKKLKMLLLLKKKJ
+15643A464%%jkklmmmnmnmnlmkkjjJJLLMMNOOOPOONNNLLK%%jkmmmonopooonmmlkj%%KLMMNO
+15710A437NOOONNNLLKJjjklmnnooopooonnmlljj%JKKKLMLMLLLKJK%%jkkkllmmlmllkkjj%J
+15777A394JKLLMMNNMNNMMLLKKJ%%jkkklmlmlmmlmllklkkkkkklkllllmmnnnnnonmnmllkj%%
+15844A309KLMMOPPQQQRRRRQQPOOMMLKJ%%kkkllmmmlmlllkkkjj%%%%J%J%JJ%J%%J%J%J%KJJ
+15911A415KKLKLLMLMLMLLLKKJ%%jjkllmnmnnnnnmlmkkj%JJKLLMNMNNNMMMLKKJ%jjklmmnmn
+15978A427nnnmmmlkk%jJJJKKKLKLKKJJJjjjkkmlmmmmmmllkkjjJJKLLMMNNNONNNNMLLLJJJj
+16045A440jjklklllllkkkj%%%JKKKLLMLMMLMLLLKJJJ%jkkkmlnnnooopppppppooonnmmkkj%
+16112A321%KKLMNNOOPPPQPOPONNLLKJ%jkllnmnononnmmkkjJJLLNOOPQQQQQQPONNKKJjllno
+16179A455pqqrj0rrqrppnmmkjJJLLMNNNONNMMLKJ%kklmmooopoponnllkjJKLMNOPQQQRRQQQ
+16245A421PPNNMLKK%%jjkkklkkkjjj%J%KJKKKJKJJJ%jkklmnnoppqqqqqqqpponnmlkk%%%KK
+16312A317KLLLLMLMLLLKLKKKKKJKKJKKKKLKLLLLLLLLLLLKKKJKJ%%%j%jkjkjkkjkkjkjjjjj
+16379A403%j%j%j%j%jjjkjkklkllllllmllllkkkjj%%%KKKLLMNNNNONONNNNMLLKJ%jjklmnn
+16446A407opoppppponnmlljjJJKLLMMNNMNLMLKJjjklmooqqqrj0rrj0qqponmkjJKLNOPQRRJ1
+16511A301J0J1J0J1J0RRQPOMMKK%jklmnnnpooppoooonmnlllkjj%JJJKLLMMNNOOOPPPPPQPO
+16573A398PONNMLLJJ%jklmmnnoooononmmklj%%JKLLLMMLMLLKJJ%jklmmnnoooonnmmkk%JJM
+16640A328MNOOQPQPPPOMMLJ%klnopprj0rj0rrrpomlkJKNOPJ0J0J2J3J4J4J3J4J4J2J2J0RP
+16693A479OMKJkknnoqpqqqppommkkJJLLNNOOPOONNLLJ%jkmnppqj0rj0j0j0j0rrqponmlkjJ
+16755A321JJLKLLLLLKJJJjjjkllllmllkkkj%JJLLMMONOPOOOOOMNLKKJjjklmmnooopopoooo
+16822A319nnmmmklkjk%j%%%J%JJJJKJKKKKKLKLLLMLLLMLLLKLKKKJJJ%%%%j%jjjjj%j%j%%%
+16889A350%%%%%%%%%%jj%jjjjjjj%jJ%JJKLLMMMNOOOOOOOONMMMKKJjjklmmoopppqpqpppoo
+16956A334nmmkkjjJJJLLLLMMMMNLMMLLKKKJJ%%jjkkkllmlmnmnmnmmmmmlkkjj%JJLLLNNOOP
+17023A339PPPPPOPNNMLKJ%kklmoooqpqqqqpoonnlkj%JLLMNOOOPPOPNOMMLKJ%jjllmnnonon
+17090A338nnmmklj%%JKLLMNNNNONNNNMMLKKJJ%%jjkklklkllkkkkjjj%%%JJJKKJKKLKKKKKK
+17157A384KKJJJJJ%%%%jjjjjkkkkkkkkjkkjjjj%j%J%J%JJJJ%J%%j%kjklllmmmnnmnmnlmlk
+17224A302kjjJJJLLLMMNNNMNMMMLKKJ%%jjkkllmlllllkkjj%%JJKKLKLLKKKJJ%%jklmmmooo
+17291A314opoponommlljjJJKLLMNNNOONONNNMMLLLKJKJ%JJ%J%JJJKJKKLKLLKLKKKJJJ%jjk
+17358A379lllnmnnonoonnnnmmlkkjj%%KJLKMLMMNMNNMNNNMMMMMLLLKKKJ%%%jkkklmmmmnno
+17425A346nonnnnmmmllkjj%%JJJKKKKKJKJJ%%%jkkklllmlmlllkkj%%JKLLMNNNOOPONONMML
+17492A350KJ%jjlmmnoooppoponnmmkkj%JJLLMMMNONNNNMMMLLKKJ%%%jjjkjkkjkjjjj%%%%%
+17559A318J%JJJ%JJJJ%JJ%JJ%JJJJJKKJKLKKLKKLKKJKJJ%%j%kkkkllmlmmlmlmllkkkjjj%%
+17626A309JJJKKKKKKKLKKLKKKKJKJKJJJJJJ%J%%%j%jjjkjkkklkllklklkkkjjjj%%J%JKJKJ
+17693A321KKJJJJ%%jjjklllmmnnmnnnmmmllkjj%%KKKLMMNNNNONNNNMMMLKKJJj%kklmmmnno
+17760A304oooopoonnnnlllkj%JJLLMMOOOPQPQQQPPPOONMLKK%%kkllmmnnmnmllkj%JJLMNNP
+17827A334PPPQPPPNNLKJjlmoqj0j1j3j4j5j6j6j7j7j6j7j5j4j3j2j0pomk%LMPQJ0J1J2J4J4
+17874A216J4J5J4J4J4J3J2J0J0QPNMKJ%jllmnnnnnnnmmllkjj%J%KJKKJKKKJJJ%%%%jjjjjj
+17932A307kjjjj%%j%J%J%JJJ%J%%J%j%%jj%j%j%%%JJKJLKLLMMLMMLLLKKJJjjklmmnoooppp
+17999A293opnnnlkk%JKLNNOPQQRRQQQPPNNLK%jklnopqqrj0rj0rqqponmkjJKLNOOQQRQRRQQ
+18064A336OONLKJjkmnopqrj0j0j0j0rj0qqpnnljjJLMMOPQQQRQRQQPONNLKK%%kkllmmmnmml
+18126A303llkjj%JJKKKLLMLLLKKKJJ%jjkkllmmnmnmnnmmmmllklkjjjj%%%J%JKJKKKLLLMMN
+18193A280NNOOOOOOPNONNLLLJ%jklnnoqqrj0j0j0j1j0j0j0rrqoonlkj%KKMMNNOPOOOONNNM
+18253A275LKKKJ%J%%%JJJJKLLLNMNONOONNMMLK%%jlmnopqqrrj0rrqqoomlj%JLNNPPRQJ0RR
+18318A310QQOOMLKjjmnoqqj0j0j1j1j1j1rj0ppnmk%KLNPQRJ0J1J2J2J2J2J2J1J0RQOOLKJj
+18369A376kmmoopqqpqpppnnmkkj%JKLMMNNNOOOOOONONNMMNLMLMKLLKKKJJJ%jjjklmmnoopq
+18436A358qqrrj0rrrrqpponmlkj%JKLLNNNOOOOOOONNMLLLJJJ%jjjklkklllklkkkkkjjjj%j
+18502A286%%%%%%%%J%J%J%J%J%J%J%J%%%J%j%%%j%j%j%%%%J%JKKKKLMLNMMNNNMNMMMLLKJJ
+18569A370%jjklmlnmnonnnnnmmlllkjk%j%J%%%%j%kjlkmmnnoopopppponnmmkk%JKKMNOPPQ
+18636A223RQRRRRRQPPONNMKLJ%%%kjlklkllklkkkjjj%jJ%J%JJJJKJJJJJJJJJJJ%JJJJ%JJJ
+18703A325JJJJ%J%J%%%%%jj%jjjj%jjj%%j%J%%JJJJJJJJ%J%%%jjkkklllmnmnnnnnnnnnmmm
+18770A244mmllklkjkjjjj%%j%%J%J%JJKJKKLKLLMLMMMMNMMMNMLMLMKLKKKKJKJJJJJJJJJJK
+18837A328JKKJKKJJJJ%%%jjklkmlmnmnnnnnmmmllkjjj%JJJJKKKJKJ%%%jkkmlnnonpooooom
+18904A205mllj%JLLNOPQRJ0J0J1J1J0J1J1RJ0QQONMLJ%jlmnnpqqrqj0rrrqqqopnnmlkkj%%
+18962A210JJKKKKLKLLKLKLKKKKKJKJKJJJJJ%JJJJJ%JJJKJJKJKKKKLKLLKLLKLKLKJKKJJ%%%
+19029A323%%j%jj%j%j%%%J%JJJKJJJJJ%%jkkllnnooqprqrqqrpponmlk%JLLNPPQRJ0J0J0J0
+19092A279RRQQONMKJ%llnnpqqrrqrpppnllj%KLMOPPQRRRRRQPOOMLKJ%jlllmnnmmmllk%%JK
+19159A302LMNOOOPOPONMMLJ%jllnppqrj0j1j0j1j1j0j1rrqppnmlkj%%KKKLLMMMLMMLLLLLL
+19219A256KLKLLKLLLLLLLLLKLKJK%%%jkklmlnnnnnnnnnmmlkkjj%JJKKLLMLMMLMMLLMLLLKL
+19286A293LLLMLMMMNNNNNNNNMMMLKJJjjklmmoooppppopnnmmkj%JJLMMNOOOOOONMMKKJ%jll
+19353A350mnoopoppppoonmmkljj%%%JJKJJ%J%j%kjklkllmlklkkjj%%JKKLLLMLMLLKLJJ%%j
+19420A265kklllmmlllkk%%JKMMOOPQRRRRRRQPONMLJjklnpqqj0j1j1j1j2j2j1j1j0rqpomlj
+19478A186jKKMNOOPQQQQQQPPONNLLKKJ%jjkkkllllllllllkklkkjkjkjjj%j%%%J%JJKJKJKK
+19545A260JKKJJJ%%j%kkklllmmmmmmlllkjj%JJLLLNNOOOOOPNONMMLKJJ%kjlllmlmlmkkk%%
+19612A268KKLNNOOQPQQQPQONNLL%%kmnoprrj1j1j1j1j2j1j1j0rqoomkjJKMNOPRRRJ0J0RJ0
+19668A298RQPONMKKjjllnoopppqppoonmlkj%JKLLNMNONNNMMLKJJjkmmnopqqrrrrrrqppnnl
+19735A171ljjJKLLNNNOOPOOONNMMLKKJ%%%jkjkkkkjjjj%JJJKKKLKLLKKKKJ%%jjklmmnnnoo
+19802A224oooonnmmlkjj%JKLLMMNNONNONNMMMLKKJJ%%kjkkllkllllklkjk%j%%%JJJJKJKKJ
+19869A229KJKJKJJ%JJ%%%%%%%%%%%j%%%%J%%%%%J%%%%%%%%%%%%%J%%J%JJJJKJKKKKKLKKLK
+19936A273KJKJJ%%%jkkklmmmnnnonononnnmlllkjj%%KJKLKLMLLLLKKKJJ%%jjkllllmlmlll
+20003A184kkjjJJKLMMNOPPPQQPQQPOOOMMKK%%kkmmnpoqprqqrqqppponmmkkj%JKKLMMNNOON
+20070A204OOOOONMNLMKKKJ%jjjklllmmmmmmmmllllkkjjj%%J%JJJ%JJ%%%%jkjlklllmlmlml
+20137A164lkkjjJ%KKLMMNONPOPPOPOONNMLLLJJ%%jjkklklkkkkjjj%%JJJKKKKKKKKJJJ%%jk
+20204A258kklmmmnnnmnnmmmllkjj%JJKLLMMMONNOONONNNMMLLLKJJ%jjjkkllllmlmlllllkj
+20271A237jj%JJJKKLLMLMMMLMLLLKJJ%%jkkllmnmnonnonnnmmmlllkkjjjj%%%j%%%%j%j%j%
+20338A188j%%J%JKKKLLMNMONNOONONMNLLKJJjjkllmmmnmnmmllkj%JJKLMNMONNNNMLLK%jkl
+20405A276nopqj0j0j0j2j1j2j1j1j0j0rponmk%JKMNOOQPQRQPPPONMLKJ%jkkklllllkjjJJK
+20462A194LMNNOPPPPPOONNLK%%kmnopqrj0j1j0j1j0j1rrqoomkj%KMNOPQRRJ0RJ0RRQPONMK
+20521A259Kjjllnoopppppponmmkk%JKLLNNOOOOONNMMKK%jklmoopqrqrrrqqppnmlj%JKMMOP
+20588A142PQRQRQQPPNNMKJjjlmnooqpqqqpponmlk%JKLNOOQQRRRRQRPPONMKK%jklmnnoopop
+20655A204oonnmllkj%%JKKKLLLLKLKKKJJJ%%j%j%jj%%%%JJKJKKLKLKKKKKJ%%%jjkklkllll
+20722A203lkkk%jJJKKLMLNMNNMNMLLKKJ%jkllmmnmonmnmmlkj%%KKLMNNOONOONNMLKK%jjlm
+20789A254mnooppopoonmlkjjJKMMMOOPPOPPONNLLK%jklmoopqqrrj0rqqqpnnmkk%JLLNNOPQ
+20855A170QQRQQQPPONNLLJJjjklmnnnooononnnmllkj%%KKKLMMMNNNMNMMLLKJJ%jkkllmnnn
+20922A207onononmnmllkkjj%JJJJKKKKKKKJKJJJJ%%%J%%%%%J%KJJKKKLLKLLLKKKKJJ%%jjk
+20989A209kllmlmmmmmlllkkj%%JJKLLMLNMMNMMMMLLKKJJ%%jjjkkkkklkkjkjjjj%%J%%JJ%J
+21056A200%%%%jkjklkmlmmmnmnmmmmlkljj%JJKLLMNNOOOOPPOPOONNMMLKJJ%jjlklmmmmmmm
+21123A204mlllkkj%%JJJKLKLLKLKLKJJJ%j%kkkkllklllkkjj%%%KJLKLLLMLLLKKJ%%jkllmn
+21190A202oooppopponnmmkk%%JJLLLMMMMMLLKKJJjjkllmmmnmmmlkk%%JLMNOPQRJ0J0J0J0J1
+21253A213J0RRRPONMKJ%jlmnooppqqppponnlljj%JKLLMMNNMNMMMKLJK%%jkkkllmlmllmklk
+21319A190kjj%%%%JJJJKJJJJ%J%%%jjjjjjjjj%j%%%%JJJJKKJKKJJJJJ%jjjkkllmmmmnmmml
+21386A156mkkk%%JKKLNMOOOPPPPPOOONMLLJJjjklmmnnnnnmnllkjjJKLMMOOPPPQPPOONMLK%
+21453A287%llnnpqqrrj0rrrqponmlk%JKLMNOOOOOONNMLKK%jkkmmmnnnnnmmkkj%%KLLMMNNM
+21519A205NMMLLJJjjlmmoooppppoommlk%JKLNNOOPQPOOOMMK%%lmnoqrj0j0j1j0j1j0rrpon
+21580A087ljJKMOPRRJ1J1J1J2J1J1J1RRPONLK%jklmnnooonnnmlkj%JJLKMMMMMLLLKK%%jkk
+21640A212lmmmnmnmllljjjJJLKLMMMMMLLKKJ%jkllmnooopooonnmlkj%JLLMOOOQPQQRQQPQO
+21707A233PNOMMMKLKJJJ%J%j%jjkjkklkmlmmnmnnonnnmnlllkj%JJKLLMMMNMMMLLKJ%kklnn
+21774A214ppqrrrrrqqponlkjJLLNOQQRRJ0RJ0RQQOOMLK%jklnnpoqppqopnnmlkj%KKLMMNNO
+21839A173OONNNNMLLKJJ%%jkjklklklkkkkkjjjjj%%j%J%%J%J%JJKJJKKJKKKKKKJJJJJj%jj
+21906A212kklllmlmlmllkkj%%JJLLMMMNONNNNNLMKK%%jjllmmnnmnnmmlljj%JKKMLNNNNMNM
+21973A226MLLJJjjkllnnnonoonnmmklj%%JJKKLLKLKJJJjjklmnnoopopopnnmlkkJJKLNNOOP
+22040A137PQPPOOOMMLKJ%%kkklllmlkkkjjJ%KKLMMMMNMNMMLLKJJJj%kjkklkkjkj%%JKKLLM
+22107A221NMNONNNMNLMKKJ%%jkkllmmmmnmmnmlmllllklkkkkkkkjkkkkjkjjj%%J%KKKLLMMM
+22174A200MNMMNLMLLKKJJ%j%jkjkjkjjj%%JJKLLLMMNMNMMMMLKKJ%jjllmnonpoppppopnnnm
+22241A186lljk%%JJKLLLLMLMMLMMLLLLLKKKJJJ%j%kjlkmmmnnooppoppppooonmllkj%JJKKM
+22308A126LMMMNMLMLKKJ%%jjklllllmlklkjjJ%KKLLMMMMNMMMLLJK%%kkkmmmmnnnmmllkj%J
+22375A130JLLNNNOPOPPOONNMMKKJ%jjlllmmmmnmmlllkkkj%%%%J%JJ%J%%%j%jjjjjjj%j%%J
+22442A160JJJKKKKKKKKJK%%%jkkklmmmmmmlllkjjJJLLNNOOPQQPQPPONMLK%jkmnoprrrj0j0
+22507A165j0j0rrppnmkjJKMNPQRJ0J0J2J1J2J2J1J1J0RRPONLKJjjlmnnoppppppoonnmmkkj
+22563A176j%JJJKKKKKKJKJ%Jj%jkkkkllllmllklkkjjj%%JJJKJKKKJK%J%%kjllmnooppqqrr
+22630A089rqrqppoomllj%JKMMNPPPRQRRRJ0QRQPPOOMMLKJJ%jjkklklllllkkkjjj%JJJKKLM
+22696A154LMNMNNNNNNMNMLMKKJJ%jkklnmoooppqpqpopnnmljj%KLMNOPQQRRJ0RQRPPONMKJ%
+22762A244jllnopppqqqpppommljj%KKLMMNNNNMNLMKKJ%%kjllllmlllkkj%%JKKLMMMNMMMMK
+22829A207LJJjjklmmnooopoonnnlljj%JKLMMMMNMNLLLJJ%jllmmonopoonnmmkj%JKLNNOOPP
+22896A149QPOONMLKJjkmmopqqrrrrqppnmkjJKMOQQJ0J1J2J3J3J3J2J2J2J0J0QONLKjkmoor
+22952A234rj1j1j1j2j1j2j1j0rqpomlj%JLMNOPPQQQRQPPPNNMKKJ%jklmmmnnnonnmmmlkkj%
+23011A143%JJKLKLLLLLLKKJJj%kklmnnoopqpqqqqpqopnnnllkj%JKLMMNOPPQRRRRJ0J0J0J0
+23074A159J0J0J0RRQQPPNNMMKJ%jklmnnopqpqrqpqponmmkj%JLMNNPPQQQQQPPNNLKJjlmnpp
+23138A216rj0j0j1j1j1j0j0rqpnml%JKMNPQQRJ0RJ0RQPONLK%jlmopqrrrj0rrqpomlkJJMNO
+23195A114PQRRJ0RRRPPNMKJjlmooqrrj0j0rrrponlj%KLNPQRJ0J1J1J1J1J1J0J0QQOMLK%kk
+23251A241mooppqrqqqpponmmlkjj%%J%JJJ%J%j%jjjkjkjjjj%%%JJKKLLKLLKLJJJ%jklmmno
+23318A125poqpppoonnlkj%KLMNOPRQJ0RJ0RJ0QRPPNNLLJJjkklmmmnmnmlmlkkjj%%JJJJKJJ
+23382A150J%J%jjjkklklmlllllllkkjjjjj%%j%%%jjjjjkkkklklkkkkkj%%JJKLLMMNOOOOPP
+23449A131POPOOONNNMLLLKJJJ%%j%kjkkjlkkkkkkkjkjj%%%%KJKKLKMLMMLMMLLLKKJ%%jklm
+23516A213mnnoopppppooomnlkkj%%KKKLLMLLMKLKJJJj%kkkkllklkjjjJJKLMNOOOQPQPPPPN
+23583A218NMLJJjklmnnppppppoommlk%JJLNNNPPPQPPPONMLKJjjmmnopqqqrqqqponmlk%JKL
+23650A130MNOPQPQQQQPOONLLK%jklmnopqqrrrj0rqrqpoommlj%JJLMNOPPQQQRRQQQPPONLLK
+23716A218Jjjlmnooqprqrrqqqppnnmkk%%KLLMONOPPPPOPONNNMLKJJ%%jkkllllmmlmllllkk
+23783A141kkjj%%%%JJJJKJKLKKLKLKLKKLJKKJ%J%jjjjklklklllkkkjj%JJKLLMNNNNOOONNN
+23850A212LLKJ%jklnnopqqrrrrrqqopnmlkk%JJKLLLLMLLKKJ%%jklllmnmmnlmkkj%%KLMNOO
+23917A097PQQQQQPPOOMLLJJjkkmmnnnnnnnmllkj%%JLKLMMMNMMMLMKKJJ%%jkkklklllklkkk
+23984A140jjj%j%%%%j%j%jkjkkklkklkjkjj%%JJKKKLKLLLLKLJJJ%%jkkkllllkkkjjJJLLNO
+24051A132OQQRRJ0J0J0RRRPPNMLJjklnoprrj0j1j1j1j0j1rj0qponlljJJLLMNOOOPOPOONNM
+24108A179MMKLKJJJ%%%%%%j%jj%kjjkkkllmmmnnnnonnonmnmlkkkj%JJJKLKLLLKLKKKJJJ%%
+24175A129%j%%%%JJJKLMMMONOPOPOONMMLJ%jknnpqj0j0j1j2j3j2j3j2j1j1j0qpnmj%KMOPR
+24231A064J0J1J2J3J2J3J3J2J1J1RQONLJ%klnopprrqrrqqpnnmljjJJLLMMNNMNMMMLKJJ%jk
+24288A149kllmmnmnmnmlllkjj%%JJKLKMLMLMMMMMLMLLLLKKKKKJJKJJJJ%JJJJJJKJKJKKKLK
+24355A196LLKLLLKLKKKJJJ%%jkklmmmnnoooooooonnmmlkkj%%JJJKKKKJKJ%%jjklmmnooppp
+24422A085ppppoommlkj%JKLNNOPQQQRRRQRQQPOONNLLLJJJ%%jjjjjjjjjj%%%J%JJJJJJJ%J%
+24489A184%jjjkkllmmmnnonoooononnmmmkkj%%KKLMNNPPPQQQQQQQOPNMLKJjklnopqrj0j1j1
+24554A129j1j2j1j1j1j0rqoolljJLLOOQRJ0J0J1J1J1J1J0J0J0QPONMKJ%klmnnpppqqpqppo
+24606A099onmllkk%jJJJJKKLKKLKLKLKLKLLLLLMMMMNMNNNNMNMMMLLKKJJjjjklllmnmnnnnn
+24673A149nnnmnmmmmmmmlmlmlmllllkljjj%JJKLMMNOPPPQQRQPQPONNLKJ%klmnppqrrj0rj0
+24738A097rrqponmljJKLMOOPRQRRJ0QRPQONMLJJjjlmmnoooononnmlkk%%JKLLMNNNNNNNMMM
+24804A157LKKJ%%%kjklklllllllklkjkjjj%j%%%%%%%%%%j%%%%%%%%J%%JJJJJJJJKJKJKJKK
+24871A141JKKKJKKLKKKLKLLKLKKKKJJJ%jjkklmmnnnopopooonmmlkj%JKLNNOPQQRQRRQQPPN
+24938A209NLKJjklmooqqqrj0rrqqqoommkj%KKLNNNOPOPOONNMLKJ%jkmmnnpppqqpqqpopnnm
+25004A055lljjjJJJKLKLLLLLKLKKJK%J%%%j%jjjj%j%%%JJKKKLLLMMNNNNONONONNNMNLLLKK
+25071A188J%%%kjllllmnmnnmnnmnmlmlkkkjj%%JJKKKKLLLLLLLLLKKKKKJJJ%%%jjjjkkkkkk
+25138A140kklkkjkjk%j%%JJJKKKLLLMLMMLMLLLLKKJJJ%jjjkkklkllklkkkjj%%JJKKLLLMLM
+25205A174MLLLLKJJJjjkklmmnnoooooooonnmmmllkjj%jJ%JJKJKKJKKKJKJKJKJKJKJKJKKKK
+25272A131KKKKKLKLKLKLKLLLLLLLLLLLLLLLKKKKJ%%%jkllmmonopppqppppoonmmkkj%JKLLM
+25339A107MNMNNNMMLKK%%jkkmmnnonononmllkj%KKLMNNOPPPOPOONMLKJ%jkmmooppqqrqqqp
+25406A076poommlkj%%JKKLLMLMMMLMLLKLKKJJJJ%J%%%%%j%j%jjjjjjjkjkjkjjkjj%j%%JJJ
+25473A079KKKKLKLKLKLJKJJ%%jjjklklklkkkkj%%JKLLMMNONPOOPOONNMLKKJ%jkklmmnnnnn
+25540A135nnmlmkkkj%%J%KJKJKKJJJJ%J%j%j%jj%%%%JJJKKLLMMMMMMNMMLLLLKJJJ%%jjjjj
+25607A181jkjjjjj%%j%%%%%jjjjkkllmmmnnnmnnmmmlkk%%%KKLLMNMNMNMMLKKJ%%kklmmnno
+25674A120nnnnmmlkj%%JLLLMNNNNNMNLMKKJ%%jkklllllllkkjjJ%KKLLMMMMMMMLKJJ%jklmn
+25741A145nnpopoponnmllj%%KKMLNNNNNNMMLKJ%jklnnopqqrrqrqqqoonlljjJKKMNNOOPPPQ
+25808A061PPPOOONNNMLMKLKKKJJKJ%JJJ%J%%%%%j%jjjjkjkkkkkkkkklkkklkkllklmllmmlm
+25875A068mmmmlllljk%jJKKLLMNOOOPPPPQOPONNMMKKJ%%jklllmmmmmlmlkkjj%JJKKLLLLMM
+25942A130LMLLLKJJJ%jkkkmlnmnonoooooonnnnmllkkj%JJKKLMNNNOPOPPPPPPOOONNLMKKJJ
+26009A171j%kjlklklllkkkjj%%%JJKJKKKJKJ%%jjklmmooopqpqqqqpponmlkj%JLMMOOQQQRQ
+26076A098RRQQPOONMLKJ%jklllnmnmnnmmmlkkk%jJ%KJLKKLLKLKKKKJJJ%%%jjjjjjjjj%j%%
+26143A127JJJKKKLLLLMLMLLLLLKJKJ%%jjkkklmlmmmmmlmlllkkk%j%JJJKKKLLKLLKLKJKJ%J
+26210A154%jjjjkkkkkkjkjj%jJ%JKJKLKKLKLKKJJ%%%kjlllmnnnnnnnnmmmlkjj%%KKKMMMNN
+26277A113NONNNNNMMLLKKJJ%%jjjkjkjkjkjj%%%%JJKJLKLKLLMLLLLLLKKKKJ%J%jjjkkllmm
+26344A185mmnnnnnnnnmmmllkjk%%JJKKLLMLNMMNMMMMMLLLKKKJJJ%%%%%%j%%%%J%%JJJJJJJ
+26411A196J%J%%%jjjkklllmmnnnnonooooononnnnmmmllkjk%%JJKKLMMMNONOOOOONNNMLKJ%
+26478A151%klmnopprrrj0j0rj0rqqponlljJJLMNPPPRRQRRRQPPNNMLKJ%jklllmnmnmmmlllk
+26542A078jj%%%JJJKKJKKJKJJJJJKJJKKKLLLMMNNOOOOPOOONNMLKK%%jllmnnooppoponnmmk
+26609A117kj%JKKLLMMMMMMKLKJ%jjlkmmnnnonnnnmllkkj%JJJKLKLKLKKKJJ%j%kjkklkkkjj
+26676A093%JJKLMNOOPQQQRQRPQOONLLJ%kkmnopqqqrrqqqponmlkjJJLLMNNOONONNMLLJ%jjl
+26743A158mnoopqqqqpqpoonlljjJKMMOOPQRRRRRRRQQPONMLKJ%kklmnooopoppoonnmllk%jJ
+26810A101KKKLLMMLMLKLJJ%jklmmoooqpqqqpqooommkj%%KLMNNOOOPOOONNLLKJ%jkllmnnno
+26877A070nnnmllkj%JKLMNNOOOPOPNOMMLLJ%%kkmlnnnnnnnnlmkkj%%KKKLMLMMMLLKKK%%jk
+26944A100klmmnmnonmnmllkk%%JKKLMMMNNNNMNMLLLKK%J%j%kjkjkkjkjj%j%%%%J%J%J%%%j
+27011A091jjkjlkkllklkkkjj%%JJKLLMMMNNNNMNMMLLKKJ%j%kkklkllklkjk%%%KJLLLMMNMN
+27078A136MNLMLKJJ%jkllmnnooooopnonmllkj%%KKLLNMNONONNNNMLLLJJJ%jkkklllmmlmll
+27145A110llkkjjj%%%JJJKJKJKJJJJJ%%%jjjjkklklklllllllklkkkkjjjjj%%J%JJJKKKKKL
+27212A073KLLLLLLLLLLKLLKKLKJKKJKJKJKJJKKJKKLKKLLLLLLLLLLKLKJJJ%%%kjlklmmmmnm
+27279A158nmmmmllkkjj%JKJLLLLMLMLMKLKJ%%jkllmonpppqqqqqpppoommlljj%JJKLKLLMLL
+27346A058LKKKJJJ%%jjjjjj%j%%JJKLLLNMONOOOOONNMMKKK%jkkmmmonopononnllkj%JKMMM
+27413A088OOPPPQOPOOMMLJJjklmnoppqqrqqpppnnllj%JKLMNNPPPPQPPPOONMMLKJ%%jkkklm
+27480A147llllllkjk%%%JKJLKLMLMLMLLLLKKKJJ%%%jjkkklklmllmllmlllklkkkjjjj%%JJJ
+27547A113JJKKKKKKKKKJKJ%Jj%jkjllllmnmnnnnnnmnmlllkk%jJJKKLMMMNNONOONONNNMMLL
+27614A145KJJ%jjkllmmnnnooonoonnnmmllkjj%JJJKLLLLMMMLMLMLKKKKJ%J%j%jkjjkjjkjj
+27681A090%j%%%%%J%%J%%j%jjkkkkllmlmlmlllkkj%JJKLLNNOOPPQPQPPPOOMMLK%%kkmnnop
+27748A126qqqqqqqpoonmllj%JJLLMNNONOOOOONNMMLKKKJ%%jjjjkkkkkkkjkkjjjjjjkjjjjk
+27815A089kjklkklklklkkkjj%jJJKKKMLNMNONOONONNNMLLKK%%%kklmmmnnnnonmnlmkkk%%J
+27882A076KKLLNMNNNNMNMMLLKJJ%jkklmmmnnnnnnnmmlkljj%JJKKLLLMMMMMNMLMLLLKKKKJJ
+27949A139%J%%%j%jjkjkjklklllmlmmmlmmmllkljjjJJJLLMMONOOPOPOOONNMLKJJ%kklmmnn
+28016A141oooononnmmllkjj%%JJJKJKJJKJ%J%%j%j%jj%j%JJJKKLMMMNNOOOOOONNNMLLKK%%
+28083A184jjklmlmnnnnnnnnmnmnmmlmlmllllklkkjk%j%JKKKMMNNPOPQPQQQPPOONMLK%%jlm
+28150A177nnopqqqqqqpponnmlkj%%JKKKLKLKKKJ%Jj%kjkkklkkkjj%%JKKLLMNMNNNNMMLLJJ
+28217A128Jjkklmmnnonnnnmmlkkj%JJKKLLKLKKKJ%%jkllmmnnnnnnmlkk%%KLLNOOPPPPPPON
+28284A105MKK%jlnnpqqj0j0j0j0rrqpomljJLMPPJ0J1J1J3J3J4J3J3J3J1J1RQOML%jmnoqrj0
+28336A131j1j2j2j1j2j1j1rrqonllj%KKLMNNONOONNMMMLLKJJJJ%J%%J%JJKKKKKLLLLKLLKK
+28396A123KJJ%%%jjjjkkjkjk%j%%%JKKKKLLLMLLLLLLKJJJ%j%kklllmmnnnnonoooooooonon
+28463A040nnnnmlmkljjj%JJLKMMNNNOPPOPPPOPNOMMLLKJ%jkklmmnnonononnmmlljj%JJLLM
+28530A051NNOOPPOPOOONNLLKJ%jllmoopqqrrrrrrqqpnnmlj%KLMNPQRRJ1J1J1J2J2J2J2J1J1
+28589A146J0RRPPNMLKJ%%kllmmnnnnnnmnlmlkkkj%%JJJKKKLLLLMLLMLLLLLKJJJ%jjklmnoo
+28655A158pqrrj0j0j0j0j1j0rrqqonmkjJLMNPRRJ1J1J3J2J3J3J2J2J1J0RQOMLKjklnopqrr
+28706A150j0j0rrqqonnljjJKLMMNOOONONMMLKK%%kkklmlmlmlkkk%%JJLLLMNMNNMMMLLKJJj
+28771A162%kklllllllljk%%JKLLMMNNNONMNLLKJ%jkmmoppqrrj0rj0rrrqponnlkj%%KLLMNN
+28836A064NOOONOONNMMLLLJK%Jjjjlklmmmmnnonnnnnmlmkkj%JKKMMOOOQPQQQQPPONMLKJ%k
+28903A162lmnoppqqpqponnlk%JKMNOPRRRRJ0RRQPOMLK%klnopqj0rj1j0j0j0rqqommj%JLMN
+28964A072OPQQQQQQOONLLJ%jklmmnoononnmmkkjjJJJKKLKKKJ%%jkllnnnoopoonnmlk%JKLN
+29031A045PPQJ0J0J0J0J1J0RRQOOLKJkknopqrj0j1j0j0j1rrqonmljJKMMOPQQQRRQQPONMMJ
+29087A145J%kklnmonooonommmlkjj%JJKKKLKLLKKKKJJJ%%%%j%jjj%%jJ%JJJKKKLLLLLMLLL
+29154A134LLLKKKKJ%J%jjjkkllmmnnnoopppppqpqppppoonnmmlkkjj%%JJKJKLKKLLKLLLLLL
+29221A020MLMNMNONPOPQPQQQRQQPPPONNMLKJ%jjklmmmmnnnnmmmllkkkjjjjj%jkjkllmmnoo
+29288A078pppqpppponnmkk%JKLMNOPQQQRQRQQQPONNMKLJJ%j%jkjjjjj%J%KJLKLLLMLLLLKK
+29355A162J%%jjklmmmnnononnnnmmmlkkkj%j%%J%JJ%JJ%%J%%j%%%j%j%%%%%%%J%JJ%JJ%J%
+29422A083J%%%j%jjjjjkkjkklklkllllmmmmmmmnmnmmmmlkkk%%JLLMMOPPRQRJ0J0RJ0RRQPO
+29486A119OMMK%%jllmnnooonommmkk%%KKLNMNONNNNMLLJ%jllnooqqrqrrqponmkjJKNOPRJ0
+29552A059J2J2J3J3J3J3J3J2J1RQPNLJjlnoqrj0j2j1j3j2j2j2j1j0j0ppnlk%KLMOPQQRRJ0
+29599A101RRRPPOOMLK%%jkllmmnnmnnmlmklkjjj%%%%%J%%j%jkjkkllllllllkljkj%%%JKKK
+29666A067LLLLLLKLKKJ%%%kkkllmmnmnmnmmmlkkk%%%KJLLLMMMMNMMMLLLKKJJ%%jjjkjkkkk
+29733A077jkjj%j%%JJJJJJKJJJ%%%j%kkkklllmllmlkkkk%jJJJKLLMMMMMMMMMLKKJJ%jjlkm
+29800A083mmnnnnonnnmmmllkkj%%%JJKJLKLKLMLLMMMMMNNNNNOOOONOONNNMMLKJ%%jllmnno
+29867A127poqppopnnmmkj%JKLMNNOOPOONNLLJJklmopqj0j1j1j2j3j2j3j2j1j0rqonkjJLNO
+29924I66QJ0J0J2J2J3J3J2J2J2J0J0PPMLJjknnprrrj1j0j0j0rqpomlkJKLNPPRRJ0J0J1J0J0
+29973A089J0RPPOMMK%%kllmnononomnlmkjj%%KJLKLLKLKJK%%%jklllmmmmmlllkkj%JJKLLM
+30039A065NNMONMNMMLLJK%%jjklklllkljkj%JJKKLMMMMMNMLLLJJ%kklmnoppqpqqpppnnmkj
+30106A033%JKMNNPOQQPQPPNNMLJJjllnoppqqrqqqoonlljJKLNNPQQRQRRRPPOMMK%jkmnoqqr
+30173A092j0rj0j0rrqponmlj%KKMMNOOPOPOONNMLKJJ%jkklllllllkkj%%JKLLLMMNNMNMMLL
+30237A105LJJ%%jkkklmllmllkkkj%%JKJLKLLMLLKLKJJ%jjkllmmnnnnnnnmllkk%%JJLLMMNN
+30304A066NONNNMMMLKJJ%jjklllmmmlmlllkjj%JKKLMMNNOOOOOOONNNMLKKJ%jkllmnnooppq
+30371A104ppqppopnommllkjjJJJKLLMMMNMNNNNMNMMLLLKKJJ%%%jjkkkkklklkkkkkjk%j%%%
+30438A076JJKJKKKKLKKKKKJKJ%J%j%jjjkjkkjkjjj%%JJKKLLMMNNONONONMNLLKJJjkllnnpp
+30505A139qqqrrqrqppoomlljjJJKLLMMMMLMLKKJ%jjklmmnnnnnnnmlljj%JKMMNNPOPPPPPNO
+30572A093MMLK%%jkkmlnmmmmllkjJJKMNNPQRRRJ0J1J0RJ0RQPONLLJ%jkmmooopqpqqppppon
+30635A110omnlmlllklklkkklkkkkjkj%jJ%JKKKLLLMLLLLKKK%%jkklmnnoooooonmmlkj%JLL
+30702A016NOOPQQRRQQPPONMLJJjkmmnooppqpopnnnlkk%JJKLLMLMMMLKLJ%%jkllnmnononnn
+30769A015mlljj%JKKMMNNNONONNNLMKKK%%%jkkjkkjjj%%KJLLMNNNOOOOONMMLKJ%kkmnnpqq
+30836A099rrrrj0qrppommkj%KLMNOPQQRQRRQQPPONMLJJ%jkkmmmnnnnnnmmllkkj%%JJJKKKK
+30902A078KJKJ%%%jkkllmmmnmnmnlmkkk%%JKLMNNOOOPPPOOONMLKJ%jklmnopppqpqppnomlk
+30969A018jJJLMNOPQQQRRQQQOOOMKKJjklmmoopppppoonnmlkj%JKKMMNNNOOOOOONNMMLLKKK
+31036A138%J%%jjjjkkkkllllmmmnnooopppqpqqpppoomnlkj%JKLMNOOQPRQQQQQPOOMMKK%jk
+31103A094kmnnoopoppooommllj%%KLLMNOOOPOPPPOONNMLLJJ%jjkmlnmonoooooonnnmlkkj%
+31170A015%KKLLMNNOOOOOOONNMMLKJ%%kkmmnnopoppppooommlkk%%KKLMMNONOOOONNMMMLKJ
+31237A086J%%jjjkkkjkjk%%%JJKKLLLMMMNMMLMLKKJJ%%jklkmmmmnmnmnmmlllkkjjj%%JJJK
+31304A062JKKJKKJJK%JJ%%j%jjjkjkkklklllklmllllllklkljkjj%%JJJLKMLNNNOOOOPPPOP
+31371A097OOONNMMLKKJ%%jkkllmlmmnmmlmlkljjj%JJKKLLLMMMMMMLLLLJK%%jjkllmmnnono
+31438A093ooonnnnmmlkkkjj%%JJJJJKJJKJJJJJJJ%JJJJJKKKKLLLLMMMMNMMLMLKKJJ%jjlkm
+31505A113mmnnnnnnnmlkkj%JKKMNNOPPPQPPPPNOMLKK%jklmmooopoppoonnmlkj%JJKLLMMNM
+31572A098NMLLLKJJjjklmmnnonooonnnmmkkk%%JKKKLMLMMMLMLLLKKKJJJJ%J%J%JJJKKKLKL
+31639A111LMLLLLKLJJJj%kklmmnonoooooonmmlljj%JJLLLMLMMMMKLJJ%kklmnpoqqrrqrrqp
+31706I86oomlk%JKMOOQRJ0J1J2J2J2J2J2J2J1J1J0RQPOMMKJ%%kkmlmmmnmmmlllkkkjjjj%j
+31763A107jjjjkklllmmmmnmnmmllkk%%%KKLMNNONOPONONMLLK%%jllnnoppqqrqqqpponmmlj
+31830I98jJJKLLMMNNNNNMNMLLLKJJJ%%j%jjj%j%%JJJKKLLMMMMMNNMNMMLMKLKKJ%J%jjjjkk
+31898A132kkklklklklkklklklklklkklkkjkjjj%%%JKJKLLLLMMMMMMMMLMKLKJJ%%%jkjklkl
+31965A116llklklkkjjjj%%%%%J%%%%%%jjkjlkkllllmllkkkkjj%JJJKLLLLLLMLKLKJJ%jkkl
+32032A080lmnnonononmmkkj%JKMMOPPRQJ0RJ0J0RRQPONMKJ%kmmoqqrj0j0j0j1j0j0j0rqpo
+32089A013mmkj%JKLMMNNONNNMMLKK%%jkkllmlmmllkjj%JKLLNNOOPPPOPONNMKKJjkllnoppq
+32156A074qqqpqoonmljjJKMMOOQQRRRJ0RRRQQPONNLKK%jjlllnnnooooooononnmnlmlkkkjj
+32222A042%%%JJKJLKLLLLLMLMLLLLKKKKJ%J%jjjjkkkkkkkkkjjjj%jJ%JJJJJJJKJ%J%%%jjj
+32289A082jkkklkllklkkkjk%j%%JJJKJLKKLLLKLLLKLKKKJJJJJ%%%jjjkjklklllmlmlmlmll
+32356A045lkkkj%%%JKKKMLMMMMNMMMLLLKJJ%jjklllmmmmmmmllkkj%JJKLLMNNNNONONMNLML
+32423A118KJJJ%j%jkjjkjjj%j%JJJJJKKJKJJ%%jjkkllnmnonononnmmlljjJJKLMMNONOOOON
+32490A105NNLLLJ%%jlkmmmnnnnnnmmmlkkkj%%%JJJJJJJ%Jj%jkkkllmlmmmlmlllkkkj%%%JK
+32557A010JKLKLLLMLLLMLLLMLLLMLLMMLMMMMMMMMMLMLLKKKJ%J%jjkkkkllmlmlmmmlmmlmml
+32624A077mllmllllllllkkkkjj%%%JKKKKLMLMLMLMLKLKJ%%%kkkmlmnmnmnmmlkk%%JKLNNOP
+32691A051QQRJ0RJ0J0RRRPPONMLK%jklmnoppqrrqrrrqrpppoonmmlkkkjj%%JJJJKKKLKLLLL
+32755A033MLMMMLMMMMMLMLLLKKKJJJ%%%j%kjjkjkkkkkkklkklklllllmlmlmmmllmklkjj%%K
+32822A008KKMMNOOOPQPPQPOOOMMLJJjklmnoqprrrj0rrrqqoonmkk%JKMMNNPOPPPPOONMMKK%
+32888A068%kklmmonooononnmlkkj%JKLLMMNONONNOMNLLLKJJj%kkklllmlllllkjj%%JKKLLM
+32955A044NNNNOOONONNNMLMKKJJ%jjklkmmmmnnmnnnnmmmmmlklkjjjj%%%J%JJJJJJJJJJJ%J
+33022A045J%JJ%JJJJKJKKKKLLLLLMLMMLMLLLLKKKJJJ%%jjjjkkkkkkkkljkkjkjjjjjjjjkjj
+33089A078kjkkkkklklkkkkjjj%%JKJLLLMMMNNNMNNMLMKKJJ%jkklmnnnonopnoonnmllkkjj%
+33156A023JJKKKKKKLJKJJJ%jjjklkmllmmlmlllkkjj%%JJKKKLLLMLMLLLLLKKKJJJ%%%j%jjk
+33223A043jjjkjjj%j%%%%%J%JJJ%JJ%J%%%%j%jjkjkkkkkkkkkkkkjjjj%%%%JJJJJJJKJJJ%%
+33290A019%%jjjklkllmlmmllmklkjj%JJKKLMMNNNOONONNMMMLKJJ%jjkkllllllkkjj%JKLLM
+33357A036NOPOQPQPPPOOMMLJJjklmnopqqrqrqqqoonmkj%JKMNOPPRQRRRRQPPONMLJ%%kmmno
+33424A116ppqqqqqqqopnnmmkk%%JJLKMLMMMMNLMLLLJKJ%%%jkkkklllllllklkjk%j%%JJJKK
+33491A032KKLKLKKLKJKJJ%Jj%jkjkkklkllklkkjkjj%%%JJKKKKLLLKLLLLKKKKJJ%%jjjkkll
+33558A053mmmmnnnnnnnnnmnmmllkkjj%JJKKLMMNNOOOPPPPPPPPOOONNNMLLLKKJJJ%%%%j%j%
+33625A115j%jj%jjjjjjjkjklklllllmlmlmlmllkkkkjj%j%JJ%KJJKJKJKJJKJKJKKJKLKLLML
+33692A085NMNNNNNNNNMMLKKJjjklmnppprrj0rj0j0j0rrrpponmlkj%%KKLLLMMLLLLKJJ%%jj
+33755A019kklklklkjj%%JKKLMMNONOONONMMLLJJ%jkllmnmnnnmmmkkj%KKMMNPPQQRQRRQQPO
+33822A131NNLJJjklmnppqqrrrj0rqrpqoonmlkkjjJ%KJKKKKKKJKJJJJ%J%%%%j%J%JJJJKKLL
+33888A031LLMMNMNMNMMMMMLKLJJJ%jjkkllmmmnnnnnnnmnmllkkk%%%JKKKMLMLNMMMMMLMLKK
+33955A075KKJ%%%%jjjjkjjjjjjj%%J%JJJJJJKJJ%J%%%jjkklllmmnnnnnnonnnmnmlmkkkjj%
+34022I77JJKKLMLNMNNONOOOONONNNNMMMLLKKKJJ%J%j%j%jjjjjjjjkjjkkkkklllmmmmnnnnn
+34090A031nnnnmmlkkk%%JKLLMNNONOPOONOMNLLKJ%%jkllmmnnmnmmmlkkj%JJKKLMMMNNMNMM
+34157A074MLLKJJJj%jkkkkkkkkkjk%j%%J%JJJJJ%J%jjjjlklmmmnmnnmnmmlllkkj%%%JKJKJ
+34224A005KKKJJJ%%%jkjlklmlmmlmmllkljjj%%JKKLLMNMNOOOOPOPPPPPPOOPNONMMLLKJ%%j
+34291A121klmnnooppqqpqqpopnnllkjJJKMMMOOOPPPOOOOMMLKJ%jkllnnnopopppooonnmmll
+34358I85kjj%%%J%JKJJJJJJJJ%J%J%J%JJ%JKJKKKKLLLMLMMNMNMNNMNNNMNMMMMLLLKKJJJjj
+34426A120jkllmmnnnnoononnnmllkkj%%JKKKLLKLLKJJJjjkllnnoopppppoonmmkj%KLNNPQR
+34493A000J0J0J1J1J1J1J0J0RQOOMLJ%klmooqqqrrqqqoonlkjJKLNOPPRRRJ0RRRQPONMLJ%j
+34551A139lmnopqqrrrrqqqoonmljj%KKLMNNONONNNMMKKJ%kkmmoopqrqrrj0qrqpoommkjJJL
+34617I44LNOPPQQRRRRQRPPPOMMMKKJ%%jjjkjkjjj%%%JKKKLLLMLMMLLKLJJJjjjklmlnmnnnn
+34685A075nmmmllkjj%%KJLLLMMMNNMNNMMMMMLLKKKJJJ%%%j%jkjkjkkkjkkkjkjkjjj%j%j%%
+34752A099j%jjjkjlllnmooopqqqqrqrpqoonmkk%KKNNPPRRJ0J1J0J1J0J0QQPNMKJklmoqrj0
+34812A052j1j1j2j2j2j1j1j0qpomk%JLNOQQJ0J0J1J1J1J0J0RQPNNKK%kkmnnoopooomnlkk%
+34864A006%KKLLMMMMMLLJJJjkllnnnoooonnmllj%JJLMNNOPOOOONMLKJ%jllnooppqppponnl
+34931I61k%%KMMNOPQQQQQPPONMLKK%jjkllllllkjj%JKLMNNOOPOPOONMLLJ%kkmmooppqqppp
+34999A042onmlkj%KKMMNNONOONMMLKJ%jkllnnnnononmmlkk%%JKKLLLLMLLKKJ%%kkllmnnno
+35066A016nnnmllkjjJKKMMMONOOONNNMLLK%%jkklmmmmnmmllkk%%JKLMNNPOPQQQPQQPPOONN
+35133A136MMKLJK%%%jjjkklkllllmlmmlmmmmmmlmlmlklkjkj%j%%JJ%KJJJJKJJJJJ%JJ%JJJ
+35200A077JJJJKJKLKKLKKKLJKJ%%%kjlllnmnnoononmmmljj%JKKMNOOPPQPQPPPONNLKK%jkk
+35267A135mmonoppopoonnmlkkj%JJKLLMMMMNMMMMLLLLKJKJJ%%J%%j%%j%j%j%jjkjkkklllm
+35334A088mmnnnonnononmnmlllkjj%%JKKLLMMMNNMNNNNMMMLLKJJ%%jklmmmooopppppppoon
+35401I78nmkkj%JKLNNNPPPQQQPPPONNLLJ%jjlmnnopoppoonnllk%JJLMNNPPPQPQPOONMLK%j
+35469A087klnopqqj0j0j0j0j0j0rrqponllj%JKMMNPOPQQPQPPPONNLLKJJjjkklmlmmmmlmlk
+35530A007kj%%JKLLMMNNOOOOONOMNLLK%%jkllnooppqqqpqponnmkj%JKMNOPQRRJ0J0J0RJ0R
+35593A089RPPONLLK%jjllmnmnnnmmmllkj%%JJKKKKLKKJJJjjkklmnnnoonoonnmlkk%%JKLLM
+35660A029NNNONNMMLLKJ%jklmmonopooponnmmkkj%%KKLMMMNNNONMNMNLMLLKLKKKKKKKLLKL
+35727A097LLMLLLKLJK%%%kkmmnoopqqrrrrrqqqpoommlkj%%KKKLMLMMLMLLLKKJ%J%jjjjkjk
+35794A007kjjjj%%J%KJKKLLKLLLLKLKKJJJ%%j%kjkkkkkkkjkjj%%JJJKLLLMMMNNMNNNNMMML
+35861A093LKKJJ%%jjkkkllmlmlmlmllllklkkkkjkjkjkkjkkkkkkkljkkjj%%%JJKLLLMMNNNN
+35928A043ONNMNLMKKJ%%jklmmmnoooonoonmnllkkj%%KJLKLMMMMNMMNMMNMLMLLLLKKKKJJJ%
+35995A083%jjkklmmmnnoopoppooonnmlk%%JKMMOOPQQQRQQQPONMLK%jlmnopqrrrrrrqponmk
+36062I70j%KLMOOQQQRRQRQPOOMMKK%jjkllmlmlkljj%JKKMMNOOOPOPNONMLKJJjkkmmnnoooo
+36130A093onnmmlljj%%KJKLLLLLKLKKJJJ%%jjkjkkklkkkkkkkkkjkkkklklllllmlllkljj%%
+36197A012KKLNNOPQQRRRRRQPPOMMJJklmoqqj0j0j1j2j1j2j1j0j0qqomkj%LMNPQQJ0RJ0RRR
+36253A075PONLK%klnpprj0j0j1j1j0j0j0qqomlj%KMOPQRJ0J0J1J0J1J0RQOOMKJjlmopqqj0
+36306A050j0j0j1rj0rqpnnlkjJKLMNNOOPOONNMMKKJ%kkkmlnmnnmmmmlkjjjJJKKLLLLMMLLL
+36369A013LLKKJKJ%JJ%JJJJJKLKMLMMNNMNNNNMMLLKJJJjjkkllmmmmmmmmllkkkk%j%jJ%%%%
+36436A050%j%jkjklkllllllkkkj%%JKKLMNMONOOOONNMMKKJ%jklmnnoopppopnomllk%%KKMM
+36503A015NNOOPOONNMMKKJjjklmnnooooonnnllkj%JJLLMMNNNMNMMLKJ%%kkmmnnopopooomn
+36570I83lljj%JKLMMNNNNNMMMLKJ%jjllmnnnononmmlkj%JLMNOPPRRJ0J0J0RJ0RQPPNMLK%j
+36634A113klmnopppqppppnommlkjj%JJJKKJKJJJj%jklllmmmnmmmlljj%JLLNOPQRJ0J0J1J2
+36697A058J1J2J1J1J1J0QQPNMLJ%jkmnnpppqpqppponnllkjj%JJJJKJJJ%%jjlllnnnoopooo
+36758I98onmlkj%JKLNNOPQQRRQRPQOOMMKJ%klmnnppqqqqppponmllj%JKLLMNNNNONNMNLLLJ
+36826A055K%%%jjjkkjkjjjj%%%%J%JJJJ%J%j%jkjklklllklkkkj%%%JKKLLMLMLLLLKJJjjkk
+36893A048mmnoooopoonmmkk%JKMNOPRRJ0J0J0J1J1J0J0RRPONMLK%jklmmnnononnmmlkkjj%
+36953A067%JJJ%J%%%kkklmnnooppopooommmkj%%KKMLNNNNNNMMLKKJjjklmmnnnonnnmlkj%J
+37020I73LLNNPQQRRJ0J0RJ0QQPPNMKJ%jlmnoqqrrj0j0j0j0rj0rqpponmljj%JJLLMNNNOOOO
+37080I99ONNNMMLLJJ%%jlkmmmnnonnnnmmlljjJJLMMOOPPQRQQQQPONMKKjjmmoqrrj1j2j2j2
+37144I91j3j2j2j1j1rqpomkjJLMOPQRJ0J1J1J2J2J1J2J1J0RRQPOMMLJJ%jjklllmmmmmmlmm
+37198A037lmlllklkkkjjjj%JJJKKLLMMMNMNNMMMMKKK%%kklmmnoopoopnnnllj%JLMNOPQRRJ0
+37265A054J0J0J0RRQPOMLK%jllnpppqrrqqqppnnlkk%JKLLNMNNNNNMMLKKJ%%jkkkllkllkkj
+37329A051j%%JJKKKLLLKLLKJKJ%%jjkkklkllkkkkjj%%%JKKKKLKLKKKJJ%%%jkkklklllkkkj
+37396A049j%JJKKLMMMMNNMNMLLKKJjjkkmmnnoopooonnmmkkjJJKLLNNOOOOOOONMMLKJ%jkln
+37463A093nppqqj0rj0j0j0j0rrrpponmlj%%LLNNPPQRJ0J0J0J1J0J0J0J0RQQPOMMLK%%kkmm
+37517A106monopopoooonnmmllkkkj%j%%%%%%%j%j%jjjkjjjj%j%%J%JKKKKKLLKLLKLKJKJ%J
+37584A035j%jjkkkkkklkkkjkjj%%%JJJKKKKKLLKLLKLLLKLKLKLKKLKJKKJJJJ%%jjjjkkklll
+37651A058kllkljkj%%JJKLLMMMNMNMNLMKKJ%jklmnoppqqqrqqqponmlkjJKLMNOOQPQQQQPPO
+37718A072NMLKK%%kklmlnmmnmmllkkj%%JKKLLLLMMMMLMLLLLKKKJKJJJJ%J%%%j%jkjklllmm
+37785A079nnonooonnnmmlk%%JKMNNPPQQRRRRQPPNNLJ%jlmopqj0j0j0j1j1j1j1j0j0qponlk
+37843I77%JLMOOPQRRRRRQQPONMMKJ%jkllmmnnnnomnnmmllllkkkjkjjj%j%%%%%JJKKKKLLLL
+37911A034LLLLKKJJ%jklmnnppqrrrrrqqppnll%%LMNPRRJ1J1J2J3J2J3J2J1J1RQPNMK%jlnn
+37969A088pqrrrj0rj0qqoommjjJKLNNOPPQQQQPPPOONMLLKJJ%%jjkjkkkkkkklkkklklklkll
+38034A050klklkjkj%%JJJLKLMMMMMMMMLLLJJ%%kklmmnnnonoonmmmlkjjJJJLKMLMMLMMLKLK
+38101A055JJ%%jjjkkkjkjkj%%%JJJJKKKKJKJJ%%%kjllllmmnmmmlllkjj%JJKLLMMMNMNMMML
+38168A056KKK%%%jkkkllllllklkjkj%%%%J%JJJJJJJ%J%J%J%JJJJKKLLMMNNNOOONOONNMLKK
+38235A130%%kkmmooppqrqqqqqponnmlkj%JJKKLLMLMLLLKKKJ%%%jkjkkllkllkllkklkkjkkj
+38302I94kjjj%j%%JJKKKLMMNNOOOPPPPOOONMLJJ%klnnpqrj0j0j0j1j1j1j0j0qqonmkjJKMN
+38362I51OPQQRRRRQPPOMLKJjklmnnoopooonmmkk%%JKLMMMNMNMMLLKK%%jkklllllllkjjJJK
+38430A004MMNOOPQQPQPPONMLKJjklmoppqrrj0rrrqqpommljjJKLMMNOPOPPPPPOOONNNMLLLK
+38496A088KJJJ%j%jkkkklmlmmnmnmnmmmmlkkjjJJKKLMMNNNNNNNMMKLJ%jjkmmnnoooooonmm
+38563A012lkj%JLLMMOOOOPOONNMMKJ%%klmmnnooooonnmlljjJJKLLMNMNNNNMMLLKKJ%%jjjk
+38630A067jkkkjjjj%JJJJKKJKKKJJ%%jkkllmmnononnnnmlkk%%KKLNNNPPPPQPPPOONMLKK%%
+38697A108kkllnmnnnonnmmmmlkkkj%j%J%J%JJJ%J%J%%%%%%%%j%%%%%%J%%j%%jjjkklllmmn
+38764A008monooononommmlkkj%JJLLLNNNOOPOPPOOOONMMLLKJ%%jjkllmmmmmnmmmlllkkjj%
+38831I82%JKKKKLLLMLLKLKJK%Jjjjkkklkllkljk%%JJLLMNOPPQQQRQQQPOOMLKJjllooprj0j0
+38898A061j0j1j1j1j1j0rqpnnkjJKMOPQRJ0J1J2J1J2J1J0J0RQPNLKJklmpprrj1j1j1j2j2j2
+38946A009j1j0j0rqponlkj%JLLLMNNNNNMNMLLKJJJjjjjklkkkljkjj%%JKKLLMMNNOOOOOOPN
+39010A054ONNMMLLKJ%%%kkkllmmnmnnmnmmmlkljj%%JJKLLMMMMMNMMMMLKKKJ%jjlkmmnnooo
+39077A035poppoponommmlkkj%%JJKLLLMMMMNNMNMMMMMLKLKJJJ%j%kjkklllllllllkljkjj%
+39144I94%JJKKLLLLMMMMMLMMLLLKKKKJJJJ%JJ%JJJKJKKLLLLLMLMLMLLKLJKJ%%jjkkllllmm
+39212A098lmlmlllkkkjjjj%j%j%%jjjjkjklkllkllllklkjkjjj%%%J%J%J%%%%jjkkkkllmlm
+39279I92llmklkkj%%JJKKLMLMMMMMLMKLKJ%%%jkkklklllkkkjj%%JJKKLLLKLKLJJ%%kklmon
+39347I99ppqqrqrqqpoonlkkJJLMNOQQQJ0RJ0J0RJ0RQQPPNNMKLJ%%%jkjkkkkkjjjjj%%%%J%
+39411A039%%Jj%%jjjjkjkjkkjjjj%%%JJKKKLLLLMLMLMLLKLKJKJ%%Jj%jjjjkjkkkklklllmm
+39478A039mnnnonooooonnnmlkk%%KKMNOOQQQRRRRQQOONLKJjlmnpqrj0j1j1j1j1j1j1rrqom
+39538I28mj%KLNPPRRJ0J0J1J0J0RQPONLK%klmnppqrrrqqqoonlk%JKLMOOPQPQQPPOOMLLJ%j
+39601A043klmnmonnomnllkk%JJLLLNMNNNMMMKKJjjkmmnpoqpqqqpoonmlk%JKMNNPQQQRRRRQ
+39668A026QPOMMLJJjjllnmnnnnnmlkkjJJLMNNPPQQQRQRPPPNMLKJjkmmopprrj0j0j0j0j0j0
+39729A016rrqpoomlkk%JJKLLMMNMNMMNMLLLLKKKKJKJKJKKKLKLMMMMMNNMNMMMLLKJJ%jkklm
+39796A099mnnoopopoooonmmlljjj%JKKKLLLMLMLLLLKLKJJJJJ%%%%%%%%J%J%JJKJJJKJJJJ%
+39863A073%%%jjkjklklllmllmlllklkkkkkjjjjjjjj%jj%j%%%%%%JJJKKLLLLMMMNMNMMMMLK
+39930A069KK%%%kkllmnnnoononnnmllkjjJ%KKLLLMMLMMLLKKJJJ%jjkjlkkkljkjjj%JJJKKL
+39997A025LKLLLKKJJ%jkklmmonpopppopnommljj%KKLNNOPPQQQQQQQPOOMNLKKJ%jkkklmmmm
+40064A050nmmnmmmlmlmkllklkkkjkjj%j%J%JKKLLLMMNNONOOOONONMNLLLJJJ%jjklllllmll
+40131A057mklkkjj%%%JJJKJKJKJJJ%%j%kjkklkllklkkkkjj%%%JJKKKJKKKKJJJ%%jjkkklll
+40198A025mlmllllkjk%jJ%JJKKJKKJJJ%jjkklmnnooopoopnnnmkkjJJLMNOOQQQQRQQPPOMMK
+40265A033Jjklmopqqrj0j0j0rj0qqpommjjJKMMOPQQRRJ0RRRQQPOOMMLKJJ%jjjjkjjjj%jJ%
+40327A033JKJKJKKKJJJJ%j%jkjkkkkkkjj%%JKKLLMNNNNONNMMLKJ%kkmnopqrj0j0j1j0j1j0
+40388I91rrqoomkjJKLNPPQRJ0J0J0RJ0RQOONLKJ%klmnnooooonnllj%JKLNNPPPQQQQPPONML
+40452A112J%jklnnopqpqqqqopnnmlljj%JJJKKJKJJJ%jjkklmmmmnmmmmlkkj%JJLLMNNNOOOO
+40519A012ONNNLLKJ%%kkllmmnmnnnmmlmkkkj%%%JKJKKKKJKKKJJJJJ%J%%J%JJJJJKJKKKKKK
+40586A024JKJJ%%%jjkkllllmlmlllkkk%jJJKLLMMNNNNONNMNLLLJJJjjkllmmnnnnnmnmmmkl
+40653I90jjj%JKKKLMMMMNNNNNNNMNNMNMMLMLLKKKK%J%%jkkklmlnmnnnnnnnmnlllkj%%KJLL
+40721A028MMNNONNONMMMLKK%%jjlllmnmnnmmmllkjjJJKLMMNNOOOOONNMLLK%%jkmmnooppqq
+40788A055qpqpoonnllkj%JKLLMMNNNONONNNMMLLLKJJ%%%jkkkkllmlmmmmnmmmmmlmklkkjj%
+40855I98JJKLLMMNNOOOOOOOONMMLKJ%%kkmmnooppppqpooonmllk%%%KKKLLMLMLLKKKJ%%jjk
+40923A018kkllklkkjj%JJKLLMNNNNOONNNMLKKJ%jkllnmonoonnnmlljj%KKLMNNNOOOONNMLK
+40990A071J%jllnopqqrj0j0rj0j0rrpqonmlkj%JKLLMNNOOONOONNNNMMLLLKKKKKJJJJJJJ%J
+41053A032J%J%%J%J%J%JJJJJKJKLKLLMLLMMLLLLKKKJ%jjkklmmnnonooonnnnmllkkjj%%J%J
+41120A005JJ%J%j%jkkkllllmlllkjk%JJKLLNNOOPPOPPOONNLLK%%jklmmnnononmmmlkj%%JK
+41187A005LLMMLMMMLKKJJjjkllmmnnnnnmmklj%JJLMNNOPPQPQPQOONNLKK%%jlkmmnnnnmnnm
+41254A040lllkjj%%%JJKJKKJKJJJJJ%%%%%%%%%%%J%JJJJJJJKJ%J%Jj%jjjjkkjkkkjkjjj%%
+41321A035%JJJJJJKJJJ%%%j%kjklkklkkkkj%%JKKLMMNOOOOOOONNLLKJ%kkmnnoqpqqqqppon
+41388A007nlkjJJLLNNOOOPOONNMLK%%kkmnoppqqqqqqpoommkjjJKLMNNPOPPPQPOPOONNMLLL
+41455A075KKJJ%%%%j%jjkjkkkkklllllmmlmmmmmlmllklkkjjjj%j%%j%%j%jjjjjkjkjjkjj%
+41522I74%%%JKKKLLLLMLMMLLLLKKJJ%%%jjjjkjkjj%%%%JJKKKKLLKKKKKJ%%jjjklllmllmll
+41590A008kkj%%JJKKLLLMLLLKKJj%klmnoppqqqrqqqoonmkk%JLMMOOPPQPPPOOMMKK%jklmnn
+41657I90oononnmlkj%JKMMNPOQPQQPPPONMMKKJ%jkkkllkllkjk%j%JJJJJJJ%%jjklmnooppq
+41725I82qqqpponmkjJKMNPQRJ0J1J1J2J2J2J1J0J0QPOMKJjlmnppqqrqqpoomkj%KLNPPQRJ0
+41783A046J0J0J0RRPPNMLJ%jlmoooqpqqpponnllk%%JJKLKKLJK%%kkmmnppqqrrrrqppnnlj%
+41847I24JLNOPRRJ0J1J1J2J1J1J0J0RQOOMKK%jkmmmnoononmmlkjjJJLLLNMNNNNMMMKKJ%jk
+41907A078kmnnoppppqppoonnmkkj%JKLMMNOOOPOPOONNMMKKJ%jkkmmnooopopppoonmmmkjj%
+41974I64KKLLNNNOPOPPPOOONNMLLKJ%%jkllmmnnnnononnnnmmmllkkkjj%J%KJKKLLMLMMNMN
+42042A013MNNMNMLMLLKJJJ%jjkllllmnmmmmmmllkjj%JJKKLMMMNNNMNNNMLMKLJJJ%%jjkkkk
+42109A063klkkkkkkjkjjjjjjjjjkjkkllklmllllllkkjk%%%JKKKLLMLMMMMLLLLKKJJJ%j%jk
+42176A038jkkkkkjkkjjj%j%j%%%%j%jjjjjkjkkkkjjjj%%%KKKLMMMNONOONONMMMLJJJjkllm
+42243A066noopoppooonnmklj%JJLLLMNNNMNNMMLKKJ%%jklllmmmmmllljk%JJKLMMONPOPOPO
+42310A065ONNMLKK%jklmnnpoqpqpppoonmllj%JKLMNNOPPPPPOPNNMMKJJjkkmmnnopopoponn
+42377A005mmkkjjJJKLLLMMLMMLLKKJJ%jkkklmlmmmlmlkkj%JJKLMMNNONOOONNMMLJJ%jllmo
+42444A051nppqqqqpqopnmllj%JLLMOOOPQPQQPPOONMLKK%jkklmnnnoononnmmlkkjj%JKKKLL
+42511A001LMLLMLLKKKKJ%J%%%j%jj%j%%%JJJJJKJKKKKJKJ%J%j%kjkllllmlmllllkkkj%%JJ
+42578A005KKKLLLLKLLKKJJ%%jkkkllmlmmlmllkkk%jJJJKLLLLLLLKKKJ%%jjlllmnmnnnnnml
+42645I66lkjjJJLLMNNOOOPOOOONMLLKJ%jjkllmmmmmmmllkkjj%%JJJJKJ%J%%jkklmmnnnoon
+42713I58onmmkkj%KKMNOQQRRJ0J0J0J0J0RQQONMLK%jkmmnoppppppoommlkj%JJLLMNNNNNNN
+42776A039MMLLKK%Jjjjkkklkkkkkkj%j%%JJJJJJJJJ%J%%jjjjkjkkkkkjjk%j%%%JJJKKJKKK
+42843A034KJKJKJJ%J%%%%%j%%j%%%%%%%%%%%%j%jjjjjkjkkkkkkjkjjjj%j%J%%J%%%%jjjll
+42910A007lmnoooqpqqqqqpponnllj%JLLNNOPQQRQRQQPPNNNLKJ%%kkllmmmlmllljjjJJKLMM
+42977I82MONNOONONMMMLLKJJJ%j%jjkjjjk%jj%j%J%%%J%J%%%j%jjjkjkkjkkkkjjkj%j%%%%
+43045A017%%J%%%%%j%jjkkjkkklkjkjjj%JJKKLLMMMNNONNOMNMMLKKJ%jjklmmnooooopopon
+43112I93onmmllkjjjJJJKKLLMLMMMNMMNMMMMMMLMLKLKKKJ%J%jjjkklmmmnnnoooopooponnn
+43180I52nlllk%jJJLLLNNNOOOPPOPONNNMLKJJjjllmmooopopppponnmlkk%%KKLMNOOPPPQPP
+43248A007QPOOONNMLKKKJ%%%jkjkkkkkkkkklkkklklklklklklkkkkjj%%%JJKKLLLMLMMMLLL
+43315A038KKJ%jjkllmnnnoooonnnlmkjjJJLLMNNOOOPOONNMLLJ%%kllnnnpopppooommmkj%%
+43382I54KKLMNNNONOONNNMLMKKJJJ%%j%jjj%%%%%JKJKLKLLKLLKLKJJJJ%%jjkjkkkkkkjjjj
+43450A047%%%JKJKKKLKKLKKJJJJj%jkjllllmmmmmnmmmmlmlllklkkjkkjjkjjkjjjjkj%jj%j
+43517I69%J%JJKKKLLLLMMMNMMMMMMLMKKKJJ%%jkkklmlmnmnnmnmnlmllkjjj%JJKKLLLLMMLM
+43585A003MMLLLLKKKKJJJJ%J%J%JJJJJJKJKKKKKJKKJJ%J%jjjkkklllmllmlllkkkkjj%%%%J
+43652A014%JJ%J%%%%jjjjjkkkkkkjjk%j%JJJJKKKKLKKKKJJ%%jkklllnmmnnmnmllkk%%JJLL
+43719I68MNNNOOPONONNMMLKJJJ%jjjkkkjkjjjj%J%JJKKJKJKJJJ%j%jkkklklllkkkkj%%%KJ
+43787A021LKLLMLLLLLKJJ%jjkklllmlmlkkj%%KLLNNPPPQQQPPPNMLJ%kmnprj0j1j3j3j4j4j5
+43848A001j4j3j3j2j1rpomj%JMNPQRJ0J0J1J0J1RRQPOMLJJkklnnnononmllk%JKLMOOPPQQQ
+43905A049QPOOMMKJ%klmnoppqqqpqponnllj%%KKMMMNONNONNMMLMKKKJJJJ%J%JJJJJKKKKKK
+43972A080JKJJJ%jjkklmlnmnnnnmmllkk%%JKLMMMNONONNMMLKJJjjlmmnoopppppoonnllkk%
+44039I91JJKLLMMMMMMLMKKKJ%%%jkkkkklkjkjj%%%JJKJKKKKKJJ%%jkklmnnopppqqpqpponn
+44107I25mlk%%JKMMNOPPQQRQRQQQQOPNNNLLKJJ%jjjklkllllllklkkkjkjjj%j%%%j%%%j%j%
+44175A015jj%jj%j%j%%J%JJJKKKKLKLLLKLKLKJKJ%Jj%jkjkklklklkkkkjk%j%%JJJJJJJJJ%
+44242A027J%jjjkkkkllmllllklkjj%%JJKKLLLMLMLLLLKKJJJ%jjjjkjkkjjj%%%JKKKLLLLLL
+44309A042LKKJJjjkllnnooopppoonnllj%JKLMOOPPQQQPPONMLK%kknnpqrj0j0j0j1j0j0rqp
+44370I34pmlkjKKMNOOPQQPPPONLLJJkkmmnpoppopnnmkj%KLNOPRRJ1J1J1J2J1J1J1J0RRPOM
+44430A095LKJjjllmmnnnnmmmlkkjj%J%JJJJ%%jjkkmmmonpopoopnnmlkj%JLLNNOPQQQQQPPO
+44497A051OMMKJ%jklnmooopoooonnllkk%%JKKKLLMLLLLKKJJJ%jjkjkkkkkkjjj%JJJLLLMMN
+44564A025NONONONOMNMMLLKJJJjjjkllmnmonopopppppppooonnmllkj%%JKLLMMNNNONONNMN
+44631A021LLLKJJ%jjjkkklkkkkkjj%%J%KJKKKKKKJJJJj%jkklllmmmmmlmlkljj%%JKKKLLLM
+44698I98LLLLKKJ%%jjjlklllmlklkjj%JJKLMMNONOPOOONNMMLKJJ%jkkllmmlmmllkkjj%JJK
+44766A031LLLMLMLMKLKJ%%jklmmnooopoppoonnmmkkjjJJJLKLMLMLMLLKKJJ%%jjkkkklkkkk
+44833I86jj%JJKLMMNOOPOQPPPOPNNMLKJ%jllnooqqqrj0rrrqqponmlj%JLLNPPQQRJ0RJ0RRQ
+44898A061QOOMMJJ%klnnoppqqrqqppoonmlkj%%KJKLLLKLKKJJ%%kkkmlmnmnmmmllkj%JKLLN
+44965I61NOPPQPQQPPOONMLKJ%%kkmmmnnonononmnmllkljkjjjj%jjjjjkjkkkkkjkjjj%%JJK
+45033I48KKLMLNMMNMNMMLMLKKKJJ%%jjjjkjkkkkkkkkkklkkllllllmmmlmmmllkljj%%JKLMM
+45101I37NNOOPOPPOOONNMLLKJJ%%jjkjkjj%j%JJKKLLMLMMLLLKJJ%kklmnoppqqqpqponmlk%
+45169I56KKNNPQRJ0J1J1J1J1J0J0RQPNMKJjkmnpprrrj0rj0qqponll%%KLMOOOPPPPOONNLKJ
+45228A065%jklmnnooopoonnmlljjJJKLLMNNNONONNNNMMLLKKK%J%%jjkjkklklllmlmmmmmmm
+45295A015nmmlmmllkkkkjjjj%j%jjjjkkklmmmmnnnnnnmmlkk%%KKMNNOQPRQRQRQPPNNMKK%j
+45362A019kkmmmnnnmmlkj%JLMMOPQRRRRJ0QQPOMMJ%jmmppqj0j0j1j0j1j0j0rppnmk%JKMNO
+45421I72QPQRQQQPONMLKJjjllmmmnmmlkkj%JKLLNNNOONOMMLKJ%klmnoppqrqrqpponmkk%JK
+45489I70KMMMMNMMLKJ%jllnnpppqqpqonmljJLMOQJ0J1J3J3J5J5J5J5J4J4J3J1J0QOML%lmo
+45544A118prj1j1j2j3j2j2j2j2j0rqpnmkj%JLLMNNNNNMMMKLJJ%%j%jjjj%%JJKLMLNNNNONN
+45602A061MMLKJjjklnnpppqqqqpponllj%KLMNPQQRJ0J0RJ0J0RQQOONLLJJ%kkkmlmmnmmmmm
+45665A072mlmlllllmlmlmmnmmnmmlmkkkj%JKLLNNNOPOPOPNNNLKK%kkmmopprrrrrrqqppnml
+45732I41kj%JKLMMNMNNMMMLLKJJ%%jjkjkjj%jJJKLLMNNOOPOOOONMMLJJ%kklnmoooononmmk
+45800A002j%JKMNOPQRJ0RJ0J0RRRPONLK%jlnoqrj1j1j2j3j3j4j3j3j3j1j1j0rpomlj%KLMO
+45852I40OQQQRJ0RRQRPPONMKKJjjklmnnoopooooonnmllkkj%J%KJKKKKKKKJJ%%jjjkklllml
+45919I60lmklkkj%%JKKLMMMNNNNNNMNLLKKJ%jkkllmnnnnnnnnmlmkkjj%%JKKKLLLLLLLLMLL
+45987I82KLLLLLMLMMMNNNNONONONMNLLKK%%kkmmnopppqqqqpopnmmkk%JJLLNNNONOONNNMLK
+46055A047KJjjkklmmnmnnmmmmlkkjj%%JJKJKKJKJJJJ%%%%jj%jj%j%J%JKKKLMLMMMNMMLLLL
+46122A055JJJ%jjklklmlmlllkkjj%JJKKLMMMMMMMLLLJK%jjllmnnopppqqqqppppnomnllkjj
+46189I30%%JJKKLKLLMLMLMMMLMLMLMLLKLKKKJJJ%%%jjjjkkkkkkjkjjj%%JJJKLLLMLMNMMMM
+46257A038MMLLLKKJJJ%%jjjjkjkkjkjjk%jj%%%%J%JJJJJKJJJKJJJJ%JJ%%%j%jjkkkklllmm
+46324A033lmmmllllkkj%%JJLKMMNNNNONNNNLLLJ%%klmnnppqqqrqqpponmlkjJKLMNOPPPQQP
+46391A020PPNNMLKJ%jllmmnononommlljj%JLLLNNNNONOMNMLKKJj%kklmmmmmmmllkkj%%KKK
+46458A017LLMMMMMMLKLJJ%jjkklmmmmmmlmkljj%%KKLLMMNNNONNMMMLKJJ%kkllnnnopppppp
+46525A005oponnmllkj%%JKKLMMMNNNONNNNNMMLLKKJ%%jjkklmlnmnmnnnnnnnmmmmmlllllkk
+46592I40lkjkkjjj%jJ%JKKLLNMNOPPPPQQQPPPOOMMKJ%jlmnoqqrj0j0j1j0j0j0rqqommjjKL
+46654I13MOPRRJ0J0J1J1J1J0J0RQPNNLJJjkmmnnoononnllk%%JLMMNOPOPOPONMLKJ%jllnoo
+46715A051pqqqqqpponmlk%%KKMMNOOOPOOOONMMLLKJJJj%%jjj%%%%%JJKJKKJKJ%Jjjkklnnn
+46782A046ppqqqrqrqqpponmlkj%%KLLMMNNMNNNMMLKKJJ%%jkjklkklkkjkjj%%%JJJJJJKJJJ
+46849I79%J%%j%jjjjj%jj%%JJJJLKLLLMMMMMLMLLKKKJ%%jjjklkllllkllkkjjjj%%J%JJJJJ
+46917I98JJJ%%%jjjkkkkklklkkjkj%%JJKKLMMMNNNONONONMMMLKJJ%jjlllmnnnononnnmmlk
+46985I85kjJJKLMMOOPPPQQQPQOPNNMLKK%jllmnnpppqqqqqqpopnnmlkjj%JJKLLLLMLLMKLKK
+47053A011JJ%jjjkllmmmnnnnnnnnmmmmllkkjj%JJKKLLMNNNOOOPPOPPPOONOMMLLKJ%%jklll
+47120A040nmononoononmnmlllkkjj%%J%JKJKJKKKKKLKKKKLKLKLKLKLKKKKKKJ%J%jjjkkllm
+47187A002lmmmnmlmlllkkj%%JJJKKLLLLKLLKKKJJJ%Jj%j%j%j%%JJJKKLLMMNMNNNMNMMLKKJ
+47254A060J%jkklllmmmlmlkkjj%JKLLMNNONOOONNMLLKJjjklmnoopppppppoonmlkk%%JKLMM
+47321A003MNNNNNNNMLMKKK%Jjjkkklmlmmnmnmnmnmmmlmlklkkjj%%%JJKKKKLKLLKLKKJJJ%j
+47388A001kkkmmmnonooonommmkjjJKKMNOPPQRRRRRQQPONMLKJjjlmnnooppoooonmlkkjJJJK
+47455I72LLLLMKLKJJ%jjllmmmnonnmmmlkjJJKLNNOQPQRQQRPPPNMLL%%jlmnnopppqppooomm
+47523I61lljj%JJJKJKKJK%Jj%kkklmlmmmmmllkkj%JJLLMMONOOOPONONMMLKJJ%jjkkllllll
+47591I84lkkkjj%%JJJKKKKLKLKKLKJKJKJJJJJJJJJKJKKKKKKKKKJKJ%%%jjkkllllmlmlllkj
+47659A000jjJJJLLLMNNNNNNNNMLLKK%%jjklllmmmmmllkkjj%JJKKLLMLMLLLLJK%%jkklmmnn
+47726A035noonnomnmllkjjj%JJJJJKJKJJJ%%%%j%jjjj%j%%JJJKKLLLLMLMLLLKKJJ%jjkkml
+47793A017mnmnnmnmmlllkjj%%%%JJ%J%%jjjkllmmnmnnnnmllkj%JKLMOOQQRJ0J0J0J0RJ0RQ
+47855A029PPNMMK%%jkklmlmlllkj%%KKMMNNOOPOONNMKK%jkmooqrrj1j0j2j1j1j0j0rqpnml
+47915I42jJKLNNPPPQQQPPONMLKJjkkmnnoopoponnmlljj%JKKLMLMMMLLKKJJjjjkllmmmlmml
+47983I60llkjj%%JJKKKKKKJK%J%jjkkklllmllkljjjJJKKMMNNOOOOOOONMMLKKJj%kkllllml
+48051I96llkkjj%%JKKKLKLLKKJJ%%jklmmnnoooooonnmlkk%JKLMNOPPPQPQQPPOONMMKKK%%%
+48119A045jjjkjj%%%JJKLLMMMNNNNNMMLLKK%%kklmnnoopqpqpqppopnnmmlljk%%%JKJLKLLL
+48186I89LMMLMMMMLMLMLLKLKJJJ%jjkkllmnmonooonoonmmmlkk%%%KKLLMMMNMNMNMLMKLJK%
+48254A018%%jjjkkkkkkkkjjj%jJ%JJJJKJKKJKJJJJJJ%JJ%JJ%KJJKKKLKLLLLLLKLKJJJj%kk
+48321A058llmmnonooononmmlljj%JJKLMMMNNNMNMLMKKJ%jjlllnmnononnnmllljj%JJLKMLM
+48388I83MMMMMLKKK%%jjklmmmnnnnnnmmmkkkj%JJKKLKMLLMLKLKKJJ%%jjjkkkkjkjj%%JKKL
+48456I75LNMNONOOOONNMMLKJ%jjllmnooopoppooomnllkjj%JKKKLLKLLLKKKJJ%j%kkkkllkl
+48524I64llkkjjj%%JJJKKLKLLKLKLKJKJJ%J%%%%%%JJ%KJKLLLLMMMNMMMMLLKK%Jjjlllnmon
+48592A019oopnonnlllj%JKLMNPPPRRRJ0RJ0RRQQPONMLK%%klmmoopqpqrqqpqpoonnmkljj%J
+48657I88JKKKLLLMLLLKLKJK%Jj%jkkkllllmlmlmlllkkkjjj%%JKJKLLLMMMMMNMNMNMMMMLLL
+48725A055KJKJ%%jjkkklllmlmlmllkkkj%JJKLLMNOOOPPPPOPONNMLJJ%klmnoqqqj0rj0j0rj0
+48789A014qrponmkj%JLLNOOPPPQPOONNLKJjkkmnopppqqpppnnmkk%JLLMNOOPOPONNMKK%jkm
+48856A029mopqrqj0rqrppnmlj%KLNPQQJ0J1J1J1J1J1J1RRQPNMKJjjlmnooopoonnmkkjJKLM
+48915A018NNOPOPPONNMKK%%llnnpprqrj0rrqrpponmlkjjJJJKLKKLKKKJJ%%%jjjjjjjj%J%K
+48981I66KKLMMNNNONONNNMLKKJ%%kkmlnmononnomnlmkkkj%%JKJKKKKJKJK%J%%jjjjjjjj%%
+49049I75%JJKKMLNNNOOOPOPOOOOMNLLKJJjjkkmlnnnoooopopoooononmmmllkkk%jJ%KKKLMM
+49117I65MNNNNONNNNMLLLJJjjklmnoopqqqrqrqpppnnmljjJKLMNOOQQRRRJ0RJ0RRRQQPOOOM
+49183A068MLLKK%Jjjjkkllmmmnnoooooppopoponnnmmlkjj%JJLLLMMNNNNONMNMLLKKJ%%jjj
+49250A013kklklkkkjjj%JJKLLLMMMNNMMNLMLKKJ%%jkklmlmnmnmnmmlmkkkj%%JJKKKLLLLLL
+49317A017KLKKKJJJ%%j%jkjkjkjkjkjj%j%%%JJJKJKKKKKKKKJKJJ%J%jjjklkmlnmnnoooooo
+49384I68ooonnnllljj%JKLLNNOPPQRQRRQRQQPOONLLK%%kkmmoopppqqqqpqoonnllkj%JJKLM
+49452I59MMNNNNMNMMLLKKJJ%jjjklklllklllkkkjjj%%%%JKJKJKLKKKLKKLKKLKKKKKKKKKKK
+49520A034JKJKJJ%J%%j%jkjkkkkllllklllklkkjkjj%%%JJJJKKKKLKLLLLLLLMLLLLMLLLKLK
+49587A067KKKJJJ%jjjklllmmnnnnononnmmmlkjj%JJLLLMNNNNNNNMMLLJJ%jkkmmnoooopooo
+49654I87nnmlkj%%KLLMNNOOOONONMMLKJ%jkllmnnoonoonnmlljj%JKLLMNNNNONNNMLLJJ%jj
+49722A033llnmnooononnmlkk%JJLMMOOPQQQRRQQQPPONMLKJ%jkllnnnoppopppoooomnmllkk
+49789I78j%j%JJJJKJKKKJKJKJJJ%J%j%jjjjkkkklklkllkklkkjkjj%%%%JJKKJKLKKKLKKJKJ
+49857I83JJ%%%%%jj%j%j%J%JKKLLMNNNOOPOPPOPNOMMLKK%jklmnooqqqrrrrrrqppoonllljj
+49925I35%JJKKKKLKKLKJKJJJ%J%%%%%%%JJJKKKKLLLLMLLLKKKJJ%%jjkkllllklljkj%JKKMM
+49993I91NOOPQQQQRPQPONMMKJjjlmnnpqqqrrqrqqpoonmlkjjJJJKKLKLLKKKJJ%%jjjkkkklk
+50061I74kkjjj%%JKKKLMLNMNMNMNMMLMKLKJJJ%%%jjjjjjjjj%j%%%JJJJJJJKJKJJKJ%J%Jj%
+50129A049jjjjkklklllmlmlmmlmlllkkkjj%%JJKKLLMLMMNMNMMMMLLLKKKJJ%%%j%jjjjjjjj
+50196A046j%jj%j%jjjkjklllmlnmmnmmmmkkk%%KLLNOPQRRJ0J0RJ0J0RQPOMLJ%kmnpqj0j1j1
+50257A059j3j2j3j3j2j1j1rqomljJLMPPQJ0J0J1J0J0J0RQPNMK%jlnpqqj0j1j1j1j0j1rrpo
+50305I42nlj%KMMPPQRRRRRQPOMLK%jlmnpprqrrrqppnmlk%KKMOOPQQQRQQPPONMKK%%kkmmmn
+50373A021onnomnmllkjjj%J%JJJJJJ%j%jkkkllmllmllllkjjj%JJJLKLLLMLMMLMLMLLLLKLL
+50440A003KLLKLLLLLLKLKKKKJ%%%jkkklmlmlmlmklkj%%JKKLMMNMNNMMMLKJjjkmnopqrj0j0
+50505I92j0j0j1j0rrqponlk%JKLNNPPPQQPQPPONNMLKKJ%%%%j%%%%JJKLLLMMMNMMMLKKJ%jk
+50569A058lmnnpoqppqopommlk%%KLMNNOPPOPOONMLKJ%kkmmoopppppponnlljjJKKMMNONOOO
+50636A002NNNLLLJJjjkkllmmmmmmlllkkkjj%%%%J%%%J%%j%%j%%%%JJJKLLMNNNPOPPPQOPON
+50703A071NMLJJ%kkmmooopqppppoonmlljj%JKKKLLKLKKJJ%jkklmmnoooooonommmkkj%%JKL
+50770I28LMMMMNMMNMMLMLKLKKKKKKJKKJKKJKJJJ%%%jjkkllmmmmnmmmllkjjJKKMMOOPQRQRR
+50838A036RQQOONMLJjjlmooqqqrj0rrrqqoonmkkjJJKLLLMMMMLLLKJK%J%%j%%%%JJKLLNNNP
+50904A028PQQQQQQPOONLLJjklnoprj0j0j1j2j2j2j2j1j1j1rrppnmlj%%KLLMNNNONONNNNMM
+50961I96LLLLKKKKJKJKJJJJJJJ%%%jjkjlkllmmlmmlmlkkkj%JJJLLMMMNNNNNMMMLLKJJ%jjk
+51029A041klllllllkkkjj%%JJKJKKKKJK%Jj%kkllmmnnnnnnnmllkj%JKLMNNPPQRQRRRRQQPO
+51096A084ONLLKJ%jkkmlnnnooooooooonnnnnmmmmmllmklllkkkkkkjkjjj%j%j%%%%%J%%J%J
+51163I40%JJJJJKJKLKLLMMMMNNNNNNNNNMMMMLKKKJ%%%jkjkklklklkkkkkjjj%%%J%JJJKJKJ
+51231A024KKJKKKKJKKKKLKKKLKKLKKKKJKJ%%%jjkkllmmmnnnnonnmnmlmkkjj%%JKKKLLMLML
+51298A018LMLKKKJJ%%jjklklmlmmmmmllllkkjj%%JKKLLMMNNNNOONONONMMMLKKJ%jkklmmno
+51365A050opppqpppponnmkkj%JLLNOOQQRRRJ0J0RJ0RQPPOMMKJjjlmnopqrrj0rj0j0rj0qqp
+51425I82pnnlljjJJKMLNNNOOOONONNMMLLKJJ%%jkkklllmlmlmlmllklkkjjjj%%%%JJJJKJKK
+51493I97LKKLLKLLMLLLLMLLLLLKKKKJJJ%%jjjkkkllllllmlllklkjkj%%%JJJKJKKLKKKKKKJ
+51561A039JJJ%J%%%%%j%%J%JJJJKKKKLKLKKKJK%%%jkklmnnoooppppppoonmmkkj%JKKMMMNO
+51628I88NONONMNLLLJJ%jjkllmlnmmmmmllljkj%%%JKJKKKLKKKKJKJJJ%%J%%%%%%J%JKJKKK
+51696A019LKLLKLLKKKJJ%j%kklmmmnnooooooonnnlmkkj%JJLLMNNOPPQQQQQQQPPPONMLKJ%j
+51763A086klnnpqqrj0j1j0j1j1j1j0j0rqponlkjKKMOPQJ0J0J1J1J2J2J2J1J1J0J0QPNMKJj
+51811A089kmnpprrrj0j0j0rrqponlk%JKLNOPPQQRRQQPPONMKK%jjlmnnopoppppooonmllkjj
+51875I69%JJKKKLLLMLMLMLMLLLLLLLKLKKKKJJJJ%%%jjjkkklllllllklkkjjj%%JJJKKKKLKK
+51943A025KKKJJJ%%jjjjkkjkjjj%%JJKLLLMMNMNNNMMLLKK%%jklmmnoooppppoooonnlmlkkk
+52010I68jjjjjjjkjkkkllklllkkkjj%JJLLLNNNOOOPOONNMMKKJjjklmnnnooonnnmlkj%JKKM
+52078I53MNOOOPOONNMMLJJ%%klllmnmnmmmmklkj%jJJJJJKJJJ%%%jkkllllmlllkkjJ%KLMNO
+52146I64PQQQRRQRPPONMKJ%klmoppqqrqqppomlk%JLMOPPRRJ0RJ0RQPONLJ%kmoprj0j1j2j3
+52208A003j3j3j3j2j2j1j0qonmj%JMNOPQRJ0RJ0J0RRPQONMLK%%%kklklllkkkj%%JJLKLMLM
+52265A023MMLMKLKJJ%jjjkllllmlmllllkjk%j%J%JKJKKKKKKKLKJKKKKJKKJKJKJKJJJJJ%%%
+52332A053jjjkkklmlmmlmmmmlllkkjj%%JKKKKLLKLLKKKJJ%jjkkllmnnmonnnnmmlllkj%%JK
+52399I50LLLMNNNONOOOOONONNNMMLLLKKJJ%%jjjkklkllmllllkljkj%%JKKLMMNNOOOOOOONN
+52467A103MMKKJ%jkmmnnppqqrqrrqqqppoommmkljj%%%JJJ%JJJJ%J%%%%%%%%%JJ%KJKKKLLL
+52534I89MLLMLLLLLKJKJ%%%jjjkkkkkkkkkkjk%jj%%%J%J%JJ%%%%%jjkjklkllmlmmmnmmmnm
+52602I37mmlmllkkkjjj%JJJLKLMMNNNOOOPOOPONONMMMKKJJ%jkkllmmmmmmmlllkjjJ%KLLMM
+52670I90NNOOOPOONONMMLLKJ%%jjklllmlmmmmmllllkkjjj%%%J%JJJJJJ%J%%j%kjkklklmlm
+52738I92mmmmmllllkk%jJ%KKLMMNNOOOOPOONNNMLLJJ%jkllmnoooopooonnmllkj%JJKLLMML
+52806I82MMLLLJJJjjllmnnoopopopnommlkj%JJLLMMNMOMNNMLLKJJjjklmmmnnonnmmllkj%J
+52874I08KMMMOOPPQPQPPPONMLKJ%jllnooqqqrrj0rrqqpoomlljJJLMMOPPQRRRRRRQQPPNNLL
+52941A014J%jkllnnoopopooonmllj%JKLMNNPPQQRQQQQPPOMMLKJ%jkllmnonoooononmmmklk
+53008I67jjj%%J%JJJJJJJJJJJJKJKJKLKLLLLLLLLLKKKJ%%jklmmnooppqpqqppoonmlkk%JKL
+53076I12LMNNOOOOOONNMMLLKJJ%%%%j%j%%JJJKKKLMMLMMMMMLKKKJ%%jkkkmlmmlmmlllkkjj
+53144I96%%JJJKJKJJJJ%%jjjlkllmmlmmllkkkj%%JKKKLKMLLKLKKJJ%jjkkklllmllkkkj%JJ
+53212I63KKLMMNNNNNMNLMKKJ%jjkllmmnmmnmllkkj%%JKKLLLLMLLLKKJJ%%jkkllklllkkk%%
+53280I81%KKLLMNMONNNNMLLLJ%%jlllnnnnonnnmmlkjj%JKKLLMLMLLKK%Jjklmnnopqpqqppp
+53348I26onmljj%KLLNNPOPPQPPOONMMKKJ%jjklkmlmlmlklkjj%%JJJKKKKKLKKKKKJJJJJ%J%
+53416I96J%%J%J%JJJJJ%JJJ%J%%%%j%%j%%%%%JJKKKLLLMLMMMMLKKK%%jklnnopqqrrrrrqqp
+53484I42ommkj%KLNOPQQJ0J0RJ0J0RQQPNMLJ%jlmnoqqqrrrj0qrqpoommlkj%JJJLKLLLLLKL
+53547I48KKKJJJ%Jj%%jj%jkjjkjkjkkkklkklklkkjkj%jJJJKLLMMNNNNNNNNMMLLJJJjjkllm
+53615I74mmmmmllljj%%KLLMNNONOONNNLLKJ%kkmmnopppqppoonmlk%%KLMNOOPQPQPPPNNNLK
+53683A017K%%kkkllmlmlkkjj%JJKLLMLMMLLLKJ%jklnnopprqrrrqqoonmkj%KLMOOPRQRRJ0Q
+53749I85RQPONMLKJ%jlkmmnnmnnmmmlkkjj%JJJJKKKJKJJ%%%jjkjklkklkkjkj%%%JJKKKLLL
+53817I78LLLKLKKKKJJJJ%%J%%%%J%J%JJ%JJ%J%%jjjklllmmnnnnnmnmllkj%JLLMNOPQQRRRR
+53885A024RQQPOMMKJjklmopqqrj0j0rj0rrqponlljjJKLMNNOOOONOMNLLKJ%jjlkmmmmmnmll
+53949I65lkk%%%KKKMLMNMMNMMLLLKJJ%%jkkkllllllkkkj%%%KKKLMMMNNNNMNMMLKKJ%jkkln
+54017A035nnpppqqqrqqpqopnnmkkk%JKKMMNNOOPPPPPPOOONMMLLKJ%jjjlllmmnnnnnmnmnlm
+54084I54kljjj%JKKLLMNNOOOPPPPPPPOPNOMMLLJJ%kklmnnppprqrrrqrqqponnlkk%JKKMNNO
+54152I54PPPQPPPPOOMMLKJJjkklmnnnooononnmmlkjj%JJKLLMMMMNMNMMLMKKKJJj%jkkllll
+54220A002mlmlmllkljk%j%JJKKLLLMMNNMNNNNMNMLMKLJK%%jjkllmnmonooopoononnmllljj
+54287I47%%JKKLMMMNNNNONNONMNMLMLKKKJJ%%jjjkkkllllmmmnnmnnnnnnmnmlmkljk%%JJLL
+54355I48LMNNNOOOOONONMMMLKJJj%kkklmlmmmlmklkjj%JJKLLLMLMMMLLKJJ%jkllnoopqqrr
+54423I65qrqqponnljjJKMMOPQRJ0J0J1J0J1J0J0J0QQPONLKJ%kkmnnoppqpqppponnmlkkj%%
+54483I57JKKKKKKKJK%J%jjkklllmlmlllkkjjJJKLMMOOOPQQQQQQPPOONMLKJJjjkllmnmnnnn
+54551A022mmmmllkjk%j%%%J%%%%%jjjkkkkllkllkljkj%%%KJLKMLMMMLMLLLKJJ%jkkllmnmn
+54618I79nnmmmlkkj%JKLMMNNONOOONNMLLJJ%kkkmmnnnnnmnllljjJJKKMMMNMNMMLKK%%jlmm
+54686A000ooppqpqppnnmkjJKMNOQRJ0J0J1J1J1J0J0RQONLJjknpqj0j1j3j3j4j4j4j4j4j2j1
+54736H97j0qpmkjKLNPRJ0J0J2J2J2J2J2J1J0RQPOMKJ%jllmmnnmmmkkj%JKLMNNOOOONNMLKJ
+54794A051jkmnpqrj1j1j2j3j2j3j3j2j1j0j0qooll%%KLNNOOPOPOONMLLJ%jjllmnnnnnmmmk
+54850H85kj%KKLMNOPPPQQQPQPPONNMMLKJJJ%%%jj%j%j%%%%%J%J%%%%%jjjkkkklkllkkkkj%
+54918I77%%JKKLLLMMMMLMKLJJ%jkllnnopppqpqpoommlj%JLLNPPQRRJ0J0RJ0RQQONMLJ%kln
+54983A046ooqrrj0j0rj0rrqqonnlkjJJKKMLNMMNMLMLKJJJj%kjklkkkkjj%%JKLLLNMNONONN
+55047I97NMMLKJJ%jkklmlnmmmmllkj%%JLLMMNOOOPOONNMLLJ%jllmoopqqrqrqqpoonlkk%JK
+55115I34MMNNOPPPPOPONNMLLJJJjjjklkllllklkkkkjjjjjj%kjjkkkllllmlmlllkkjjJJKKM
+55183I49MNOPPQPRQQQPQOONNLLKJ%jjkllmmmmmnmlmlllkjkjjj%%%%%%%J%%J%JJJKJKKLKLM
+55251A033LMMLMMMLKLJJJjjllmnooppqrqqqqpoonnlkj%%KKLMMNNNNMNMLLLJK%%jjjkkkkjk
+55318I89jjj%J%KJKKKKKKJJ%%kklmnoopqqrqrqqppnnlkj%KLNNPPQRRRRQRPPONLLJ%jkmmno
+55386I81oopooonnllk%%KKMMNOPOQPQPPPPNONMLKKJJjjjlkmlmmnnnnnononnonnmnlmlkkj%
+55454I27JJLLMMOOPQPRQQQQQOONNLJJjkmnoprrj0j0j1j1j1j1j0j0rqponlkjJKMMOOQPRQRR
+55514I58QQQPOONMLLJJ%jjkklklllllkkkkjj%%%%JJJKJKKJKKKJKJKJJJJJ%J%%J%%j%%%j%%
+55582A010j%%%%%%J%JJ%JJJJJJ%J%%%%jjkkkklllmllllllkjj%%JKKLLMMNNNMNMMLLKJ%jkl
+55649A028mnooppqqpqpponmlk%%KLMNOPQQQQQQQPONMLKJ%jllmnnoooooonnmlkkj%JJKKLLL
+55716I75KLLKJK%%%jjklklllklkkjj%JJKKLMLMNMMMMMLKKJ%jjklllnmmnnmmllkjjJJKLMNO
+55784I80OOPQPQPPOOONMLKJJjjllmmonpopppqpppppoooonnmmmlllkkkjjj%%JJKKLLLMMNNN
+55852I40OONPOOOONNNNMLLKKJ%%kjlllmnmnnnnnnnmlmlkkj%%%JJKKKLKLKKKKJJ%%jjjkklk
+55920I58llllkkkj%%%KKLLMMNNONONNMMLLK%%jkkmmnonooonnmmljj%KKMNNPPPQQQQPOONML
+55988A042K%%klmnnoppopoonmllj%JKLMMNOOONONMMLJJ%kklnmooooooommlkj%JKMMNNOOPO
+56055A004ONNLLK%%llmoopqrqrrqqponmkk%KKLNNPOPQPPOONNLLJ%%kllnnnnoonommmkkj%J
+56122I35KKLMMNNNNNMNMMLLKKK%J%%j%jjj%jj%%%j%%%%%%jjjkkkllllmmmmmmmlkkkj%%KKK
+56190I45MLNNNNONONMNLLLJJ%jkllmnnnonoonnnmllkj%JKKMMNOOOPPPPPPOONNLLKJ%jkkmm
+56258A031noopppqpppooommlkk%%JKLLMMNMNNNMMMLLKKJ%%%jkjkkkkjkj%%%JKJLKMLLLMLL
+56325A011KKJ%%jjllmmnonoooonnmmkkjjJJKLLMLMMMLLLJJ%jjllnnnoopoponnmllj%JJLMM
+56392I07NOOOOPOONNMMLKJJ%%jjkjkjk%j%JJJKLLLLLLLLKJJ%jklmnnpoqpqpppnnmlj%KLMO
+56460I22PRRJ0J0J1J2J0J1J0RQPOMKJjknnpqrj0j1j1j0j1j0j0rqpnnkkJJLMNPPQQRRQRQQP
+56514A012PNNMLJJ%%klllnmnonononnnmmlllkjjJ%KKLLMNNOOOPPPPPPONNNLLJ%%klmnoppq
+56581A020rrrrj0qrppoomlkj%JKLMMMNNNNMNMLLKJJ%%jjkjkkjkj%%%KKKLMMMNNNNNNMLLLJ
+56647A034J%jkkmlnnnnonnnnmmllkjj%%JJJKKJKKJJJJ%%%%jjjkjjjk%j%%%JJJKKKKKKKKKJ
+56714I86JJ%%jjjklklmllmlllllkkjjj%%%JJJKJKKKKKKKJKJKJJJ%JJ%%J%%%%j%%j%jj%jj%
+56782I65jj%%j%J%JJKKKKLLMLMMLMMLLLKKJJ%jjjlkmlmnmnmnnmmmllllkjkjjjjjjjjjkjkk
+56850I28lkklkkkkjj%%JJKLLMMMNNNNMNLLLJJ%jklmnnooppoponnmlkj%JKLMNOOOPPPPOOOM
+56918I68MLLKJ%%%jjjjj%jJJKKLLMMNMNNMMLLJJ%kkmnoopqqrqqqpommkjJKLOOQQJ0J0J0J1
+56982A000J0J0J0QPPMLK%klmopqrrj0rrrqponmkjJKMMOPPQQQQPPPNNMKK%jjllmmnnnmnmll
+57045I95kkj%JJKKLLLLLLKKKJ%%%kkkllmmmnmmmmmlmklkkkjkjjjjj%jjjjj%jj%%%%JJJJKK
+57113I47KLKLLKLKKJK%Jjjjkkklllmlklkkj%%JKLLMNNOOOOPOOONMMLKJJ%jkklmlnmnmmnmm
+57181I80llllkkjkjjkjjjkjkjkjkjkj%%%JKKLMNNOPPQQQQQPPOOMMKJ%klnnpqrj0j0j1j1j1
+57244I66j0j1j0rqponlkj%KKMMOOOPPOPPOONMMMKLJJ%%%jjjjjjjjjjjj%j%%j%jjjjjjkjkj
+57309I68kjjkj%j%J%JKJKLKLKLKLKKJJJ%jjkkkllmlmlmlllkjjj%JJJKKLLLLKLKKJJJj%kkk
+57377I70llmmmlmlmkkkj%JJKLLMNNNNONNNMMLLKJJjjkklmmnnnnnnmnmlllkjjj%JJJJKKKKK
+57445I44KKKKJKJJJJ%J%J%J%JJJJJKJKKKKJKKKJJJ%Jj%jkkkkllmlmmlmlllkkjj%JKKLMNNO
+57513I64PPQQQQQQQQPPONNMLJJ%jjlmmnnnoooooomnmlkkj%%JKKLLLLLLLKKJJjjkkmmnoopp
+57581I83qpqppooommkkjJJLLMNOOPPPQPQPPOONNMLKKKJ%%jjkjkkkkjkkkjkjjkjjkjkkkkll
+57649I92lllmmlmlmllkkkj%%JKKLMMNNOOOOOOONNMMLKK%%jkklmnmonononnnnmllkkj%%%JK
+57717I60KKKKLKKKKKJJ%%%%j%jjjkj%jj%%J%JKJKKKKJKKJJJ%j%kkklllmmmmmmmllkjjjJJK
+57785I44KLLMMMMMMMLKKJ%%kklmmnooooononmlkk%JKLLNOOPQQQQPQOPNMMKK%jjllmnnonoo
+57853I76nnmmlkjjJJKLLMMMNNMNMMLLKKJ%%jkkllmmmmmmnmmlmllllkkjkjjj%%%%JJJJKKLL
+57921I48LLMMMMMMMMMLLKKJ%%jklmmnnpopppppoonmmkk%%KKLMNOOPPPPPPOONNMLKKJJ%jjk
+57989A001jlkkkkkkkkjjjjj%jjjjjkkkklllmllmllkljjj%JJKKLMMMMNNMMMLLLJJJjjjklll
+58056I71mllmlkkkj%JJJKLLMLMMMMLLKKJJ%jjklklmlmlllkkj%%JKKLMMNNNNNOMNMMLKKJ%%
+58124A028%kjlklklllkkkkjj%%%JJJKKJKKKJKJJJ%J%j%jjjkkjlkllllmlmnmnnnonoonnnnm
+58191I09llkjjJKLMNPPQRJ0J0J1J1J1J1J1J0J0QQPOMLK%kkmnopprrqj0qrqqpoommkkjJJKL
+58249I51LMMNNNNNNNNNMNMLMLLLKKJJJ%%jjkllmnnooppqqqqqqpoonmkk%JKMNOPQRJ0J0J0J0
+58314I95J0RRQPOMMJ%jkmoopqqqrqqpoomlkjJKLNNOPPPPPPONMLKJ%kkmmooopopoonnlljjJ
+58381I55JLLMNNOONONNNLLLJJ%jkklllmlmlllkkkj%jJ%JJJKJ%JJ%%jjjkkkklkkkkjjj%JJJ
+58449I70KKLLKLLLKKKJJ%jjkkllllmlllkkj%%KKLMMNOOOOOONNMMKK%%kllmnoooooonnmlkj
+58517I68%JLLMOOOPPQPOOONLLJ%jklnooqprqrrqqqoonmkk%%KKMMNOOOPOPOOONNMMLKKJ%%j
+58585A032jkklllmmmmmmmnmlmmlllkkkkj%jJ%JJJKJKKKJJK%Jj%jkkllmmnmnnnnmmmkkk%%K
+58652I04LLNOOQQQJ0RJ0J0J0J0J0RQRPOONMMKKJ%jjjkkllklllmllllllllllmmlmmmmnmmmm
+58714I77lmllkkjjj%%JJJJKJKKJKJ%J%%jjkkkklklllklkkjjjj%JJJJKJKLKKKLKKKKKKKJKK
+58782I76KKKKKKLKLLLLLLKLKKJJ%%jjkllmmnnnnnonnmmmlkjj%JJLKMLMNMNMMMMLLKK%%%jk
+58850I99kllmmmnmmmmmlllkkjj%JJJKKLLMLMNMNNNNNNNNNNNMMMLLLKKJJ%%jjkkklllmllml
+58918A020lllkkkkjj%j%%%%%%%%j%jjjjkjkkjkjjj%j%JJJJKKKKLKKKJJJ%%jkkllmmmmmmml
+58985I63lkj%%KLMMOPPQQRQRQPPNNMKJjkmmoqqqj0rj0rrqqoomkj%KLNOPQQRRQRQPONMLJjk
+59051A053lnopprrj0rj0rqqqonnlkjjJJKKLKLLKKJJJj%kjlkklkjk%%%KLMNOPPRRJ0J0J0J0
+59112A019RJ0QQPONLKJ%klmnoppqpqqppoonmmkkj%JJKKKLKLKLKKJJ%Jj%jkjkkklkklklklk
+59178I64lkklklkllkklkkjk%jJ%KKLLMNNOOOOPOPNOMMLKJ%jllmoooqpqqpqooomlkjJJLMNO
+59246I37OPQQPQQOPNNMKK%jkllnnopopppopnomnllkjjjJ%JKJKLKKLLLLLLLMMMMMNNMNNNNN
+59314A011MMMLKKJ%%jlllnnnoooonommmkk%%KLLNNOOPPOPOONMLKJ%jllmnooopooonmllj%J
+59381I65LLNNPPPQQPQPONMLKJjklmoopqqrrqqqppnnmkkj%JKLLLLMLMLKKKJ%%jjkkkklkkkj
+59449I57j%%JKKLMMMMNNMMLLLJ%%kkmnnppqqrrqrqpponmkj%KLNNPQRJ0J0J1J1J1J1J1J0RR
+59509A027QPNMMJJjklmnnpppppqoponmmkjjJKKMMOOOPQPPQPOOONLLKJ%jklmmonpopppopno
+59576I82mmlkk%%JKLLLMMNMNMMLLLJK%%jjkkmlmmmnmnmmmmlllkkjjjjj%%%%%%%%%%%%%%%%
+59644I48J%JJ%KJKJKKKKKLKJKKJJJ%J%%j%jj%j%j%J%KJKKLLLLMLMMLLKKKJ%jjkkmlmnnmnn
+59712I83mmlkk%%JLLMOOPQQQRQQQQOOMMKJ%klmnoppqrrqrqqponmmkj%%KKMLNMNNNMMMMKLJ
+59780A021JJj%kkkklllllllklkkkkkjjkjkjkkjkkkkkkkkjjjj%JJJKKLLMMMMNMMMLLLKJ%%j
+59847A002jklmmmnnonnonnmmmllkkjj%%JJJJKKJKKKKKLKKLKLLMLMMNNNNNNONNNNMMLKKJ%%
+59914A042kkllnmnoonoonnmllkjjJKKMMMONPOPOOOONMMLKK%%jkklmmnnnnonnnnmnmllllkk
+59981I66jkjj%j%%%%%%J%JJKJKKKKKLLLLLLMLKLKKKJJ%jjjkllmmnnonoooooonnnmmmlkkjj
+60049I02%JJJKKKLLLMLMLMLMLLLLKLKJKJJJJ%%%%%%%%%J%JJJJKLKLMMMNNONOOPOOOONONMM
+60117A086LLJJJjjklmmnoppqqqrrrj0rrrrqqpponnmljj%JKLMNOOQQRRJ0J0J0J1J0J0J0RRQ
+60176A061PPNMLKJjklmooqqrj0j0j0j0j1j0j0j0rqqoonmkkj%JKLLMNNNNNNNNMMMLLKKJJ%J
+60235I89j%jjjj%jj%%%%J%KJKKKKLKLLKLKKKJKJ%%%%jjkkklllllmmlmmlmlllllkkjkj%j%%
+60303I47J%JJJJKJJKJJJJJJJJJJ%J%JJ%JJJJJJKJJKKJKJKJKJJJJJ%J%%%%%%%%%J%%JJJJJJ
+60371A007JKJKJKJJ%J%j%kjkklllmlmlmlmlkkkj%%%JKKKLLLLLLLLKKJ%Jjjklllmnmnnnmnm
+60438I50mllkkj%%JJKKLLLLMLLLLLKKJJJ%%%%jjjkjjkjjkjjjj%jjj%jjjj%jjj%j%%J%KJKL
+60506I60LMMNNOOPOPOPOONNLLKJjjlmnoqqrrj0j1j0j1j0j1rrqponllj%KKLNNOOPPQPPOPNN
+60568I77NLLKJJ%jjkklklklkkkjjj%JJJKKLKLLLLLLKLKJKJJ%%j%jkjkkkkkkkjkjjj%%%JJK
+60636I85KKLKLMLMLMLMLKLJKJ%%jkkllmmnmonnnnmmmkkk%%JKLMMNOOOOOOOONMLKK%%kllnn
+60704A027poqpqqqpppnnmlkk%JKLLNMNOONONNNMLLKK%%jjlklmlmnmmmmlmllklkkjkjjjjjj
+60771I35jjjjj%jjjj%%%%%JJJKKKKLKLLLLKLLKKKKJJJJJ%%%%%%j%%j%%j%j%j%jjjjjkjkkk
+60839I56kkkkkkjjjjj%JJJJKLKLKLLKLKKKJ%%%jkkkllmlmmlmllkjk%%JJKLLMMMNMNNMMMMM
+60907I88KLKJJJ%%j%kjjkkkjkkkklkklklllmmlmnmmmmmmlkljj%JJLLMMNOOOOOOONNMLKJ%k
+60975I84klmnooppqppoonnlkj%KKMNOOPQQQQQQPOONMLJJ%%kkllmlmlmklkj%%%KJLKLLLLKL
+61043I96KKJ%%%jjkkklklkkkjj%%JKKKLMLMLMLLKKJ%%jkllmmnnonnnnmllljj%JKKLLMMMMM
+61111I79MLLLKJJ%%jjjkjkjkj%%%JKKKLMLMMMMLLLKJJjjkllmnnononomnllkk%JJKKLMLMLM
+61179I86LKJJjjklnnoppqqqpqoonmlj%KKMOOPRQRJ0RRQQPONMKJ%jklmnnnonnnlmkk%%KKLL
+61246I67MMNMMMLKK%%klmoopqrqrrrqqonmlj%KLNOPRRJ1J0J1J1J1J0J0RRPONMKK%jjklmlm
+61307A025lllkkj%%JKLLLMMMMLMKKJJjjklmnooppppppoonnmlkj%%JKLLLMLMMLLLKKJJ%%jk
+61374I89kklklllklkkjjj%%%JJJKJKKKJKJJJJ%J%%j%%jj%%j%%%%%%%J%J%%J%%%j%jjjkjkk
+61442I67kjkkkjjjj%%JJJKKKLKLLMLLLLKLKKJJ%%%jjkkklkllmlllllklkkjjj%%JJJKKLLLL
+61510I70MMNMNNMNNMNMLMLKKJJ%%jkkmlnmonpopoppoponomnllkk%jJJKLLLMNMNNNNNNNNMM
+61578I92MMLLLKLKJKJJJJJJJJ%JJJJJ%JJJJJ%J%J%%%%j%jjjjkkjkkklkklkllklklklkklkk
+61646I79kkkkkkjkjjjk%jj%j%%%%%J%J%JJJJJKJJJJJJJJJ%J%%%%%%j%jjjjjjjjkjjjkjjjj
+61714I55kjjjjjjjj%jj%%%%%JJJJKKLKLMLMNMMNNNMNMMMLLKKJ%%jkllmnnoooppqpppooonn
+61782I18lmkjjJJKKMMMONOOPOPOOOONMMMLKKJJj%kkkkmllmmmmmlmlllkkkjj%%%%JJKJKKJK
+61850I67JJJJJ%j%jkkkkllmlmlmlllkkkjj%JJJLKLMLMMMMMLMLKKJJ%%jkkkllllllllkjj%%
+61918I40JKLLMNNNOOOOONOMNLLKJ%%jkklmmmmmmmllkkjjJ%KKLLMMMMMMMLKKJJ%jkllmnnnn
+61986I94oonomnlmkjj%JKKLMMMMNMMMLLKJ%%jlllnnoooopoonmmlkk%JKLNMOPPPQQPQPPONN
+62054A021LLJ%jkllnnpopppppponnmlljj%JJLKLMLMMLMLKKKK%%%jjjkkkkkkkjjj%JJJKLLL
+62121I63MLMMMMLLLKKJJ%jjkkllllmlmlllkjk%%%JJKKKLLKLLKKJJJ%%jkkklllllllllkjk%
+62189I48%%JKKKLLLMLLLLLJKJ%%%kjlklllmllllkjk%%JJKKLMMMMNMNMMMMLLKKJJ%%%jjjjk
+62257A010jkjjjj%%%JJJJKJKKKKJKKJJJ%%%%jjjkjkklkklklklklkkkkkkkkjjkj%j%jJ%%JJ
+62324I71JKJKKKKJKKJKJJ%%%jjkjklkllklklkjjj%JJJKLLMLMMMMMLLKKJ%jkllnnnpppppqp
+62392I35oonmmkk%JKLMNNPPPPQPPPONNMKKJjjklmnnnoooonnnmllkk%%%KJLKLLLLLLKLKJKJ
+62460I66%J%%j%j%j%%%%JJJJKKKLKKLKLKKJKJ%%%jjjklkllllmlllllklkjkj%j%J%JJKKKKL
+62528I58LLMLMMMMNMMNMMMMLLLKKJ%%%kkllnmooopppqpqpppoonnmmkkj%%JKLLMMNNNOOOOO
+62596I60ONONNNMMMLKKKJ%%%jkkkklllmlmllllkkjj%%JJKKLMLMMNMMMLMKKK%%jkllnnoopp
+62664I76pqpppoonmllk%%JLLLNNNOOOOPNONNMMLLKKJJJ%J%%%J%%JJ%JJJJ%J%%jjkllmmnoo
+62732I83opppqopoonmlkj%JKMMNOOPQPQPPOONMLKJ%jkkmnmononnnmlljjJJLLNNOOPQPPPPO
+62800A024ONMLKJ%jjllmmnmnnnmmmlkkjj%J%KJKKKKJK%Jj%kkklmmmnmnmmmllkjj%KKKMMON
+62867I67OPPPPPPPONNNLLJJ%jkkmmnnpoppqpqqppppooonmmmlkjk%%%JJKKLKLLLLLMLKLLKK
+62935I44KJJJJJ%J%%J%JJJJKKKLLMMMMMNMNMMMMLKKJJ%jjkkllmlmmmmlllkkj%%JJKLKLLLL
+63003A000LLKJJJjjklmmnnopopoponnnllk%%JKLMNNOOOPOOOONNMLLKJJ%j%jkjkjkjj%%%JJ
+63070A001JKKKKKKJJJ%%jkllnmooppppqppoonmlkj%JLLMNOPPPQPQPPPONNLLKJJjjkkkllll
+63137A003lkkkjj%JJJKKLLLLKLLKJJJ%jjklllmnmnonnnnmmmllkkj%jJJJJKKLKLKLKLKKKKJ
+63204I78JKJ%JJ%%J%%%%J%%J%J%JJ%JJJJJKJJJ%JJ%J%%%jjjjkkllllmlmnmmmmmlmkljk%%J
+63272I33JKLLMMNMONNNNMMMLKK%%jjlllmnnnnnnmmmlkjjJJKLMMNNOOOOOONNMMKKJ%%jlkml
+63340A011mnmnmmlmkljj%JJKKMLMMMMMNLMLLKJJJ%
+63374A027
+##END=	

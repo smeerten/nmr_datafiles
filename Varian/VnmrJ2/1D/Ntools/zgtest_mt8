@@ -1,0 +1,130 @@
+/******************************************************************************* 
+
+SEQUENCE:	JRselinv_mt
+AIM:		1D exchange experiment.
+		Scheme: selective inversion by jump-return - exchange delay -
+		90 degree pulse - acquisition 
+REFERENCE:    	M. Piotto, V. Saudek & V. Sklenar, J. Biomol. NMR 2, 661 - 666 (1992)
+
+		V. Sklenar, M. Piotto, R. Leppik $ V. Saudek, J. Magn. Reson. Series A 102, 241 -245 (1993)
+
+IMPLEMENTED:  	Marco Tessari
+HISTORY:      	16-03-2012
+
+ADJUSTABLE PARAMETERS:
+		satflg		presat on ('ynn') or off ('nnn')
+		satfrq		presat frequency
+		satpwr		presat power
+		pw		1H 90 at tpwr
+		pw2		1H 90 at tpwr , typically pw-0.1
+		tpwr
+		fshape		shaped water-flipback pulse
+		pw3		water flip-back pulse at tpwr3
+		wgdelay		watergate delay
+		dm,dmm		decoupling on X-channel
+		dm2,dmm2 	decoupling on Y-channel
+		dm2,dmm2 	decoupling on Z-channel
+
+PROCESSING:	wft
+
+*******************************************************************************/
+
+
+CREATE_TEXT watergate 1D
+
+
+TABLE_START
+
+t1 =   0 2 2 0  1 3 3 1
+t60 =  0 2 2 0  1 3 3 1  
+
+TABLE_STOP
+
+CREATE_PAR delay 	wgdelay  175e-6   	/* WATERGATE  delay */
+CREATE_PAR real  	phcorr   0.0      	/* phase corr. on water flip-back pulse*/
+CREATE_PAR pulse        pw5            1       /* 1H pw*/
+CREATE_PAR flag         fgrad            'y'       /* grad flag*/
+CREATE_PAR integer  	nloopsat	2    /* number of presat loops  */
+CREATE_PAR flag  	fnloopsat	'n'  /* flag for presat with nloopsat*/
+CREATE_PAR real  	satfrq1		 tof   /* 1st presat freq witn nloopsat  */
+CREATE_PAR real  	satfrq2		 tof   /* 2nd presat freq witn nloopsat  */
+
+#include <standard.h>
+#include "Ntools.h"
+
+pulsesequence()
+
+{
+ STEPSIZE( TDEV, 1.0 );
+ initval((double) ((int) (phcorr+0.5)), v5);
+ 
+  /* initialise hardloop nloops counter */
+ initval((double) nloopsat, v10);
+
+/* 
+ CHECK( dm,     "nn*" ); 
+ CHECK( dm2,    "nn*" ); 
+ CHECK( dm3,    "nn*" ); 
+ CHECK( satflg, "*nn" );
+ */
+ 
+setreceiver( t60 );
+
+
+status( A );
+
+LOCK_ON; 
+ DECOUPLE_POWER( XDEV, dpwr, us(10) );
+ DECOUPLE_POWER( YDEV, dpwr2, us(10) );
+ 
+ if (satflg[A] == 'y')
+	{
+         POWER( TDEV,satpwr, us(10) );
+	 delay( d1 - satdly );
+	 
+          if ( *fnloopsat == 'y' )
+	     {
+              recoff();
+              starthardloop( v10 );
+
+	         OFFSET( TDEV, satfrq1, us(5) );
+	       rgpulse( 0.65*satdly/nloopsat, zero, rof1, 0.0);
+	         OFFSET( TDEV, satfrq2, us(5) );
+	       rgpulse( 0.35*satdly/nloopsat, zero, rof1, 0.0);
+
+              endhardloop( );
+	      OFFSET( TDEV, tof, us(5) );
+	     }
+	  else
+	     {
+	       OFFSET( TDEV, satfrq , us(5) );
+    	      rgpulse( satdly, zero, rof1, 0.0);
+	       OFFSET( TDEV, tof, us(5) );
+               recoff();
+	     }
+	}
+ else
+	{delay( d1 );
+         recoff();
+	}
+
+
+ LOCK_OFF;
+
+ status( B );
+ if ( *fgrad == 'y' )
+   {
+    GRAD( gshape, gt1, gx1, gy1, gz1 );
+    delay(grdelay);  	
+    }
+  else
+    delay(gt1 + grdelay);
+
+    POWER( TDEV,tpwr, dtau - grdelay );
+    delay(us(100));
+  rgpulse(pw, t1, rof1, rof2);
+
+      recon();
+ status(C);
+
+}

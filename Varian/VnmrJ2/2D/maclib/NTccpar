@@ -1,0 +1,53 @@
+"======================================================================="
+" NTccpar(name, type, format, default, flag, [comment]) 		"
+" 									"
+" check and create parameter 						"
+" 									"
+" gv 04-07-94: Initial version 						"
+" gv 27-08-97: Patch: 							"
+"	       also check for old gradient subtypes pulse (gz* or gt* 	"
+"              or grdelay) and change to delay 				"
+" gv 11-10-97: Additional argument: flag ('NORMAL | FORCE_DEFAULT').	"
+"======================================================================="
+
+if $# = 6 then
+	$comment = $6
+else
+	$comment = ''
+endif
+
+
+exists($1,'parameter','current'):$bla
+if ($bla) then
+
+"====== start Patch ======="
+	substr($1, 1, 2):$n1
+" check for old gradient defs "
+	if ($2 = 'delay' and ($n1 = 'gz' or $n1 = 'gt' or $1 = 'grdelay')) then
+		$curtype = ' '
+		NTgetsubtype($1):$curtype
+" if current type is different, "
+" store and multiply value, destroy, and create"
+		if ($curtype = 'pulse') then
+			$r1={$1}*1e-6
+			destroy($1)
+			create($1,'delay')
+			{$1} = $r1
+			write('alpha','WARNING: changed %s from pulse to delay type', $1)
+		endif
+	endif
+"====== end Patch ======="
+
+	if ($5 = 'FORCE_DEFAULT') then
+		{$1} = $4
+	endif
+	write('alpha','exists  %10s, current ' + $3 + ' (' + $3 + ') \t%s',$1,{$1},$4,$comment)
+
+else
+	create($1,$2)
+	{$1} = $4
+	write('alpha','created %10s, current ' + $3 + ' (' + $3 + ') \t%s',$1,{$1},$4,$comment)
+endif
+
+
+

@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nielsh
+$$ /opt/data/nielsh/nmr/150415_SPE_COFFEE/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2015-04-15 20:11:11.371 +0200>,<nielsh>,<avance600>,<go>,<TOPSPIN 3.0>,
+      <created by zg
+	started at 2015-04-15 18:42:05.368 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       48 9A A9 0C 62 36 F3 AA 1D 58 7A C5 0A 2F 99 A5
+       data hash MD5: 28734
+       8A 48 8D 6C 15 BC A6 92 1E 01 24 CE 1C C1 4E F7>)
+##END=
+
+$$ hash MD5
+$$ 42 B4 33 67 E6 33 6E EC 2C 34 4F 17 CB 5F DD C0

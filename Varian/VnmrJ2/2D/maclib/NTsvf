@@ -1,0 +1,101 @@
+"====================================================================== "       
+" NTsvf                                                                 "
+"                                                                       "
+" Save data set, including all Ntools files, WFG files, psg code and    "
+" templates                                                             "
+"                                                                       "
+" 25-06-2003: original version by GV, adapted from svf by George Gray   "
+" 07-03-2006: .c file now saved in psglib rather then seqlib            "
+"====================================================================== "
+
+if ($# = 0) then
+        write('error','%s','Usage: NTsave( file_name )')
+        return
+endif
+
+"# Save data: from George"
+if ($# > 0.5) then
+  $args = 'SVF(\''+$1
+  $i = 1
+  while ($i<$#) do
+    $i = $i + 1
+    $args = $args+'\',\''+${$i}
+  endwhile
+  $args = $args+'\')'
+  exec($args)
+  $cmd='cp ' + curexp + '/*.def ' + $1 + '.fid 2> /dev/null;cat'
+else
+  $filename = ''
+  SVF:$filename
+  $cmd='cp ' + curexp + '/*.def ' + $filename + ' 2> /dev/null;cat'
+endif
+
+shell($cmd):$dum
+"# end George"
+
+$fname = $1+'.fid'
+
+"# save seqfil "
+exists(userdir+'/psglib/'+seqfil+'.c','file'):$codeinlocalseqlib
+if ($codeinlocalseqlib=1) then
+  NTcmkDir($fname+'/psglib')
+  copy(userdir+'/psglib/'+seqfil+'.c',$fname+'/psglib')
+endif
+
+"# save dg templates "
+exists(userdir+'/templates/dg/'+seqfil,'file'):$templateexists
+if ($templateexists=1) then
+  NTcmkDir($fname+'/templates/dg/'+seqfil)
+  copy('-r', userdir+'/templates/dg/'+seqfil,$fname+'/templates/dg')
+endif
+
+"# Ntools stuff "
+exists('NTppsource','parameter'):$e
+if ($e) then
+
+  NTcmkDir($fname+'/Ntools')
+  copy(NTppsource, $fname+'/Ntools')
+        
+  NTcmkDir($fname+'/psglib')
+  copy(userdir+'/psglib/Ntools.h', $fname+'/psglib')
+  copy(userdir+'/psglib/NtoolsDev.h', $fname+'/psglib')
+  copy(userdir+'/psglib/Ntools_sys.h', $fname+'/psglib')
+  copy(userdir+'/psglib/Ntools_sys_generic.h', $fname+'/psglib')
+  
+  NTcmkDir($fname+'/maclib')
+  copy(userdir+'/maclib/'+seqfil, $fname+'/maclib')
+" copy the Ntools macros"
+" copy with * appears not to work"
+  shell('cp '+userdir+'/maclib/NT* '+$fname+'/maclib'):$dum
+  
+endif
+
+
+"# additional files from psgFile
+
+"# parse the psgFile to get directories and filenames separately; store result in tmp file
+$file = curexp+'/tmp'
+$cmd = '/bin/awk \'{na=split($1,a,"/"); print $0, a[na-1], a[na] }\' ' + curexp + '/psgFile > ' + $file
+"# write('alpha','%s',$cmd)"
+shell($cmd):$dum
+
+exists($file,'file'):$fileexists
+if ($fileexists=1) then
+  nrecords($file):$lines
+  $counter=0
+  lookup('file',$file):$dum
+  repeat
+        lookup('read'):$record1
+        lookup('read'):$record2
+        lookup('read'):$record3
+"write('alpha','>>%s<>%s<',$record1,$record2)"
+        exists($record1,'file'):$e
+        if ($e=1) then
+                NTcmkDir($fname+'/'+$record2)
+                copy($record1,$fname+'/'+$record2)
+        endif
+        $counter=$counter+1
+  until $counter=$lines 
+endif
+
+

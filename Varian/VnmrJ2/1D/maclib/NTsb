@@ -1,0 +1,17 @@
+"********************"
+"*  NTsb(shift, square, at)   *"
+"********************"
+
+if ($# < 2) then 
+        write('error','%s','Usage: NTsb( shift, square, at )')
+        return
+endif
+
+$sb = ($1*$3/2)/($1-1)
+$sbs = (-2)*$sb/$1
+
+if ($2) then
+	$sb = -$sb
+endif
+
+return($sb,$sbs)

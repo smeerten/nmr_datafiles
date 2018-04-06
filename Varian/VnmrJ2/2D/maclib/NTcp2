@@ -1,0 +1,23 @@
+"===================================================================="
+" NTcp2: setup for dual contour plot				     "
+" gv 9 Oct 2002: Initial version 				     "
+"===================================================================="
+
+if ($# < 2) then
+	write('error','%s','Usage: NTcp2( exp1, exp2, [levels, [spacing]] )')
+	return
+endif
+$lvls = 10
+$spacing = 1.4
+if ($# > 2) then
+	$lvls = $3
+endif
+if ($# > 3) then
+	$spacing = $4
+endif
+
+
+jexp($1) left dpcon($lvls,$spacing)
+jexp($2) right dpconn($lvls,$spacing) dconi('restart')
+
+

@@ -1,0 +1,22 @@
+" +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+" returns subtype of parameter using display and lookup and intermediate file  "
+" This purge the printer output !"
+" gv 27-08-96 "
+" +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+if ($# <> 1) then
+	return
+endif
+
+$fname = curexp + '/junk'
+printoff
+printon
+display( $1 )
+printoff($fname )
+$type = ' '
+lookup( 'file', $fname)
+lookup( 'subtype','read', 2 ):$n1,$type
+
+return( $type )
+
+

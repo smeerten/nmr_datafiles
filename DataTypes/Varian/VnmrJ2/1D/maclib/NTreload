@@ -1,7 +1,0 @@
-" NTreload: reload current sequence by executing macro"
-" gv 02-09-97"
-
-exists( userdir + '/maclib/' + seqfil, 'file'):$e
-if ($e) then
-	{seqfil}
-endif
