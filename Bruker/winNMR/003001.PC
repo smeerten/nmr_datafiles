@@ -1,0 +1,70 @@
+# 1 "/u/exp/stan/nmr/lists/pp/zg4pm.rel"
+;zg4pm.rel for BLAX-300
+;simple onepuls acquisition using the 4-phase modulator
+;read through include files to understand what they mean
+
+
+# 1 "/u/exp/stan/nmr/lists/pp//preamp.incl"
+;preamp.incl
+;preamp protection in HFs instrument
+
+
+
+# 6 "/u/exp/stan/nmr/lists/pp/zg4pm.rel"
+
+# 1 "/u/exp/stan/nmr/lists/pp//powswi.incl"
+;powswi.incl
+
+
+
+
+
+
+
+
+
+# 7 "/u/exp/stan/nmr/lists/pp/zg4pm.rel"
+				;if new style 400V boards are available
+
+# 1 "/u/exp/stan/nmr/lists/pp//trigg.incl"
+
+              1u setnmr5^13
+# 9 "/u/exp/stan/nmr/lists/pp/zg4pm.rel"
+				;HP router BNC NMR5-13
+
+# 1 "/u/exp/stan/nmr/lists/pp//observe.incl"
+;observe.incl
+;sets SE451 receiver to appropriate reference frequency
+
+
+
+# 11 "/u/exp/stan/nmr/lists/pp/zg4pm.rel"
+				;SE-451 and uxnmr versions before 
+				;vs. xwin-nmr.a.9
+;the following lines are not necessary starting with xwin-nmr.a.9
+;1u setnmr2|11^12^13			;remove semicolon for X-observation on F1
+;1u setnmr2^11|12^13			;remove semicolon for 1H observation on F2
+;1u setnmr2^11^12|13			;remove semicolon for F3 observation
+
+10u pl1:f1		;set pl1 for F1 (default)
+
+1 ze			;set RCU to replace mode
+2 d1			;recycle delay
+3 1u setnmr0|10 		;setnmr0|10 all preamps 
+  1u setnmr5|13			;provide a scope trigger at HP router
+  3u:f1 ph1		;this line is not necessary if phaspr is set to
+			;3u in edscon
+  (p1 ph1):f1		;transmitter pulse on F1 with power level pl1
+  d3:f1 ph0		;reset the RF phase for detection, dead time delay
+  1u adc ph31		;trigger adc, define signal routing in ph31
+  aq 			;allow the adc to sample data
+  1m			;make sure the adc is finished
+  rcyc=2 		;repeat NS times with RCU in add mode
+  wr #0			;save data in current data set
+exit
+ph0= 0			;constant phase for acquisition
+ph1= +x +y -x -y	;simple pulse phase list
+ph31=0 1 2 3 		;signal routing corresponds to pulse phase list
+
+
+
