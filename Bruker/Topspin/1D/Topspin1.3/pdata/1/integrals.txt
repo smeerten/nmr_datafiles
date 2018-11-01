@@ -1,0 +1,8 @@
+   Current data set:
+   NAME =	EE_H07_etanol	EXPNO =	10	PROCNO = 1
+   USER =	labor	DU    =	/opt/topspin
+
+   Number   Integrated Region     Integral
+     1      3.750      3.643         2.00000
+     2      1.793      1.694         1.01216
+     3      1.269      1.170         3.04698

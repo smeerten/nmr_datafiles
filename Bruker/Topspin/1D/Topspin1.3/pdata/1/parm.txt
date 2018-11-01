@@ -1,0 +1,40 @@
+
+Current Data Parameters
+NAME      EE_H07_etanol                
+EXPNO                10                
+PROCNO                1                
+
+F2 - Acquisition Parameters
+Date_          20071023                
+Time              10.16                
+INSTRUM           spect                
+PROBHD   5 mm PABBO BB-                
+PULPROG            zg30                
+TD                65536                
+SOLVENT           CDCl3                
+NS                    8                
+DS                    2                
+SWH            8278.146 Hz             
+FIDRES         0.126314 Hz             
+AQ            3.9584243 sec            
+RG                    8                
+DW               60.400 usec           
+DE                 6.00 usec           
+TE                303.2 K              
+D1           1.00000000 sec            
+TD0                   1                
+
+======== CHANNEL f1 ========
+NUC1                 1H                
+P1                12.00 usec           
+PL1                0.00 dB             
+SFO1        400.1324710 MHz            
+
+F2 - Processing parameters
+SI                32768                
+SF          400.1300193 MHz            
+WDW                  no                
+SSB                   0                
+LB                 0.00 Hz             
+GB                    0                
+PC                 1.00                
